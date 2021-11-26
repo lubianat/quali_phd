@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-11-24'
+date-meta: '2021-11-26'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-11-24" />
-  <meta name="citation_publication_date" content="2021-11-24" />
+  <meta name="dc.date" content="2021-11-26" />
+  <meta name="citation_publication_date" content="2021-11-26" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/5e662f8acd4d651080555fe00457a07e57f0ef65/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/5e662f8acd4d651080555fe00457a07e57f0ef65/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/5e662f8acd4d651080555fe00457a07e57f0ef65/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/610030367be3e92c26f7f6d02651a0f399f6c2e7/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/610030367be3e92c26f7f6d02651a0f399f6c2e7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/610030367be3e92c26f7f6d02651a0f399f6c2e7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -66,10 +66,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/5e662f8acd4d651080555fe00457a07e57f0ef65/))
+([permalink](https://lubianat.github.io/quali_phd/v/610030367be3e92c26f7f6d02651a0f399f6c2e7/))
 was automatically generated
-from [lubianat/quali_phd@5e662f8](https://github.com/lubianat/quali_phd/tree/5e662f8acd4d651080555fe00457a07e57f0ef65)
-on November 24, 2021.
+from [lubianat/quali_phd@6100303](https://github.com/lubianat/quali_phd/tree/610030367be3e92c26f7f6d02651a0f399f6c2e7)
+on November 26, 2021.
 </em></small>
 
 ## Authors
