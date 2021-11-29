@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/f7369482ca85e5f2aac5cfad7466639d4a4fd397/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/f7369482ca85e5f2aac5cfad7466639d4a4fd397/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/f7369482ca85e5f2aac5cfad7466639d4a4fd397/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/c8e99d1a73eee5f24d54836bc912fe06f502ae54/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/c8e99d1a73eee5f24d54836bc912fe06f502ae54/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/c8e99d1a73eee5f24d54836bc912fe06f502ae54/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -66,9 +66,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/f7369482ca85e5f2aac5cfad7466639d4a4fd397/))
+([permalink](https://lubianat.github.io/quali_phd/v/c8e99d1a73eee5f24d54836bc912fe06f502ae54/))
 was automatically generated
-from [lubianat/quali_phd@f736948](https://github.com/lubianat/quali_phd/tree/f7369482ca85e5f2aac5cfad7466639d4a4fd397)
+from [lubianat/quali_phd@c8e99d1](https://github.com/lubianat/quali_phd/tree/c8e99d1a73eee5f24d54836bc912fe06f502ae54)
 on November 29, 2021.
 </em></small>
 
