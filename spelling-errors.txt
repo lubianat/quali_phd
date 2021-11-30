@@ -60,8 +60,8 @@ expressivity
 facto
 falseability
 Farias
-Fcoex
-findable
+fcoex
+Findable
 formalizations
 fugacious
 HCA
@@ -73,7 +73,7 @@ HubMap’s
 hypothes
 infoboxes
 infratype
-Infratypes
+infratypes
 innitiative
 inteoperability
 interoperable
