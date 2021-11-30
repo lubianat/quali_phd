@@ -7,58 +7,6 @@ content/010.abstract.md:5:interoperable
 content/010.abstract.md:6:ontologies
 content/010.abstract.md:7:Findable
 content/010.abstract.md:7:Interoperable
-content/02.delete-me.md:44:adipiscing
-content/02.delete-me.md:44:aliqua
-content/02.delete-me.md:44:amet
-content/02.delete-me.md:44:consectetur
-content/02.delete-me.md:44:dolore
-content/02.delete-me.md:44:eiusmod
-content/02.delete-me.md:44:elit
-content/02.delete-me.md:44:incididunt
-content/02.delete-me.md:44:ipsum
-content/02.delete-me.md:44:labore
-content/02.delete-me.md:44:Lorem
-content/02.delete-me.md:44:magna
-content/02.delete-me.md:44:sed
-content/02.delete-me.md:44:tempor
-content/02.delete-me.md:45:aliquip
-content/02.delete-me.md:45:commodo
-content/02.delete-me.md:45:consequat
-content/02.delete-me.md:45:enim
-content/02.delete-me.md:45:exercitation
-content/02.delete-me.md:45:laboris
-content/02.delete-me.md:45:nisi
-content/02.delete-me.md:45:nostrud
-content/02.delete-me.md:45:quis
-content/02.delete-me.md:45:ullamco
-content/02.delete-me.md:45:veniam
-content/02.delete-me.md:46:aute
-content/02.delete-me.md:46:cillum
-content/02.delete-me.md:46:dolore
-content/02.delete-me.md:46:Duis
-content/02.delete-me.md:46:esse
-content/02.delete-me.md:46:fugiat
-content/02.delete-me.md:46:irure
-content/02.delete-me.md:46:nulla
-content/02.delete-me.md:46:pariatur
-content/02.delete-me.md:46:reprehenderit
-content/02.delete-me.md:46:velit
-content/02.delete-me.md:46:voluptate
-content/02.delete-me.md:47:anim
-content/02.delete-me.md:47:culpa
-content/02.delete-me.md:47:cupidatat
-content/02.delete-me.md:47:deserunt
-content/02.delete-me.md:47:Excepteur
-content/02.delete-me.md:47:laborum
-content/02.delete-me.md:47:mollit
-content/02.delete-me.md:47:occaecat
-content/02.delete-me.md:47:officia
-content/02.delete-me.md:47:proident
-content/02.delete-me.md:47:qui
-content/02.delete-me.md:47:sint
-content/02.delete-me.md:47:sunt
-content/02.delete-me.md:236:Pandoc's
-content/02.delete-me.md:246:Pandoc's
 content/110.human_cell_atlas.md:4:HCA
 content/110.human_cell_atlas.md:9:HCA
 content/110.human_cell_atlas.md:10:HCA
@@ -129,6 +77,7 @@ content/115.cell_classification.md:48:acknowledgement
 content/115.cell_classification.md:49:ASCT
 content/115.cell_classification.md:49:CellTypist
 content/115.cell_classification.md:49:datasets
+content/115.cell_classification.md:49:HubMap
 content/115.cell_classification.md:49:HubMap's
 content/115.cell_classification.md:49:muris
 content/115.cell_classification.md:49:Muris
@@ -336,23 +285,41 @@ content/200.methodology.md:29:richfully
 content/200.methodology.md:36:quickstatements
 content/200.methodology.md:36:Quickstatements
 content/200.methodology.md:55:SPARQL
-content/300.results copy.md:7:infratype
-content/300.results copy.md:7:senso
-content/300.results copy.md:7:stritu
-content/300.results copy.md:7:technotype
-content/300.results copy.md:8:Infratypes
-content/300.results copy.md:8:technotypes
-content/300.results copy.md:10:biocuration
-content/300.results copy.md:10:modelling
-content/300.results copy.md:14:PanglaoDB
-content/300.results copy.md:22:biocuration
-content/300.results copy.md:28:Umberto
-content/300.results copy.md:30:Biocuration
-content/300.results copy.md:43:HCA
-content/300.results copy.md:44:Scholia
-content/310.collaborations.md:3:fcoex
-content/310.collaborations.md:7:Cellosaurus
-content/310.collaborations.md:11:WikiProject
+content/300.results.md:7:infratype
+content/300.results.md:7:senso
+content/300.results.md:7:stritu
+content/300.results.md:7:technotype
+content/300.results.md:8:Infratypes
+content/300.results.md:8:technotypes
+content/300.results.md:10:biocuration
+content/300.results.md:10:modelling
+content/300.results.md:14:PanglaoDB
+content/300.results.md:22:biocuration
+content/300.results.md:28:Umberto
+content/300.results.md:30:Biocuration
+content/300.results.md:43:HCA
+content/300.results.md:44:Scholia
+content/310.concept_of_cell_type.md:5:formalizations
+content/310.concept_of_cell_type.md:6:CELDA
+content/310.concept_of_cell_type.md:10:fugacious
+content/310.concept_of_cell_type.md:13:preprint
+content/310.concept_of_cell_type.md:15:centric
+content/310.concept_of_cell_type.md:18:neutrophils
+content/310.concept_of_cell_type.md:19:neutrophils
+content/310.concept_of_cell_type.md:20:infratypes
+content/310.concept_of_cell_type.md:20:neutrophils
+content/310.concept_of_cell_type.md:21:CSF
+content/310.concept_of_cell_type.md:21:Ly
+content/310.concept_of_cell_type.md:21:neutrophils
+content/310.concept_of_cell_type.md:21:technotypes
+content/310.concept_of_cell_type.md:30:biocuration
+content/310.concept_of_cell_type.md:31:UniProt
+content/310.concept_of_cell_type.md:33:HuBMAP
+content/310.concept_of_cell_type.md:36:infratype
+content/310.concept_of_cell_type.md:36:technotype
+content/310.concept_of_cell_type.md:37:Panglao
+content/310.concept_of_cell_type.md:39:defintion
+content/310.concept_of_cell_type.md:40:Multileveltheory
 content/320.final_considerations.md:3:Fcoex
 content/320.final_considerations.md:9:infratype
 content/320.final_considerations.md:9:senso
@@ -371,5 +338,26 @@ content/320.final_considerations.md:25:PanglaoDB
 content/320.final_considerations.md:30:curation
 content/320.final_considerations.md:31:SciSpacy
 content/320.final_considerations.md:35:PanglaoDB
+content/320.next steps.md:3:Fcoex
+content/320.next steps.md:9:infratype
+content/320.next steps.md:9:senso
+content/320.next steps.md:9:stritu
+content/320.next steps.md:9:technotype
+content/320.next steps.md:10:Infratypes
+content/320.next steps.md:10:technotypes
+content/320.next steps.md:12:HCA
+content/320.next steps.md:12:HCA
+content/320.next steps.md:18:HCA
+content/320.next steps.md:22:HCA
+content/320.next steps.md:23:HCA
+content/320.next steps.md:25:biocurators
+content/320.next steps.md:25:HCA
+content/320.next steps.md:25:PanglaoDB
+content/320.next steps.md:30:curation
+content/320.next steps.md:31:SciSpacy
+content/320.next steps.md:35:PanglaoDB
+content/330.collaborations.md:3:fcoex
+content/330.collaborations.md:7:Cellosaurus
+content/330.collaborations.md:11:WikiProject
 content/410.participation_in_events.md:7:ISCB
 content/410.participation_in_events.md:8:BioHack
