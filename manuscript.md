@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/5a117668824b8aa52d6590a9dbd92db88f056836/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/5a117668824b8aa52d6590a9dbd92db88f056836/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/5a117668824b8aa52d6590a9dbd92db88f056836/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/2aebbb452d1de889b3b9c20ee8d3a1cbd40a7dbf/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/2aebbb452d1de889b3b9c20ee8d3a1cbd40a7dbf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/2aebbb452d1de889b3b9c20ee8d3a1cbd40a7dbf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +65,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/5a117668824b8aa52d6590a9dbd92db88f056836/))
+([permalink](https://lubianat.github.io/quali_phd/v/2aebbb452d1de889b3b9c20ee8d3a1cbd40a7dbf/))
 was automatically generated
-from [lubianat/quali_phd@5a11766](https://github.com/lubianat/quali_phd/tree/5a117668824b8aa52d6590a9dbd92db88f056836)
+from [lubianat/quali_phd@2aebbb4](https://github.com/lubianat/quali_phd/tree/2aebbb452d1de889b3b9c20ee8d3a1cbd40a7dbf)
 on December 1, 2021.
 </em></small>
 
@@ -512,22 +512,7 @@ As part of the research-action process, I have joined the Cell Ontology working 
 
 # Preliminary Results
 
-## The concept of cell type
-
-* Describe background
-* Cell types, cell states and cell classes
-* Levels of cell type information: archetype, senso stritu cell type, infratype and technotype. 
-* Infratypes and technotypes as theoretical innovations
-* Current usage mixes archetypes and species-specific cell types
-* Multi-level theory of conceptual modelling and a base level for biocuration of cell types  
-
 <!-- https://github.com/lubianat/fapesp_report_1/blob/main/content/03.achievements.md --> 
-
-## PanglaoDB integration to Wikidata
-
-* The architecture of marker information on Wikidata
-* Integration of information to the larger scope --> live updates by everyone
-* Overview of the stats 
 
 ## Wikidata and the Cell Ontology interplay
 
@@ -558,6 +543,8 @@ z
 
 ## Concept of cell types  {.page_break_before}
 
+
+### General work on the concept of cell type
 As an initial step of this PhD project, we decided to investigate the definition of "cell type" and how to shape a definition for knowledge management on Wikidata. 
 The definition of the concept of "cell type" is currently a topic of debate by the biomedical community.[@wikidata:Q87649649; @doi:10.1242/dev.169854; @doi:10.1242/dev.178996; @wikidata:Q47565008; @wikidata:Q99418657; @wikidata:Q98665291; @wikidata:Q93086971; @wikidata:Q26770736; @wikidata:Q35688096; @wikidata:Q98633613; @wikidata:Q99418649; @wikidata:Q40436539].
 Before we proceeded with the knowledge-graph formalizations via Wikidata, we dedicated time for a theoretical research on the concept of "cell type" in the context of knowledge representation. 
@@ -592,10 +579,177 @@ That might seem obvious, but current standards still use identifiers that are sp
 
 The ontological discussion on the classes of cell types, thus, extends the current state-of-the-art and introduce new ways to organize our knowledge about cells. 
 Notably, the technotype and the infratype are, currently, mostly theoretical constructs and almost no resources deal with cell types at the level of strains or below. 
-The division of archetypes and _sensu stricto_ cell types, on the other hand, was already instrumental for the integration of the Panglao database of cell markers to Wikidata, described in the next session.
+The division of archetypes and _sensu stricto_ cell types, on the other hand, was already instrumental for the integration of the Panglao database of cell markers to Wikidata, described in a future session.
 
-* Add bits about multilevel theory and pragmatic defintion 
-![ Multileveltheory for cell types](https://raw.githubusercontent.com/lubianat/multilevel_ontology_drawings/master/combination_human_cell.png){#fig:classes}
+### A simplified definition
+
+ Refining the different concepts around the notion of "cell type" is important, but will require decades before a reasonable consensus. 
+Here we adopt a liberal view of cell type, defining, for our purposes, a cell type as "any class of cells described by a domain expert".
+By "class" we mean an abstract entity in the sense intended by the multilevel theory of conceptual modelling (referred as "_types_" by Carvalho et al. ) [@wikidata:Q108926456]
+
+Figure @fig:multilevel represents the adaptation of Multi Level Theory that is assumed for the modelling done throughout this work. 
+The notion is time-agnostic (i.e. it is not concerned if their objects _exist now_ or just _existed in the past_) and organizes the theoretical world into 3 kingdoms: _individuals_, _classes_ and _metaclasses_. 
+
+![ Multileveltheory for cell types](https://raw.githubusercontent.com/lubianat/multilevel_ontology_drawings/master/combination_human_cell.png){#fig:multilevel width="100%"}
+
+Figure @fig:multilevel A multilevel theory (MLT) can divide the theoretical realm into different kingdoms. A) A representation of people in the MLT framework adopted in this work. The theoretical-realm entity "Mahatma Gandhi" is materialized by the material-realm Mahatma Gandhi. The theoretical _individual_ is considered an instance of  multiple _classes_ such as "Indian lawyer" and "_Homo sapiens_", which are related to each other via subclass relations. The classes themselves are instances of _metaclasses_, like "taxon", a first order metaclass. B) An analogous representation of the MLT framework, but applied to cells and cell types. 
+
+* Justifying the selection: MLT and basic formal ontology 
+
+* Justifying the selection: MLT and wikidata
+
+
+
+
+
+
+## PanglaoDB integration to Wikidata  {.page_break_before}
+
+### Introduction
+
+The process of making the Human Cell Atlas more useful via Wikidata also includes the connection of related databases. 
+
+PanglaoDB [@https://panglaodb.se/index.html] [@doi:10.1093/database/baz046] is a publically-available database that contains data and metadata on hundreds of single-cell RNA sequencing experiments. 
+It provides extensive information on cell types, genes, and tissues and cell type markers, obtained both via automatic and manual methods.
+It also displays a rich web user interface for easy data acquisition, including database dumps for bulk downloads.
+
+
+As of 17 June 2021, the article describing PanglaoDB had been cited 147 times. 
+Despite its use by the community, the database is on a 3-star category for Linked Open Data [@url:https://www.w3.org/DesignIssues/LinkedData.html] as it does not use the open semantic standards from W3C (RDF and SPARQL) needed for a 4-star rank, neither the links to external data via standard identifiers that make datasets 5-star. 
+Improving the data format toward W3C's gold standards is a valuable step in making biological knowledge FAIR (Findable, Accessible, Interoperable, and Reusable). 
+Thus, we aimed to provide a case study of making the core information of PandlaoDB available in a 5-star Linked Open Data Format while improving the modeling of the necessary concepts on Wikidata.
+
+As of August 2020, Wikidata had 264 items being categorized as a "cell type", considerably less than in specialized cell catalogs, which count over two thousand cell types [@wikidata:Q28660708; @wikidata:Q36067763].
+Strikingly, there were also 23 items categorized as "instances of cell (Q7868)" . This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual.
+
+Wikidata editors often mix first-order classes such as "cells" and "organs" with second-order classes like "cell types" and "organ types" (Supplementary Information). First-order classes point to real-world individuals, like the "Dolly sheep zygote" (a real-world "cell") and the "brain of Albert Einstein" (a real-world "organ"). Second-order classes point to classes, like "zygote" (a conceptual "cell type") and "brain" (a conceptual "organ type").
+
+We diligently fixed and improved information on cell types on Wikidata. 
+As of 17 June 2021, the Wikidata database contains 2102 instances of "cell type" (see current status at <https://w.wiki/b2t>) and 0 instances of "cell" (<https://w.wiki/b2q>) highlighting the improvements in both quantity and quality. 
+
+
+### Methodology 
+
+After obtaining approval from the owners of the database, we matched genes and cell types to Wikidata, and performed Wikidata queries to demonstrate the value of the approach. An overview of the process is shown in @fig:iscb_intro.
+![
+Wikidata SPARQL queries bring to light hidden biomedical knowledge
+](images/poster_ISCB_intro){#fig:iscb_intro}
+
+### Class creation on Wikidata
+
+Classes corresponding to species-neutral classes were retrieved from Wikidata manually using Wikidata's Graphic User Interface. 
+A manually-curated dictionary matching terms in PanglaoDB to Wikidata identifiers was assembled and used for integration. 
+Cell types that were not represented on Wikidata were added to the database via the graphical user interface (<https://www.wikidata.org/wiki/Special:NewItem>) and logged in the reference table.
+
+Species-specific cell types for human and mouse cell types were created for every entry in the reference table and connected to the species-neutral concept via a "[subclass of](http://www.wikidata.org/entity/P279)" property (e.g. every single "[human neutrophil](http://www.wikidata.org/entity/Q101405102)" is a also "[neutrophil](http://www.wikidata.org/entity/Q188417)"). 
+Our approach was analogous to the one taken by the CELDA ontology to create species-specific cell-types [@wikidata:Q21284308].
+
+#### Integration of PanglaoDB to Wikidata 
+
+After receiving authorization by e-mail from the PanglaoDB developer, Oscar Franzen, the PanglaoDB markers dataset was downloaded manually from PanglaoDB's website (<https://panglaodb.se/markers/PanglaoDB_markers_27_Mar_2020.tsv.gz>) for integration. It contains 15 columns and 8256 rows. Only the columns `species`, `official gene symbol`, and  `cell type` were used for the reconciliation. 
+The reconciled dataset was uploaded to Wikidata via the WikidataIntegrator Python package [@https://github.com/SuLab/WikidataIntegrator], a wrapper for the Wikidata Application Programming Interface. 
+
+#### SPARQL queries
+
+Besides the Wikidata Dumps, Wikidata provides an SPARQL endpoint with a Graphical User Interface (<https://query.wikidata.org/>). 
+Updated data was immediately accessible via this endpoint, enabling integrative queries integrated with other database statements.
+### Results
+
+#### Cell Marker information on Wikidata
+
+Adding marker information on Wikidata was not possible before this study and became possible after we proposed and got community approval of the property "has marker" (P8872).
+Figure @fig:chat_marker shows 2 of the current markers of "human colinergic neuron"([Q101405051](http://www.wikidata.org/entity/Q101405051)), [CHAT](http://www.wikidata.org/entity/Q14863671) and [ACHE](http://www.wikidata.org/entity/Q407983), as they are seen on Wikidata.
+The PanglaoDB is referenced both via URL to the website (<https://panglaodb.se/markers.html>) and a pointer to the PanglaoDB item on Wikidata, [Q99936939](http://www.wikidata.org/entity/Q99936939).
+
+
+![
+Subset of the marker genes for item Q101405051 (human cholinergic neuron )
+](images/chat_marker.png){#fig:chat_marker}
+
+
+Now that we re-formatted the markers on PanglaoDB as Linked Open Data, we can make queries that were not possible before, including
+federated queries with other biological databases, such as Uniprot [@https://sparql.uniprot.org/sparql]
+and Wikipathways [@https://www.wikipathways.org/index.php/Portal:Semantic_Web].
+Due to previous similar reconciliation projects, Wikidata already contains information about genes, including their relations to Gene Ontology (GO) terms.
+
+PanglaoDB's integration to the Wikidata ecosystem allows us to ask a variety of questions (figure @fig:iscb_results).
+
+![
+SPARQL queries in Wikidata now harness information from Panglao DB. Queries with the above design were run on Wikidata. Results might change in real time with Wikidata updates by contributors A-C) Graphical representation of feasible SPARQL queries (https://w.wiki/yQ6, https://w.wiki/yQD and https://w.wiki/3HjX,). D) Sample result from query C. 
+](images/poster_ISCB_results.png){#fig:iscb_results}
+
+### "Which human cell types are related to neurogenesis via their markers?"
+
+As expected, the query below retrieved a series of neuron types, such as "[human purkinje neuron](https://www.wikidata.org/wiki/Q101404913)" and "[human cajal-retzius cell](https://www.wikidata.org/wiki/Q101405091)." It also retrieved non-neural cell types such as the "[human loop of henle cell](https://www.wikidata.org/wiki/Q101405109), a kidney cell type, and "[human osteoclast](https://www.wikidata.org/wiki/Q101404928). These seemingly unrelated cell types markedly express genes involved in neurogenesis, but that does not mean that they are involved with this process. The seemingly confusing results reinforce the idea that one needs to be careful when using curated pathways to enrich one's analysis, as false positives abound.
+
+The molecular process that gene products take part depends on the cell type. SPARQL allows us to seamlessly compare Gene Ontology processes with cell marker data, providing a sandbox to generate hypotheses and explore the biomedical knowledge landscape.
+
+| geneLabel | cellTypeLabel                   |
+| :-------- | :------------------------------ |
+| OMP       | human purkinje neuron           |
+| OMP       | human olfactory epithelial cell |
+| OMP       | human neuron                    |
+| EPHB1     | human oligodendrocyte           |
+| EPHB1     | human osteoclast                |
+| PCSK9     | human delta cell                |
+| PCSK9     | human loop of Henle cell        |
+| CXCR4     | human b cell                    |
+| CXCR4     | human T cell                    |
+| CXCR4     | human nk cell                   |
+
+Table: Sample of 10 cell types related to neurogenesis via markers (07/02/2020, full query on <https://w.wiki/yQ6>).
+{#tbl:neuro}
+
+
+### "Which cell types express markers associated with Parkinson's disease?"
+
+Besides integration with Gene Ontology, Wikidata reconciliation makes it possible to complement the marker gene info on PanglaoDB with information about diseases. This integration is of biomedical interest, as there is a quest to detail mechanisms that link genetic associations and the diseases themselves.
+
+"Disease genes" are often compiled from Genomic Wide Association Studies, which look for sequence variation in the DNA. These studies are commonly blind to the cell types related to the pathophysiology of the disease. In the query below, we can see cell types marked by genes genetically associated with Parkinson's disease. Even considering the false positives, the overview can aid domain experts in coming up with novel hypotheses.
+
+| geneLabel | diseaseLabel        | cellTypeLabel    |
+| :-------- | :------------------ | :--------------- |
+| BST1      | Parkinson's disease | human b cell     |
+| BST1      | Parkinson's disease | human neutrophil |
+| RIT2      | Parkinson's disease | human neuron     |
+| SH3GL2    | Parkinson's disease | human alpha cell |
+| SH3GL2    | Parkinson's disease | human beta cell  |
+
+Table: Sample of 5 cell types related to Parkinson's disease via markers (07/02/2020, full query on <https://w.wiki/yQD>).
+{#tbl:parkinson}
+
+
+## Discussion and conclusion
+
+In this part of the PhD project, we re-released the knowledge curated in PanglaoDB on Wikidata, connecting it to the semantic web.
+Each cell-type/marker statement was added to Wikidata with a pointer to PanglaoDB and a citation of the article, providing proper provenance.
+Based on the theoretical considerations on the concept of cell type, we added species-specific terms to Wikidata for cell types of _Homo sapiens_ and _Mus musculus_ described in the PanglaoDB database.
+
+This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers, easily reachable from Wikidata's SPARQL Query Service (<https://query.wikidata.org/>).
+It is not first case study of biomedical data integration to Wikidata (see [@wikidata:Q105037759] for example.
+Nevertheless, the differences among the articles in style and scope contribute to a richer ecosystem for possible contributor.
+])
+The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]) (if proper authorization are given by the owners).
+The approach we took here can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format.
+
+
+
+## Wikidata Bib and a professional system for biocuration
+
+### Introduction 
+
+* Accountants have Double-entry bookkeeping (https://en.wikipedia.org/wiki/Double-entry_bookkeeping), software developers have Test-driven development (https://en.wikipedia.org/wiki/Test-driven_development).
+
+* Develop a professional way for coverage of large-scale revisions, inspired by Umberto Eco's How to Write a Thesis [@wikidata:Q3684178] adapted to the digital environment, using version-control and semantic links. 
+
+* Connect the reading framework with a Biocuration strategy to feed knowledge to Wikidata
+
+### Working of the system
+
+### Results 
+
+* Total number of cells on Wikidata
+* Cells edited/added by me
 
 
 # Preliminary Results

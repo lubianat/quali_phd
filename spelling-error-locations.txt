@@ -220,6 +220,7 @@ content/140.wikidata.md:58:acessible
 content/140.wikidata.md:60:Quickstatements
 content/140.wikidata.md:60:QuickStatements
 content/140.wikidata.md:62:Pywikibot
+content/140.wikidata.md:62:WikidataIntegrator
 content/140.wikidata.md:62:WikiMedia
 content/140.wikidata.md:71:interoperable
 content/140.wikidata.md:74:acessible
@@ -284,80 +285,170 @@ content/200.methodology.md:29:hypothes
 content/200.methodology.md:29:richfully
 content/200.methodology.md:36:quickstatements
 content/200.methodology.md:36:Quickstatements
+content/200.methodology.md:36:WikidataIntegrator
 content/200.methodology.md:55:SPARQL
-content/300.results.md:7:infratype
-content/300.results.md:7:senso
-content/300.results.md:7:stritu
-content/300.results.md:7:technotype
-content/300.results.md:8:Infratypes
-content/300.results.md:8:technotypes
-content/300.results.md:10:biocuration
-content/300.results.md:10:modelling
-content/300.results.md:14:PanglaoDB
-content/300.results.md:22:biocuration
-content/300.results.md:28:Umberto
-content/300.results.md:30:Biocuration
-content/300.results.md:43:HCA
-content/300.results.md:44:Scholia
-content/310.concept_of_cell_type.md:5:formalizations
-content/310.concept_of_cell_type.md:6:CELDA
-content/310.concept_of_cell_type.md:10:fugacious
-content/310.concept_of_cell_type.md:13:preprint
-content/310.concept_of_cell_type.md:15:centric
-content/310.concept_of_cell_type.md:18:neutrophils
-content/310.concept_of_cell_type.md:19:neutrophils
-content/310.concept_of_cell_type.md:20:infratypes
+content/300.results.md:7:biocuration
+content/300.results.md:13:Umberto
+content/300.results.md:15:Biocuration
+content/300.results.md:28:HCA
+content/300.results.md:29:Scholia
+content/310.concept_of_cell_type.md:7:formalizations
+content/310.concept_of_cell_type.md:8:CELDA
+content/310.concept_of_cell_type.md:12:fugacious
+content/310.concept_of_cell_type.md:15:preprint
+content/310.concept_of_cell_type.md:17:centric
 content/310.concept_of_cell_type.md:20:neutrophils
-content/310.concept_of_cell_type.md:21:CSF
-content/310.concept_of_cell_type.md:21:Ly
 content/310.concept_of_cell_type.md:21:neutrophils
-content/310.concept_of_cell_type.md:21:technotypes
-content/310.concept_of_cell_type.md:30:biocuration
-content/310.concept_of_cell_type.md:31:UniProt
-content/310.concept_of_cell_type.md:33:HuBMAP
-content/310.concept_of_cell_type.md:36:infratype
-content/310.concept_of_cell_type.md:36:technotype
-content/310.concept_of_cell_type.md:37:Panglao
-content/310.concept_of_cell_type.md:39:defintion
-content/310.concept_of_cell_type.md:40:Multileveltheory
-content/320.final_considerations.md:3:Fcoex
-content/320.final_considerations.md:9:infratype
-content/320.final_considerations.md:9:senso
-content/320.final_considerations.md:9:stritu
-content/320.final_considerations.md:9:technotype
-content/320.final_considerations.md:10:Infratypes
-content/320.final_considerations.md:10:technotypes
-content/320.final_considerations.md:12:HCA
-content/320.final_considerations.md:12:HCA
-content/320.final_considerations.md:18:HCA
-content/320.final_considerations.md:22:HCA
-content/320.final_considerations.md:23:HCA
-content/320.final_considerations.md:25:biocurators
-content/320.final_considerations.md:25:HCA
-content/320.final_considerations.md:25:PanglaoDB
-content/320.final_considerations.md:30:curation
-content/320.final_considerations.md:31:SciSpacy
-content/320.final_considerations.md:35:PanglaoDB
-content/320.next steps.md:3:Fcoex
-content/320.next steps.md:9:infratype
-content/320.next steps.md:9:senso
-content/320.next steps.md:9:stritu
-content/320.next steps.md:9:technotype
-content/320.next steps.md:10:Infratypes
-content/320.next steps.md:10:technotypes
-content/320.next steps.md:12:HCA
-content/320.next steps.md:12:HCA
-content/320.next steps.md:18:HCA
-content/320.next steps.md:22:HCA
-content/320.next steps.md:23:HCA
-content/320.next steps.md:25:biocurators
-content/320.next steps.md:25:HCA
-content/320.next steps.md:25:PanglaoDB
-content/320.next steps.md:30:curation
-content/320.next steps.md:31:SciSpacy
-content/320.next steps.md:35:PanglaoDB
-content/330.collaborations.md:3:fcoex
-content/330.collaborations.md:7:Cellosaurus
-content/330.collaborations.md:11:WikiProject
+content/310.concept_of_cell_type.md:22:infratypes
+content/310.concept_of_cell_type.md:22:neutrophils
+content/310.concept_of_cell_type.md:23:CSF
+content/310.concept_of_cell_type.md:23:Ly
+content/310.concept_of_cell_type.md:23:neutrophils
+content/310.concept_of_cell_type.md:23:technotypes
+content/310.concept_of_cell_type.md:32:biocuration
+content/310.concept_of_cell_type.md:33:UniProt
+content/310.concept_of_cell_type.md:35:HuBMAP
+content/310.concept_of_cell_type.md:38:infratype
+content/310.concept_of_cell_type.md:38:technotype
+content/310.concept_of_cell_type.md:39:Panglao
+content/310.concept_of_cell_type.md:45:Carvalho
+content/310.concept_of_cell_type.md:45:modelling
+content/310.concept_of_cell_type.md:47:modelling
+content/310.concept_of_cell_type.md:50:Multileveltheory
+content/310.concept_of_cell_type.md:52:metaclass
+content/310.concept_of_cell_type.md:52:MLT
+content/310.concept_of_cell_type.md:52:MLT
+content/310.concept_of_cell_type.md:52:MLT
+content/310.concept_of_cell_type.md:54:MLT
+content/310.concept_of_cell_type.md:56:MLT
+content/320.panglao_db.md:1:PanglaoDB
+content/320.panglao_db.md:7:panglaodb
+content/320.panglao_db.md:7:PanglaoDB
+content/320.panglao_db.md:7:publically
+content/320.panglao_db.md:12:PanglaoDB
+content/320.panglao_db.md:13:datasets
+content/320.panglao_db.md:13:RDF
+content/320.panglao_db.md:13:SPARQL
+content/320.panglao_db.md:14:Findable
+content/320.panglao_db.md:14:Interoperable
+content/320.panglao_db.md:15:PandlaoDB
+content/320.panglao_db.md:30:SPARQL
+content/320.panglao_db.md:35:Wikidata's
+content/320.panglao_db.md:36:PanglaoDB
+content/320.panglao_db.md:39:neutrophil
+content/320.panglao_db.md:39:neutrophil
+content/320.panglao_db.md:40:CELDA
+content/320.panglao_db.md:42:PanglaoDB
+content/320.panglao_db.md:44:dataset
+content/320.panglao_db.md:44:Franzen
+content/320.panglao_db.md:44:panglaodb
+content/320.panglao_db.md:44:PanglaoDB
+content/320.panglao_db.md:44:PanglaoDB
+content/320.panglao_db.md:44:PanglaoDB
+content/320.panglao_db.md:44:PanglaoDB's
+content/320.panglao_db.md:45:dataset
+content/320.panglao_db.md:45:WikidataIntegrator
+content/320.panglao_db.md:45:WikidataIntegrator
+content/320.panglao_db.md:47:SPARQL
+content/320.panglao_db.md:49:SPARQL
+content/320.panglao_db.md:56:colinergic
+content/320.panglao_db.md:57:panglaodb
+content/320.panglao_db.md:57:PanglaoDB
+content/320.panglao_db.md:57:PanglaoDB
+content/320.panglao_db.md:61:cholinergic
+content/320.panglao_db.md:65:PanglaoDB
+content/320.panglao_db.md:66:sparql
+content/320.panglao_db.md:66:sparql
+content/320.panglao_db.md:66:uniprot
+content/320.panglao_db.md:66:Uniprot
+content/320.panglao_db.md:67:wikipathways
+content/320.panglao_db.md:67:Wikipathways
+content/320.panglao_db.md:70:PanglaoDB
+content/320.panglao_db.md:70:PanglaoDB's
+content/320.panglao_db.md:73:Panglao
+content/320.panglao_db.md:73:SPARQL
+content/320.panglao_db.md:73:SPARQL
+content/320.panglao_db.md:76:neurogenesis
+content/320.panglao_db.md:78:cajal
+content/320.panglao_db.md:78:henle
+content/320.panglao_db.md:78:neurogenesis
+content/320.panglao_db.md:78:osteoclast
+content/320.panglao_db.md:78:purkinje
+content/320.panglao_db.md:78:retzius
+content/320.panglao_db.md:80:SPARQL
+content/320.panglao_db.md:82:cellTypeLabel
+content/320.panglao_db.md:82:geneLabel
+content/320.panglao_db.md:84:OMP
+content/320.panglao_db.md:84:purkinje
+content/320.panglao_db.md:85:OMP
+content/320.panglao_db.md:86:OMP
+content/320.panglao_db.md:87:oligodendrocyte
+content/320.panglao_db.md:88:osteoclast
+content/320.panglao_db.md:90:Henle
+content/320.panglao_db.md:93:nk
+content/320.panglao_db.md:95:neurogenesis
+content/320.panglao_db.md:96:neuro
+content/320.panglao_db.md:101:PanglaoDB
+content/320.panglao_db.md:103:Genomic
+content/320.panglao_db.md:103:pathophysiology
+content/320.panglao_db.md:105:cellTypeLabel
+content/320.panglao_db.md:105:diseaseLabel
+content/320.panglao_db.md:105:geneLabel
+content/320.panglao_db.md:108:neutrophil
+content/320.panglao_db.md:119:PanglaoDB
+content/320.panglao_db.md:120:PanglaoDB
+content/320.panglao_db.md:121:PanglaoDB
+content/320.panglao_db.md:123:dataset
+content/320.panglao_db.md:123:LOD
+content/320.panglao_db.md:123:SPARQL
+content/320.panglao_db.md:123:Wikidata's
+content/320.panglao_db.md:127:CellFinder
+content/320.panglao_db.md:127:CellMarker
+content/320.panglao_db.md:127:CELLPEDIA
+content/320.panglao_db.md:127:labome
+content/320.panglao_db.md:127:SHOGoiN
+content/320.panglao_db.md:128:biocurated
+content/340.wikidata_bib.md:1:biocuration
+content/340.wikidata_bib.md:7:Umberto
+content/340.wikidata_bib.md:9:Biocuration
+content/370.final_considerations.md:3:Fcoex
+content/370.final_considerations.md:9:infratype
+content/370.final_considerations.md:9:senso
+content/370.final_considerations.md:9:stritu
+content/370.final_considerations.md:9:technotype
+content/370.final_considerations.md:10:Infratypes
+content/370.final_considerations.md:10:technotypes
+content/370.final_considerations.md:12:HCA
+content/370.final_considerations.md:12:HCA
+content/370.final_considerations.md:18:HCA
+content/370.final_considerations.md:22:HCA
+content/370.final_considerations.md:23:HCA
+content/370.final_considerations.md:25:biocurators
+content/370.final_considerations.md:25:HCA
+content/370.final_considerations.md:25:PanglaoDB
+content/370.final_considerations.md:30:curation
+content/370.final_considerations.md:31:SciSpacy
+content/370.final_considerations.md:35:PanglaoDB
+content/380.next steps.md:3:Fcoex
+content/380.next steps.md:9:infratype
+content/380.next steps.md:9:senso
+content/380.next steps.md:9:stritu
+content/380.next steps.md:9:technotype
+content/380.next steps.md:10:Infratypes
+content/380.next steps.md:10:technotypes
+content/380.next steps.md:12:HCA
+content/380.next steps.md:12:HCA
+content/380.next steps.md:18:HCA
+content/380.next steps.md:22:HCA
+content/380.next steps.md:23:HCA
+content/380.next steps.md:25:biocurators
+content/380.next steps.md:25:HCA
+content/380.next steps.md:25:PanglaoDB
+content/380.next steps.md:30:curation
+content/380.next steps.md:31:SciSpacy
+content/380.next steps.md:35:PanglaoDB
+content/390.collaborations.md:3:fcoex
+content/390.collaborations.md:7:Cellosaurus
+content/390.collaborations.md:11:WikiProject
 content/410.participation_in_events.md:7:ISCB
 content/410.participation_in_events.md:8:BioHack
