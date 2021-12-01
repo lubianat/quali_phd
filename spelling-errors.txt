@@ -73,10 +73,10 @@ HubMap’s
 hypothes
 infoboxes
 infratype
-infratypes
+Infratypes
 innitiative
 inteoperability
-interoperable
+Interoperable
 ISCB
 janeroe
 johndoe
@@ -171,7 +171,7 @@ Université
 Unpaywall
 wdt
 Wikidata’s
-WikiMedia
+Wikimedia
 Wikipedias
 WikiProject
 XXXX
