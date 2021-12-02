@@ -27,6 +27,8 @@ jobs:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
       SPELLCHECK: true
       BUILD_DOCX: true
+      BUILD_LATEX: true
+
 
     steps:
       - name: Checkout Repository
