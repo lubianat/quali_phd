@@ -5,7 +5,7 @@ keywords:
 - publishing
 - manubot
 lang: en-US
-date-meta: '2021-12-01'
+date-meta: '2021-12-02'
 author-meta:
 - John Doe
 - Jane Roe
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Manuscript Title" />
   <meta property="og:title" content="Manuscript Title" />
   <meta property="twitter:title" content="Manuscript Title" />
-  <meta name="dc.date" content="2021-12-01" />
-  <meta name="citation_publication_date" content="2021-12-01" />
+  <meta name="dc.date" content="2021-12-02" />
+  <meta name="citation_publication_date" content="2021-12-02" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,9 +41,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/2aebbb452d1de889b3b9c20ee8d3a1cbd40a7dbf/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/2aebbb452d1de889b3b9c20ee8d3a1cbd40a7dbf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/2aebbb452d1de889b3b9c20ee8d3a1cbd40a7dbf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/6be5c637bc2c3d7dcaab4728fbb4091baf10abbf/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/6be5c637bc2c3d7dcaab4728fbb4091baf10abbf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/6be5c637bc2c3d7dcaab4728fbb4091baf10abbf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,10 +65,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/2aebbb452d1de889b3b9c20ee8d3a1cbd40a7dbf/))
+([permalink](https://lubianat.github.io/quali_phd/v/6be5c637bc2c3d7dcaab4728fbb4091baf10abbf/))
 was automatically generated
-from [lubianat/quali_phd@2aebbb4](https://github.com/lubianat/quali_phd/tree/2aebbb452d1de889b3b9c20ee8d3a1cbd40a7dbf)
-on December 1, 2021.
+from [lubianat/quali_phd@6be5c63](https://github.com/lubianat/quali_phd/tree/6be5c637bc2c3d7dcaab4728fbb4091baf10abbf)
+on December 2, 2021.
 </em></small>
 
 ## Authors
@@ -512,31 +512,6 @@ As part of the research-action process, I have joined the Cell Ontology working 
 
 # Preliminary Results
 
-<!-- https://github.com/lubianat/fapesp_report_1/blob/main/content/03.achievements.md --> 
-
-## Wikidata and the Cell Ontology interplay
-
-## Wikidata Bib and a professional system for biocuration
-
-### Introduction 
-
-* Accountants have Double-entry bookkeeping (https://en.wikipedia.org/wiki/Double-entry_bookkeeping), software developers have Test-driven development (https://en.wikipedia.org/wiki/Test-driven_development).
-
-* Develop a professional way for coverage of large-scale revisions, inspired by Umberto Eco's How to Write a Thesis [@wikidata:Q3684178] adapted to the digital environment, using version-control and semantic links. 
-
-* Connect the reading framework with a Biocuration strategy to feed knowledge to Wikidata
-
-### Working of the system
-
-### Results 
-
-* Total number of cells on Wikidata
-* Cells edited/added by me
-
-### Introduction
-
-z
-
 <!-- Maybe include annotation of HCA articles ? -->
 <!-- Maybe include Scholia and Bioinformatics ? -->
 
@@ -732,6 +707,7 @@ Nevertheless, the differences among the articles in style and scope contribute t
 The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]) (if proper authorization are given by the owners).
 The approach we took here can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format.
 
+## Wikidata and the Cell Ontology interplay
 
 
 ## Wikidata Bib and a professional system for biocuration

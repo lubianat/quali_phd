@@ -287,11 +287,8 @@ content/200.methodology.md:36:quickstatements
 content/200.methodology.md:36:Quickstatements
 content/200.methodology.md:36:WikidataIntegrator
 content/200.methodology.md:55:SPARQL
-content/300.results.md:7:biocuration
-content/300.results.md:13:Umberto
-content/300.results.md:15:Biocuration
-content/300.results.md:28:HCA
-content/300.results.md:29:Scholia
+content/300.results.md:3:HCA
+content/300.results.md:4:Scholia
 content/310.concept_of_cell_type.md:7:formalizations
 content/310.concept_of_cell_type.md:8:CELDA
 content/310.concept_of_cell_type.md:12:fugacious
