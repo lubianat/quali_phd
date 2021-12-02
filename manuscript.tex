@@ -1,7 +1,7 @@
 This manuscript
-(\href{https://lubianat.github.io/quali_phd/v/4244ca4800e49e86661876a45daa4ad73dc0ca6e/}{permalink})
+(\href{https://lubianat.github.io/quali_phd/v/2936776523ea1584882e2a08c3247194f8f4a1c7/}{permalink})
 was automatically generated
-from \href{https://github.com/lubianat/quali_phd/tree/4244ca4800e49e86661876a45daa4ad73dc0ca6e}{lubianat/quali\_phd@4244ca4}
+from \href{https://github.com/lubianat/quali_phd/tree/2936776523ea1584882e2a08c3247194f8f4a1c7}{lubianat/quali\_phd@2936776}
 on December 2, 2021.
 
 \hypertarget{authors}{%
@@ -712,15 +712,89 @@ The different possibilities of mutual benefit between the Cell Ontology and Wiki
   Connect the reading framework with a Biocuration strategy to feed knowledge to Wikidata
 \end{itemize}
 
-\hypertarget{working-of-the-system}{%
-\subsubsection{Working of the system}\label{working-of-the-system}}
+\hypertarget{wikidata-bib-as-a-reading-system}{%
+\subsection{Wikidata Bib as a reading system}\label{wikidata-bib-as-a-reading-system}}
 
-It consists of a set of Python scripts and a standard file structure. A file contains the list of articles to be read in markdown. Articles are represented as Wikidata QIDs which enables automatic information retrieval from Wikidata's structured systems. Articles were organized in 2 main sections, one for cell-type related articles and one for biocuration-related articles.
+It consists of a set of Python scripts and a standard file structure.
+A file contains the list of articles to be read in markdown. Articles are represented as Wikidata QIDs which enables automatic information retrieval from Wikidata's structured systems.\\
+Articles were organized in 2 main sections, one for cell-type related articles and one for biocuration-related articles.
 
-The Wikidata Bib system has a ``pop'' function, which creates a personalized note document in markdown for the first article of a section and (if possible) obtains the full text article from Unpaywall (https://unpaywall.org/). The note document contains a space for highlights, which can be copied from the original text and pasted in the markdown file.
-Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings. The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata\_bib/tree/template and notes on my readings can currently be accessed at https://lubianat.github.io/wikidata\_bib/.
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Show file structure}
+\end{itemize}
 
-Besides the technical aspects of Wikidata Bib, the organized reading methodology included a discipline step of continued reading, with a target of 1-2 papers per section per day. Based on Umberto Eco's suggestion on How to Write a Thesis {[}\protect\hyperlink{ref-1HBVPtZGp}{134}{]} to develop a careful indexing system for literature, an index document was constructed containing the topics of interest for writing the thesis. The topics were added as plain text in the personalized note documents, allowing batch retrieval of articles of interest via the command line, using \texttt{grep} (https://en.wikipedia.org/w/index.php?title=Grep\&oldid=1039541979).
+The Wikidata Bib system has a ``pop'' function, which creates a personalized note document in markdown for the first article of a section and (if possible) obtains the full text article from Unpaywall (https://unpaywall.org/).
+The note document contains a space for highlights, which can be copied from the original text and pasted in the markdown file.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{image pop}
+\end{itemize}
+
+Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings.
+The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata\_bib/tree/template and notes on my readings can currently be accessed at https://lubianat.github.io/wikidata\_bib/.
+
+\begin{itemize}
+\item
+  \textbf{image note-taking example}
+\item
+  \emph{Talk about Author Disambiguator and other contributions}
+\end{itemize}
+
+Besides the technical aspects of Wikidata Bib, the organized reading methodology included a discipline step of continued reading, with a target of 1-2 papers per section per day.
+Based on Umberto Eco's suggestion on How to Write a Thesis {[}\protect\hyperlink{ref-1HBVPtZGp}{134}{]} to develop a careful indexing system for literature, an index document was constructed containing the topics of interest for writing the thesis.
+The topics were added as plain text in the personalized note documents, allowing batch retrieval of articles of interest via the command line, using \texttt{grep} (https://en.wikipedia.org/w/index.php?title=Grep\&oldid=1039541979).
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{image grep and open}
+\end{itemize}
+
+\hypertarget{wikidata-bib-as-a-dashboard}{%
+\subsection{Wikidata Bib as a dashboard}\label{wikidata-bib-as-a-dashboard}}
+
+\begin{itemize}
+\item
+  Wikidata Bib generates real-time, public visualizations of my literature progress
+\item
+  wbib package: https://github.com/lubianat/wbib
+\item
+  \textbf{Figures for queries}
+\item
+  \emph{Wikidata Bib reading status}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    articles read
+  \item
+    authors read
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{wikidata-bib-for-curation-of-cells-to-wikidata}{%
+\subsection{Wikidata Bib for curation of cells to Wikidata}\label{wikidata-bib-for-curation-of-cells-to-wikidata}}
+
+\begin{itemize}
+\item
+  Recording of cell types in Google Spreadsheets
+\item
+  Integration to Wikidata via Python script
+\item
+  Figure \ref{fig:biocuration_of_cells}
+\end{itemize}
+
+\begin{figure}
+\hypertarget{fig:biocuration_of_cells}{%
+\centering
+\includegraphics[width=0.85\textwidth,height=\textheight]{images/extracting_cell_types.svg}
+\caption{Wikidata Bib was coupled with a biocuration framework for cell types}\label{fig:biocuration_of_cells}
+}
+\end{figure}
 
 \hypertarget{results}{%
 \subsubsection{Results}\label{results}}
@@ -728,10 +802,26 @@ Besides the technical aspects of Wikidata Bib, the organized reading methodology
 \begin{itemize}
 \tightlist
 \item
-  Total number of cells on Wikidata
-\item
-  Cells edited/added by me
+  Update the status via \url{https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet\#scrollTo=szvBWI9zr_AA}
 \end{itemize}
+
+Wikidata statistics on cell types
+2625 total cell classes
+More than the Cell Ontology
+519 human-specific cell classes
+277 mouse-specific cell classes
+
+User:TiagoLubiana:
+At least 1 edit in 2495 cell classes
+Created 1395 cell classes
+
+\begin{figure}
+\hypertarget{fig:subclass_of_cell}{%
+\centering
+\includegraphics[width=0.85\textwidth,height=\textheight]{https://keep.google.com/u/0/media/v2/1WoYkTz0M-ew_Tay-DpmOr2zyyCalnmsyd_2Ysq3pyNaJ7R5CIQnfdvZTDviBcvc/18W-amXz1489obuE7Tqb-AQHZKa-x-aVaH7QsO3x7Cy7lz-4a6AMzaGdLffzB?sz=512\&accept=image\%2Fgif\%2Cimage\%2Fjpeg\%2Cimage\%2Fjpg\%2Cimage\%2Fpng\%2Cimage\%2Fwebp}
+\caption{Subclasses of ``cell'' on Wikidata}\label{fig:subclass_of_cell}
+}
+\end{figure}
 
 \hypertarget{preliminary-results-1}{%
 \section{Preliminary Results}\label{preliminary-results-1}}

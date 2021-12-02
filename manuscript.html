@@ -66,9 +66,9 @@
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/4244ca4800e49e86661876a45daa4ad73dc0ca6e/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/4244ca4800e49e86661876a45daa4ad73dc0ca6e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/4244ca4800e49e86661876a45daa4ad73dc0ca6e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/2936776523ea1584882e2a08c3247194f8f4a1c7/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/2936776523ea1584882e2a08c3247194f8f4a1c7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/2936776523ea1584882e2a08c3247194f8f4a1c7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,9 +82,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lubianat.github.io/quali_phd/v/4244ca4800e49e86661876a45daa4ad73dc0ca6e/">permalink</a>)
+(<a href="https://lubianat.github.io/quali_phd/v/2936776523ea1584882e2a08c3247194f8f4a1c7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lubianat/quali_phd/tree/4244ca4800e49e86661876a45daa4ad73dc0ca6e">lubianat/quali_phd@4244ca4</a>
+from <a href="https://github.com/lubianat/quali_phd/tree/2936776523ea1584882e2a08c3247194f8f4a1c7">lubianat/quali_phd@2936776</a>
 on December 2, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -637,16 +637,69 @@ The different possibilities of mutual benefit between the Cell Ontology and Wiki
 <li><p>Develop a professional way for coverage of large-scale revisions, inspired by Umberto Eco’s How to Write a Thesis <span class="citation" data-cites="1HBVPtZGp">[<a href="#ref-1HBVPtZGp" role="doc-biblioref">134</a>]</span> adapted to the digital environment, using version-control and semantic links.</p></li>
 <li><p>Connect the reading framework with a Biocuration strategy to feed knowledge to Wikidata</p></li>
 </ul>
-<h3 id="working-of-the-system">Working of the system</h3>
-<p>It consists of a set of Python scripts and a standard file structure. A file contains the list of articles to be read in markdown. Articles are represented as Wikidata QIDs which enables automatic information retrieval from Wikidata’s structured systems. Articles were organized in 2 main sections, one for cell-type related articles and one for biocuration-related articles.</p>
-<p>The Wikidata Bib system has a “pop” function, which creates a personalized note document in markdown for the first article of a section and (if possible) obtains the full text article from Unpaywall (https://unpaywall.org/). The note document contains a space for highlights, which can be copied from the original text and pasted in the markdown file.
-Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings. The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata_bib/tree/template and notes on my readings can currently be accessed at https://lubianat.github.io/wikidata_bib/.</p>
-<p>Besides the technical aspects of Wikidata Bib, the organized reading methodology included a discipline step of continued reading, with a target of 1-2 papers per section per day. Based on Umberto Eco’s suggestion on How to Write a Thesis <span class="citation" data-cites="1HBVPtZGp">[<a href="#ref-1HBVPtZGp" role="doc-biblioref">134</a>]</span> to develop a careful indexing system for literature, an index document was constructed containing the topics of interest for writing the thesis. The topics were added as plain text in the personalized note documents, allowing batch retrieval of articles of interest via the command line, using <code>grep</code> (https://en.wikipedia.org/w/index.php?title=Grep&amp;oldid=1039541979).</p>
+<h2 id="wikidata-bib-as-a-reading-system">Wikidata Bib as a reading system</h2>
+<p>It consists of a set of Python scripts and a standard file structure.
+A file contains the list of articles to be read in markdown. Articles are represented as Wikidata QIDs which enables automatic information retrieval from Wikidata’s structured systems.<br />
+Articles were organized in 2 main sections, one for cell-type related articles and one for biocuration-related articles.</p>
+<ul>
+<li><strong>Show file structure</strong></li>
+</ul>
+<p>The Wikidata Bib system has a “pop” function, which creates a personalized note document in markdown for the first article of a section and (if possible) obtains the full text article from Unpaywall (https://unpaywall.org/).
+The note document contains a space for highlights, which can be copied from the original text and pasted in the markdown file.</p>
+<ul>
+<li><strong>image pop</strong></li>
+</ul>
+<p>Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings.
+The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata_bib/tree/template and notes on my readings can currently be accessed at https://lubianat.github.io/wikidata_bib/.</p>
+<ul>
+<li><p><strong>image note-taking example</strong></p></li>
+<li><p><em>Talk about Author Disambiguator and other contributions</em></p></li>
+</ul>
+<p>Besides the technical aspects of Wikidata Bib, the organized reading methodology included a discipline step of continued reading, with a target of 1-2 papers per section per day.
+Based on Umberto Eco’s suggestion on How to Write a Thesis <span class="citation" data-cites="1HBVPtZGp">[<a href="#ref-1HBVPtZGp" role="doc-biblioref">134</a>]</span> to develop a careful indexing system for literature, an index document was constructed containing the topics of interest for writing the thesis.
+The topics were added as plain text in the personalized note documents, allowing batch retrieval of articles of interest via the command line, using <code>grep</code> (https://en.wikipedia.org/w/index.php?title=Grep&amp;oldid=1039541979).</p>
+<ul>
+<li><strong>image grep and open</strong></li>
+</ul>
+<h2 id="wikidata-bib-as-a-dashboard">Wikidata Bib as a dashboard</h2>
+<ul>
+<li><p>Wikidata Bib generates real-time, public visualizations of my literature progress</p></li>
+<li><p>wbib package: https://github.com/lubianat/wbib</p></li>
+<li><p><strong>Figures for queries</strong></p></li>
+<li><p><em>Wikidata Bib reading status</em>:</p>
+<ul>
+<li>articles read</li>
+<li>authors read</li>
+</ul></li>
+</ul>
+<h2 id="wikidata-bib-for-curation-of-cells-to-wikidata">Wikidata Bib for curation of cells to Wikidata</h2>
+<ul>
+<li><p>Recording of cell types in Google Spreadsheets</p></li>
+<li><p>Integration to Wikidata via Python script</p></li>
+<li><p>Figure <a href="#fig:biocuration_of_cells">8</a></p></li>
+</ul>
+<div id="fig:biocuration_of_cells" class="fignos">
+<figure>
+<img src="images/extracting_cell_types.svg" style="width:85.0%" alt="Figure 8: Wikidata Bib was coupled with a biocuration framework for cell types" /><figcaption aria-hidden="true"><span>Figure 8:</span> Wikidata Bib was coupled with a biocuration framework for cell types</figcaption>
+</figure>
+</div>
 <h3 id="results">Results</h3>
 <ul>
-<li>Total number of cells on Wikidata</li>
-<li>Cells edited/added by me</li>
+<li>Update the status via <a href="https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet#scrollTo=szvBWI9zr_AA" class="uri">https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet#scrollTo=szvBWI9zr_AA</a></li>
 </ul>
+<p>Wikidata statistics on cell types
+2625 total cell classes
+More than the Cell Ontology
+519 human-specific cell classes
+277 mouse-specific cell classes</p>
+<p>User:TiagoLubiana:
+At least 1 edit in 2495 cell classes
+Created 1395 cell classes</p>
+<div id="fig:subclass_of_cell" class="fignos">
+<figure>
+<img src="https://keep.google.com/u/0/media/v2/1WoYkTz0M-ew_Tay-DpmOr2zyyCalnmsyd_2Ysq3pyNaJ7R5CIQnfdvZTDviBcvc/18W-amXz1489obuE7Tqb-AQHZKa-x-aVaH7QsO3x7Cy7lz-4a6AMzaGdLffzB?sz=512&amp;accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp" style="width:85.0%" alt="Figure 9: Subclasses of “cell” on Wikidata" /><figcaption aria-hidden="true"><span>Figure 9:</span> Subclasses of “cell” on Wikidata</figcaption>
+</figure>
+</div>
 <h1 id="preliminary-results-1">Preliminary Results</h1>
 <h2 id="fcoex-updates">Fcoex updates</h2>
 <h2 id="the-concept-of-cell-type">The concept of cell type</h2>
