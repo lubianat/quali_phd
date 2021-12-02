@@ -1,24 +1,24 @@
 ---
-title: Manuscript Title
+title: Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas
 keywords:
-- markdown
-- publishing
-- manubot
+- Wikidata
+- Human Cell Atlas
+- ontology
+- Cell Ontology
 lang: en-US
 date-meta: '2021-12-02'
 author-meta:
-- John Doe
-- Jane Roe
+- Tiago Lubiana
 header-includes: |-
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
   Suggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html
   -->
   <meta name="dc.format" content="text/html" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
+  <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
+  <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
+  <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta name="dc.date" content="2021-12-02" />
   <meta name="citation_publication_date" content="2021-12-02" />
   <meta name="dc.language" content="en-US" />
@@ -27,23 +27,20 @@ header-includes: |-
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Tiago Lubiana" />
+  <meta name="citation_author_institution" content="School of Pharmaceutical Sciences, University of São Paulo" />
+  <meta name="citation_author_institution" content="Ronin Institute" />
+  <meta name="citation_author_orcid" content="0000-0003-2473-2313" />
+  <meta name="twitter:creator" content="@lubianat" />
   <link rel="canonical" href="https://lubianat.github.io/quali_phd/" />
   <meta property="og:url" content="https://lubianat.github.io/quali_phd/" />
   <meta property="twitter:url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/6be5c637bc2c3d7dcaab4728fbb4091baf10abbf/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/6be5c637bc2c3d7dcaab4728fbb4091baf10abbf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/6be5c637bc2c3d7dcaab4728fbb4091baf10abbf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/b00405796db47b9b3cdee9651d1d5273e977fd3e/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/b00405796db47b9b3cdee9651d1d5273e977fd3e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/b00405796db47b9b3cdee9651d1d5273e977fd3e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -65,9 +62,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/6be5c637bc2c3d7dcaab4728fbb4091baf10abbf/))
+([permalink](https://lubianat.github.io/quali_phd/v/b00405796db47b9b3cdee9651d1d5273e977fd3e/))
 was automatically generated
-from [lubianat/quali_phd@6be5c63](https://github.com/lubianat/quali_phd/tree/6be5c637bc2c3d7dcaab4728fbb4091baf10abbf)
+from [lubianat/quali_phd@b004057](https://github.com/lubianat/quali_phd/tree/b00405796db47b9b3cdee9651d1d5273e977fd3e)
 on December 2, 2021.
 </em></small>
 
@@ -75,25 +72,16 @@ on December 2, 2021.
 
 
 
-+ **John Doe**<br>
++ **Tiago Lubiana**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-2473-2313](https://orcid.org/0000-0003-2473-2313)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [lubianat](https://github.com/lubianat)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [lubianat](https://twitter.com/lubianat)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     School of Pharmaceutical Sciences, University of São Paulo; Ronin Institute
+     · Funded by Grant \#2019/26284-1 from the São Paulo Research Foundation (FAPESP).
   </small>
 
 

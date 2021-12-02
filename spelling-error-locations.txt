@@ -42,6 +42,7 @@ content/115.cell_classification.md:14:transcriptomics
 content/115.cell_classification.md:15:Aviv
 content/115.cell_classification.md:15:HCA
 content/115.cell_classification.md:15:Regev
+content/115.cell_classification.md:17:lubianat
 content/115.cell_classification.md:17:technotype
 content/115.cell_classification.md:20:CoRC
 content/115.cell_classification.md:20:evolutionarily
@@ -51,6 +52,7 @@ content/115.cell_classification.md:22:attractors
 content/115.cell_classification.md:22:attractors
 content/115.cell_classification.md:22:phenotypes
 content/115.cell_classification.md:24:CELDA
+content/115.cell_classification.md:26:lubianat
 content/115.cell_classification.md:26:technotype
 content/115.cell_classification.md:28:transcriptomics
 content/115.cell_classification.md:29:scRNA
@@ -275,13 +277,17 @@ content/200.methodology.md:13:Wikidata's
 content/200.methodology.md:15:unpaywall
 content/200.methodology.md:15:Unpaywall
 content/200.methodology.md:16:analytics
+content/200.methodology.md:16:lubianat
+content/200.methodology.md:16:lubianat
 content/200.methodology.md:18:oldid
 content/200.methodology.md:18:Umberto
 content/200.methodology.md:21:Biocuration
 content/200.methodology.md:23:curation
+content/200.methodology.md:23:lubianat
 content/200.methodology.md:29:hypothes
 content/200.methodology.md:29:hypothes
 content/200.methodology.md:29:hypothes
+content/200.methodology.md:29:lubianat
 content/200.methodology.md:29:richfully
 content/200.methodology.md:36:quickstatements
 content/200.methodology.md:36:Quickstatements
@@ -302,6 +308,7 @@ content/310.concept_of_cell_type.md:23:CSF
 content/310.concept_of_cell_type.md:23:Ly
 content/310.concept_of_cell_type.md:23:neutrophils
 content/310.concept_of_cell_type.md:23:technotypes
+content/310.concept_of_cell_type.md:25:lubianat
 content/310.concept_of_cell_type.md:32:biocuration
 content/310.concept_of_cell_type.md:33:UniProt
 content/310.concept_of_cell_type.md:35:HuBMAP
@@ -311,6 +318,7 @@ content/310.concept_of_cell_type.md:39:Panglao
 content/310.concept_of_cell_type.md:45:Carvalho
 content/310.concept_of_cell_type.md:45:modelling
 content/310.concept_of_cell_type.md:47:modelling
+content/310.concept_of_cell_type.md:50:lubianat
 content/310.concept_of_cell_type.md:50:Multileveltheory
 content/310.concept_of_cell_type.md:52:metaclass
 content/310.concept_of_cell_type.md:52:MLT
