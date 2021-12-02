@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/b00405796db47b9b3cdee9651d1d5273e977fd3e/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/b00405796db47b9b3cdee9651d1d5273e977fd3e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/b00405796db47b9b3cdee9651d1d5273e977fd3e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/4244ca4800e49e86661876a45daa4ad73dc0ca6e/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/4244ca4800e49e86661876a45daa4ad73dc0ca6e/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/4244ca4800e49e86661876a45daa4ad73dc0ca6e/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,9 +62,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/b00405796db47b9b3cdee9651d1d5273e977fd3e/))
+([permalink](https://lubianat.github.io/quali_phd/v/4244ca4800e49e86661876a45daa4ad73dc0ca6e/))
 was automatically generated
-from [lubianat/quali_phd@b004057](https://github.com/lubianat/quali_phd/tree/b00405796db47b9b3cdee9651d1d5273e977fd3e)
+from [lubianat/quali_phd@4244ca4](https://github.com/lubianat/quali_phd/tree/4244ca4800e49e86661876a45daa4ad73dc0ca6e)
 on December 2, 2021.
 </em></small>
 
@@ -380,8 +380,6 @@ Bot edits are made via the WikiMedia API and are predominantly written via Pytho
 ###  Wikidata as a knowledge graph for the life sciences 
 
 
-* Wikidata as a knowledge graph for the life sciences
-
 Due to its privileged position inside the linked data ecosystem and its ease of write and query, Wikidata has been growing as a hub for interoperable data for the life sciences community. [@wikidata:Q87830400] [@wikidata:Q68471881] 
 Even though Wikidata was created in 2013, the demand for a community-cured life sciences knowledge graph is clear at least since 2008 [@wikidata:Q28292893] [@wikidata:Q21183907] 
 The Wikidata-like project proposed at the time was eventually discontinued, an example of the challenge of maintaining independent biomedical databases. [@wikidata:Q28595967]
@@ -441,27 +439,22 @@ This project's methodology resembles practical research-action practices [@wikid
 
 All the research forms are intertwined with the improvement of knowledge management in biomedical sciences, with a focus on the Human Cell Atlas. The methods included the development and application of a framework for organized reading of the scientific literature, aimed at providing contact with the different facets of biocuration and Human Cell Atlas-related research. 
 
-
 ## Organized reading
 
-In order to handle the literature reading necessary for this project, a framework was developed for reading. It consists of a set of Python scripts and a standard file structure. A file contains the list of articles to be read in markdown. Articles are represented as Wikidata QIDs which enables automatic information retrieval from Wikidata's structured systems.  Articles were organized in 2 main sections, one for cell-type related articles and one for biocuration-related articles. 
+To handle the literature reading necessary for this project, a framework was developed for reading and is described in details in the results section. 
+The framework is based on GitHub and includes Python scripts, a file organizing the reading list, and another documenting the reading history in RDF. Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings. The source code for Wikidata Bib is available at <https://github.com/lubianat/wikidata_bib/tree/template> and notes on my readings can currently be accessed at <https://lubianat.github.io/wikidata_bib/>.
 
-The Wikidata Bib system has a "pop" function, which creates a personalized note document in markdown for the first article of a section and (if possible) obtains the full text article from Unpaywall (https://unpaywall.org/). The note document contains a space for highlights, which can be copied from the original text and pasted in the markdown file.
-Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings. The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata_bib/tree/template and notes on my readings can currently be accessed at https://lubianat.github.io/wikidata_bib/.
-
-Besides the technical aspects of Wikidata Bib, the organized reading methodology included a discipline step of continued reading, with a target of 1-2 papers per section per day. Based on Umberto Eco's suggestion on How to Write a Thesis [@wikidata:Q3684178] to develop a careful indexing system for literature, an index document was constructed containing the topics of interest for writing the thesis. The topics were added as plain text in the personalized note documents, allowing batch retrieval of articles of interest via the command line, using `grep` (https://en.wikipedia.org/w/index.php?title=Grep&oldid=1039541979).  
-
+Additionaly, the methodology included a discipline of reading that entails the daily reading of 2 articles, one about "cell types" and another about "biocuration". 
+The articles are obtained by a mixed manual and automatic approach, including a la carte selection of articles to read alongside Wikidata queries for Cell, Nature, Science and eLife papers about single cell transcriptomics (query: <https://w.wiki/4LHr>) and for papers on biocuration (query: <https://w.wiki/4LHi>). 
+)
 
 ### Biocuration of cell classes for Wikidata
 
 For each article about cell types read, cell types previously absent on Wikidata are added via a combination of curation in a Google Spreadsheet and a custom Python script (https://github.com/lubianat/wikidata_markers/tree/master/curation_of_classes).  
 
-Marker information was also recorded when explicitly mentioned and it will be added to Wikidata at a later step. 
-
 ### Annotation of Human Cell Atlas articles
 
 Human Cell Atlas publications (https://www.humancellatlas.org/publications) were selected and abstracts were annotated as richfully as possible with Wikidata IDs using the hypothes.is annotation system (https://web.hypothes.is/). One article [@wikidata:Q46368626], describing the complete Human Cell Atlas project, was annotated in full. Annotations were retrieved via the hypothes.is API and processed with custom Python and R scripts (https://github.com/lubianat/ann/tree/main/hypothesis_parsing).
-
 
 ## Wikidata updates
 
@@ -481,21 +474,14 @@ The property acceptance cycle takes at least one week and is completely open for
 
 ## Cell Ontology participation
 
-As part of the research-action process, I have joined the Cell Ontology working group
-
-
-## Data retrieval
-
-* SPARQL queries
-
-## Data analysis
-
-* Packages used in R and Python
-* For interacting with Wikidata
+As part of the research-action process, I have joined the Cell Ontology working group. 
+I participate in the monthly meetings and sporadic workshops, learning and contributing to the discussions. 
+Additionaly, I contribute to the ontology development, actively engaging in the Cell Ontology GitHub repository (<https://github.com/obophenotype/cell-ontology>) and contributing with new terms and assertions. 
+I edit the ontology with the software for ontology editing Protégé v. 5.5.0 (<https://protege.stanford.edu/>).
 
 ### Status of cell type info on Wikidata
 
-### Cell-disease network analysis
+Status of cell type information on Wikidat was acessed via SPARQL queries combined with processing in python and is available at <https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet#scrollTo=szvBWI9zr_AA>
 
 
 # Preliminary Results
@@ -553,7 +539,7 @@ By "class" we mean an abstract entity in the sense intended by the multilevel th
 Figure @fig:multilevel represents the adaptation of Multi Level Theory that is assumed for the modelling done throughout this work. 
 The notion is time-agnostic (i.e. it is not concerned if their objects _exist now_ or just _existed in the past_) and organizes the theoretical world into 3 kingdoms: _individuals_, _classes_ and _metaclasses_. 
 
-![ Multileveltheory for cell types](https://raw.githubusercontent.com/lubianat/multilevel_ontology_drawings/master/combination_human_cell.png){#fig:multilevel width="100%"}
+![ Multileveltheory for cell types](https://raw.githubusercontent.com/lubianat/multilevel_ontology_drawings/master/combination_human_cell.png){#fig:multilevel width="85%"}
 
 Figure @fig:multilevel A multilevel theory (MLT) can divide the theoretical realm into different kingdoms. A) A representation of people in the MLT framework adopted in this work. The theoretical-realm entity "Mahatma Gandhi" is materialized by the material-realm Mahatma Gandhi. The theoretical _individual_ is considered an instance of  multiple _classes_ such as "Indian lawyer" and "_Homo sapiens_", which are related to each other via subclass relations. The classes themselves are instances of _metaclasses_, like "taxon", a first order metaclass. B) An analogous representation of the MLT framework, but applied to cells and cell types. 
 
@@ -596,7 +582,7 @@ As of 17 June 2021, the Wikidata database contains 2102 instances of "cell type"
 After obtaining approval from the owners of the database, we matched genes and cell types to Wikidata, and performed Wikidata queries to demonstrate the value of the approach. An overview of the process is shown in @fig:iscb_intro.
 ![
 Wikidata SPARQL queries bring to light hidden biomedical knowledge
-](images/poster_ISCB_intro){#fig:iscb_intro}
+](https://github.com/lubianat/fapesp_report_1/blob/main/content/images/poster_ISCB_intro.png?raw=true){#fig:iscb_intro width="85%"}
 
 ### Class creation on Wikidata
 
@@ -627,7 +613,7 @@ The PanglaoDB is referenced both via URL to the website (<https://panglaodb.se/m
 
 ![
 Subset of the marker genes for item Q101405051 (human cholinergic neuron )
-](images/chat_marker.png){#fig:chat_marker}
+](https://github.com/lubianat/fapesp_report_1/blob/main/content/images/chat_marker.png?raw=true){#fig:chat_marker width="85%"}
 
 
 Now that we re-formatted the markers on PanglaoDB as Linked Open Data, we can make queries that were not possible before, including
@@ -639,7 +625,7 @@ PanglaoDB's integration to the Wikidata ecosystem allows us to ask a variety of 
 
 ![
 SPARQL queries in Wikidata now harness information from Panglao DB. Queries with the above design were run on Wikidata. Results might change in real time with Wikidata updates by contributors A-C) Graphical representation of feasible SPARQL queries (https://w.wiki/yQ6, https://w.wiki/yQD and https://w.wiki/3HjX,). D) Sample result from query C. 
-](images/poster_ISCB_results.png){#fig:iscb_results}
+](https://github.com/lubianat/fapesp_report_1/blob/main/content/images/poster_ISCB_results.png?raw=true){#fig:iscb_results width="85%"}
 
 ### "Which human cell types are related to neurogenesis via their markers?"
 
@@ -697,6 +683,30 @@ The approach we took here can in essence be applied to any knowledge set of publ
 
 ## Wikidata and the Cell Ontology interplay
 
+The contributions to cell types on Wikidata will be of most value if they are integrated to the current state-of-art of knowledge representation. 
+Arguably, the Cell Ontology is the current leading source of cell type identifiers in the context of the Human Cell Atlas project.[@wikidata:Q109755180]
+Thus, it is crucial that data about cell types on Wikidata is connected to the Cell Ontology. 
+
+To start the improvement in the interplay of both databases, we proposed and got approval of a specific Wikidata identifier for the Cell Ontology, the "Cell Ontology ID" (<https://www.wikidata.org/wiki/Property:P7963>).
+IDs can be added to Wikidata entities and connect them to external databases enabling integrative SPARQL queries. 
+Besides using the common Wikidata interface, one can crowd-curate identifiers via 3rd-party service, Mix'N'Match, which provides an user-friendly framework for connecting idenfier catalogs to Wikidata. [@url:http://magnusmanske.de/wordpress/?p=114], as seen in Figure @fig:mixn_match_cl. 
+Logically, we created a Mix'N'Match catalog for harmonizing Cell Ontology IDs to Wikidata (<https://mix-n-match.toolforge.org/#/catalog/4719>), harnessing the community support for the task. 
+
+![Mix'N'Match curation system](https://pointstodots.files.wordpress.com/2021/09/image-17.png){#fig:mixnmatch_cl width="85%"}
+
+As of early December 2021, more than 700 Cell Ontology IDs have been manually matched to Wikidata. 
+The integration already enables queries that harness the previously existing information on Wikidata for Cell Ontology - based applications. 
+For example, one can query Wikidata items that have (1) a crossref to a CL ID (2) a picture in Wikimedia Commons (<https://w.wiki/4F6e>, Figure @fig:cl_images). 
+The different possibilities of mutual benefit between the Cell Ontology and Wikidata will continue to be explored in the next years of this PhD project. 
+
+![Entries on Wikidata with a depicting image and a Cell Ontology ID](https://user-images.githubusercontent.com/7917951/137942026-7645f368-d62a-4434-be05-083555cf0757.png) {#fig:cl_images width="85%"}
+
+
+
+
+
+
+
 
 ## Wikidata Bib and a professional system for biocuration
 
@@ -708,7 +718,16 @@ The approach we took here can in essence be applied to any knowledge set of publ
 
 * Connect the reading framework with a Biocuration strategy to feed knowledge to Wikidata
 
+
+
 ### Working of the system
+
+It consists of a set of Python scripts and a standard file structure. A file contains the list of articles to be read in markdown. Articles are represented as Wikidata QIDs which enables automatic information retrieval from Wikidata's structured systems.  Articles were organized in 2 main sections, one for cell-type related articles and one for biocuration-related articles. 
+
+The Wikidata Bib system has a "pop" function, which creates a personalized note document in markdown for the first article of a section and (if possible) obtains the full text article from Unpaywall (https://unpaywall.org/). The note document contains a space for highlights, which can be copied from the original text and pasted in the markdown file.
+Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings. The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata_bib/tree/template and notes on my readings can currently be accessed at https://lubianat.github.io/wikidata_bib/.
+
+Besides the technical aspects of Wikidata Bib, the organized reading methodology included a discipline step of continued reading, with a target of 1-2 papers per section per day. Based on Umberto Eco's suggestion on How to Write a Thesis [@wikidata:Q3684178] to develop a careful indexing system for literature, an index document was constructed containing the topics of interest for writing the thesis. The topics were added as plain text in the personalized note documents, allowing batch retrieval of articles of interest via the command line, using `grep` (https://en.wikipedia.org/w/index.php?title=Grep&oldid=1039541979).  
 
 ### Results 
 

@@ -2,6 +2,7 @@ acessed
 acessible
 acknowledgement
 addidion
+Additionaly
 adressing
 aht
 Alexa
@@ -24,6 +25,7 @@ bioinformaticians
 Bionumbers
 BST
 cajal
+carte
 Carvalho
 catalogued
 catholique
@@ -44,6 +46,7 @@ computerizable
 CoRC
 CoV
 COVID
+crossref
 CSF
 curation
 CXCR
@@ -63,6 +66,7 @@ differentially
 direcly
 dirived
 diseaseLabel
+eLife
 embeddings
 endeavours
 EPHB
@@ -89,13 +93,14 @@ hotspot
 HuBMAP
 HubMap’s
 hypothes
+idenfier
 infoboxes
 infratype
 infratypes
 innitiative
 inteoperability
-Interoperable
-ISCB
+interoperable
+iscb
 JSON
 jure
 knowledgebases
@@ -116,6 +121,8 @@ mentiongs
 MERFISH
 metaclass
 metaclasses
+mixn
+Mix’N’Match
 MLT
 modelling
 multicellular
@@ -139,7 +146,7 @@ oldid
 oligodendrocyte
 OMP
 OnClass
-ontologies
+Ontologies
 ontoProc
 osteoclast
 PandlaoDB
@@ -160,6 +167,7 @@ pratically
 pre
 preprint
 programatically
+Protégé
 publically
 purkinje
 Pywikibot
@@ -213,9 +221,10 @@ Uniprot
 Université
 Unpaywall
 wdt
+Wikidat
 WikidataIntegrator
 Wikidata’s
-Wikimedia
+WikiMedia
 Wikipathways
 Wikipedias
 WikiProject
