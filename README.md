@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/lubianat/quali_phd/tree/gh-pages) branch hosts the contents of this directory at <https://lubianat.github.io/quali_phd/>.
-The permalink for this webpage version is <https://lubianat.github.io/quali_phd/v/b00405796db47b9b3cdee9651d1d5273e977fd3e/>.
+The permalink for this webpage version is <https://lubianat.github.io/quali_phd/v/4244ca4800e49e86661876a45daa4ad73dc0ca6e/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://lubianat.github.io/quali_phd/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`b00405796db47b9b3cdee9651d1d5273e977fd3e`](https://github.com/lubianat/quali_phd/commit/b00405796db47b9b3cdee9651d1d5273e977fd3e).
+[`4244ca4800e49e86661876a45daa4ad73dc0ca6e`](https://github.com/lubianat/quali_phd/commit/4244ca4800e49e86661876a45daa4ad73dc0ca6e).
