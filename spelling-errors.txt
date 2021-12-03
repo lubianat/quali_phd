@@ -17,7 +17,7 @@ Aviv
 benefitting
 Bgee
 biocurated
-Biocuration
+biocuration
 biocurators
 BioHack
 Biohub
@@ -78,7 +78,7 @@ facto
 falseability
 FAPESP
 Farias
-fcoex
+Fcoex
 findable
 formalizations
 Franzen
@@ -100,7 +100,7 @@ infratype
 Infratypes
 innitiative
 inteoperability
-interoperable
+Interoperable
 ISCB
 JSON
 jure
@@ -147,7 +147,7 @@ oldid
 oligodendrocyte
 OMP
 OnClass
-ontologies
+Ontologies
 ontoProc
 osteoclast
 PandlaoDB
@@ -228,7 +228,7 @@ wdt
 Wikidat
 WikidataIntegrator
 Wikidata’s
-WikiMedia
+Wikimedia
 Wikipathways
 Wikipedias
 WikiProject

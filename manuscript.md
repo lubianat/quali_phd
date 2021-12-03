@@ -6,7 +6,7 @@ keywords:
 - ontology
 - Cell Ontology
 lang: en-US
-date-meta: '2021-12-02'
+date-meta: '2021-12-03'
 author-meta:
 - Tiago Lubiana
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-02" />
-  <meta name="citation_publication_date" content="2021-12-02" />
+  <meta name="dc.date" content="2021-12-03" />
+  <meta name="citation_publication_date" content="2021-12-03" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/2936776523ea1584882e2a08c3247194f8f4a1c7/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/2936776523ea1584882e2a08c3247194f8f4a1c7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/2936776523ea1584882e2a08c3247194f8f4a1c7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/d4734c3110210b188b6c531653e9e446bd8e91b4/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/d4734c3110210b188b6c531653e9e446bd8e91b4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/d4734c3110210b188b6c531653e9e446bd8e91b4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/2936776523ea1584882e2a08c3247194f8f4a1c7/))
+([permalink](https://lubianat.github.io/quali_phd/v/d4734c3110210b188b6c531653e9e446bd8e91b4/))
 was automatically generated
-from [lubianat/quali_phd@2936776](https://github.com/lubianat/quali_phd/tree/2936776523ea1584882e2a08c3247194f8f4a1c7)
-on December 2, 2021.
+from [lubianat/quali_phd@d4734c3](https://github.com/lubianat/quali_phd/tree/d4734c3110210b188b6c531653e9e446bd8e91b4)
+on December 3, 2021.
 </em></small>
 
 ## Authors
