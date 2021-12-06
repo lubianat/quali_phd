@@ -6,7 +6,7 @@ keywords:
 - ontology
 - Cell Ontology
 lang: en-US
-date-meta: '2021-12-03'
+date-meta: '2021-12-06'
 author-meta:
 - Tiago Lubiana
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-03" />
-  <meta name="citation_publication_date" content="2021-12-03" />
+  <meta name="dc.date" content="2021-12-06" />
+  <meta name="citation_publication_date" content="2021-12-06" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/d4734c3110210b188b6c531653e9e446bd8e91b4/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/d4734c3110210b188b6c531653e9e446bd8e91b4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/d4734c3110210b188b6c531653e9e446bd8e91b4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/856180b09ff9ec0998a2a1d9e24bc3364473fbc9/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/856180b09ff9ec0998a2a1d9e24bc3364473fbc9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/856180b09ff9ec0998a2a1d9e24bc3364473fbc9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/d4734c3110210b188b6c531653e9e446bd8e91b4/))
+([permalink](https://lubianat.github.io/quali_phd/v/856180b09ff9ec0998a2a1d9e24bc3364473fbc9/))
 was automatically generated
-from [lubianat/quali_phd@d4734c3](https://github.com/lubianat/quali_phd/tree/d4734c3110210b188b6c531653e9e446bd8e91b4)
-on December 3, 2021.
+from [lubianat/quali_phd@856180b](https://github.com/lubianat/quali_phd/tree/856180b09ff9ec0998a2a1d9e24bc3364473fbc9)
+on December 6, 2021.
 </em></small>
 
 ## Authors
@@ -734,9 +734,11 @@ The note document contains a space for highlights, which can be copied from the 
 Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings. 
 The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata_bib/tree/template and notes on my readings can currently be accessed at https://lubianat.github.io/wikidata_bib/.
 
-* __image note-taking example__
+![Wikidata Bib's platform for note taking](images/note_taking_station_annotated_with_links.png){#fig:notetaking}
+
 
 - _Talk about Author Disambiguator and other contributions_
+
 
 Besides the technical aspects of Wikidata Bib, the organized reading methodology included a discipline step of continued reading, with a target of 1-2 papers per section per day.
 Based on Umberto Eco's suggestion on How to Write a Thesis [@wikidata:Q3684178] to develop a careful indexing system for literature, an index document was constructed containing the topics of interest for writing the thesis. 
@@ -750,7 +752,7 @@ The topics were added as plain text in the personalized note documents, allowing
 
 * wbib package: https://github.com/lubianat/wbib
 
-* __Figures for queries__
+![Wikidata Bib queries for institutions of authors and most read venues](images/wikidata_bib_display.png){#fig:dashboard}
 
 * _Wikidata Bib reading status_:
     - articles read
@@ -764,7 +766,7 @@ The topics were added as plain text in the personalized note documents, allowing
 
 * Figure @fig:biocuration_of_cells
 
-![Wikidata Bib was coupled with a biocuration framework for cell types](images/extracting_cell_types.svg){#fig:biocuration_of_cells width="85%"}
+![Wikidata Bib was coupled with a biocuration framework for cell types](images/biocuration_of_cells.png){#fig:biocuration_of_cells width="85%"}
 
 ### Results 
 
@@ -784,114 +786,58 @@ Created 1395 cell classes
 
 
 
-# Preliminary Results
+# Final considerations and next steps
 
-## Fcoex updates
+To sum up, this PhD research project aims at improving knowledge representation in the context of the Human Cell Atlas. 
+It is composed by a mixture of theoretical studies on conceptual modelling, practical contributions to knowledge organization projects, (mainly the Cell Ontology and Wikidata), explorations of the data to generate biomedical insights and the development of a technical framework for organized reading. 
+By approaching the object of study from a new perspective, we hope not only to make sizeable contributions, but to promote discussion and fruitful conflation of approaches. 
 
-## The concept of cell type
+The next years of study will be devoted to improving the projects presented here into mature, useful objects. 
+We hope to improve the interplay of Wikidata and Cell Ontology, developing frameworks to combine community- and expert- based curation of knowledge on  cell types. 
+Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting ontology-based R packages ( asOnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371])) to use Wikidata. 
+Finally, we aim at moving the Wikidata Bib system to a well documented, user-friendly mature system, testing usability with other academics and distributing it as a durable open-source project. 
 
-* Describe background
-* Cell types, cell states and cell classes
-* Levels of cell type information: archetype, senso stritu cell type, infratype and technotype. 
-* Infratypes and technotypes as theoretical innovations
-* Current usage mixes archetypes and species-specific cell types
-* Annotation of HCA articles for grasping the use of different concepts in the context of HCA
+# Additional Work
 
-### Next steps
+## Collaborations and manuscripts
 
-* Improve formalization of cell types in connection with the biomedical semantics community
+### fcoex 
 
-## HCA 
-
-* "Sky dive" approach: hand annotation of all abstracts and the core Human Cell Atlas paper
-* Benefits of using a single ontology that anyone can edit (new terms and speed of science)
-* Figure: The different concepts in use by the HCA paper
-* Figure: The different concepts in use by the different HCA papers
-* Discussion
-* Information by HCA and related efforts is already targeted by biocurators. PanglaoDB is one of
-these resources etc etc
-
-### Next steps
-
-* Mature the annotation system into a curation tool (based on ANN, perhaps reuse figure)
-* Explore the use of SciSpacy and natural language processing for making it easier
-
-## Cell Ontology 
-
-## PanglaoDB integration to Wikidata
-
-* The architecture of marker information on Wikidata
-* Integration of information to the larger scope --> live updates by everyone
-* Overview of the stats 
-
-
-
-# Preliminary Results
-
-## Fcoex updates
-
-## The concept of cell type
-
-* Describe background
-* Cell types, cell states and cell classes
-* Levels of cell type information: archetype, senso stritu cell type, infratype and technotype. 
-* Infratypes and technotypes as theoretical innovations
-* Current usage mixes archetypes and species-specific cell types
-* Annotation of HCA articles for grasping the use of different concepts in the context of HCA
-
-### Next steps
-
-* Improve formalization of cell types in connection with the biomedical semantics community
-
-## HCA 
-
-* "Sky dive" approach: hand annotation of all abstracts and the core Human Cell Atlas paper
-* Benefits of using a single ontology that anyone can edit (new terms and speed of science)
-* Figure: The different concepts in use by the HCA paper
-* Figure: The different concepts in use by the different HCA papers
-* Discussion
-* Information by HCA and related efforts is already targeted by biocurators. PanglaoDB is one of
-these resources etc etc
-
-### Next steps
-
-* Mature the annotation system into a curation tool (based on ANN, perhaps reuse figure)
-* Explore the use of SciSpacy and natural language processing for making it easier
-
-## Cell Ontology 
-
-## PanglaoDB integration to Wikidata
-
-* The architecture of marker information on Wikidata
-* Integration of information to the larger scope --> live updates by everyone
-* Overview of the stats 
-
-
-
-# Additional Works
-
-## fcoex 
-
-## Cell Ontology - Minimal Information About a New Cell Type
+During the initial course of this PhD work, we also completed the development and reportin of _fcoex_, an R package for investigating cellular phenotypes using co-expression networks. [@url:https://www.bioconductor.org/packages/release/bioc/html/fcoex.html] The software was mantained to withstand new releases of dependencies and new R version, and *WAS PUBLISHED AS A PRE_PRINT ADD HERE THE LINK*. 
  
-## Cellosaurus and Wikidata
+### Wikidata Bots
 
-## Complex Portal and Wikidata
+Alongside the editing of cell-type information on Wikidata, I have joined different efforts to improve biological information on Wikidata.
+I have collaborated with the ComplexPortal curators, as part of the Virtual Elixir BioHackathon 2020 (https://github.com/virtual-biohackathons/covid-19-bh20/wiki) and for the following year, to build an Wikidata Bot to integrate information on protein complexes to Wikidata. An overview of the Wikidata integration is in Figure @fig:complexportal, presented in an article published in Nucleic Acid Research (re-use of the image and legend possible under the CC-BY license of the article). [@wikidata:Q109348309]
+![Complex Portal and Wikidata. (A) example of an entry assertion in Wikidata with provenance pointing to Complex Portal (Q104836061). (B) Number of protein complexes in Wikidata per taxon (https://w.wiki/3ggX). (C) Subset of Wikidata connected to the SARS-CoV-2 polymerase complex (https://w.wiki/3eta).](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/PAP/10.1093_nar_gkab991/2/gkab991fig3.jpeg?Expires=1641821957&Signature=RK-es18S~Qh6vGQE~61i6u4prMuij8kVTbrjN6WUJLfYHOAhUhx9qQorBxROohjLLxbHvZ2YK9e7EwlI9HjVeNoGZ2PJs0Pv78Y31MdZLY8FeLYI2E4azwrqRyv9q0AH8QL3RorWZV1AhOb9bl-44Mr97Q~9MWzeTDnQQbxpCnGLG~YoG49kocD5KE~dmTSQdkXBU7kZnuGM1NPqMHo5ZDUoCRFwmTbLvd4kXoH~6CTyqx4ruQRIO-ks4Q0FUjYnxGX18gCFvoO2LMPZUPrQjTgD35RrVAkLs91Ur6BQHUuZ-ZsE3Iag3mBDu27vT9Jr93bOj0i9wz~surTtEGATgw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){#fig:complexportal}
 
-## WikiProject ELIXIR
+I have also collaborated with the Cellosaurus database [@wikidata:Q54370168] to revive the CellosaurusBot [@url:https://www.wikidata.org/wiki/User:CellosaurusBot], responsible for updating the metadata on more than 100,000 cell lines on Wikidata. The bot code, written in Python, was completely refactored, and is run by me semi-automatically after the Cellosaurus database releases. A write-up of he integration is in progress, and is planned for release/submisson in the first semester of 2022. 
 
-## Systematic Reviews and publishing of intermediary tables
+### Systematic Reviews and publishing of intermediary tables
+
+Finally, in a collaboration with Olavo Amaral and Kleber, from the Brazilian Reproducibility Initiative [@wikidata:Q61799268] I wrote a commentary on the value of publishing intermediate datasets as citable products. [@url:https://osf.io/preprints/metaarxiv/vbwa9/] 
+The pieces discuss the value of small curations done both in systematic reviews and by experimentalists in the course of their research projects. Published curation tables can serve as a source for improving the ecosystem of open knowledge, not less by reconciliation to Wikidata (thereby bridging the commentary with this project)
+
+### WiseCube - enterprise biomedical question and answering
+
+During a part of this project, I have worked part-time as a consultant for the Wisecube company, based in Seattle, United States. [@url:https://www.wisecube.ai/]
+The job was approved by FAPESP, and consisted mainly in writing SPARQL queries that probe Wikidata for answers to the questions posed by the BioASQ competition. [@wikidata:Q28646342]
+It also entails on-demand curation of biomedical topics on Wikidata based on requests by pharmaceutical companies as well as the development of dashboards targeted at providing insights to customers. 
 
 
+## Awards and participation in events
 
-# Academic Curriculum
+During the initial course of this PhD project, I have participated in several events: 
 
-## University course
+* (Feb-2021) Presented an open talk at the "Semana da Bioinformática" event  about modelling of biological systems (1020 views as of December 2021) [@url:https://www.youtube.com/watch?v=VDvCxskIGEI]
+* (Jun-Aug 2021) Helped to organize the No-Budget-Science HackWeek virtual hackathon [@url:https://www.reprodutibilidade.bio.br/hack-week-2021]
+* (Jul - 2021) Presented the work "Wikidata for 5-star Linked Open Databases: A case study of PanglaoDB" at the Bio-Ontologies section of the Annual International Conference on Intelligent Systems for Molecular Biology. [@doi:10.5281/zenodo.5747849]. The presentation was awarded the best
+* (Jul - 2021) Awarded the 2nd place in the International Society for Computational Biology (ISCB) Wikipedia Competition for the contributions to the Wikipedia page on Biocuration (<https://en.wikipedia.org/wiki/Biocuration>) [@url:https://en.wikipedia.org/wiki/Biocuration]
+* (Nov - 2021) Managed a project during BioHackathon Europe 2021, in Barcelona, Spain, on the representation of ELIXIR information on Wikidata. [@url:https://github.com/elixir-europe/biohackathon-projects-2021/tree/main/projects/32]
 
-## Awards and Participation in events (?)
+## Course work
 
-- ISCB 2021
-- BioHack EU 2021
+During the first year of the PhD program
 
 ## References {.page_break_before}
 

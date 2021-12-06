@@ -1,3 +1,4 @@
+content/00.front-matter.md:8:citable
 content/010.abstract.md:3:HCA
 content/010.abstract.md:4:cytometry
 content/010.abstract.md:4:HCA
@@ -439,54 +440,66 @@ content/340.wikidata_bib.md:19:Unpaywall
 content/340.wikidata_bib.md:24:analytics
 content/340.wikidata_bib.md:25:lubianat
 content/340.wikidata_bib.md:25:lubianat
-content/340.wikidata_bib.md:29:Disambiguator
-content/340.wikidata_bib.md:32:Umberto
-content/340.wikidata_bib.md:33:oldid
-content/340.wikidata_bib.md:41:lubianat
-content/340.wikidata_bib.md:41:wbib
-content/340.wikidata_bib.md:41:wbib
-content/340.wikidata_bib.md:49:curation
-content/340.wikidata_bib.md:57:biocuration
-content/340.wikidata_bib.md:69:TiagoLubiana
-content/340.wikidata_bib.md:73:Subclasses
-content/370.final_considerations.md:3:Fcoex
-content/370.final_considerations.md:9:infratype
-content/370.final_considerations.md:9:senso
-content/370.final_considerations.md:9:stritu
-content/370.final_considerations.md:9:technotype
-content/370.final_considerations.md:10:Infratypes
-content/370.final_considerations.md:10:technotypes
-content/370.final_considerations.md:12:HCA
-content/370.final_considerations.md:12:HCA
-content/370.final_considerations.md:18:HCA
-content/370.final_considerations.md:22:HCA
-content/370.final_considerations.md:23:HCA
-content/370.final_considerations.md:25:biocurators
-content/370.final_considerations.md:25:HCA
-content/370.final_considerations.md:25:PanglaoDB
-content/370.final_considerations.md:30:curation
-content/370.final_considerations.md:31:SciSpacy
-content/370.final_considerations.md:35:PanglaoDB
-content/380.next steps.md:3:Fcoex
-content/380.next steps.md:9:infratype
-content/380.next steps.md:9:senso
-content/380.next steps.md:9:stritu
-content/380.next steps.md:9:technotype
-content/380.next steps.md:10:Infratypes
-content/380.next steps.md:10:technotypes
-content/380.next steps.md:12:HCA
-content/380.next steps.md:12:HCA
-content/380.next steps.md:18:HCA
-content/380.next steps.md:22:HCA
-content/380.next steps.md:23:HCA
-content/380.next steps.md:25:biocurators
-content/380.next steps.md:25:HCA
-content/380.next steps.md:25:PanglaoDB
-content/380.next steps.md:30:curation
-content/380.next steps.md:31:SciSpacy
-content/380.next steps.md:35:PanglaoDB
-content/390.collaborations.md:3:fcoex
-content/390.collaborations.md:7:Cellosaurus
-content/390.collaborations.md:11:WikiProject
-content/410.participation_in_events.md:7:ISCB
-content/410.participation_in_events.md:8:BioHack
+content/340.wikidata_bib.md:30:Disambiguator
+content/340.wikidata_bib.md:34:Umberto
+content/340.wikidata_bib.md:35:oldid
+content/340.wikidata_bib.md:43:lubianat
+content/340.wikidata_bib.md:43:wbib
+content/340.wikidata_bib.md:43:wbib
+content/340.wikidata_bib.md:51:curation
+content/340.wikidata_bib.md:59:biocuration
+content/340.wikidata_bib.md:71:TiagoLubiana
+content/340.wikidata_bib.md:75:Subclasses
+content/370.final_considerations.md:4:modelling
+content/370.final_considerations.md:5:sizeable
+content/370.final_considerations.md:8:curation
+content/370.final_considerations.md:9:asOnClass
+content/370.final_considerations.md:9:ontoProc
+content/390.collaborations.md:5:fcoex
+content/390.collaborations.md:7:fcoex
+content/390.collaborations.md:7:mantained
+content/390.collaborations.md:7:phenotypes
+content/390.collaborations.md:7:reportin
+content/390.collaborations.md:12:BioHackathon
+content/390.collaborations.md:12:complexportal
+content/390.collaborations.md:12:ComplexPortal
+content/390.collaborations.md:12:covid
+content/390.collaborations.md:13:complexportal
+content/390.collaborations.md:13:CoV
+content/390.collaborations.md:13:nar
+content/390.collaborations.md:13:polymerase
+content/390.collaborations.md:15:Cellosaurus
+content/390.collaborations.md:15:Cellosaurus
+content/390.collaborations.md:15:CellosaurusBot
+content/390.collaborations.md:15:CellosaurusBot
+content/390.collaborations.md:15:submisson
+content/390.collaborations.md:19:Amaral
+content/390.collaborations.md:19:citable
+content/390.collaborations.md:19:datasets
+content/390.collaborations.md:19:Kleber
+content/390.collaborations.md:19:Olavo
+content/390.collaborations.md:19:Reproducibility
+content/390.collaborations.md:20:curation
+content/390.collaborations.md:20:curations
+content/390.collaborations.md:20:experimentalists
+content/390.collaborations.md:22:WiseCube
+content/390.collaborations.md:24:wisecube
+content/390.collaborations.md:24:Wisecube
+content/390.collaborations.md:25:BioASQ
+content/390.collaborations.md:25:FAPESP
+content/390.collaborations.md:25:SPARQL
+content/390.collaborations.md:26:curation
+content/390.collaborations.md:33:Bioinformática
+content/390.collaborations.md:33:modelling
+content/390.collaborations.md:33:Semana
+content/390.collaborations.md:33:VDvCxskIGEI
+content/390.collaborations.md:34:hackathon
+content/390.collaborations.md:34:HackWeek
+content/390.collaborations.md:35:Ontologies
+content/390.collaborations.md:35:PanglaoDB
+content/390.collaborations.md:36:Biocuration
+content/390.collaborations.md:36:Biocuration
+content/390.collaborations.md:36:Biocuration
+content/390.collaborations.md:36:ISCB
+content/390.collaborations.md:37:biohackathon
+content/390.collaborations.md:37:BioHackathon

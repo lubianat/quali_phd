@@ -1,8 +1,8 @@
 This manuscript
-(\href{https://lubianat.github.io/quali_phd/v/d4734c3110210b188b6c531653e9e446bd8e91b4/}{permalink})
+(\href{https://lubianat.github.io/quali_phd/v/856180b09ff9ec0998a2a1d9e24bc3364473fbc9/}{permalink})
 was automatically generated
-from \href{https://github.com/lubianat/quali_phd/tree/d4734c3110210b188b6c531653e9e446bd8e91b4}{lubianat/quali\_phd@d4734c3}
-on December 3, 2021.
+from \href{https://github.com/lubianat/quali_phd/tree/856180b09ff9ec0998a2a1d9e24bc3364473fbc9}{lubianat/quali\_phd@856180b}
+on December 6, 2021.
 
 \hypertarget{authors}{%
 \subsection{Authors}\label{authors}}
@@ -737,9 +737,16 @@ The note document contains a space for highlights, which can be copied from the 
 Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings.
 The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata\_bib/tree/template and notes on my readings can currently be accessed at https://lubianat.github.io/wikidata\_bib/.
 
+\begin{figure}
+\hypertarget{fig:notetaking}{%
+\centering
+\includegraphics{images/note_taking_station_annotated_with_links.png}
+\caption{Wikidata Bib's platform for note taking}\label{fig:notetaking}
+}
+\end{figure}
+
 \begin{itemize}
-\item
-  \textbf{image note-taking example}
+\tightlist
 \item
   \emph{Talk about Author Disambiguator and other contributions}
 \end{itemize}
@@ -762,8 +769,18 @@ The topics were added as plain text in the personalized note documents, allowing
   Wikidata Bib generates real-time, public visualizations of my literature progress
 \item
   wbib package: https://github.com/lubianat/wbib
-\item
-  \textbf{Figures for queries}
+\end{itemize}
+
+\begin{figure}
+\hypertarget{fig:dashboard}{%
+\centering
+\includegraphics{images/wikidata_bib_display.png}
+\caption{Wikidata Bib queries for institutions of authors and most read venues}\label{fig:dashboard}
+}
+\end{figure}
+
+\begin{itemize}
+\tightlist
 \item
   \emph{Wikidata Bib reading status}:
 
@@ -791,7 +808,7 @@ The topics were added as plain text in the personalized note documents, allowing
 \begin{figure}
 \hypertarget{fig:biocuration_of_cells}{%
 \centering
-\includegraphics[width=0.85\textwidth,height=\textheight]{images/extracting_cell_types.svg}
+\includegraphics[width=0.85\textwidth,height=\textheight]{images/biocuration_of_cells.png}
 \caption{Wikidata Bib was coupled with a biocuration framework for cell types}\label{fig:biocuration_of_cells}
 }
 \end{figure}
@@ -823,205 +840,74 @@ Created 1395 cell classes
 }
 \end{figure}
 
-\hypertarget{preliminary-results-1}{%
-\section{Preliminary Results}\label{preliminary-results-1}}
+\hypertarget{final-considerations-and-next-steps}{%
+\section{Final considerations and next steps}\label{final-considerations-and-next-steps}}
 
-\hypertarget{fcoex-updates}{%
-\subsection{Fcoex updates}\label{fcoex-updates}}
+To sum up, this PhD research project aims at improving knowledge representation in the context of the Human Cell Atlas.
+It is composed by a mixture of theoretical studies on conceptual modelling, practical contributions to knowledge organization projects, (mainly the Cell Ontology and Wikidata), explorations of the data to generate biomedical insights and the development of a technical framework for organized reading.
+By approaching the object of study from a new perspective, we hope not only to make sizeable contributions, but to promote discussion and fruitful conflation of approaches.
 
-\hypertarget{the-concept-of-cell-type}{%
-\subsection{The concept of cell type}\label{the-concept-of-cell-type}}
+The next years of study will be devoted to improving the projects presented here into mature, useful objects.
+We hope to improve the interplay of Wikidata and Cell Ontology, developing frameworks to combine community- and expert- based curation of knowledge on cell types.
+Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting ontology-based R packages ( asOnClass {[}\protect\hyperlink{ref-sW6aNZJB}{50}{]} and ontoProc{[}\protect\hyperlink{ref-15YmDXALp}{51}{]})) to use Wikidata.
+Finally, we aim at moving the Wikidata Bib system to a well documented, user-friendly mature system, testing usability with other academics and distributing it as a durable open-source project.
 
-\begin{itemize}
-\tightlist
-\item
-  Describe background
-\item
-  Cell types, cell states and cell classes
-\item
-  Levels of cell type information: archetype, senso stritu cell type, infratype and technotype.
-\item
-  Infratypes and technotypes as theoretical innovations
-\item
-  Current usage mixes archetypes and species-specific cell types
-\item
-  Annotation of HCA articles for grasping the use of different concepts in the context of HCA
-\end{itemize}
+\hypertarget{additional-work}{%
+\section{Additional Work}\label{additional-work}}
 
-\hypertarget{next-steps}{%
-\subsubsection{Next steps}\label{next-steps}}
-
-\begin{itemize}
-\tightlist
-\item
-  Improve formalization of cell types in connection with the biomedical semantics community
-\end{itemize}
-
-\hypertarget{hca}{%
-\subsection{HCA}\label{hca}}
-
-\begin{itemize}
-\tightlist
-\item
-  ``Sky dive'' approach: hand annotation of all abstracts and the core Human Cell Atlas paper
-\item
-  Benefits of using a single ontology that anyone can edit (new terms and speed of science)
-\item
-  Figure: The different concepts in use by the HCA paper
-\item
-  Figure: The different concepts in use by the different HCA papers
-\item
-  Discussion
-\item
-  Information by HCA and related efforts is already targeted by biocurators. PanglaoDB is one of
-  these resources etc etc
-\end{itemize}
-
-\hypertarget{next-steps-1}{%
-\subsubsection{Next steps}\label{next-steps-1}}
-
-\begin{itemize}
-\tightlist
-\item
-  Mature the annotation system into a curation tool (based on ANN, perhaps reuse figure)
-\item
-  Explore the use of SciSpacy and natural language processing for making it easier
-\end{itemize}
-
-\hypertarget{cell-ontology}{%
-\subsection{Cell Ontology}\label{cell-ontology}}
-
-\hypertarget{panglaodb-integration-to-wikidata-1}{%
-\subsection{PanglaoDB integration to Wikidata}\label{panglaodb-integration-to-wikidata-1}}
-
-\begin{itemize}
-\tightlist
-\item
-  The architecture of marker information on Wikidata
-\item
-  Integration of information to the larger scope --\textgreater{} live updates by everyone
-\item
-  Overview of the stats
-\end{itemize}
-
-\hypertarget{preliminary-results-2}{%
-\section{Preliminary Results}\label{preliminary-results-2}}
-
-\hypertarget{fcoex-updates-1}{%
-\subsection{Fcoex updates}\label{fcoex-updates-1}}
-
-\hypertarget{the-concept-of-cell-type-1}{%
-\subsection{The concept of cell type}\label{the-concept-of-cell-type-1}}
-
-\begin{itemize}
-\tightlist
-\item
-  Describe background
-\item
-  Cell types, cell states and cell classes
-\item
-  Levels of cell type information: archetype, senso stritu cell type, infratype and technotype.
-\item
-  Infratypes and technotypes as theoretical innovations
-\item
-  Current usage mixes archetypes and species-specific cell types
-\item
-  Annotation of HCA articles for grasping the use of different concepts in the context of HCA
-\end{itemize}
-
-\hypertarget{next-steps-2}{%
-\subsubsection{Next steps}\label{next-steps-2}}
-
-\begin{itemize}
-\tightlist
-\item
-  Improve formalization of cell types in connection with the biomedical semantics community
-\end{itemize}
-
-\hypertarget{hca-1}{%
-\subsection{HCA}\label{hca-1}}
-
-\begin{itemize}
-\tightlist
-\item
-  ``Sky dive'' approach: hand annotation of all abstracts and the core Human Cell Atlas paper
-\item
-  Benefits of using a single ontology that anyone can edit (new terms and speed of science)
-\item
-  Figure: The different concepts in use by the HCA paper
-\item
-  Figure: The different concepts in use by the different HCA papers
-\item
-  Discussion
-\item
-  Information by HCA and related efforts is already targeted by biocurators. PanglaoDB is one of
-  these resources etc etc
-\end{itemize}
-
-\hypertarget{next-steps-3}{%
-\subsubsection{Next steps}\label{next-steps-3}}
-
-\begin{itemize}
-\tightlist
-\item
-  Mature the annotation system into a curation tool (based on ANN, perhaps reuse figure)
-\item
-  Explore the use of SciSpacy and natural language processing for making it easier
-\end{itemize}
-
-\hypertarget{cell-ontology-1}{%
-\subsection{Cell Ontology}\label{cell-ontology-1}}
-
-\hypertarget{panglaodb-integration-to-wikidata-2}{%
-\subsection{PanglaoDB integration to Wikidata}\label{panglaodb-integration-to-wikidata-2}}
-
-\begin{itemize}
-\tightlist
-\item
-  The architecture of marker information on Wikidata
-\item
-  Integration of information to the larger scope --\textgreater{} live updates by everyone
-\item
-  Overview of the stats
-\end{itemize}
-
-\hypertarget{additional-works}{%
-\section{Additional Works}\label{additional-works}}
+\hypertarget{collaborations-and-manuscripts}{%
+\subsection{Collaborations and manuscripts}\label{collaborations-and-manuscripts}}
 
 \hypertarget{fcoex}{%
-\subsection{fcoex}\label{fcoex}}
+\subsubsection{fcoex}\label{fcoex}}
 
-\hypertarget{cell-ontology---minimal-information-about-a-new-cell-type}{%
-\subsection{Cell Ontology - Minimal Information About a New Cell Type}\label{cell-ontology---minimal-information-about-a-new-cell-type}}
+During the initial course of this PhD work, we also completed the development and reportin of \emph{fcoex}, an R package for investigating cellular phenotypes using co-expression networks. {[}\protect\hyperlink{ref-MxIeSJYt}{135}{]} The software was mantained to withstand new releases of dependencies and new R version, and \emph{WAS PUBLISHED AS A PRE\_PRINT ADD HERE THE LINK}.
 
-\hypertarget{cellosaurus-and-wikidata}{%
-\subsection{Cellosaurus and Wikidata}\label{cellosaurus-and-wikidata}}
+\hypertarget{wikidata-bots}{%
+\subsubsection{Wikidata Bots}\label{wikidata-bots}}
 
-\hypertarget{complex-portal-and-wikidata}{%
-\subsection{Complex Portal and Wikidata}\label{complex-portal-and-wikidata}}
+Alongside the editing of cell-type information on Wikidata, I have joined different efforts to improve biological information on Wikidata.
+I have collaborated with the ComplexPortal curators, as part of the Virtual Elixir BioHackathon 2020 (https://github.com/virtual-biohackathons/covid-19-bh20/wiki) and for the following year, to build an Wikidata Bot to integrate information on protein complexes to Wikidata. An overview of the Wikidata integration is in Figure \ref{fig:complexportal}, presented in an article published in Nucleic Acid Research (re-use of the image and legend possible under the CC-BY license of the article). {[}\protect\hyperlink{ref-CQRJ53gu}{136}{]}
+\includegraphics{https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/PAP/10.1093_nar_gkab991/2/gkab991fig3.jpeg?Expires=1641821957\&Signature=RK-es18S~Qh6vGQE~61i6u4prMuij8kVTbrjN6WUJLfYHOAhUhx9qQorBxROohjLLxbHvZ2YK9e7EwlI9HjVeNoGZ2PJs0Pv78Y31MdZLY8FeLYI2E4azwrqRyv9q0AH8QL3RorWZV1AhOb9bl-44Mr97Q~9MWzeTDnQQbxpCnGLG~YoG49kocD5KE~dmTSQdkXBU7kZnuGM1NPqMHo5ZDUoCRFwmTbLvd4kXoH~6CTyqx4ruQRIO-ks4Q0FUjYnxGX18gCFvoO2LMPZUPrQjTgD35RrVAkLs91Ur6BQHUuZ-ZsE3Iag3mBDu27vT9Jr93bOj0i9wz~surTtEGATgw__\&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA}
 
-\hypertarget{wikiproject-elixir}{%
-\subsection{WikiProject ELIXIR}\label{wikiproject-elixir}}
+I have also collaborated with the Cellosaurus database {[}\protect\hyperlink{ref-1DguATd9G}{137}{]} to revive the CellosaurusBot {[}\protect\hyperlink{ref-lMQxhx3q}{138}{]}, responsible for updating the metadata on more than 100,000 cell lines on Wikidata. The bot code, written in Python, was completely refactored, and is run by me semi-automatically after the Cellosaurus database releases. A write-up of he integration is in progress, and is planned for release/submisson in the first semester of 2022.
 
 \hypertarget{systematic-reviews-and-publishing-of-intermediary-tables}{%
-\subsection{Systematic Reviews and publishing of intermediary tables}\label{systematic-reviews-and-publishing-of-intermediary-tables}}
+\subsubsection{Systematic Reviews and publishing of intermediary tables}\label{systematic-reviews-and-publishing-of-intermediary-tables}}
 
-\hypertarget{academic-curriculum}{%
-\section{Academic Curriculum}\label{academic-curriculum}}
+Finally, in a collaboration with Olavo Amaral and Kleber, from the Brazilian Reproducibility Initiative {[}\protect\hyperlink{ref-F2mYjDJ0}{139}{]} I wrote a commentary on the value of publishing intermediate datasets as citable products. {[}\protect\hyperlink{ref-HbZ13t8l}{140}/{]}
+The pieces discuss the value of small curations done both in systematic reviews and by experimentalists in the course of their research projects. Published curation tables can serve as a source for improving the ecosystem of open knowledge, not less by reconciliation to Wikidata (thereby bridging the commentary with this project)
 
-\hypertarget{university-course}{%
-\subsection{University course}\label{university-course}}
+\hypertarget{wisecube---enterprise-biomedical-question-and-answering}{%
+\subsubsection{WiseCube - enterprise biomedical question and answering}\label{wisecube---enterprise-biomedical-question-and-answering}}
+
+During a part of this project, I have worked part-time as a consultant for the Wisecube company, based in Seattle, United States. {[}\protect\hyperlink{ref-gdYsBE7d}{141}/{]}
+The job was approved by FAPESP, and consisted mainly in writing SPARQL queries that probe Wikidata for answers to the questions posed by the BioASQ competition. {[}\protect\hyperlink{ref-rkXotO9x}{142}{]}
+It also entails on-demand curation of biomedical topics on Wikidata based on requests by pharmaceutical companies as well as the development of dashboards targeted at providing insights to customers.
 
 \hypertarget{awards-and-participation-in-events}{%
-\subsection{Awards and Participation in events (?)}\label{awards-and-participation-in-events}}
+\subsection{Awards and participation in events}\label{awards-and-participation-in-events}}
+
+During the initial course of this PhD project, I have participated in several events:
 
 \begin{itemize}
 \tightlist
 \item
-  ISCB 2021
+  (Feb-2021) Presented an open talk at the ``Semana da Bioinformática'' event about modelling of biological systems (1020 views as of December 2021) {[}\protect\hyperlink{ref-1C9uHr1Zk}{143}, =VDvCxskIGEI{]}
 \item
-  BioHack EU 2021
+  (Jun-Aug 2021) Helped to organize the No-Budget-Science HackWeek virtual hackathon {[}\protect\hyperlink{ref-12LOzmXRs}{144}{]}
+\item
+  (Jul - 2021) Presented the work ``Wikidata for 5-star Linked Open Databases: A case study of PanglaoDB'' at the Bio-Ontologies section of the Annual International Conference on Intelligent Systems for Molecular Biology. {[}\protect\hyperlink{ref-SALI6Ywb}{145}{]}. The presentation was awarded the best
+\item
+  (Jul - 2021) Awarded the 2nd place in the International Society for Computational Biology (ISCB) Wikipedia Competition for the contributions to the Wikipedia page on Biocuration (\url{https://en.wikipedia.org/wiki/Biocuration}) {[}\protect\hyperlink{ref-IJG65hFm}{146}{]}
+\item
+  (Nov - 2021) Managed a project during BioHackathon Europe 2021, in Barcelona, Spain, on the representation of ELIXIR information on Wikidata. {[}\protect\hyperlink{ref-14Wi842eZ}{147}{]}
 \end{itemize}
+
+\hypertarget{course-work}{%
+\subsection{Course work}\label{course-work}}
+
+During the first year of the PhD program
 
 \hypertarget{references}{%
 \subsection{References}\label{references}}
@@ -1151,7 +1037,7 @@ Created 1395 cell classes
 
 \leavevmode\vadjust pre{\hypertarget{ref-xWhvkd3B}{}}%
 \CSLLeftMargin{22. }
-\CSLRightInline{\textbf{An estimation of the number of cells in the human body.}
+\CSLRightInline{\textbf{An estimation of the number of cells in the human body}
 \CSLBlock{Eva Bianconi, Allison Piovesan, Federica Facchin, Alina Beraudi, Raffaella Casadei, Flavia Frabetti, Lorenza Vitale, Maria Chiara Pelleri, Simone Tassani, Francesco Piva, \ldots{} Silvia Canaider} \emph{Annals of Human Biology} (2013-07-05) \url{https://www.wikidata.org/wiki/Q34037445}
 \CSLBlock{DOI: \href{https://doi.org/10.3109/03014460.2013.807878}{10.3109/03014460.2013.807878}}}
 
@@ -1753,6 +1639,71 @@ Created 1395 cell classes
 \leavevmode\vadjust pre{\hypertarget{ref-1HBVPtZGp}{}}%
 \CSLLeftMargin{134. }
 \CSLRightInline{\textbf{Come si fa una tesi di laurea} \url{https://www.wikidata.org/wiki/Q3684178}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-MxIeSJYt}{}}%
+\CSLLeftMargin{135. }
+\CSLRightInline{\textbf{fcoex: FCBF-based Co-Expression Networks for Single Cells}
+\CSLBlock{Tiago Lubiana, Helder Nakaya} \emph{Bioconductor version: Release (3.14)} (2021) \url{https://bioconductor.org/packages/fcoex/}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-CQRJ53gu}{}}%
+\CSLLeftMargin{136. }
+\CSLRightInline{\textbf{Complex Portal 2022: new curation frontiers}
+\CSLBlock{Birgit HM Meldal, Livia Perfetto, Colin Combe, Tiago Lubiana, João Vitor Ferreira~Cavalcante, Hema Bye-A-Jee, Andra Waagmeester, Noemi del-Toro, Anjali Shrivastava, Elisabeth Barrera, \ldots{} Sandra Orchard} \emph{Nucleic Acids Research} (2021-10-29) \url{https://www.wikidata.org/wiki/Q109348309}
+\CSLBlock{DOI: \href{https://doi.org/10.1093/nar/gkab991}{10.1093/nar/gkab991}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-1DguATd9G}{}}%
+\CSLLeftMargin{137. }
+\CSLRightInline{\textbf{The Cellosaurus, a cell-line knowledge resource.}
+\CSLBlock{Amos Bairoch} \emph{Journal of Biomolecular Techniques} (2018-05-01) \url{https://www.wikidata.org/wiki/Q54370168}
+\CSLBlock{DOI: \href{https://doi.org/10.7171/jbt.18-2902-002}{10.7171/jbt.18-2902-002}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-lMQxhx3q}{}}%
+\CSLLeftMargin{138. }
+\CSLRightInline{\textbf{User:CellosaurusBot - Wikidata} \url{https://www.wikidata.org/wiki/User:CellosaurusBot}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-F2mYjDJ0}{}}%
+\CSLLeftMargin{139. }
+\CSLRightInline{\textbf{The Brazilian Reproducibility Initiative}
+\CSLBlock{Ana P Wasilewska-Sampaio, Olavo Bohrer Amaral, Kleber Neves, Ana P Wasilewska-Sampaio, Clarissa FD Carneiro, Olavo Bohrer Amaral, Clarissa FD Carneiro} \emph{eLife} (2019-02-05) \url{https://www.wikidata.org/wiki/Q61799268}
+\CSLBlock{DOI: \href{https://doi.org/10.7554/elife.41602}{10.7554/elife.41602}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-HbZ13t8l}{}}%
+\CSLLeftMargin{140. }
+\CSLRightInline{\url{https://osf.io/preprints/metaarxiv/vbwa9}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-gdYsBE7d}{}}%
+\CSLLeftMargin{141. }
+\CSLRightInline{\textbf{Wisecube AI \textbar{} Knowledge Graph Engine} \url{https://www.wisecube.ai/}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-rkXotO9x}{}}%
+\CSLLeftMargin{142. }
+\CSLRightInline{\textbf{An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition}
+\CSLBlock{George Tsatsaronis, Georgios Balikas, Prodromos Malakasiotis, Ioannis Partalas, Matthias Zschunke, Michael R Alvers, Dirk Weissenborn, Anastasia Krithara, Sergios Petridis, Dimitris Polychronopoulos, \ldots{} Georgios Paliouras} \emph{BMC Bioinformatics} (2015-04-30) \url{https://www.wikidata.org/wiki/Q28646342}
+\CSLBlock{DOI: \href{https://doi.org/10.1186/s12859-015-0564-6}{10.1186/s12859-015-0564-6}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-1C9uHr1Zk}{}}%
+\CSLLeftMargin{143. }
+\CSLRightInline{\textbf{YouTube} \url{https://www.youtube.com/}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-12LOzmXRs}{}}%
+\CSLLeftMargin{144. }
+\CSLRightInline{\textbf{No Budget Science Hack Week}
+\CSLBlock{reprodutibilidade} \url{https://www.reprodutibilidade.bio.br/hack-week-2021}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-SALI6Ywb}{}}%
+\CSLLeftMargin{145. }
+\CSLRightInline{\textbf{Wikidata for 5-star Linked Open Databases: A case study of PanglaoDB}
+\CSLBlock{Tiago Lubiana, João Vitor Ferreira Cavalcante} \emph{Zenodo} (2021-12-01) \url{https://doi.org/gnpzvr}
+\CSLBlock{DOI: \href{https://doi.org/10.5281/zenodo.5747849}{10.5281/zenodo.5747849}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-IJG65hFm}{}}%
+\CSLLeftMargin{146. }
+\CSLRightInline{\textbf{Biocuration - Wikipedia} \url{https://en.wikipedia.org/wiki/Biocuration}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-14Wi842eZ}{}}%
+\CSLLeftMargin{147. }
+\CSLRightInline{\textbf{biohackathon-projects-2021/projects/32 at main · elixir-europe/biohackathon-projects-2021}
+\CSLBlock{GitHub} \url{https://github.com/elixir-europe/biohackathon-projects-2021}}
 
 \end{CSLReferences}
 
@@ -1884,7 +1835,7 @@ Created 1395 cell classes
 
 \leavevmode\vadjust pre{\hypertarget{ref-xWhvkd3B}{}}%
 \CSLLeftMargin{22. }
-\CSLRightInline{\textbf{An estimation of the number of cells in the human body.}
+\CSLRightInline{\textbf{An estimation of the number of cells in the human body}
 \CSLBlock{Eva Bianconi, Allison Piovesan, Federica Facchin, Alina Beraudi, Raffaella Casadei, Flavia Frabetti, Lorenza Vitale, Maria Chiara Pelleri, Simone Tassani, Francesco Piva, \ldots{} Silvia Canaider} \emph{Annals of Human Biology} (2013-07-05) \url{https://www.wikidata.org/wiki/Q34037445}
 \CSLBlock{DOI: \href{https://doi.org/10.3109/03014460.2013.807878}{10.3109/03014460.2013.807878}}}
 
@@ -2486,5 +2437,70 @@ Created 1395 cell classes
 \leavevmode\vadjust pre{\hypertarget{ref-1HBVPtZGp}{}}%
 \CSLLeftMargin{134. }
 \CSLRightInline{\textbf{Come si fa una tesi di laurea} \url{https://www.wikidata.org/wiki/Q3684178}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-MxIeSJYt}{}}%
+\CSLLeftMargin{135. }
+\CSLRightInline{\textbf{fcoex: FCBF-based Co-Expression Networks for Single Cells}
+\CSLBlock{Tiago Lubiana, Helder Nakaya} \emph{Bioconductor version: Release (3.14)} (2021) \url{https://bioconductor.org/packages/fcoex/}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-CQRJ53gu}{}}%
+\CSLLeftMargin{136. }
+\CSLRightInline{\textbf{Complex Portal 2022: new curation frontiers}
+\CSLBlock{Birgit HM Meldal, Livia Perfetto, Colin Combe, Tiago Lubiana, João Vitor Ferreira~Cavalcante, Hema Bye-A-Jee, Andra Waagmeester, Noemi del-Toro, Anjali Shrivastava, Elisabeth Barrera, \ldots{} Sandra Orchard} \emph{Nucleic Acids Research} (2021-10-29) \url{https://www.wikidata.org/wiki/Q109348309}
+\CSLBlock{DOI: \href{https://doi.org/10.1093/nar/gkab991}{10.1093/nar/gkab991}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-1DguATd9G}{}}%
+\CSLLeftMargin{137. }
+\CSLRightInline{\textbf{The Cellosaurus, a cell-line knowledge resource.}
+\CSLBlock{Amos Bairoch} \emph{Journal of Biomolecular Techniques} (2018-05-01) \url{https://www.wikidata.org/wiki/Q54370168}
+\CSLBlock{DOI: \href{https://doi.org/10.7171/jbt.18-2902-002}{10.7171/jbt.18-2902-002}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-lMQxhx3q}{}}%
+\CSLLeftMargin{138. }
+\CSLRightInline{\textbf{User:CellosaurusBot - Wikidata} \url{https://www.wikidata.org/wiki/User:CellosaurusBot}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-F2mYjDJ0}{}}%
+\CSLLeftMargin{139. }
+\CSLRightInline{\textbf{The Brazilian Reproducibility Initiative}
+\CSLBlock{Ana P Wasilewska-Sampaio, Olavo Bohrer Amaral, Kleber Neves, Ana P Wasilewska-Sampaio, Clarissa FD Carneiro, Olavo Bohrer Amaral, Clarissa FD Carneiro} \emph{eLife} (2019-02-05) \url{https://www.wikidata.org/wiki/Q61799268}
+\CSLBlock{DOI: \href{https://doi.org/10.7554/elife.41602}{10.7554/elife.41602}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-HbZ13t8l}{}}%
+\CSLLeftMargin{140. }
+\CSLRightInline{\url{https://osf.io/preprints/metaarxiv/vbwa9}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-gdYsBE7d}{}}%
+\CSLLeftMargin{141. }
+\CSLRightInline{\textbf{Wisecube AI \textbar{} Knowledge Graph Engine} \url{https://www.wisecube.ai/}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-rkXotO9x}{}}%
+\CSLLeftMargin{142. }
+\CSLRightInline{\textbf{An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition}
+\CSLBlock{George Tsatsaronis, Georgios Balikas, Prodromos Malakasiotis, Ioannis Partalas, Matthias Zschunke, Michael R Alvers, Dirk Weissenborn, Anastasia Krithara, Sergios Petridis, Dimitris Polychronopoulos, \ldots{} Georgios Paliouras} \emph{BMC Bioinformatics} (2015-04-30) \url{https://www.wikidata.org/wiki/Q28646342}
+\CSLBlock{DOI: \href{https://doi.org/10.1186/s12859-015-0564-6}{10.1186/s12859-015-0564-6}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-1C9uHr1Zk}{}}%
+\CSLLeftMargin{143. }
+\CSLRightInline{\textbf{YouTube} \url{https://www.youtube.com/}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-12LOzmXRs}{}}%
+\CSLLeftMargin{144. }
+\CSLRightInline{\textbf{No Budget Science Hack Week}
+\CSLBlock{reprodutibilidade} \url{https://www.reprodutibilidade.bio.br/hack-week-2021}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-SALI6Ywb}{}}%
+\CSLLeftMargin{145. }
+\CSLRightInline{\textbf{Wikidata for 5-star Linked Open Databases: A case study of PanglaoDB}
+\CSLBlock{Tiago Lubiana, João Vitor Ferreira Cavalcante} \emph{Zenodo} (2021-12-01) \url{https://doi.org/gnpzvr}
+\CSLBlock{DOI: \href{https://doi.org/10.5281/zenodo.5747849}{10.5281/zenodo.5747849}}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-IJG65hFm}{}}%
+\CSLLeftMargin{146. }
+\CSLRightInline{\textbf{Biocuration - Wikipedia} \url{https://en.wikipedia.org/wiki/Biocuration}}
+
+\leavevmode\vadjust pre{\hypertarget{ref-14Wi842eZ}{}}%
+\CSLLeftMargin{147. }
+\CSLRightInline{\textbf{biohackathon-projects-2021/projects/32 at main · elixir-europe/biohackathon-projects-2021}
+\CSLBlock{GitHub} \url{https://github.com/elixir-europe/biohackathon-projects-2021}}
 
 \end{CSLReferences}
