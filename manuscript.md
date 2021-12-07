@@ -6,7 +6,7 @@ keywords:
 - ontology
 - Cell Ontology
 lang: en-US
-date-meta: '2021-12-06'
+date-meta: '2021-12-07'
 author-meta:
 - Tiago Lubiana
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-06" />
-  <meta name="citation_publication_date" content="2021-12-06" />
+  <meta name="dc.date" content="2021-12-07" />
+  <meta name="citation_publication_date" content="2021-12-07" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/856180b09ff9ec0998a2a1d9e24bc3364473fbc9/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/856180b09ff9ec0998a2a1d9e24bc3364473fbc9/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/856180b09ff9ec0998a2a1d9e24bc3364473fbc9/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/856180b09ff9ec0998a2a1d9e24bc3364473fbc9/))
+([permalink](https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/))
 was automatically generated
-from [lubianat/quali_phd@856180b](https://github.com/lubianat/quali_phd/tree/856180b09ff9ec0998a2a1d9e24bc3364473fbc9)
-on December 6, 2021.
+from [lubianat/quali_phd@e6cf449](https://github.com/lubianat/quali_phd/tree/e6cf449283aa647015cb56637d7c2de7d9f53a02)
+on December 7, 2021.
 </em></small>
 
 ## Authors
@@ -92,17 +92,45 @@ The Human Cell Atlas (HCA) is an international effort aiming at characterizing e
 By the virtue of tecniques such as single-cell RNA sequencing, mass cytometry, and multiplexed in situ hybridization, HCA members are producing cell-level data from virtually all human tissues. 
 This wealth of data can have a significant impact on biomedical research, but only if its content is genuinely interoperable.
 While ontologies and semantic technologies have emerged as key players in the data interoperability ecosystem, there are still gaps to cover between the technical possibilities and the practical applications in biomedical research.
-Wikidata is a knowledge graph database emerging as a FAIR (Findable, Accessible, Interoperable and Reusable) repository for biological knowledge. 
-The formatting and deployment of information from the Human Cell Atlas to Wikidata can increase information availability and impact, by inserting the findings in a network containing multiple associations of concepts of all areas of knowledge (within and outside science). 
-Conceptually defining cell types in a general and applicable concept, formalized into a database-compatible format, is a massive theoretical challenge. 
-This PhD project aims at studying our current understanding of cell types for development a comprehensive ontological model in Wikidata for cell types. 
-We will review the single-cell literature, refining and formalizing concepts for cell type delimitation. Furthermore, we will use Natural Language Processing and Machine Learning tools to automate knowledge extraction from scientific articles in the scope of the Human Cell Atlas. 
-In an advanced step, we will apply concepts of network theory to develop tools for user-friendly querying of the database, making the knowledge ready for the academic community. 
+In addition to ontologies, like the Cell Ontology and the Gene Ontology, large-scale knowledge graphs are growing as a tool for knowledge makanagement. 
+Among those, Wikidata, a sister project of Wikipedia for structured data, is surfacing as a hub in the semantic web for multiple types of information. 
+The formatting and deployment of information from the Human Cell Atlas to Wikidata can increase information availability and impact, conecting the scientific products with the larger knowledge ecosystem.
+This PhD project aims at studying Wikidata as a platfomr for representing cell types, adressing theoretical and pratical concerns.  
+We are reviewing the literature on cell types, refining and formalizing concepts for cell type delimitation.
+At the same time, we are enriching Wikidata with new classes curated from the literature, and with large scale integrations of biomedical databases (e.g. PanglaoDB) into the Wikidata infrastructure.
+To aid that effort, we are developing Wikidata Bib, a framework for literature management and organized note-taking and recording system for reading the academic literature with high efficiency. 
+Finally, we plan to improve the interplay of Wikidata, the Cell Ontology and software used for single-cell RNA-seq data, inserting Wikidata _de facto_ as a tool for the Human Cell Atlas community. 
 
-# Introduction
+# Preface
+
+Here we present an overview of the different chapters that compose this document, presented as the text for a qualifying exam.  
+This work is concerned with the conceptual modelling of knowledge about cell types. 
+The introduction contains an overview of the Human Cell Atlas project, and the current state of classification of cells into types. 
+Then, it proceeds to introduce ontologies and knowledge graphs as tools for connecting what we know about cells. 
+
+The methodology section is an overview of the core methods used throughout the work. 
+However, as the project contains elements from different scientific traditions, the results chapters might also display particular methods used in the specific branch of the project. 
+
+It is worth noticing that the different results shown were not developed chronologically in the order shown. 
+They were actually developed in parallel, with overlapping periods of activity. 
+They have been organized into separate chapters, however, as they tackle different perspectives of the subject matter, and are part of different publications. 
+
+The discussion on the concept of cell type is presented first, as it is instrumental for the later steps. 
+It is followed by an account of how PanglaoDB, a database of cell markers, was integrated to Wikidata, based on a notion of species-specific cell type clarified in the preceding chapter. 
+
+Then, we present Wikidata Bib, a framework for organized reading of the literature. 
+The framework, althoug used as a method throughout the PhD project, is presented in the results session.
+This emphasis as a result was chosen as the technical and theoretical details of the system are part of the intelectual work put into the project. 
+The system evolved into a biocuration platform for the collection of cell types from the literature to Wikidata, and the statistics on this curation are also presented on the section. 
+
+To end the results, we discuss how our efforts integrate with the Cell Ontology, the currently leading system for organizing cell types. 
+
+Finally, an account of other academic aspects of the project are presented, as part of the qualification requirements. 
+They present an overview of collaborations, participation in events and academic courses taken during the first part of the PhD project. 
 
 
-# Introduction
+
+# Background
 
 <!-- 1.4. The challenges of the Human Cell Atlas -->
 ## The Human Cell Atlas (HCA) Project
@@ -206,61 +234,6 @@ In conclusion, the advancement of our _formal_ classification of cell types, suc
 While purely theoretical developments have their value, refining the cell type theory in the context of knowledge management arguably will have a influence direcly on how the products of the Human Cell Atlas will impact modern science. 
 One reason is that formal systems enable automation of knowledge integration, and can feed intelligent systems that aid current research practices. 
 In the following chapter, it will be discussed how computer-based knowledge processing can influence life-sciences research, as well as discuss techniques and platforms to advance the frontier. 
-
-
-## Literature Based Discovery
- <!-- - 1.1. The quest for interoperable knowledge -->
-The amount of scholar information vastly outnumbers what single researchers can fathom. 
-Nevertheless, the gap between single individuals and the collectively body of knowledge has been widening in 
-an accelerated fashion.
-The explosion in the number of published articles is leading to a "tsunami of knowlegde",
-flooding the scientific literature with rich information. 
-That trend became spacially clear during the COVID-19 pandemic, when the huge amount of research published made keeping up with the literature pratically impossible. [@url:https://www.science.org/news/2020/05/scientists-are-drowning-covid-19-papers-can-new-tools-keep-them-afloat @url:https://www.nature.com/articles/d41586-020-03564-y] 
-At the same time, articles themselves are becoming denser, as high-throughput (and high-information) technologies
-like single-cell RNA-sequencing get cheaper and widely used. 
-In practice, thus, too much of the knowledge generated remains unseen by any individual researcher, limiting the reach of science in general.  
-
- <!-- - 1.1. The quest for interoperable knowledge -->
- <!-- - 1.2.3. Web of Data and Linked Open Data -->
-The technological advances, however, are no yet met by equivalent knowledge-handling systems.
-Mainstream scientific publication is, nowadays, barely readable by machines.
-Articles are written for human consumption, using ambiguous natural language and relying on implicit conventions. 
-Tables and data rarely make use of technical standars, such as employing URIs (Uniform Resource Identifiers or encoding information in RDF formats. 
-In fact, those standards and their acronyms are foreign for most life scientists (personal observations), despite
-being the _de jure_ gold standard for data quality. [@url:https://5stardata.info/en/]
-Interconnecting biomedical knowledge is an open challenge of our century, and there is a large way to go
-before society can fully benefit from the sum of all knowledge we generate. 
-
-<!--- 1.1.1. Literature Based Discovery, hidden knowledge and text-mining -->
-The scientific community has pursue solutions for this tsunami of information from many different angles. 
-Narrative reviews, systematic reviews and textbooks compile and synthetize information, providing a layer of processing. 
-Biocuration efforts go a step further and transform unstructured information into structured information
-in knowledgebases, such as UniProt [@wikidata:Q102383737] and PDB. 
-Text-mining apply a range of Natural Language Processing tools to try and extract biological relations,
-or provide guidance for biocurators. 
-Elaborate knowlegde networks, like the STRING database [@wikidata:Q102383784] and Wikidata[@wikidata:Q87830400], 
-combine information from different sources. 
-
-<!-- - 1.1.1.1. Literature Based Discovery (explicitly) --->
-
-The synthesis effort of literature mining is not only an exhibition of the scientific claims in the literature.
-Interconnected knowledge provides a way to discover new, implicit knowledge, by applying logical reasoning to a dataset. 
-A field denominated Literature Based Discovery [@url:https://en.wikipedia.org/wiki/Literature-based_discovery] dedicates itself to this challenge: make actual discoveries (or at least very strong hypothesis) using as material plainly the existing literature. [@wikidata:Q38371706]
-The textbook example of Literature Based Discovery is described by Don Swanson's ABC model: If A is related do B, and B is related to C, then A and C are indirectly related [@wikidata:Q36280460].
-In a seminal paper, Swanson showed an hypothesis about using fish oil (A) to treat Raynauld's disease (C), demonstrating that even though the specialized fish-oil (A) literature had shown its association (AB) with a set of blood parameters (B), and the specialized Raynauld's disease literature had show its association (BC) with the same set of parameters (B), the AC link was never made in the literature, despite its seeming obviousness [@wikidata:Q36280460]
-
-<!--- 1.1.1. Literature Based Discovery, hidden knowledge and text-mining -->
-
-Modern advancements of literature-based discovery rely on Natural Language Processing, Machine Learning and Knowledge graphs to make inferences on literature knowledge.
-Word embeddings, for example, are leading inference of properties of compounds based on their shared neighbourhood of words (the words before and after their mentiongs) with known compounds, thus making use of latent knowledge in the body of knowledge. [@wikidata:Q91595456]
-Other, more explicit approaches, rely on extracted relations embedded in knowledge graphs. As an example, the discovery of new RNA-binding proteins related to Amyotrophic Lateral Sclerosis by analysis of the Watson Drug Discovery gene-disease network. [@wikidata:Q47406275]
-
-Knowledge graphs have a set of characteristics that make then useful for Literature Based Discovery: they represent multiple relations, allow inferences on top of those relations, and provide human understandability at every step, allowing for a dialog between expert humans and computing systems.
-The field of biomedical ontologies explores that direction in depth, and the community is building many solutions, widely applicable for the biomedical sciences.
-
-For the Human Cell Atlas Project (as presented in the chapter <!-- 1.4. The challenges of the Human Cell Atlas -->) to maximize its benefit for society, it is arguably important that its knowledge products are inserted into the main route of automated knowledge discovery . 
-That implies a task of building knowledge graphs able to deal with it at all layers, including the generated data and metadata, its range of different protocols, and the purified knowledge projects that are enshrined in publications.
-Thus, the chapter <!-- - 1.2. Formal representation of knowledge and - 1.3. Knowledge Representation in biology -->  will present challenges and paths for applying literature based discovery on a large scale and with sufficient flexibility to deal with the Human Cell Atlas. 
 
 
 ## Ontologies
@@ -681,33 +654,6 @@ Nevertheless, the differences among the articles in style and scope contribute t
 The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]) (if proper authorization are given by the owners).
 The approach we took here can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format.
 
-## Wikidata and the Cell Ontology interplay
-
-The contributions to cell types on Wikidata will be of most value if they are integrated to the current state-of-art of knowledge representation. 
-Arguably, the Cell Ontology is the current leading source of cell type identifiers in the context of the Human Cell Atlas project.[@wikidata:Q109755180]
-Thus, it is crucial that data about cell types on Wikidata is connected to the Cell Ontology. 
-
-To start the improvement in the interplay of both databases, we proposed and got approval of a specific Wikidata identifier for the Cell Ontology, the "Cell Ontology ID" (<https://www.wikidata.org/wiki/Property:P7963>).
-IDs can be added to Wikidata entities and connect them to external databases enabling integrative SPARQL queries. 
-Besides using the common Wikidata interface, one can crowd-curate identifiers via 3rd-party service, Mix'N'Match, which provides an user-friendly framework for connecting idenfier catalogs to Wikidata. [@url:http://magnusmanske.de/wordpress/?p=114], as seen in Figure @fig:mixn_match_cl. 
-Logically, we created a Mix'N'Match catalog for harmonizing Cell Ontology IDs to Wikidata (<https://mix-n-match.toolforge.org/#/catalog/4719>), harnessing the community support for the task. 
-
-![Mix'N'Match curation system](https://pointstodots.files.wordpress.com/2021/09/image-17.png){#fig:mixnmatch_cl width="85%"}
-
-As of early December 2021, more than 700 Cell Ontology IDs have been manually matched to Wikidata. 
-The integration already enables queries that harness the previously existing information on Wikidata for Cell Ontology - based applications. 
-For example, one can query Wikidata items that have (1) a crossref to a CL ID (2) a picture in Wikimedia Commons (<https://w.wiki/4F6e>, Figure @fig:cl_images). 
-The different possibilities of mutual benefit between the Cell Ontology and Wikidata will continue to be explored in the next years of this PhD project. 
-
-![Entries on Wikidata with a depicting image and a Cell Ontology ID](https://user-images.githubusercontent.com/7917951/137942026-7645f368-d62a-4434-be05-083555cf0757.png) {#fig:cl_images width="85%"}
-
-
-
-
-
-
-
-
 ## Wikidata Bib and a professional system for biocuration
 
 ### Introduction 
@@ -786,6 +732,33 @@ Created 1395 cell classes
 
 
 
+## Wikidata and the Cell Ontology interplay
+
+The contributions to cell types on Wikidata will be of most value if they are integrated to the current state-of-art of knowledge representation. 
+Arguably, the Cell Ontology is the current leading source of cell type identifiers in the context of the Human Cell Atlas project.[@wikidata:Q109755180]
+Thus, it is crucial that data about cell types on Wikidata is connected to the Cell Ontology. 
+
+To start the improvement in the interplay of both databases, we proposed and got approval of a specific Wikidata identifier for the Cell Ontology, the "Cell Ontology ID" (<https://www.wikidata.org/wiki/Property:P7963>).
+IDs can be added to Wikidata entities and connect them to external databases enabling integrative SPARQL queries. 
+Besides using the common Wikidata interface, one can crowd-curate identifiers via 3rd-party service, Mix'N'Match, which provides an user-friendly framework for connecting idenfier catalogs to Wikidata. [@url:http://magnusmanske.de/wordpress/?p=114], as seen in Figure @fig:mixn_match_cl. 
+Logically, we created a Mix'N'Match catalog for harmonizing Cell Ontology IDs to Wikidata (<https://mix-n-match.toolforge.org/#/catalog/4719>), harnessing the community support for the task. 
+
+![Mix'N'Match curation system](https://pointstodots.files.wordpress.com/2021/09/image-17.png){#fig:mixnmatch_cl width="85%"}
+
+As of early December 2021, more than 700 Cell Ontology IDs have been manually matched to Wikidata. 
+The integration already enables queries that harness the previously existing information on Wikidata for Cell Ontology - based applications. 
+For example, one can query Wikidata items that have (1) a crossref to a CL ID (2) a picture in Wikimedia Commons (<https://w.wiki/4F6e>, Figure @fig:cl_images). 
+The different possibilities of mutual benefit between the Cell Ontology and Wikidata will continue to be explored in the next years of this PhD project. 
+
+![Entries on Wikidata with a depicting image and a Cell Ontology ID](https://user-images.githubusercontent.com/7917951/137942026-7645f368-d62a-4434-be05-083555cf0757.png) {#fig:cl_images width="85%"}
+
+
+
+
+
+
+
+
 # Final considerations and next steps
 
 To sum up, this PhD research project aims at improving knowledge representation in the context of the Human Cell Atlas. 
@@ -838,12 +811,6 @@ During the initial course of this PhD project, I have participated in several ev
 ## Course work
 
 During the first year of the PhD program
-
-## References {.page_break_before}
-
-<!-- Explicitly insert bibliography here -->
-<div id="refs"></div>
-
 
 ## References {.page_break_before}
 
