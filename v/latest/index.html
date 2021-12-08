@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Tiago Lubiana" />
-  <meta name="dcterms.date" content="2021-12-07" />
+  <meta name="dcterms.date" content="2021-12-08" />
   <meta name="keywords" content="Wikidata, Human Cell Atlas, ontology, Cell Ontology" />
   <title>Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas</title>
   <style>
@@ -15,6 +15,69 @@
     div.column{display: inline-block; vertical-align: top; width: 50%;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
     div.csl-bib-body { }
     div.csl-entry {
       clear: both;
@@ -47,8 +110,8 @@
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-07" />
-  <meta name="citation_publication_date" content="2021-12-07" />
+  <meta name="dc.date" content="2021-12-08" />
+  <meta name="citation_publication_date" content="2021-12-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -66,9 +129,9 @@
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -82,10 +145,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/">permalink</a>)
+(<a href="https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/lubianat/quali_phd/tree/e6cf449283aa647015cb56637d7c2de7d9f53a02">lubianat/quali_phd@e6cf449</a>
-on December 7, 2021.
+from <a href="https://github.com/lubianat/quali_phd/tree/b7d3fd0aa464eb239683d617aa20c9cb1a738276">lubianat/quali_phd@b7d3fd0</a>
+on December 8, 2021.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -429,20 +492,20 @@ The notion is time-agnostic (i.e. it is not concerned if their objects <em>exis
 </ul>
 <h2 class="page_break_before" id="panglaodb-integration-to-wikidata">PanglaoDB integration to Wikidata</h2>
 <h3 id="introduction">Introduction</h3>
-<p>The process of making the Human Cell Atlas more useful via Wikidata also includes the connection of related databases.</p>
-<p>PanglaoDB <span class="citation" data-cites="M0lqRYJb">[<a href="#ref-M0lqRYJb" role="doc-biblioref">115</a>]</span> <span class="citation" data-cites="T3PlZ3Vh">[<a href="#ref-T3PlZ3Vh" role="doc-biblioref">116</a>]</span> is a publically-available database that contains data and metadata on hundreds of single-cell RNA sequencing experiments.
+<p>The process of making the Human Cell Atlas more useful via Wikidata also includes the connection of related databases.
+PanglaoDB <span class="citation" data-cites="M0lqRYJb">[<a href="#ref-M0lqRYJb" role="doc-biblioref">115</a>]</span> <span class="citation" data-cites="T3PlZ3Vh">[<a href="#ref-T3PlZ3Vh" role="doc-biblioref">116</a>]</span> is a publically-available database that contains data and metadata on hundreds of single-cell RNA sequencing experiments.
 It provides extensive information on cell types, genes, and tissues and cell type markers, obtained both via automatic and manual methods.
 It also displays a rich web user interface for easy data acquisition, including database dumps for bulk downloads.</p>
-<p>As of 17 June 2021, the article describing PanglaoDB had been cited 147 times.
+<p>As of 8 December June 2021, the article describing PanglaoDB had been cited 230 times.
 Despite its use by the community, the database is on a 3-star category for Linked Open Data <span class="citation" data-cites="OGXYtGZ8">[<a href="#ref-OGXYtGZ8" role="doc-biblioref">117</a>]</span> as it does not use the open semantic standards from W3C (RDF and SPARQL) needed for a 4-star rank, neither the links to external data via standard identifiers that make datasets 5-star.
 Improving the data format toward W3C’s gold standards is a valuable step in making biological knowledge FAIR (Findable, Accessible, Interoperable, and Reusable).
 Thus, we aimed to provide a case study of making the core information of PandlaoDB available in a 5-star Linked Open Data Format while improving the modeling of the necessary concepts on Wikidata.</p>
 <p>As of August 2020, Wikidata had 264 items being categorized as a “cell type”, considerably less than in specialized cell catalogs, which count over two thousand cell types <span class="citation" data-cites="4AEy2xhQ agnqfdk6">[<a href="#ref-agnqfdk6" role="doc-biblioref">45</a>,<a href="#ref-4AEy2xhQ" role="doc-biblioref">118</a>]</span>.
-Strikingly, there were also 23 items categorized as “instances of cell (Q7868)” . This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual.</p>
+Strikingly, there were also 23 items categorized as “instances of cell (Q7868)”. This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual, an example of conceptual disarray that often occurs on Wikidata. <span class="citation" data-cites="imSZTi52">[<a href="#ref-imSZTi52" role="doc-biblioref">119</a>]</span></p>
 <p>Wikidata editors often mix first-order classes such as “cells” and “organs” with second-order classes like “cell types” and “organ types” (Supplementary Information). First-order classes point to real-world individuals, like the “Dolly sheep zygote” (a real-world “cell”) and the “brain of Albert Einstein” (a real-world “organ”). Second-order classes point to classes, like “zygote” (a conceptual “cell type”) and “brain” (a conceptual “organ type”).</p>
 <p>We diligently fixed and improved information on cell types on Wikidata.
-As of 17 June 2021, the Wikidata database contains 2102 instances of “cell type” (see current status at <a href="https://w.wiki/b2t" class="uri">https://w.wiki/b2t</a>) and 0 instances of “cell” (<a href="https://w.wiki/b2q" class="uri">https://w.wiki/b2q</a>) highlighting the improvements in both quantity and quality.</p>
-<h3 id="methodology-1">Methodology</h3>
+As of 8 December 2021, the Wikidata database contains 2834 instances of “cell type” (see current status at <a href="https://w.wiki/b2t" class="uri">https://w.wiki/b2t</a>) and 0 instances of “cell” (<a href="https://w.wiki/4XAg" class="uri">https://w.wiki/4XAg</a>) highlighting the improvements in both quantity and quality.</p>
+<h3 id="methodology-for-panglaodb-integration">Methodology for PanglaoDB integration</h3>
 <p>After obtaining approval from the owners of the database, we matched genes and cell types to Wikidata, and performed Wikidata queries to demonstrate the value of the approach. An overview of the process is shown in ??.
 <img src="https://github.com/lubianat/fapesp_report_1/blob/main/content/images/poster_ISCB_intro.png?raw=true" id="fig:iscb_intro" style="width:85.0%" alt="Wikidata SPARQL queries bring to light hidden biomedical knowledge" /></p>
 <h3 id="class-creation-on-wikidata">Class creation on Wikidata</h3>
@@ -456,20 +519,19 @@ Our approach was analogous to the one taken by the CELDA ontology to create spec
 The reconciled dataset was uploaded to Wikidata via the WikidataIntegrator Python package <span class="citation" data-cites="qDI8I4IJ">[<a href="#ref-qDI8I4IJ" role="doc-biblioref">87</a>]</span>, a wrapper for the Wikidata Application Programming Interface.</p>
 <h4 id="sparql-queries">SPARQL queries</h4>
 <p>Besides the Wikidata Dumps, Wikidata provides an SPARQL endpoint with a Graphical User Interface (<a href="https://query.wikidata.org/" class="uri">https://query.wikidata.org/</a>).
-Updated data was immediately accessible via this endpoint, enabling integrative queries integrated with other database statements.
-### Results</p>
+Updated data was immediately accessible via this endpoint, enabling integrative queries integrated with other database statements.</p>
+<h3 id="results">Results</h3>
 <h4 id="cell-marker-information-on-wikidata">Cell Marker information on Wikidata</h4>
 <p>Adding marker information on Wikidata was not possible before this study and became possible after we proposed and got community approval of the property “has marker” (P8872).
 Figure <a href="#fig:chat_marker">5</a> shows 2 of the current markers of “human colinergic neuron”(<a href="http://www.wikidata.org/entity/Q101405051">Q101405051</a>), <a href="http://www.wikidata.org/entity/Q14863671">CHAT</a> and <a href="http://www.wikidata.org/entity/Q407983">ACHE</a>, as they are seen on Wikidata.
 The PanglaoDB is referenced both via URL to the website (<a href="https://panglaodb.se/markers.html" class="uri">https://panglaodb.se/markers.html</a>) and a pointer to the PanglaoDB item on Wikidata, <a href="http://www.wikidata.org/entity/Q99936939">Q99936939</a>.</p>
 <div id="fig:chat_marker" class="fignos">
 <figure>
-<img src="https://github.com/lubianat/fapesp_report_1/blob/main/content/images/chat_marker.png?raw=true" style="width:85.0%" alt="Figure 5: Subset of the marker genes for item Q101405051 (human cholinergic neuron )" /><figcaption aria-hidden="true"><span>Figure 5:</span> Subset of the marker genes for item Q101405051 (human cholinergic neuron )</figcaption>
+<img src="https://github.com/lubianat/fapesp_report_1/blob/main/content/images/chat_marker.png?raw=true" style="width:85.0%" alt="Figure 5: Subset of the marker genes for item Q101405051 (human cholinergic neuron)" /><figcaption aria-hidden="true"><span>Figure 5:</span> Subset of the marker genes for item Q101405051 (human cholinergic neuron)</figcaption>
 </figure>
 </div>
-<p>Now that we re-formatted the markers on PanglaoDB as Linked Open Data, we can make queries that were not possible before, including
-federated queries with other biological databases, such as Uniprot <span class="citation" data-cites="HUJ9NzAb">[<a href="#ref-HUJ9NzAb" role="doc-biblioref">119</a>]</span>
-and Wikipathways <span class="citation" data-cites="AgOOCR24">[<a href="#ref-AgOOCR24" role="doc-biblioref">120</a>]</span>.
+<p>Now that we re-formatted the markers on PanglaoDB as Linked Open Data, we can make queries that were not possible before, includingfederated queries with other biological databases, such as Uniprot <span class="citation" data-cites="HUJ9NzAb">[<a href="#ref-HUJ9NzAb" role="doc-biblioref">120</a>]</span>
+and Wikipathways <span class="citation" data-cites="AgOOCR24">[<a href="#ref-AgOOCR24" role="doc-biblioref">121</a>]</span>.
 Due to previous similar reconciliation projects, Wikidata already contains information about genes, including their relations to Gene Ontology (GO) terms.</p>
 <p>PanglaoDB’s integration to the Wikidata ecosystem allows us to ask a variety of questions (figure <a href="#fig:iscb_results">6</a>).</p>
 <div id="fig:iscb_results" class="fignos">
@@ -585,60 +647,220 @@ Based on the theoretical considerations on the concept of cell type, we added sp
 It is not first case study of biomedical data integration to Wikidata (see <span class="citation" data-cites="mPoPwN77">[<a href="#ref-mPoPwN77" role="doc-biblioref">103</a>]</span> for example.
 Nevertheless, the differences among the articles in style and scope contribute to a richer ecosystem for possible contributor.
 ])
-The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker <span class="citation" data-cites="chGii6yw">[<a href="#ref-chGii6yw" role="doc-biblioref">43</a>]</span>, labome <span class="citation" data-cites="rhRRCtlA">[<a href="#ref-rhRRCtlA" role="doc-biblioref">121</a>]</span>, CellFinder <span class="citation" data-cites="4AEy2xhQ">[<a href="#ref-4AEy2xhQ" role="doc-biblioref">118</a>]</span> and SHOGoiN/CELLPEDIA <span class="citation" data-cites="6uWWsiSq">[<a href="#ref-6uWWsiSq" role="doc-biblioref">122</a>/]</span>) (if proper authorization are given by the owners).
+The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker <span class="citation" data-cites="chGii6yw">[<a href="#ref-chGii6yw" role="doc-biblioref">43</a>]</span>, labome <span class="citation" data-cites="rhRRCtlA">[<a href="#ref-rhRRCtlA" role="doc-biblioref">122</a>]</span>, CellFinder <span class="citation" data-cites="4AEy2xhQ">[<a href="#ref-4AEy2xhQ" role="doc-biblioref">118</a>]</span> and SHOGoiN/CELLPEDIA <span class="citation" data-cites="6uWWsiSq">[<a href="#ref-6uWWsiSq" role="doc-biblioref">123</a>/]</span>) (if proper authorization are given by the owners).
 The approach we took here can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format.</p>
 <h2 id="wikidata-bib-and-a-professional-system-for-biocuration">Wikidata Bib and a professional system for biocuration</h2>
 <h3 id="introduction-1">Introduction</h3>
-<ul>
-<li><p>Accountants have Double-entry bookkeeping (https://en.wikipedia.org/wiki/Double-entry_bookkeeping), software developers have Test-driven development (https://en.wikipedia.org/wiki/Test-driven_development).</p></li>
-<li><p>Develop a professional way for coverage of large-scale revisions, inspired by Umberto Eco’s How to Write a Thesis <span class="citation" data-cites="1HBVPtZGp">[<a href="#ref-1HBVPtZGp" role="doc-biblioref">123</a>]</span> adapted to the digital environment, using version-control and semantic links.</p></li>
-<li><p>Connect the reading framework with a Biocuration strategy to feed knowledge to Wikidata</p></li>
-</ul>
+<p>Reading scientific articles is an integral part of the routine of modern scientists.
+Although a number of literature/reference management software are available <span class="citation" data-cites="wikidata:https://en.wikipedia.org/wiki/Comparison_of_reference_management_software">[<a href="#ref-wikidata:https://en.wikipedia.org/wiki/Comparison_of_reference_management_software" role="doc-biblioref"><strong>wikidata:https://en.wikipedia.org/wiki/Comparison_of_reference_management_software?</strong></a>]</span>, the process of reading is largely artisanal.
+There are no standard guidelines on how to probe the literature organize notes for biomedical researchers.
+Thus, while reading and studying is a core activity, there are few (if any) protocols for efficient screening of scientific articles.</p>
+<p>Other professional traditions have dealt with similar issues in the past.
+In the field of accounting, note-taking is of outstanding importance, to keep track of financial balances and avoid costly problems.
+Double-entry bookkeeping was developed in the 13th century as a professional solution for note-taking in accounting where “every entry to an account requires a corresponding and opposite entry to a different account.” <span class="citation" data-cites="uYuz0opI">[<a href="#ref-uYuz0opI" role="doc-biblioref">20</a>, =Double-entry_bookkeeping&amp;oldid=1055066428]</span>
+In software development, Test-Driven Development (TDD) is a popular methodology where tests for code snippets are written before the code itself, therefore ensuring that written software passes minimum quality standards.
+The similarities of Double-entry bookkeeping and TDD are diverse <span class="citation" data-cites="wikidata:https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html">[<a href="#ref-wikidata:https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html" role="doc-biblioref"><strong>wikidata:https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html?</strong></a>]</span>, but for our purpose here suffices to see both as professionalized systems that promote better quality and accountability of works.</p>
+<p>In the humanities, there is a well-established practice of annotations of readings.
+The annotation skills are part of common academic training in the humanities <span class="citation" data-cites="rPKBwmYh">[<a href="#ref-rPKBwmYh" role="doc-biblioref">124</a>/]</span><span class="citation" data-cites="PKhuVRW8">[<a href="#ref-PKhuVRW8" role="doc-biblioref">125</a>_da26C-QW5qiS7uZ]</span>.
+An influential work in presenting methods for academic reading in the humanities is Umberto Eco’s book “How to Write a Thesis” <span class="citation" data-cites="1HBVPtZGp">[<a href="#ref-1HBVPtZGp" role="doc-biblioref">126</a>]</span>, which outlines not only <em>how</em> to annotate the literature that basis an academic thesis, but also <em>why</em> to do so.
+The book, written originally in 1977, is still influential today, but its theoretical scope (roughly the humanities) and its date, preceding the digital era, limits the extent in which it applies to the biomedical sciences.</p>
+<p>Notably, the need of an organized reading system for biocuration studies stems from a difference in methodology.
+In humanities, the main (if not sole) research material is the written text, the books and articles from which research stems. <span class="citation" data-cites="PKhuVRW8">[<a href="#ref-PKhuVRW8" role="doc-biblioref">125</a>_da26C-QW5qiS7uZ]</span>.
+In the biomedical sciences, including a large part of bioinformatics, the object of study is the natural world, observed via experimentation.
+Thus, naturally, scientific training focuses on the theoretical and practical basis of experimentation and data analysis.
+With the bloom of scientific articles, however, the scientific literature (and accompaning public datasets) provide already a strong material for the sculpting of scientific projects.
+Thus, the development of a methodology for academic reading, tailored to the digital environment, presents itself as a need.</p>
+<p>This chapter concerns itself with presenting Wikidata Bib, a framework for large scale reading of scientific articles.
+It is presented as three parts, each of them with a technical overview alongside the theoretical foundations.
+First, Wikidata Bib is presenting as a reading system, for managing references and notes using a GitHub repository and plain text notes.
+Then, we present how the system ensures accountability, allowing its user to get personalized analytics on their reading patterns.
+Finally, we demonstrate how Wikidata Bib fits an active curation environment, connecting the framework with the larger goal of this project of curating information about cell types on Wikidata.</p>
 <h2 id="wikidata-bib-as-a-reading-system">Wikidata Bib as a reading system</h2>
-<p>It consists of a set of Python scripts and a standard file structure.
-A file contains the list of articles to be read in markdown. Articles are represented as Wikidata QIDs which enables automatic information retrieval from Wikidata’s structured systems.<br />
-Articles were organized in 2 main sections, one for cell-type related articles and one for biocuration-related articles.</p>
+<p>The reading framework of Wikidata bib is built upon a git repository integrated with GitHub, Python3 scripts and SPARQL queries.
+It has a standard file structure, summarized as the following:</p>
 <ul>
-<li><strong>Show file structure</strong></li>
-</ul>
-<p>The Wikidata Bib system has a “pop” function, which creates a personalized note document in markdown for the first article of a section and (if possible) obtains the full text article from Unpaywall (https://unpaywall.org/).
-The note document contains a space for highlights, which can be copied from the original text and pasted in the markdown file.</p>
+<li><code>docs/</code>
 <ul>
-<li><strong>image pop</strong></li>
+<li><code>index.html</code></li>
+</ul></li>
+<li><code>downloads/</code>
+<ul>
+<li><code>10.7554_ELIFE.52614.pdf</code></li>
+</ul></li>
+<li><code>notes/</code>
+<ul>
+<li><code>Q87830400.md</code></li>
+</ul></li>
+<li><code>src/</code>
+<ul>
+<li><code>get_pdf.py</code></li>
+<li><code>helper.py</code></li>
+<li><code>read_paper.py</code></li>
+<li><code>update_dashboard.py</code></li>
+</ul></li>
+<li><code>index.md</code></li>
+<li><code>toread.md</code></li>
+<li><code>config.yaml</code></li>
+<li><code>pop</code></li>
+<li><code>wadd</code></li>
+<li><code>wadd_all</code></li>
+<li><code>wread</code></li>
+<li><code>wlog</code></li>
 </ul>
-<p>Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings.
-The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata_bib/tree/template and notes on my readings can currently be accessed at https://lubianat.github.io/wikidata_bib/.</p>
+<p>The <code>docs/</code> directory contains the live dashboard from the readings, which will be discussed in the following sessions.
+The <code>downloads/</code> directory hosts the pdfs of the articles read with the system.
+These are not commited to the repository, and are only stored locally.
+The <code>notes/</code> directory contains markdown files, one for each article read.
+The <code>src/</code> directory contains the python code with the mechanics of the system.
+They contain helper functions for the command line commands discussed below:
+- <code>wread</code> which receives a Wikidata QID for an article and outputs (1) a notes document, (2) a pdf for the paper obtained from Unpaywall <span class="citation" data-cites="15luL9zZC">[<a href="#ref-15luL9zZC" role="doc-biblioref">127</a>/]</span> and (3) an updated version of the dashboard html files in the <code>docs/</code> directory.
+- <code>pop</code>, which “pops” an article from <code>toread.md</code> and runs <code>wread</code> for it
+- <code>wadd</code>, which takes an URL for an Wikidata SPARQL query and adds new QIDs to <code>toread.md</code>
+- <code>wadd_all</code>, which parses <code>config.yaml</code> for recurrent SPARQL queries and runs <code>wadd</code> for each
+- <code>wlog</code>, which adds, commits and pushes recent readings and dashboard updates to GitHub</p>
+<p>All the structures described so far are commonly shared by any user of Wikidata Bib.
+To personalize the use of the system, the user edits three plain text files.
+<code>toread.md</code> hosts a plain text QIDs of the articles that will be read.
+These can be added either manually, or via wadd.
+While the <code>pop</code> command only sees QIDs, articles titles or other identifiers can be added to <code>toread.md</code> temporarily without breaking the system.
+<code>index.md</code> hosts a numbered list of topics of interest.
+This file plays the role of Umberto Eco’s work plan, with the topics of interest for the academic. <span class="citation" data-cites="1HBVPtZGp">[<a href="#ref-1HBVPtZGp" role="doc-biblioref">126</a>]</span>
+These are used to tag articles for retrieval in a later step.
+<code>config.yaml</code> contains shortcuts for different reading lists.
+This is better explained by example.
+In my <code>toread.md</code> file there are two reading lists, one following a <code># Cell types</code> header, and another following a <code># Biocuration</code> header.
+My <code>config.yaml</code> contains the following snippet:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">lists</span><span class="kw">:</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># - shortcut: Title of header in toread.md  </span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">ct</span><span class="kw">:</span><span class="at"> Cell types</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">bioc</span><span class="kw">:</span><span class="at"> Biocuration</span></span></code></pre></div>
+<p>The shortcuts in <code>config.yaml</code> are used as arguments by the <code>pop</code> command, where <code>$ ./pop ct</code> retrieves an article from the “Cell types” list, while <code>$ ./pop bioc</code> retrieves an article from the “Biocuration” list.</p>
+<p>The Wikidata bib framework is coupled with a discipline of daily reading.
+This is inspired by Robert Cecil Martin’s description of Test Driven Development in the book “Clean Code”, which includes not only a technical description, but a <em>school of thought</em> of how software development can be approached. <span class="citation" data-cites="13HqB23xH">[<a href="#ref-13HqB23xH" role="doc-biblioref">128</a>]</span>
+Every day, I read one article of each list, using the notetaking station displayed in Figure <a href="#fig:notetaking">7</a>.
+The constancy of reading allows steady coverage of the relevant literature.
+While it has worked for this research project, however, it is not required for use of the Wikidata Bib system.</p>
+<p>The notetaking station of Wikidata Bib is, by default, opened in Virtual Studio Code, and is depicted on Figure <a href="#fig:notetaking">7</a> A.
+The title and publication dates are displayed, and the reading process entails copying snippets from the text to the “Highlights” session.
+By copying the highlights into plain text, the sections of interest become searchable via command line using <code>grep</code> (https://en.wikipedia.org/w/index.php?title=Grep&amp;oldid=1039541979).
+Comments can be added either in the comment section or inline, alongside the highlights, using <code>--&gt; Comment goes here</code> to differentiate from highlights.
+Also searchable by <code>grep</code> are the tags, copied and pasted from <code>index.md</code> in the <code>## Tags</code> session or alongside the main article.</p>
+<p>The discipline also includes, whenever possible, an improvement of the metadata about the article on Wikidata.
+In <a href="#fig:notetaking">7</a> B are shown the links included in the dashboard.
+A link to a Scholia <span class="citation" data-cites="hxzL9pmm">[<a href="#ref-hxzL9pmm" role="doc-biblioref">100</a>]</span> profile allows identification of related articles from a series of pre-made SPARQL queries probing bibliography data on Wikidata.
+While Scholia provides an overview of a given article, it does not allow direct curation of the metadata.
+For that, two links are provided, one to Wikidata and one to Author Disambiguator <span class="citation" data-cites="1A9RvszKC">[<a href="#ref-1A9RvszKC" role="doc-biblioref">129</a>]</span>.
+By acessing the Wikidata page for the entity, one can add new triples, for example curating authors and topics of the article, which are then used by Scholia and by Wikidata Bib’s dashboard.
+Author Disambiguator is a wrapper of an Wikimedia API which facilitates the process of disambiguating author names to unique identifiers on Wikidata, thus feeding the publict knowledge graph of publication and authors.<br />
+Finally, a link to the article’s DOI or full text URL is provided, and serves as a fallback when the automatic download fails.
+Of note, while the metadata curation has a technical benefit to Wikidata and the dashboard, it also plays a theoretical role.
+By curating metadata on authors, the user of Wikidata Bib can better understand the people they read, and expand their metascientific perspective on their domain of interest.</p>
 <div id="fig:notetaking" class="fignos">
 <figure>
 <img src="images/note_taking_station_annotated_with_links.png" alt="Figure 7: Wikidata Bib’s platform for note taking" /><figcaption aria-hidden="true"><span>Figure 7:</span> Wikidata Bib’s platform for note taking</figcaption>
 </figure>
 </div>
-<ul>
-<li><em>Talk about Author Disambiguator and other contributions</em></li>
-</ul>
-<p>Besides the technical aspects of Wikidata Bib, the organized reading methodology included a discipline step of continued reading, with a target of 1-2 papers per section per day.
-Based on Umberto Eco’s suggestion on How to Write a Thesis <span class="citation" data-cites="1HBVPtZGp">[<a href="#ref-1HBVPtZGp" role="doc-biblioref">123</a>]</span> to develop a careful indexing system for literature, an index document was constructed containing the topics of interest for writing the thesis.
-The topics were added as plain text in the personalized note documents, allowing batch retrieval of articles of interest via the command line, using <code>grep</code> (https://en.wikipedia.org/w/index.php?title=Grep&amp;oldid=1039541979).</p>
-<ul>
-<li><strong>image grep and open</strong></li>
-</ul>
+<p>The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata_bib.</p>
 <h2 id="wikidata-bib-as-a-dashboard">Wikidata Bib as a dashboard</h2>
-<ul>
-<li><p>Wikidata Bib generates real-time, public visualizations of my literature progress</p></li>
-<li><p>wbib package: https://github.com/lubianat/wbib</p></li>
-</ul>
+<p>The Wikidata Bib system also enables the reader to get statistics on their readings.
+Two simple databases are stored on the GitHub repository:
+* <code>read.ttl</code> - An RDF document recording the dates in which each article was read.
+* <code>read.csv</code> - An simple, human-readable, index connecting QIDs with article titles.
+The csv file is only stored for accountability, and as a quick way to glance at the titles read.
+The .ttl file, in the other hand, is processed by the <code>update_dashboard.py</code> script to render 4 different html files under the <code>docs/</code> folder:
+- <code>index.html</code>
+- <code>last_day.html</code>
+- <code>past_week.html</code>
+- <code>past_month.html</code>
+All files are displayed in a GitHub pages.
+In the case of this work, they are displayed at https://lubianat.github.io/wikidata_bib/.</p>
+<p>To organize the code for rendering the dashboard, we created a python package, wbib, and deposited it in PyPi, making it available via <code>pip</code>. <span class="citation" data-cites="6chnW6cc">[<a href="#ref-6chnW6cc" role="doc-biblioref">130</a>/]</span>.
+The package implements the logic for rendering complex Wikidata-based academic dashboards and is available in GitHub at https://github.com/lubianat/wbib.
+It allows the user to build dashboards based on Wikidata records of information such as gender of authors, the region of author<code>s intitutions, topics of articles and similar metascientific information.  The dashboard is composed of SPARQL queries written for the Wikidata Query Service [@url:https://query.wikidata.org]  It also allows users to feed an arbitrary list of articles and obtain a custom dashboard.  Wikidata Bib obtains the html dashboards after feeding wbib the lists of articles read in total (</code>index.html<code>) or in pre-determined time spans (</code>last_day.html<code>,</code>past_week.html<code>and</code>past_month.html` )</p>
 <div id="fig:dashboard" class="fignos">
 <figure>
 <img src="images/wikidata_bib_display.png" alt="Figure 8: Wikidata Bib queries for institutions of authors and most read venues" /><figcaption aria-hidden="true"><span>Figure 8:</span> Wikidata Bib queries for institutions of authors and most read venues</figcaption>
 </figure>
 </div>
-<ul>
-<li><em>Wikidata Bib reading status</em>:
-<ul>
-<li>articles read</li>
-<li>authors read</li>
-</ul></li>
-</ul>
+<p>The dashboard includes not only a basic list of read articles, but also statistics on most read authors and most read venues.
+It also displays an interactive map of the instituions of articles read, permitting a glance on geographic biases in activities.
+An example of queries is show in <a href="#fig:dashboard">8</a>.
+As the queries are rendered live, they evolve in quality with the growth of Wikidata.
+Finally, the clean 5-star-open data format enables users to adapt the queries to include different aspects of Wikidata.
+For example, table ?? showcases 10 articles that (1) I have read in the past year and (2) were authored by a speaker of the 1st Human Cell Atlas Latin America Single Cell RNA-seqData Analysis Workshop <span class="citation" data-cites="1hag8XE6">[<a href="#ref-1hag8XE6" role="doc-biblioref">131</a>/]</span>.
+One practical application that the dashboard enables, thus, is to identify people in an event, institution or location that the user has read before, therefore catalysing the possibility of colaborations.
+Anedoctally, this strategy was tested successfully at Biohackathon Europe 2021 <span class="citation" data-cites="kHL3NVxk">[<a href="#ref-kHL3NVxk" role="doc-biblioref">132</a>/]</span>, where I used the system both to identify possible collaborators and as a conversation starter.</p>
+<table>
+<colgroup>
+<col style="width: 22%" />
+<col style="width: 9%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>workLabel</th>
+<th>authors_in_the_conference</th>
+<th>DOI</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>A promoter-level mammalian expression atlas</td>
+<td>Jay W Shin</td>
+<td>https://doi.org/10.1038/NATURE13182</td>
+</tr>
+<tr class="even">
+<td>Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors.</td>
+<td>Muzlifah Haniffa</td>
+<td>https://doi.org/10.1126/SCIENCE.AAH4573</td>
+</tr>
+<tr class="odd">
+<td>The Human Cell Atlas.</td>
+<td>Musa Mhlanga, Jay W Shin, Muzlifah Haniffa, Menna R Clatworthy, Dana Pe’er</td>
+<td>https://doi.org/10.7554/ELIFE.27041</td>
+</tr>
+<tr class="even">
+<td>The Human Cell Atlas: Technical approaches and challenges.</td>
+<td>Jay W Shin</td>
+<td>https://doi.org/10.1093/BFGP/ELX029</td>
+</tr>
+<tr class="odd">
+<td>Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses.</td>
+<td>Dana Pe’er</td>
+<td>https://doi.org/10.1016/J.CELL.2017.04.014</td>
+</tr>
+<tr class="even">
+<td>Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations</td>
+<td>Sonya A MacParland</td>
+<td>https://doi.org/10.1038/S41467-018-06318-7</td>
+</tr>
+<tr class="odd">
+<td>Single-cell reconstruction of the early maternal–fetal interface in humans</td>
+<td>Muzlifah Haniffa</td>
+<td>https://doi.org/10.1038/S41586-018-0698-6</td>
+</tr>
+<tr class="even">
+<td>Distinct microbial and immune niches of the human colon</td>
+<td>Rasa Elmentaite, Menna R Clatworthy</td>
+<td>https://doi.org/10.1038/S41590-020-0602-Z</td>
+</tr>
+<tr class="odd">
+<td>A cell atlas of human thymic development defines T cell repertoire formation</td>
+<td>Muzlifah Haniffa, Menna R Clatworthy</td>
+<td>https://doi.org/10.1126/SCIENCE.AAY3224</td>
+</tr>
+<tr class="even">
+<td>Decoding human fetal liver haematopoiesis</td>
+<td>Muzlifah Haniffa</td>
+<td>https://doi.org/10.1038/S41586-019-1652-Y Table: Articles read by Tiago Lubiana before 8 December 2021 in which an author was a speaker at HCA Latin America</td>
+</tr>
+<tr class="odd">
+<td>{#tbl:articles_read_hca}</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="wikidata-bib-for-curation-of-cells-to-wikidata">Wikidata Bib for curation of cells to Wikidata</h2>
 <ul>
 <li><p>Recording of cell types in Google Spreadsheets</p></li>
@@ -650,7 +872,7 @@ The topics were added as plain text in the personalized note documents, allowing
 <img src="images/biocuration_of_cells.png" style="width:85.0%" alt="Figure 9: Wikidata Bib was coupled with a biocuration framework for cell types" /><figcaption aria-hidden="true"><span>Figure 9:</span> Wikidata Bib was coupled with a biocuration framework for cell types</figcaption>
 </figure>
 </div>
-<h3 id="results">Results</h3>
+<h3 id="results-1">Results</h3>
 <ul>
 <li>Update the status via <a href="https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet#scrollTo=szvBWI9zr_AA" class="uri">https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet#scrollTo=szvBWI9zr_AA</a></li>
 </ul>
@@ -673,7 +895,7 @@ Arguably, the Cell Ontology is the current leading source of cell type identifie
 Thus, it is crucial that data about cell types on Wikidata is connected to the Cell Ontology.</p>
 <p>To start the improvement in the interplay of both databases, we proposed and got approval of a specific Wikidata identifier for the Cell Ontology, the “Cell Ontology ID” (<a href="https://www.wikidata.org/wiki/Property:P7963" class="uri">https://www.wikidata.org/wiki/Property:P7963</a>).
 IDs can be added to Wikidata entities and connect them to external databases enabling integrative SPARQL queries.
-Besides using the common Wikidata interface, one can crowd-curate identifiers via 3rd-party service, Mix’N’Match, which provides an user-friendly framework for connecting idenfier catalogs to Wikidata. <span class="citation" data-cites="JgiKEEdq">[<a href="#ref-JgiKEEdq" role="doc-biblioref">124</a>/?p=114]</span>, as seen in Figure ??.
+Besides using the common Wikidata interface, one can crowd-curate identifiers via 3rd-party service, Mix’N’Match, which provides an user-friendly framework for connecting idenfier catalogs to Wikidata. <span class="citation" data-cites="JgiKEEdq">[<a href="#ref-JgiKEEdq" role="doc-biblioref">133</a>/?p=114]</span>, as seen in Figure ??.
 Logically, we created a Mix’N’Match catalog for harmonizing Cell Ontology IDs to Wikidata (<a href="https://mix-n-match.toolforge.org/#/catalog/4719" class="uri">https://mix-n-match.toolforge.org/#/catalog/4719</a>), harnessing the community support for the task.</p>
 <div id="fig:mixnmatch_cl" class="fignos">
 <figure>
@@ -696,27 +918,27 @@ Finally, we aim at moving the Wikidata Bib system to a well documented, user-fri
 <h1 id="additional-work">Additional Work</h1>
 <h2 id="collaborations-and-manuscripts">Collaborations and manuscripts</h2>
 <h3 id="fcoex">fcoex</h3>
-<p>During the initial course of this PhD work, we also completed the development and reportin of <em>fcoex</em>, an R package for investigating cellular phenotypes using co-expression networks. <span class="citation" data-cites="MxIeSJYt">[<a href="#ref-MxIeSJYt" role="doc-biblioref">125</a>]</span> The software was mantained to withstand new releases of dependencies and new R version, and <em>WAS PUBLISHED AS A PRE_PRINT ADD HERE THE LINK</em>.</p>
+<p>During the initial course of this PhD work, we also completed the development and reportin of <em>fcoex</em>, an R package for investigating cellular phenotypes using co-expression networks. <span class="citation" data-cites="MxIeSJYt">[<a href="#ref-MxIeSJYt" role="doc-biblioref">134</a>]</span> The software was mantained to withstand new releases of dependencies and new R version, and <em>WAS PUBLISHED AS A PRE_PRINT ADD HERE THE LINK</em>.</p>
 <h3 id="wikidata-bots">Wikidata Bots</h3>
 <p>Alongside the editing of cell-type information on Wikidata, I have joined different efforts to improve biological information on Wikidata.
-I have collaborated with the ComplexPortal curators, as part of the Virtual Elixir BioHackathon 2020 (https://github.com/virtual-biohackathons/covid-19-bh20/wiki) and for the following year, to build an Wikidata Bot to integrate information on protein complexes to Wikidata. An overview of the Wikidata integration is in Figure ??, presented in an article published in Nucleic Acid Research (re-use of the image and legend possible under the CC-BY license of the article). <span class="citation" data-cites="CQRJ53gu">[<a href="#ref-CQRJ53gu" role="doc-biblioref">126</a>]</span>
+I have collaborated with the ComplexPortal curators, as part of the Virtual Elixir BioHackathon 2020 (https://github.com/virtual-biohackathons/covid-19-bh20/wiki) and for the following year, to build an Wikidata Bot to integrate information on protein complexes to Wikidata. An overview of the Wikidata integration is in Figure ??, presented in an article published in Nucleic Acid Research (re-use of the image and legend possible under the CC-BY license of the article). <span class="citation" data-cites="CQRJ53gu">[<a href="#ref-CQRJ53gu" role="doc-biblioref">135</a>]</span>
 <img src="https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/PAP/10.1093_nar_gkab991/2/gkab991fig3.jpeg?Expires=1641821957&amp;Signature=RK-es18S~Qh6vGQE~61i6u4prMuij8kVTbrjN6WUJLfYHOAhUhx9qQorBxROohjLLxbHvZ2YK9e7EwlI9HjVeNoGZ2PJs0Pv78Y31MdZLY8FeLYI2E4azwrqRyv9q0AH8QL3RorWZV1AhOb9bl-44Mr97Q~9MWzeTDnQQbxpCnGLG~YoG49kocD5KE~dmTSQdkXBU7kZnuGM1NPqMHo5ZDUoCRFwmTbLvd4kXoH~6CTyqx4ruQRIO-ks4Q0FUjYnxGX18gCFvoO2LMPZUPrQjTgD35RrVAkLs91Ur6BQHUuZ-ZsE3Iag3mBDu27vT9Jr93bOj0i9wz~surTtEGATgw__&amp;Key-Pair-Id=APKAIE5G5CRDK6RD3PGA" id="fig:complexportal" alt="Complex Portal and Wikidata. (A) example of an entry assertion in Wikidata with provenance pointing to Complex Portal (Q104836061). (B) Number of protein complexes in Wikidata per taxon (https://w.wiki/3ggX). (C) Subset of Wikidata connected to the SARS-CoV-2 polymerase complex (https://w.wiki/3eta)." /></p>
-<p>I have also collaborated with the Cellosaurus database <span class="citation" data-cites="1DguATd9G">[<a href="#ref-1DguATd9G" role="doc-biblioref">127</a>]</span> to revive the CellosaurusBot <span class="citation" data-cites="lMQxhx3q">[<a href="#ref-lMQxhx3q" role="doc-biblioref">128</a>]</span>, responsible for updating the metadata on more than 100,000 cell lines on Wikidata. The bot code, written in Python, was completely refactored, and is run by me semi-automatically after the Cellosaurus database releases. A write-up of he integration is in progress, and is planned for release/submisson in the first semester of 2022.</p>
+<p>I have also collaborated with the Cellosaurus database <span class="citation" data-cites="1DguATd9G">[<a href="#ref-1DguATd9G" role="doc-biblioref">136</a>]</span> to revive the CellosaurusBot <span class="citation" data-cites="lMQxhx3q">[<a href="#ref-lMQxhx3q" role="doc-biblioref">137</a>]</span>, responsible for updating the metadata on more than 100,000 cell lines on Wikidata. The bot code, written in Python, was completely refactored, and is run by me semi-automatically after the Cellosaurus database releases. A write-up of he integration is in progress, and is planned for release/submisson in the first semester of 2022.</p>
 <h3 id="systematic-reviews-and-publishing-of-intermediary-tables">Systematic Reviews and publishing of intermediary tables</h3>
-<p>Finally, in a collaboration with Olavo Amaral and Kleber, from the Brazilian Reproducibility Initiative <span class="citation" data-cites="F2mYjDJ0">[<a href="#ref-F2mYjDJ0" role="doc-biblioref">129</a>]</span> I wrote a commentary on the value of publishing intermediate datasets as citable products. <span class="citation" data-cites="HbZ13t8l">[<a href="#ref-HbZ13t8l" role="doc-biblioref">130</a>/]</span>
+<p>Finally, in a collaboration with Olavo Amaral and Kleber, from the Brazilian Reproducibility Initiative <span class="citation" data-cites="F2mYjDJ0">[<a href="#ref-F2mYjDJ0" role="doc-biblioref">138</a>]</span> I wrote a commentary on the value of publishing intermediate datasets as citable products. <span class="citation" data-cites="HbZ13t8l">[<a href="#ref-HbZ13t8l" role="doc-biblioref">139</a>/]</span>
 The pieces discuss the value of small curations done both in systematic reviews and by experimentalists in the course of their research projects. Published curation tables can serve as a source for improving the ecosystem of open knowledge, not less by reconciliation to Wikidata (thereby bridging the commentary with this project)</p>
 <h3 id="wisecube---enterprise-biomedical-question-and-answering">WiseCube - enterprise biomedical question and answering</h3>
-<p>During a part of this project, I have worked part-time as a consultant for the Wisecube company, based in Seattle, United States. <span class="citation" data-cites="gdYsBE7d">[<a href="#ref-gdYsBE7d" role="doc-biblioref">131</a>/]</span>
-The job was approved by FAPESP, and consisted mainly in writing SPARQL queries that probe Wikidata for answers to the questions posed by the BioASQ competition. <span class="citation" data-cites="rkXotO9x">[<a href="#ref-rkXotO9x" role="doc-biblioref">132</a>]</span>
+<p>During a part of this project, I have worked part-time as a consultant for the Wisecube company, based in Seattle, United States. <span class="citation" data-cites="gdYsBE7d">[<a href="#ref-gdYsBE7d" role="doc-biblioref">140</a>/]</span>
+The job was approved by FAPESP, and consisted mainly in writing SPARQL queries that probe Wikidata for answers to the questions posed by the BioASQ competition. <span class="citation" data-cites="rkXotO9x">[<a href="#ref-rkXotO9x" role="doc-biblioref">141</a>]</span>
 It also entails on-demand curation of biomedical topics on Wikidata based on requests by pharmaceutical companies as well as the development of dashboards targeted at providing insights to customers.</p>
 <h2 id="awards-and-participation-in-events">Awards and participation in events</h2>
 <p>During the initial course of this PhD project, I have participated in several events:</p>
 <ul>
-<li>(Feb-2021) Presented an open talk at the “Semana da Bioinformática” event about modelling of biological systems (1020 views as of December 2021) <span class="citation" data-cites="1C9uHr1Zk">[<a href="#ref-1C9uHr1Zk" role="doc-biblioref">133</a>, =VDvCxskIGEI]</span></li>
-<li>(Jun-Aug 2021) Helped to organize the No-Budget-Science HackWeek virtual hackathon <span class="citation" data-cites="12LOzmXRs">[<a href="#ref-12LOzmXRs" role="doc-biblioref">134</a>]</span></li>
-<li>(Jul - 2021) Presented the work “Wikidata for 5-star Linked Open Databases: A case study of PanglaoDB” at the Bio-Ontologies section of the Annual International Conference on Intelligent Systems for Molecular Biology. <span class="citation" data-cites="SALI6Ywb">[<a href="#ref-SALI6Ywb" role="doc-biblioref">135</a>]</span>. The presentation was awarded the best</li>
-<li>(Jul - 2021) Awarded the 2nd place in the International Society for Computational Biology (ISCB) Wikipedia Competition for the contributions to the Wikipedia page on Biocuration (<a href="https://en.wikipedia.org/wiki/Biocuration" class="uri">https://en.wikipedia.org/wiki/Biocuration</a>) <span class="citation" data-cites="IJG65hFm">[<a href="#ref-IJG65hFm" role="doc-biblioref">136</a>]</span></li>
-<li>(Nov - 2021) Managed a project during BioHackathon Europe 2021, in Barcelona, Spain, on the representation of ELIXIR information on Wikidata. <span class="citation" data-cites="14Wi842eZ">[<a href="#ref-14Wi842eZ" role="doc-biblioref">137</a>]</span></li>
+<li>(Feb-2021) Presented an open talk at the “Semana da Bioinformática” event about modelling of biological systems (1020 views as of December 2021) <span class="citation" data-cites="1C9uHr1Zk">[<a href="#ref-1C9uHr1Zk" role="doc-biblioref">142</a>, =VDvCxskIGEI]</span></li>
+<li>(Jun-Aug 2021) Helped to organize the No-Budget-Science HackWeek virtual hackathon <span class="citation" data-cites="12LOzmXRs">[<a href="#ref-12LOzmXRs" role="doc-biblioref">143</a>]</span></li>
+<li>(Jul - 2021) Presented the work “Wikidata for 5-star Linked Open Databases: A case study of PanglaoDB” at the Bio-Ontologies section of the Annual International Conference on Intelligent Systems for Molecular Biology. <span class="citation" data-cites="SALI6Ywb">[<a href="#ref-SALI6Ywb" role="doc-biblioref">144</a>]</span>. The presentation was awarded the best</li>
+<li>(Jul - 2021) Awarded the 2nd place in the International Society for Computational Biology (ISCB) Wikipedia Competition for the contributions to the Wikipedia page on Biocuration (<a href="https://en.wikipedia.org/wiki/Biocuration" class="uri">https://en.wikipedia.org/wiki/Biocuration</a>) <span class="citation" data-cites="IJG65hFm">[<a href="#ref-IJG65hFm" role="doc-biblioref">145</a>]</span></li>
+<li>(Nov - 2021) Managed a project during BioHackathon Europe 2021, in Barcelona, Spain, on the representation of ELIXIR information on Wikidata. <span class="citation" data-cites="14Wi842eZ">[<a href="#ref-14Wi842eZ" role="doc-biblioref">146</a>]</span></li>
 </ul>
 <h2 id="course-work">Course work</h2>
 <p>During the first year of the PhD program</p>
@@ -745,7 +967,7 @@ It also entails on-demand curation of biomedical topics on Wikidata based on req
 <div class="csl-left-margin">7. </div><div class="csl-right-inline"><strong>What Is Your Conceptual Definition of "Cell Type" in the Context of a Mature Organism?</strong> <div class="csl-block">Paul Blainey, Hans Clevers, Cole Trapnell, Ed Lein, Emma Lundberg, Alfonso Martinez Arias, Joshua R Sanes, Jay Shendure, James Eberwine, Junhyong Kim, … Mathias Uhlén</div> <em>Cell systems</em> (2017-03-01) <a href="https://www.wikidata.org/wiki/Q87649649">https://www.wikidata.org/wiki/Q87649649</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1016/j.cels.2017.03.006">10.1016/j.cels.2017.03.006</a></div></div>
 </div>
 <div id="ref-sWv3okaH" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>A periodic table of cell types</strong> <div class="csl-block">Bo Xia, Itai Yanai</div> <em>Development</em> (2019-06-15) <a href="https://doi.org/ggctwf">https://doi.org/ggctwf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1242/dev.169854">10.1242/dev.169854</a></div></div>
+<div class="csl-left-margin">8. </div><div class="csl-right-inline"><strong>A periodic table of cell types</strong> <div class="csl-block">Bo Xia, Itai Yanai</div> <em>Development</em> (2019-06-15) <a href="https://doi.org/ggctwf">https://doi.org/ggctwf</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1242/dev.169854">10.1242/dev.169854</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31249003">31249003</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6602355">PMC6602355</a></div></div>
 </div>
 <div id="ref-19yYJWEkz" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">9. </div><div class="csl-right-inline"><strong>Exciting times to study the identity and evolution of cell types</strong> <div class="csl-block">Maria Sachkova, Pawel Burkhardt</div> <em>Development</em> (2019-09-15) <a href="https://doi.org/ghdb9v">https://doi.org/ghdb9v</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1242/dev.178996">10.1242/dev.178996</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31537583">31537583</a></div></div>
@@ -820,7 +1042,7 @@ It also entails on-demand curation of biomedical topics on Wikidata based on req
 <div class="csl-left-margin">32. </div><div class="csl-right-inline"><strong>Logical Development of the Cell Ontology</strong> <div class="csl-block">Terrence F Meehan, Anna Maria Masci, Amina Abdulla, Lindsay G Cowell, Judith A Blake, Christopher J Mungall, Alexander D Diehl</div> <em>BMC Bioinformatics</em> (2011-01-05) <a href="https://doi.org/c7kw6x">https://doi.org/c7kw6x</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/1471-2105-12-6">10.1186/1471-2105-12-6</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/21208450">21208450</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3024222">PMC3024222</a></div></div>
 </div>
 <div id="ref-17U3pGEjv" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">33. </div><div class="csl-right-inline"><strong>The Cell Ontology 2016: enhanced content, modularization, and ontology interoperability</strong> <div class="csl-block">Alexander D Diehl, Terrence F Meehan, Yvonne M Bradford, Matthew H Brush, Wasila M Dahdul, David S Dougall, Yongqun He, David Osumi-Sutherland, Alan Ruttenberg, Sirarat Sarntivijai, … Christopher J Mungall</div> <em>Journal of Biomedical Semantics</em> (2016-07-04) <a href="https://doi.org/gg99b9">https://doi.org/gg99b9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13326-016-0088-7">10.1186/s13326-016-0088-7</a></div></div>
+<div class="csl-left-margin">33. </div><div class="csl-right-inline"><strong>The Cell Ontology 2016: enhanced content, modularization, and ontology interoperability</strong> <div class="csl-block">Alexander D Diehl, Terrence F Meehan, Yvonne M Bradford, Matthew H Brush, Wasila M Dahdul, David S Dougall, Yongqun He, David Osumi-Sutherland, Alan Ruttenberg, Sirarat Sarntivijai, … Christopher J Mungall</div> <em>Journal of Biomedical Semantics</em> (2016-07-04) <a href="https://doi.org/gg99b9">https://doi.org/gg99b9</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s13326-016-0088-7">10.1186/s13326-016-0088-7</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27377652">27377652</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4932724">PMC4932724</a></div></div>
 </div>
 <div id="ref-RLHsA1U8" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">34. </div><div class="csl-right-inline"><strong>CELDA -- an ontology for the comprehensive representation of cells in complex systems</strong> <div class="csl-block">Stefanie Seltmann, Harald Stachelscheid, Alexander Damaschun, Ludger Jansen, Fritz Lekschas, Jean-Fred Fontaine, Throng Nghia Nguyen-Dobinsky, Ulf Leser, Andreas Kurtz</div> <em>BMC Bioinformatics</em> (2013-07-17) <a href="https://www.wikidata.org/wiki/Q21284308">https://www.wikidata.org/wiki/Q21284308</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/1471-2105-14-228">10.1186/1471-2105-14-228</a></div></div>
@@ -829,7 +1051,7 @@ It also entails on-demand curation of biomedical topics on Wikidata based on req
 <div class="csl-left-margin">35. </div><div class="csl-right-inline"><strong>Cells in experimental life sciences - challenges and solution to the rapid evolution of knowledge</strong> <div class="csl-block">Sirarat Sarntivijai, Alexander D Diehl, Yongqun He</div> <em>BMC Bioinformatics</em> (2017-12-21) <a href="https://doi.org/gg99b7">https://doi.org/gg99b7</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-017-1976-2">10.1186/s12859-017-1976-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29322916">29322916</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5763506">PMC5763506</a></div></div>
 </div>
 <div id="ref-rK8KD0us" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">36. </div><div class="csl-right-inline"><strong>Cells in ExperimentaL Life Sciences (CELLS-2018): capturing the knowledge of normal and diseased cells with ontologies</strong> <div class="csl-block">Sirarat Sarntivijai, Yongqun He, Alexander D Diehl</div> <em>BMC Bioinformatics</em> (2019-04-25) <a href="https://doi.org/gg99b8">https://doi.org/gg99b8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-019-2721-9">10.1186/s12859-019-2721-9</a></div></div>
+<div class="csl-left-margin">36. </div><div class="csl-right-inline"><strong>Cells in ExperimentaL Life Sciences (CELLS-2018): capturing the knowledge of normal and diseased cells with ontologies</strong> <div class="csl-block">Sirarat Sarntivijai, Yongqun He, Alexander D Diehl</div> <em>BMC Bioinformatics</em> (2019-04-25) <a href="https://doi.org/gg99b8">https://doi.org/gg99b8</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-019-2721-9">10.1186/s12859-019-2721-9</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31272374">31272374</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6509796">PMC6509796</a></div></div>
 </div>
 <div id="ref-16phbXNJE" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">37. </div><div class="csl-right-inline"><strong>Scaled, high fidelity electrophysiological, morphological, and transcriptomic cell characterization</strong> <div class="csl-block">Brian R Lee, Agata Budzillo, Kristen Hadley, Jeremy A Miller, Tim Jarsky, Katherine Baker, DiJon Hill, Lisa Kim, Rusty Mann, Lindsay Ng, … Jim Berg</div> <em>eLife</em> (2021-08-13) <a href="https://www.wikidata.org/wiki/Q109717199">https://www.wikidata.org/wiki/Q109717199</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7554/elife.65482">10.7554/elife.65482</a></div></div>
@@ -1077,62 +1299,89 @@ It also entails on-demand curation of biomedical topics on Wikidata based on req
 <div id="ref-4AEy2xhQ" class="csl-entry" role="doc-biblioentry">
 <div class="csl-left-margin">118. </div><div class="csl-right-inline"><strong>CellFinder: a cell data repository</strong> <div class="csl-block">Harald Stachelscheid, Stefanie Seltmann, Fritz Lekschas, Jean-Fred Fontaine, Nancy Mah, Mariana Lara Neves, Miguel A Andrade-Navarro, Ulf Leser, Andreas Kurtz</div> <em>Nucleic Acids Research</em> (2013-12-03) <a href="https://www.wikidata.org/wiki/Q28660708">https://www.wikidata.org/wiki/Q28660708</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkt1264">10.1093/nar/gkt1264</a></div></div>
 </div>
+<div id="ref-imSZTi52" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">119. </div><div class="csl-right-inline"><strong>Type or Individual? Evidence of Large-Scale Conceptual Disarray in Wikidata</strong> <div class="csl-block">Atílio A Dadalto, João Paulo A Almeida, Claudenir M Fonseca, Giancarlo Guizzardi</div> <em>Lecture Notes in Computer Science</em> (2021-01-01) <a href="https://www.wikidata.org/wiki/Q109990743">https://www.wikidata.org/wiki/Q109990743</a></div>
+</div>
 <div id="ref-HUJ9NzAb" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">119. </div><div class="csl-right-inline"><strong>UniProt</strong> <a href="https://sparql.uniprot.org/sparql">https://sparql.uniprot.org/sparql</a></div>
+<div class="csl-left-margin">120. </div><div class="csl-right-inline"><strong>UniProt</strong> <a href="https://sparql.uniprot.org/sparql">https://sparql.uniprot.org/sparql</a></div>
 </div>
 <div id="ref-AgOOCR24" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">120. </div><div class="csl-right-inline"><strong>Portal:Semantic Web - WikiPathways</strong> <a href="https://www.wikipathways.org/index.php/Portal:Semantic_Web">https://www.wikipathways.org/index.php/Portal:Semantic_Web</a></div>
+<div class="csl-left-margin">121. </div><div class="csl-right-inline"><strong>Portal:Semantic Web - WikiPathways</strong> <a href="https://www.wikipathways.org/index.php/Portal:Semantic_Web">https://www.wikipathways.org/index.php/Portal:Semantic_Web</a></div>
 </div>
 <div id="ref-rhRRCtlA" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">121. </div><div class="csl-right-inline"><strong>Cell Markers</strong> <div class="csl-block">Konstantin Yakimchuk</div> <em>Materials and Methods</em> (2013-05-02) <a href="https://doi.org/ghq494">https://doi.org/ghq494</a> <div class="csl-block">DOI: <a href="https://doi.org/10.13070/mm.en.3.183">10.13070/mm.en.3.183</a></div></div>
+<div class="csl-left-margin">122. </div><div class="csl-right-inline"><strong>Cell Markers</strong> <div class="csl-block">Konstantin Yakimchuk</div> <em>Materials and Methods</em> (2013-05-02) <a href="https://doi.org/ghq494">https://doi.org/ghq494</a> <div class="csl-block">DOI: <a href="https://doi.org/10.13070/mm.en.3.183">10.13070/mm.en.3.183</a></div></div>
 </div>
 <div id="ref-6uWWsiSq" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">122. </div><div class="csl-right-inline"><strong>SHOGoiN: Shogoin Human Omics database for the Generation of iPS and Normal cells</strong> <a href="https://stemcellinformatics.org/">https://stemcellinformatics.org/</a></div>
+<div class="csl-left-margin">123. </div><div class="csl-right-inline"><strong>SHOGoiN: Shogoin Human Omics database for the Generation of iPS and Normal cells</strong> <a href="https://stemcellinformatics.org/">https://stemcellinformatics.org/</a></div>
+</div>
+<div id="ref-rPKBwmYh" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">124. </div><div class="csl-right-inline"><strong>Como fazer um fichamento</strong> <div class="csl-block">Priscilla de Carvalho Nunes disse</div> <em>Blog da Biblioteca da ECA-USP</em> (2019-09-30) <a href="https://bibliotecadaeca.wordpress.com/2019/09/30/como-fazer-um-fichamento/">https://bibliotecadaeca.wordpress.com/2019/09/30/como-fazer-um-fichamento/</a></div>
+</div>
+<div id="ref-PKhuVRW8" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">125. </div><div class="csl-right-inline"><a href="https://www.youtube.com/playlist?list">https://www.youtube.com/playlist?list</a></div>
 </div>
 <div id="ref-1HBVPtZGp" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">123. </div><div class="csl-right-inline"><strong>Come si fa una tesi di laurea</strong> <a href="https://www.wikidata.org/wiki/Q3684178">https://www.wikidata.org/wiki/Q3684178</a></div>
+<div class="csl-left-margin">126. </div><div class="csl-right-inline"><strong>Come si fa una tesi di laurea</strong> <a href="https://www.wikidata.org/wiki/Q3684178">https://www.wikidata.org/wiki/Q3684178</a></div>
+</div>
+<div id="ref-15luL9zZC" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">127. </div><div class="csl-right-inline"><strong>Unpaywall</strong> <a href="https://unpaywall.org/">https://unpaywall.org/</a></div>
+</div>
+<div id="ref-13HqB23xH" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">128. </div><div class="csl-right-inline"><strong>Clean Code: A Handbook of Agile Software Craftsmanship</strong> <a href="https://www.wikidata.org/wiki/Q109996684">https://www.wikidata.org/wiki/Q109996684</a></div>
+</div>
+<div id="ref-1A9RvszKC" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">129. </div><div class="csl-right-inline"><strong>Wikidata:Tools/Author Disambiguator - Wikidata</strong> <a href="https://www.wikidata.org/wiki/Wikidata:Tools/Author_Disambiguator">https://www.wikidata.org/wiki/Wikidata:Tools/Author_Disambiguator</a></div>
+</div>
+<div id="ref-6chnW6cc" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">130. </div><div class="csl-right-inline"><strong>wbib: A helper for building Wikidata-based literature dashboards via SPARQL queries.</strong> <div class="csl-block">Tiago Lubiana</div> <a href="https://github.com/lubianat/wbib">https://github.com/lubianat/wbib</a></div>
+</div>
+<div id="ref-1hag8XE6" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">131. </div><div class="csl-right-inline"><strong>HCA Latin America - 2021 Workshop</strong> <a href="https://www.humancellatlas.org/hca-latin-america-2021-workshop/">https://www.humancellatlas.org/hca-latin-america-2021-workshop/</a></div>
+</div>
+<div id="ref-kHL3NVxk" class="csl-entry" role="doc-biblioentry">
+<div class="csl-left-margin">132. </div><div class="csl-right-inline"><strong>BioHackathon Europe</strong> <a href="https://biohackathon-europe.org/">https://biohackathon-europe.org/</a></div>
 </div>
 <div id="ref-JgiKEEdq" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">124. </div><div class="csl-right-inline"><strong>The Whelming › Tech, tools, and tribulations</strong> <div class="csl-block">Scott Allan Wallick</div> <a href="http://magnusmanske.de/wordpress/">http://magnusmanske.de/wordpress/</a></div>
+<div class="csl-left-margin">133. </div><div class="csl-right-inline"><strong>The Whelming › Tech, tools, and tribulations</strong> <div class="csl-block">Scott Allan Wallick</div> <a href="http://magnusmanske.de/wordpress/">http://magnusmanske.de/wordpress/</a></div>
 </div>
 <div id="ref-MxIeSJYt" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">125. </div><div class="csl-right-inline"><strong>fcoex: FCBF-based Co-Expression Networks for Single Cells</strong> <div class="csl-block">Tiago Lubiana, Helder Nakaya</div> <em>Bioconductor version: Release (3.14)</em> (2021) <a href="https://bioconductor.org/packages/fcoex/">https://bioconductor.org/packages/fcoex/</a></div>
+<div class="csl-left-margin">134. </div><div class="csl-right-inline"><strong>fcoex: FCBF-based Co-Expression Networks for Single Cells</strong> <div class="csl-block">Tiago Lubiana, Helder Nakaya</div> <em>Bioconductor version: Release (3.14)</em> (2021) <a href="https://bioconductor.org/packages/fcoex/">https://bioconductor.org/packages/fcoex/</a></div>
 </div>
 <div id="ref-CQRJ53gu" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">126. </div><div class="csl-right-inline"><strong>Complex Portal 2022: new curation frontiers</strong> <div class="csl-block">Birgit HM Meldal, Livia Perfetto, Colin Combe, Tiago Lubiana, João Vitor Ferreira Cavalcante, Hema Bye-A-Jee, Andra Waagmeester, Noemi del-Toro, Anjali Shrivastava, Elisabeth Barrera, … Sandra Orchard</div> <em>Nucleic Acids Research</em> (2021-10-29) <a href="https://www.wikidata.org/wiki/Q109348309">https://www.wikidata.org/wiki/Q109348309</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkab991">10.1093/nar/gkab991</a></div></div>
+<div class="csl-left-margin">135. </div><div class="csl-right-inline"><strong>Complex Portal 2022: new curation frontiers</strong> <div class="csl-block">Birgit HM Meldal, Livia Perfetto, Colin Combe, Tiago Lubiana, João Vitor Ferreira Cavalcante, Hema Bye-A-Jee, Andra Waagmeester, Noemi del-Toro, Anjali Shrivastava, Elisabeth Barrera, … Sandra Orchard</div> <em>Nucleic Acids Research</em> (2021-10-29) <a href="https://www.wikidata.org/wiki/Q109348309">https://www.wikidata.org/wiki/Q109348309</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1093/nar/gkab991">10.1093/nar/gkab991</a></div></div>
 </div>
 <div id="ref-1DguATd9G" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">127. </div><div class="csl-right-inline"><strong>The Cellosaurus, a cell-line knowledge resource.</strong> <div class="csl-block">Amos Bairoch</div> <em>Journal of Biomolecular Techniques</em> (2018-05-01) <a href="https://www.wikidata.org/wiki/Q54370168">https://www.wikidata.org/wiki/Q54370168</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7171/jbt.18-2902-002">10.7171/jbt.18-2902-002</a></div></div>
+<div class="csl-left-margin">136. </div><div class="csl-right-inline"><strong>The Cellosaurus, a cell-line knowledge resource.</strong> <div class="csl-block">Amos Bairoch</div> <em>Journal of Biomolecular Techniques</em> (2018-05-01) <a href="https://www.wikidata.org/wiki/Q54370168">https://www.wikidata.org/wiki/Q54370168</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7171/jbt.18-2902-002">10.7171/jbt.18-2902-002</a></div></div>
 </div>
 <div id="ref-lMQxhx3q" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">128. </div><div class="csl-right-inline"><strong>User:CellosaurusBot - Wikidata</strong> <a href="https://www.wikidata.org/wiki/User:CellosaurusBot">https://www.wikidata.org/wiki/User:CellosaurusBot</a></div>
+<div class="csl-left-margin">137. </div><div class="csl-right-inline"><strong>User:CellosaurusBot - Wikidata</strong> <a href="https://www.wikidata.org/wiki/User:CellosaurusBot">https://www.wikidata.org/wiki/User:CellosaurusBot</a></div>
 </div>
 <div id="ref-F2mYjDJ0" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">129. </div><div class="csl-right-inline"><strong>The Brazilian Reproducibility Initiative</strong> <div class="csl-block">Ana P Wasilewska-Sampaio, Olavo Bohrer Amaral, Kleber Neves, Ana P Wasilewska-Sampaio, Clarissa FD Carneiro, Olavo Bohrer Amaral, Clarissa FD Carneiro</div> <em>eLife</em> (2019-02-05) <a href="https://www.wikidata.org/wiki/Q61799268">https://www.wikidata.org/wiki/Q61799268</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7554/elife.41602">10.7554/elife.41602</a></div></div>
+<div class="csl-left-margin">138. </div><div class="csl-right-inline"><strong>The Brazilian Reproducibility Initiative</strong> <div class="csl-block">Ana P Wasilewska-Sampaio, Olavo Bohrer Amaral, Kleber Neves, Ana P Wasilewska-Sampaio, Clarissa FD Carneiro, Olavo Bohrer Amaral, Clarissa FD Carneiro</div> <em>eLife</em> (2019-02-05) <a href="https://www.wikidata.org/wiki/Q61799268">https://www.wikidata.org/wiki/Q61799268</a> <div class="csl-block">DOI: <a href="https://doi.org/10.7554/elife.41602">10.7554/elife.41602</a></div></div>
 </div>
 <div id="ref-HbZ13t8l" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">130. </div><div class="csl-right-inline"><a href="https://osf.io/preprints/metaarxiv/vbwa9">https://osf.io/preprints/metaarxiv/vbwa9</a></div>
+<div class="csl-left-margin">139. </div><div class="csl-right-inline"><a href="https://osf.io/preprints/metaarxiv/vbwa9">https://osf.io/preprints/metaarxiv/vbwa9</a></div>
 </div>
 <div id="ref-gdYsBE7d" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">131. </div><div class="csl-right-inline"><strong>Wisecube AI | Knowledge Graph Engine</strong> <a href="https://www.wisecube.ai/">https://www.wisecube.ai/</a></div>
+<div class="csl-left-margin">140. </div><div class="csl-right-inline"><strong>Wisecube AI | Knowledge Graph Engine</strong> <a href="https://www.wisecube.ai/">https://www.wisecube.ai/</a></div>
 </div>
 <div id="ref-rkXotO9x" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">132. </div><div class="csl-right-inline"><strong>An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition</strong> <div class="csl-block">George Tsatsaronis, Georgios Balikas, Prodromos Malakasiotis, Ioannis Partalas, Matthias Zschunke, Michael R Alvers, Dirk Weissenborn, Anastasia Krithara, Sergios Petridis, Dimitris Polychronopoulos, … Georgios Paliouras</div> <em>BMC Bioinformatics</em> (2015-04-30) <a href="https://www.wikidata.org/wiki/Q28646342">https://www.wikidata.org/wiki/Q28646342</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-015-0564-6">10.1186/s12859-015-0564-6</a></div></div>
+<div class="csl-left-margin">141. </div><div class="csl-right-inline"><strong>An overview of the BIOASQ large-scale biomedical semantic indexing and question answering competition</strong> <div class="csl-block">George Tsatsaronis, Georgios Balikas, Prodromos Malakasiotis, Ioannis Partalas, Matthias Zschunke, Michael R Alvers, Dirk Weissenborn, Anastasia Krithara, Sergios Petridis, Dimitris Polychronopoulos, … Georgios Paliouras</div> <em>BMC Bioinformatics</em> (2015-04-30) <a href="https://www.wikidata.org/wiki/Q28646342">https://www.wikidata.org/wiki/Q28646342</a> <div class="csl-block">DOI: <a href="https://doi.org/10.1186/s12859-015-0564-6">10.1186/s12859-015-0564-6</a></div></div>
 </div>
 <div id="ref-1C9uHr1Zk" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">133. </div><div class="csl-right-inline"><strong>YouTube</strong> <a href="https://www.youtube.com/">https://www.youtube.com/</a></div>
+<div class="csl-left-margin">142. </div><div class="csl-right-inline"><strong>YouTube</strong> <a href="https://www.youtube.com/">https://www.youtube.com/</a></div>
 </div>
 <div id="ref-12LOzmXRs" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">134. </div><div class="csl-right-inline"><strong>No Budget Science Hack Week</strong> <div class="csl-block">reprodutibilidade</div> <a href="https://www.reprodutibilidade.bio.br/hack-week-2021">https://www.reprodutibilidade.bio.br/hack-week-2021</a></div>
+<div class="csl-left-margin">143. </div><div class="csl-right-inline"><strong>No Budget Science Hack Week</strong> <div class="csl-block">reprodutibilidade</div> <a href="https://www.reprodutibilidade.bio.br/hack-week-2021">https://www.reprodutibilidade.bio.br/hack-week-2021</a></div>
 </div>
 <div id="ref-SALI6Ywb" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">135. </div><div class="csl-right-inline"><strong>Wikidata for 5-star Linked Open Databases: A case study of PanglaoDB</strong> <div class="csl-block">Tiago Lubiana, João Vitor Ferreira Cavalcante</div> <em>Zenodo</em> (2021-12-01) <a href="https://doi.org/gnpzvr">https://doi.org/gnpzvr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.5747849">10.5281/zenodo.5747849</a></div></div>
+<div class="csl-left-margin">144. </div><div class="csl-right-inline"><strong>Wikidata for 5-star Linked Open Databases: A case study of PanglaoDB</strong> <div class="csl-block">Tiago Lubiana, João Vitor Ferreira Cavalcante</div> <em>Zenodo</em> (2021-12-01) <a href="https://doi.org/gnpzvr">https://doi.org/gnpzvr</a> <div class="csl-block">DOI: <a href="https://doi.org/10.5281/zenodo.5747849">10.5281/zenodo.5747849</a></div></div>
 </div>
 <div id="ref-IJG65hFm" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">136. </div><div class="csl-right-inline"><strong>Biocuration - Wikipedia</strong> <a href="https://en.wikipedia.org/wiki/Biocuration">https://en.wikipedia.org/wiki/Biocuration</a></div>
+<div class="csl-left-margin">145. </div><div class="csl-right-inline"><strong>Biocuration - Wikipedia</strong> <a href="https://en.wikipedia.org/wiki/Biocuration">https://en.wikipedia.org/wiki/Biocuration</a></div>
 </div>
 <div id="ref-14Wi842eZ" class="csl-entry" role="doc-biblioentry">
-<div class="csl-left-margin">137. </div><div class="csl-right-inline"><strong>biohackathon-projects-2021/projects/32 at main · elixir-europe/biohackathon-projects-2021</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/elixir-europe/biohackathon-projects-2021">https://github.com/elixir-europe/biohackathon-projects-2021</a></div>
+<div class="csl-left-margin">146. </div><div class="csl-right-inline"><strong>biohackathon-projects-2021/projects/32 at main · elixir-europe/biohackathon-projects-2021</strong> <div class="csl-block">GitHub</div> <a href="https://github.com/elixir-europe/biohackathon-projects-2021">https://github.com/elixir-europe/biohackathon-projects-2021</a></div>
 </div>
 </div>
 <!-- default theme -->
