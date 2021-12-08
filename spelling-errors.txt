@@ -112,7 +112,7 @@ hackathon
 HackWeek
 haematopoiesis
 Haniffa
-HCA
+hca
 Helder
 hematopoietic
 Henle
@@ -190,7 +190,7 @@ oldid
 oligodendrocyte
 OMP
 OnClass
-Ontologies
+ontologies
 ontologists
 ontoProc
 osteoclast
@@ -214,7 +214,7 @@ ploidy
 polymerase
 Popperian
 pratical
-pre
+PRE
 preprint
 programatically
 Protégé
@@ -256,7 +256,7 @@ sizeable
 socio
 SPARQL
 stricto
-subclasses
+Subclasses
 sublanguage
 submisson
 subtype
@@ -292,7 +292,7 @@ Werner
 Wikidat
 WikidataIntegrator
 Wikidata’s
-Wikimedia
+WikiMedia
 Wikipathways
 Wikipedias
 Wisecube

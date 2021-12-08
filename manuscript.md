@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/8e4db1e93b09d5722f9c3655e461f238c65e0391/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/8e4db1e93b09d5722f9c3655e461f238c65e0391/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/8e4db1e93b09d5722f9c3655e461f238c65e0391/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/16dae36f6c7f242d28e67659bf25890260f681f0/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/16dae36f6c7f242d28e67659bf25890260f681f0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/16dae36f6c7f242d28e67659bf25890260f681f0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,9 +62,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/8e4db1e93b09d5722f9c3655e461f238c65e0391/))
+([permalink](https://lubianat.github.io/quali_phd/v/16dae36f6c7f242d28e67659bf25890260f681f0/))
 was automatically generated
-from [lubianat/quali_phd@8e4db1e](https://github.com/lubianat/quali_phd/tree/8e4db1e93b09d5722f9c3655e461f238c65e0391)
+from [lubianat/quali_phd@16dae36](https://github.com/lubianat/quali_phd/tree/16dae36f6c7f242d28e67659bf25890260f681f0)
 on December 8, 2021.
 </em></small>
 
@@ -848,19 +848,19 @@ Finally, the clean 5-star-open data format enables users to adapt the queries to
 For example, table @tbl:articles_read_hca showcases 10 articles that (1) I have read in the past year and (2) were authored by a speaker of the 1st Human Cell Atlas Latin America Single Cell RNA-seqData Analysis Workshop [@url:https://www.humancellatlas.org/hca-latin-america-2021-workshop/]. 
 One practical application that the dashboard enables, thus, is to identify people in an event, institution or location that the user has read before, therefore catalysing the possibility of colaborations. 
 Anedoctally, this strategy was tested successfully at Biohackathon Europe 2021 [@url:https://biohackathon-europe.org/], where I used the system both to identify possible collaborators and as a conversation starter. 
-|workLabel                                                                                        |authors                                                                   |
-|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-|A promoter-level mammalian expression atlas                                                      |Jay W Shin                                                                |
-|Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors.|Muzlifah Haniffa                                                          |
-|The Human Cell Atlas.                                                                            |Musa Mhlanga, Jay W Shin, Muzlifah Haniffa, Menna R Clatworthy, Dana Pe'er|
-|The Human Cell Atlas: Technical approaches and challenges.                                       |Jay W Shin                                                                |
-|Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses.             |Dana Pe'er                                                                |
-|Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations   |Sonya A MacParland                                                        |
-|Single-cell reconstruction of the early maternal–fetal interface in humans                       |Muzlifah Haniffa                                                          |
-|Distinct microbial and immune niches of the human colon                                          |Rasa Elmentaite, Menna R Clatworthy                                       |
-|A cell atlas of human thymic development defines T cell repertoire formation                     |Muzlifah Haniffa, Menna R Clatworthy                                      |
-|Decoding human fetal liver haematopoiesis                                                        |Muzlifah Haniffa                                                          |
-                                                                                                                                 Table: Articles read by Tiago Lubiana before 8 December 2021 in which an author was a speaker at HCA Latin America
+
+|workLabel                                                                                                          |authors_in_the_conference                        |DOI                                                                                                                                                                                                                                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|A promoter-level mammalian expression atlas                                                                        |Jay W Shin                                       |https://doi.org/10.1038/NATURE13182                                                                                                                                                                                                                                                                                                                |
+|Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors.                  |Muzlifah Haniffa                                 |https://doi.org/10.1126/SCIENCE.AAH4573                                                                                                                                                                                                                                                                                                            |
+|The Human Cell Atlas.                                                                                              |Musa Mhlanga, Jay W Shin, Muzlifah Haniffa, Menna R Clatworthy, Dana Pe'er|https://doi.org/10.7554/ELIFE.27041                                                                                                                                                                                                                                                                                                                |
+|The Human Cell Atlas: Technical approaches and challenges.                                                         |Jay W Shin                                       |https://doi.org/10.1093/BFGP/ELX029                                                                                                                                                                                                                                                                                                                |
+|Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses.                               |Dana Pe'er                                       |https://doi.org/10.1016/J.CELL.2017.04.014                                                                                                                                                                                                                                                                                                         |
+|Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations                     |Sonya A MacParland                               |https://doi.org/10.1038/S41467-018-06318-7                                                                                                                                                                                                                                                                                                         |
+|Single-cell reconstruction of the early maternal–fetal interface in humans                                         |Muzlifah Haniffa                                 |https://doi.org/10.1038/S41586-018-0698-6                                                                                                                                                                                                                                                                                                          |
+|Distinct microbial and immune niches of the human colon                                                            |Rasa Elmentaite, Menna R Clatworthy              |https://doi.org/10.1038/S41590-020-0602-Z                                                                                                                                                                                                                                                                                                          |
+|A cell atlas of human thymic development defines T cell repertoire formation                                       |Muzlifah Haniffa, Menna R Clatworthy             |https://doi.org/10.1126/SCIENCE.AAY3224                                                                                                                                                                                                                                                                                                            |
+|Decoding human fetal liver haematopoiesis                                                                          |Muzlifah Haniffa                                 |https://doi.org/10.1038/S41586-019-1652-Y                                                                                                                                                                                                                                                  Table: Articles read by Tiago Lubiana before 8 December 2021 in which an author was a speaker at HCA Latin America
 {#tbl:articles_read_hca}                                                        |
 
 ## Wikidata Bib for curation of cells to Wikidata
