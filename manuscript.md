@@ -6,7 +6,7 @@ keywords:
 - ontology
 - Cell Ontology
 lang: en-US
-date-meta: '2021-12-07'
+date-meta: '2021-12-08'
 author-meta:
 - Tiago Lubiana
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-07" />
-  <meta name="citation_publication_date" content="2021-12-07" />
+  <meta name="dc.date" content="2021-12-08" />
+  <meta name="citation_publication_date" content="2021-12-08" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/))
+([permalink](https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/))
 was automatically generated
-from [lubianat/quali_phd@e6cf449](https://github.com/lubianat/quali_phd/tree/e6cf449283aa647015cb56637d7c2de7d9f53a02)
-on December 7, 2021.
+from [lubianat/quali_phd@b7d3fd0](https://github.com/lubianat/quali_phd/tree/b7d3fd0aa464eb239683d617aa20c9cb1a738276)
+on December 8, 2021.
 </em></small>
 
 ## Authors
@@ -465,7 +465,6 @@ Status of cell type information on Wikidat was acessed via SPARQL queries combin
 
 ## Concept of cell types  {.page_break_before}
 
-
 ### General work on the concept of cell type
 As an initial step of this PhD project, we decided to investigate the definition of "cell type" and how to shape a definition for knowledge management on Wikidata. 
 The definition of the concept of "cell type" is currently a topic of debate by the biomedical community.[@wikidata:Q87649649; @doi:10.1242/dev.169854; @doi:10.1242/dev.178996; @wikidata:Q47565008; @wikidata:Q99418657; @wikidata:Q98665291; @wikidata:Q93086971; @wikidata:Q26770736; @wikidata:Q35688096; @wikidata:Q98633613; @wikidata:Q99418649; @wikidata:Q40436539].
@@ -530,27 +529,26 @@ Figure @fig:multilevel A multilevel theory (MLT) can divide the theoretical real
 ### Introduction
 
 The process of making the Human Cell Atlas more useful via Wikidata also includes the connection of related databases. 
-
 PanglaoDB [@https://panglaodb.se/index.html] [@doi:10.1093/database/baz046] is a publically-available database that contains data and metadata on hundreds of single-cell RNA sequencing experiments. 
 It provides extensive information on cell types, genes, and tissues and cell type markers, obtained both via automatic and manual methods.
 It also displays a rich web user interface for easy data acquisition, including database dumps for bulk downloads.
 
 
-As of 17 June 2021, the article describing PanglaoDB had been cited 147 times. 
+As of 8 December June 2021, the article describing PanglaoDB had been cited 230 times. 
 Despite its use by the community, the database is on a 3-star category for Linked Open Data [@url:https://www.w3.org/DesignIssues/LinkedData.html] as it does not use the open semantic standards from W3C (RDF and SPARQL) needed for a 4-star rank, neither the links to external data via standard identifiers that make datasets 5-star. 
 Improving the data format toward W3C's gold standards is a valuable step in making biological knowledge FAIR (Findable, Accessible, Interoperable, and Reusable). 
 Thus, we aimed to provide a case study of making the core information of PandlaoDB available in a 5-star Linked Open Data Format while improving the modeling of the necessary concepts on Wikidata.
 
 As of August 2020, Wikidata had 264 items being categorized as a "cell type", considerably less than in specialized cell catalogs, which count over two thousand cell types [@wikidata:Q28660708; @wikidata:Q36067763].
-Strikingly, there were also 23 items categorized as "instances of cell (Q7868)" . This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual.
+Strikingly, there were also 23 items categorized as "instances of cell (Q7868)". This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual, an example of conceptual disarray that often occurs on Wikidata. [@wikidata:Q109990743]
 
 Wikidata editors often mix first-order classes such as "cells" and "organs" with second-order classes like "cell types" and "organ types" (Supplementary Information). First-order classes point to real-world individuals, like the "Dolly sheep zygote" (a real-world "cell") and the "brain of Albert Einstein" (a real-world "organ"). Second-order classes point to classes, like "zygote" (a conceptual "cell type") and "brain" (a conceptual "organ type").
 
 We diligently fixed and improved information on cell types on Wikidata. 
-As of 17 June 2021, the Wikidata database contains 2102 instances of "cell type" (see current status at <https://w.wiki/b2t>) and 0 instances of "cell" (<https://w.wiki/b2q>) highlighting the improvements in both quantity and quality. 
+As of 8 December 2021, the Wikidata database contains 2834 instances of "cell type" (see current status at <https://w.wiki/b2t>) and 0 instances of "cell" (<https://w.wiki/4XAg>) highlighting the improvements in both quantity and quality. 
 
 
-### Methodology 
+### Methodology for PanglaoDB integration
 
 After obtaining approval from the owners of the database, we matched genes and cell types to Wikidata, and performed Wikidata queries to demonstrate the value of the approach. An overview of the process is shown in @fig:iscb_intro.
 ![
@@ -575,6 +573,7 @@ The reconciled dataset was uploaded to Wikidata via the WikidataIntegrator Pytho
 
 Besides the Wikidata Dumps, Wikidata provides an SPARQL endpoint with a Graphical User Interface (<https://query.wikidata.org/>). 
 Updated data was immediately accessible via this endpoint, enabling integrative queries integrated with other database statements.
+
 ### Results
 
 #### Cell Marker information on Wikidata
@@ -584,13 +583,10 @@ Figure @fig:chat_marker shows 2 of the current markers of "human colinergic neur
 The PanglaoDB is referenced both via URL to the website (<https://panglaodb.se/markers.html>) and a pointer to the PanglaoDB item on Wikidata, [Q99936939](http://www.wikidata.org/entity/Q99936939).
 
 
-![
-Subset of the marker genes for item Q101405051 (human cholinergic neuron )
-](https://github.com/lubianat/fapesp_report_1/blob/main/content/images/chat_marker.png?raw=true){#fig:chat_marker width="85%"}
+![Subset of the marker genes for item Q101405051 (human cholinergic neuron)](https://github.com/lubianat/fapesp_report_1/blob/main/content/images/chat_marker.png?raw=true){#fig:chat_marker width="85%"}
 
 
-Now that we re-formatted the markers on PanglaoDB as Linked Open Data, we can make queries that were not possible before, including
-federated queries with other biological databases, such as Uniprot [@https://sparql.uniprot.org/sparql]
+Now that we re-formatted the markers on PanglaoDB as Linked Open Data, we can make queries that were not possible before, includingfederated queries with other biological databases, such as Uniprot [@https://sparql.uniprot.org/sparql]
 and Wikipathways [@https://www.wikipathways.org/index.php/Portal:Semantic_Web].
 Due to previous similar reconciliation projects, Wikidata already contains information about genes, including their relations to Gene Ontology (GO) terms.
 
@@ -658,51 +654,170 @@ The approach we took here can in essence be applied to any knowledge set of publ
 
 ### Introduction 
 
-* Accountants have Double-entry bookkeeping (https://en.wikipedia.org/wiki/Double-entry_bookkeeping), software developers have Test-driven development (https://en.wikipedia.org/wiki/Test-driven_development).
+Reading scientific articles is an integral part of the routine of modern scientists.
+Although a number of literature/reference management software are available [@wikidata:https://en.wikipedia.org/wiki/Comparison_of_reference_management_software], the process of reading is largely artisanal. 
+There are no standard guidelines on how to probe the literature organize notes for biomedical researchers. 
+Thus, while reading and studying is a core activity, there are few (if any) protocols for efficient screening of scientific articles. 
 
-* Develop a professional way for coverage of large-scale revisions, inspired by Umberto Eco's How to Write a Thesis [@wikidata:Q3684178] adapted to the digital environment, using version-control and semantic links. 
+Other professional traditions have dealt with similar issues in the past. 
+In the field of accounting, note-taking is of outstanding importance, to keep track of financial balances and avoid costly problems.
+Double-entry bookkeeping was developed in the 13th century as a professional solution for note-taking in accounting where "every entry to an account requires a corresponding and opposite entry to a different account." [@url:https://en.wikipedia.org/w/index.php?title=Double-entry_bookkeeping&oldid=1055066428]
+In software development, Test-Driven Development (TDD) is a popular methodology where tests for code snippets are written before the code itself, therefore ensuring that written software passes minimum quality standards.
+The similarities of Double-entry bookkeeping and TDD are diverse [@wikidata:https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html], but for our purpose here suffices to see both as professionalized systems that promote better quality and accountability of works. 
 
-* Connect the reading framework with a Biocuration strategy to feed knowledge to Wikidata
+
+In the humanities, there is a well-established practice of annotations of readings. 
+The annotation skills are part of common academic training in the humanities [@url:https://bibliotecadaeca.wordpress.com/2019/09/30/como-fazer-um-fichamento/][@url:https://www.youtube.com/playlist?list=PLAudUnJeNg4vWJhEJ_da26C-QW5qiS7uZ]. 
+An influential work in presenting methods for academic reading in the humanities is Umberto Eco's book "How to Write a Thesis" [@wikidata:Q3684178], which outlines not only _how_ to annotate the literature that basis an academic thesis, but also _why_ to do so. 
+The book, written originally in 1977, is still influential today, but its theoretical scope (roughly the humanities) and its date, preceding the digital era, limits the extent in which it applies to the biomedical sciences. 
+
+
+Notably, the need of an organized reading system for biocuration studies stems from a difference in methodology. 
+In humanities, the main (if not sole) research material is the written text, the books and articles from which research stems. [@url:https://www.youtube.com/playlist?list=PLAudUnJeNg4vWJhEJ_da26C-QW5qiS7uZ].
+In the biomedical sciences, including a large part of bioinformatics, the object of study is the natural world, observed via experimentation. 
+Thus, naturally, scientific training focuses on the theoretical and practical basis of experimentation and data analysis. 
+With the bloom of scientific articles, however, the scientific literature (and accompaning public datasets) provide already a strong material for the sculpting of scientific projects.
+Thus, the development of a methodology for academic reading, tailored to the digital environment, presents itself as a need. 
+
+This chapter concerns itself with presenting Wikidata Bib, a framework for large scale reading of scientific articles. 
+It is presented as three parts, each of them with a technical overview alongside the theoretical foundations. 
+First, Wikidata Bib is presenting as a reading system, for managing references and notes using a GitHub repository and plain text notes.
+Then, we present how the system ensures accountability, allowing its user to get personalized analytics on their reading patterns.
+Finally, we demonstrate how Wikidata Bib  fits an active curation environment, connecting the framework with the larger goal of this project of curating information about cell types on Wikidata.  
 
 ## Wikidata Bib as a reading system 
 
-It consists of a set of Python scripts and a standard file structure. 
-A file contains the list of articles to be read in markdown. Articles are represented as Wikidata QIDs which enables automatic information retrieval from Wikidata's structured systems.  
-Articles were organized in 2 main sections, one for cell-type related articles and one for biocuration-related articles. 
+The reading framework of Wikidata bib is built upon a git repository integrated with GitHub, Python3 scripts and SPARQL queries. 
+It has a standard file structure, summarized as the following:
 
-* __Show file structure__
+* `docs/`
+    * `index.html`
+* `downloads/`
+    * `10.7554_ELIFE.52614.pdf`
+* `notes/`
+    * `Q87830400.md`
+* `src/`
+    * `get_pdf.py`
+    * `helper.py`
+    * `read_paper.py`
+    * `update_dashboard.py`
+* `index.md`
+* `toread.md`
+* `config.yaml`
+* `pop`
+* `wadd`
+* `wadd_all`
+* `wread`
+* `wlog`
 
-The Wikidata Bib system has a "pop" function, which creates a personalized note document in markdown for the first article of a section and (if possible) obtains the full text article from Unpaywall (https://unpaywall.org/). 
-The note document contains a space for highlights, which can be copied from the original text and pasted in the markdown file.
+The `docs/` directory contains the live dashboard from the readings, which will be discussed in the following sessions.
+The `downloads/` directory hosts the pdfs of the articles read with the system. 
+These are not commited to the repository, and are only stored locally. 
+The `notes/` directory contains markdown files, one for each article read. 
+The `src/` directory contains the python code with the mechanics of the system. 
+They contain helper functions for the command line commands discussed below:
+    - `wread` which receives a Wikidata QID for an article and outputs (1) a notes document, (2) a pdf for the paper obtained from Unpaywall [@url:https://unpaywall.org/] and (3) an updated version of the dashboard html files in the `docs/` directory.
+    - `pop`, which "pops" an article from `toread.md` and runs `wread` for it
+    - `wadd`, which takes an URL for an Wikidata SPARQL query and adds new QIDs to `toread.md`
+    - `wadd_all`, which parses `config.yaml` for recurrent SPARQL queries and runs `wadd` for each
+    - `wlog`, which adds, commits and pushes recent readings and dashboard updates to GitHub
 
-* __image pop__
+All the structures described so far are commonly shared by any user of Wikidata Bib. 
+To personalize the use of the system, the user edits three plain text files.
+`toread.md` hosts a plain text QIDs of the articles that will be read. 
+These can be added either manually, or via wadd.
+While the `pop` command only sees QIDs, articles titles or other identifiers can be added to `toread.md` temporarily without breaking the system. 
+`index.md` hosts a numbered list of topics of interest.
+This file plays the role of  Umberto Eco's work plan, with the topics of interest for the academic. [@wikidata:Q3684178]
+These are used to tag articles for retrieval in a later step. 
+`config.yaml` contains shortcuts for different reading lists. 
+This is better explained by example. 
+In my `toread.md` file there are two reading lists, one following a `# Cell types` header, and another following a `# Biocuration` header. 
+My `config.yaml` contains the following snippet: 
+```yaml
+lists:
+# - shortcut: Title of header in toread.md  
+  ct: Cell types
+  bioc: Biocuration
+```
+The shortcuts in `config.yaml` are used as arguments by the `pop` command, where `$ ./pop ct` retrieves an article from the "Cell types" list, while `$ ./pop bioc` retrieves an article from the "Biocuration" list.  
 
-Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings. 
-The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata_bib/tree/template and notes on my readings can currently be accessed at https://lubianat.github.io/wikidata_bib/.
+The Wikidata bib framework is coupled with a discipline of daily reading.
+This is inspired by Robert Cecil Martin's description of Test Driven Development in the book "Clean Code", which includes not only a technical description, but a _school of thought_ of how software development can be approached.  [@wikidata:Q109996684]
+Every day, I read one article of each list, using the notetaking station displayed in Figure @fig:notetaking.
+The constancy of reading allows steady coverage of the relevant literature. 
+While it has worked for this research project, however, it is not required for use of the Wikidata Bib system.
+
+The notetaking station of Wikidata Bib is, by default, opened in Virtual Studio Code, and is depicted on Figure @fig:notetaking A.
+The title and publication dates are displayed, and the reading process entails copying snippets from the text to the "Highlights" session. 
+By copying the highlights into plain text, the sections of interest become searchable via command line using `grep` (https://en.wikipedia.org/w/index.php?title=Grep&oldid=1039541979).
+Comments can be added either in the comment section or inline, alongside the highlights, using ` --> Comment goes here ` to differentiate from highlights.
+Also searchable by `grep` are the tags, copied and pasted from `index.md` in the `## Tags` session or alongside the main article. 
+
+
+The discipline also includes, whenever possible, an improvement of the metadata about the article on Wikidata. 
+In @fig:notetaking B are shown the links included in the dashboard. 
+A link to a Scholia [@wikidata:Q41799194] profile allows identification of related articles from a series of pre-made SPARQL queries probing bibliography data on Wikidata.
+While Scholia provides an overview of a given article, it does not allow direct curation of the metadata.
+For that, two links are provided, one to Wikidata and one to Author Disambiguator [@url:https://www.wikidata.org/wiki/Wikidata:Tools/Author_Disambiguator].
+By acessing the Wikidata page for the entity, one can add new triples, for example curating authors and topics of the article, which are then used by Scholia and by Wikidata Bib's dashboard. 
+Author Disambiguator is a wrapper of an Wikimedia API which facilitates the process of disambiguating author names to unique identifiers on Wikidata, thus  feeding the publict knowledge graph of publication and authors.  
+Finally, a link to the article's DOI or full text URL is provided, and serves as a fallback when the automatic download fails. 
+Of note, while the metadata curation has a technical benefit to Wikidata and the dashboard, it also plays a theoretical role. 
+By curating metadata on authors, the user of Wikidata Bib can better understand the people they read, and expand their metascientific perspective on their domain of interest. 
 
 ![Wikidata Bib's platform for note taking](images/note_taking_station_annotated_with_links.png){#fig:notetaking}
 
+The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata_bib. 
 
-- _Talk about Author Disambiguator and other contributions_
-
-
-Besides the technical aspects of Wikidata Bib, the organized reading methodology included a discipline step of continued reading, with a target of 1-2 papers per section per day.
-Based on Umberto Eco's suggestion on How to Write a Thesis [@wikidata:Q3684178] to develop a careful indexing system for literature, an index document was constructed containing the topics of interest for writing the thesis. 
-The topics were added as plain text in the personalized note documents, allowing batch retrieval of articles of interest via the command line, using `grep` (https://en.wikipedia.org/w/index.php?title=Grep&oldid=1039541979).  
-
-* __image grep and open__
 
 ## Wikidata Bib as a dashboard 
 
-* Wikidata Bib generates real-time, public visualizations of my literature progress
+The Wikidata Bib system also enables the reader to get statistics on their readings. 
+Two simple databases are stored on the GitHub repository:
+ * `read.ttl` - An RDF document recording the dates in which each article was read. 
+ * `read.csv` - An simple, human-readable, index connecting QIDs with article titles. 
+The csv file is only stored for accountability, and as a quick way to glance at the titles read. 
+The .ttl file, in the other hand, is processed by the `update_dashboard.py` script to render 4 different html files under the `docs/` folder: 
+ - `index.html`
+ - `last_day.html`
+ - `past_week.html`
+ - `past_month.html`
+All files are displayed in a GitHub pages. 
+In the case of this work, they are displayed at https://lubianat.github.io/wikidata_bib/. 
 
-* wbib package: https://github.com/lubianat/wbib
+To organize the code for rendering the dashboard, we created a python package, wbib, and deposited it in PyPi, making it available via `pip`. [@url:https://pypi.org/project/wbib/].
+The package implements the logic for rendering complex Wikidata-based academic dashboards and is available in GitHub at https://github.com/lubianat/wbib. 
+It allows the user to build dashboards based on Wikidata records of information such as gender of authors, the region of author`s intitutions, topics of articles and similar metascientific information. 
+The dashboard is composed of SPARQL queries written for the Wikidata Query Service [@url:https://query.wikidata.org] 
+It also allows users to feed an arbitrary list of articles and obtain a custom dashboard. 
+Wikidata Bib obtains the html dashboards after feeding wbib the lists of articles read in total (`index.html`) or in pre-determined time spans (`last_day.html`, `past_week.html` and `past_month.html` )
+
 
 ![Wikidata Bib queries for institutions of authors and most read venues](images/wikidata_bib_display.png){#fig:dashboard}
 
-* _Wikidata Bib reading status_:
-    - articles read
-    - authors read 
+The dashboard includes not only a basic list of read articles, but also statistics on most read authors and most read venues. 
+It also displays an interactive map of the instituions of articles read, permitting a glance on geographic biases in activities. 
+An example of queries is show in @fig:dashboard.
+As the queries are rendered live, they evolve in quality with the growth of Wikidata. 
+Finally, the clean 5-star-open data format enables users to adapt the queries to include different aspects of Wikidata. 
+For example, table @tbl:articles_read_hca showcases 10 articles that (1) I have read in the past year and (2) were authored by a speaker of the 1st Human Cell Atlas Latin America Single Cell RNA-seqData Analysis Workshop [@url:https://www.humancellatlas.org/hca-latin-america-2021-workshop/]. 
+One practical application that the dashboard enables, thus, is to identify people in an event, institution or location that the user has read before, therefore catalysing the possibility of colaborations. 
+Anedoctally, this strategy was tested successfully at Biohackathon Europe 2021 [@url:https://biohackathon-europe.org/], where I used the system both to identify possible collaborators and as a conversation starter. 
+
+|workLabel                                                                                                          |authors_in_the_conference                        |DOI                                                                                                                                                                                                                                                                                                                                                |
+|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|A promoter-level mammalian expression atlas                                                                        |Jay W Shin                                       |https://doi.org/10.1038/NATURE13182                                                                                                                                                                                                                                                                                                                |
+|Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors.                  |Muzlifah Haniffa                                 |https://doi.org/10.1126/SCIENCE.AAH4573                                                                                                                                                                                                                                                                                                            |
+|The Human Cell Atlas.                                                                                              |Musa Mhlanga, Jay W Shin, Muzlifah Haniffa, Menna R Clatworthy, Dana Pe'er|https://doi.org/10.7554/ELIFE.27041                                                                                                                                                                                                                                                                                                                |
+|The Human Cell Atlas: Technical approaches and challenges.                                                         |Jay W Shin                                       |https://doi.org/10.1093/BFGP/ELX029                                                                                                                                                                                                                                                                                                                |
+|Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses.                               |Dana Pe'er                                       |https://doi.org/10.1016/J.CELL.2017.04.014                                                                                                                                                                                                                                                                                                         |
+|Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations                     |Sonya A MacParland                               |https://doi.org/10.1038/S41467-018-06318-7                                                                                                                                                                                                                                                                                                         |
+|Single-cell reconstruction of the early maternal–fetal interface in humans                                         |Muzlifah Haniffa                                 |https://doi.org/10.1038/S41586-018-0698-6                                                                                                                                                                                                                                                                                                          |
+|Distinct microbial and immune niches of the human colon                                                            |Rasa Elmentaite, Menna R Clatworthy              |https://doi.org/10.1038/S41590-020-0602-Z                                                                                                                                                                                                                                                                                                          |
+|A cell atlas of human thymic development defines T cell repertoire formation                                       |Muzlifah Haniffa, Menna R Clatworthy             |https://doi.org/10.1126/SCIENCE.AAY3224                                                                                                                                                                                                                                                                                                            |
+|Decoding human fetal liver haematopoiesis                                                                          |Muzlifah Haniffa                                 |https://doi.org/10.1038/S41586-019-1652-Y                                                                                                                                                                                                                                                  Table: Articles read by Tiago Lubiana before 8 December 2021 in which an author was a speaker at HCA Latin America
+{#tbl:articles_read_hca}                                                        |
 
 ## Wikidata Bib for curation of cells to Wikidata
 

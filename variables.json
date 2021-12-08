@@ -8,11 +8,11 @@
       "Cell Ontology"
     ],
     "lang": "en-US",
-    "date-meta": "2021-12-07",
+    "date-meta": "2021-12-08",
     "author-meta": [
       "Tiago Lubiana"
     ],
-    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas\" />\n<meta name=\"citation_title\" content=\"Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas\" />\n<meta property=\"og:title\" content=\"Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas\" />\n<meta property=\"twitter:title\" content=\"Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas\" />\n<meta name=\"dc.date\" content=\"2021-12-07\" />\n<meta name=\"citation_publication_date\" content=\"2021-12-07\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"School of Pharmaceutical Sciences, University of São Paulo\" />\n<meta name=\"citation_author_institution\" content=\"Ronin Institute\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/quali_phd/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/quali_phd/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/quali_phd/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/quali_phd/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/quali_phd/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/quali_phd/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/main/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas\" />\n<meta name=\"citation_title\" content=\"Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas\" />\n<meta property=\"og:title\" content=\"Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas\" />\n<meta property=\"twitter:title\" content=\"Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas\" />\n<meta name=\"dc.date\" content=\"2021-12-08\" />\n<meta name=\"citation_publication_date\" content=\"2021-12-08\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Tiago Lubiana\" />\n<meta name=\"citation_author_institution\" content=\"School of Pharmaceutical Sciences, University of São Paulo\" />\n<meta name=\"citation_author_institution\" content=\"Ronin Institute\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2473-2313\" />\n<meta name=\"twitter:creator\" content=\"@lubianat\" />\n<link rel=\"canonical\" href=\"https://lubianat.github.io/quali_phd/\" />\n<meta property=\"og:url\" content=\"https://lubianat.github.io/quali_phd/\" />\n<meta property=\"twitter:url\" content=\"https://lubianat.github.io/quali_phd/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://lubianat.github.io/quali_phd/\" />\n<meta name=\"citation_pdf_url\" content=\"https://lubianat.github.io/quali_phd/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://lubianat.github.io/quali_phd/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->",
     "bibliography": [
       "content/manual-references.json"
     ],
@@ -22,7 +22,7 @@
     "manubot-clear-requests-cache": false
   },
   "manubot": {
-    "date": "December 7, 2021",
+    "date": "December 8, 2021",
     "authors": [
       {
         "github": "lubianat",
@@ -59,19 +59,19 @@
       "repo_slug": "lubianat/quali_phd",
       "repo_owner": "lubianat",
       "repo_name": "quali_phd",
-      "commit": "e6cf449283aa647015cb56637d7c2de7d9f53a02",
-      "triggering_commit": "e6cf449283aa647015cb56637d7c2de7d9f53a02",
-      "build_url": "https://github.com/lubianat/quali_phd/commit/e6cf449283aa647015cb56637d7c2de7d9f53a02/checks",
-      "job_url": "https://github.com/lubianat/quali_phd/actions/runs/1551216151"
+      "commit": "b7d3fd0aa464eb239683d617aa20c9cb1a738276",
+      "triggering_commit": "b7d3fd0aa464eb239683d617aa20c9cb1a738276",
+      "build_url": "https://github.com/lubianat/quali_phd/commit/b7d3fd0aa464eb239683d617aa20c9cb1a738276/checks",
+      "job_url": "https://github.com/lubianat/quali_phd/actions/runs/1554830254"
     },
     "html_url": "https://lubianat.github.io/quali_phd/",
     "pdf_url": "https://lubianat.github.io/quali_phd/manuscript.pdf",
-    "html_url_versioned": "https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/",
-    "pdf_url_versioned": "https://lubianat.github.io/quali_phd/v/e6cf449283aa647015cb56637d7c2de7d9f53a02/manuscript.pdf",
+    "html_url_versioned": "https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/",
+    "pdf_url_versioned": "https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/manuscript.pdf",
     "manubot_version": "0.5.1",
     "rootstock_commit": "d2ca9953a443537288a4eb4f8707847b6fe39336",
     "manuscript_stats": {
-      "word_count": 10526
+      "word_count": 12187
     }
   }
 }
