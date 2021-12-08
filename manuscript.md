@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/8e4db1e93b09d5722f9c3655e461f238c65e0391/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/8e4db1e93b09d5722f9c3655e461f238c65e0391/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/8e4db1e93b09d5722f9c3655e461f238c65e0391/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,9 +62,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/b7d3fd0aa464eb239683d617aa20c9cb1a738276/))
+([permalink](https://lubianat.github.io/quali_phd/v/8e4db1e93b09d5722f9c3655e461f238c65e0391/))
 was automatically generated
-from [lubianat/quali_phd@b7d3fd0](https://github.com/lubianat/quali_phd/tree/b7d3fd0aa464eb239683d617aa20c9cb1a738276)
+from [lubianat/quali_phd@8e4db1e](https://github.com/lubianat/quali_phd/tree/8e4db1e93b09d5722f9c3655e461f238c65e0391)
 on December 8, 2021.
 </em></small>
 
@@ -452,9 +452,11 @@ I participate in the monthly meetings and sporadic workshops, learning and contr
 Additionaly, I contribute to the ontology development, actively engaging in the Cell Ontology GitHub repository (<https://github.com/obophenotype/cell-ontology>) and contributing with new terms and assertions. 
 I edit the ontology with the software for ontology editing Protégé v. 5.5.0 (<https://protege.stanford.edu/>).
 
-### Status of cell type info on Wikidata
+### Status of cell type info on Wikidata and the Cell Ontology
 
-Status of cell type information on Wikidat was acessed via SPARQL queries combined with processing in python and is available at <https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet#scrollTo=szvBWI9zr_AA>
+Status of cell type information on Wikidat was acessed via SPARQL queries combined with processing in python and is available at <https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet#scrollTo=szvBWI9zr_AA>.
+
+Counts of cell classes in the Cell Ontology were performed via regex matching on Cell Ontology releases following the code available at https://github.com/lubianat/cell_ontology_count. 
 
 
 # Preliminary Results
@@ -504,23 +506,64 @@ The division of archetypes and _sensu stricto_ cell types, on the other hand, wa
 
 ### A simplified definition
 
- Refining the different concepts around the notion of "cell type" is important, but will require decades before a reasonable consensus. 
-Here we adopt a liberal view of cell type, defining, for our purposes, a cell type as "any class of cells described by a domain expert".
-By "class" we mean an abstract entity in the sense intended by the multilevel theory of conceptual modelling (referred as "_types_" by Carvalho et al. ) [@wikidata:Q108926456]
+ Refining the different concepts around the notion of "cell type" is important, but will require decades before a reasonable consensus. Here we adopt a liberal view of cell type, defining, for our purposes, a cell type as any class of cells described by a domain expert with evidence of reality of its instances.
+The requirement of evidence of existence in reality is based on the Principle of instantiation of ontological realism [@wikidata:Q28239464]. Barry Smith and Werner Ceuster states that "A term should be included in a reference ontology only if there is experimental evidence that instances to which that term refers exist in reality.(‘Exists’ here should be understood in a tenseless sense in order to accommodate, for example, universals pertaining to extinct species as well as universals such as swarm or hurricane which are instantiated only intermittently.)"
+Thus, in this work one minimum requirement for a cell type to be catalogued is a public description by a researcher of the class, with evidence for existence of instances of the class in reality. 
 
-Figure @fig:multilevel represents the adaptation of Multi Level Theory that is assumed for the modelling done throughout this work. 
-The notion is time-agnostic (i.e. it is not concerned if their objects _exist now_ or just _existed in the past_) and organizes the theoretical world into 3 kingdoms: _individuals_, _classes_ and _metaclasses_. 
+
+By "class" we mean an abstract entity in the sense intended by the multilevel theory (MLT) of conceptual modelling (referred as "_types_" by Carvalho et al. ) [@wikidata:Q108926456]
+Figure @fig:multilevel displays a simplified version of MLT adopted throughout this project.
+In this framework, real-world entities are materializations of _individuals_. 
+_Individuals_ are theoretical constructs which are (1) thought to exist or have existed, as per the principle of instantiation, and (2) refer to only one (01) material entity at any point in time. 
+For example, Wikidata has entries for people, e.g. "Helder Nakaya ([Q42614737](https://www.wikidata.org/wiki/Q42614737))" and "Charles Darwin ([Q1035](https://www.wikidata.org/wiki/Q42614737))" which are considered _individuals_ by Multi Level Theory.
+Other examples of _individuals_ include "Albert Einstein's brain ([Q2464312](https://www.wikidata.org/wiki/Q2464312))" and the "Christ the Redeemer statue ([Q79961](https://www.wikidata.org/wiki/Q79961))".
 
 ![ Multileveltheory for cell types](https://raw.githubusercontent.com/lubianat/multilevel_ontology_drawings/master/combination_human_cell.png){#fig:multilevel width="85%"}
 
 Figure @fig:multilevel A multilevel theory (MLT) can divide the theoretical realm into different kingdoms. A) A representation of people in the MLT framework adopted in this work. The theoretical-realm entity "Mahatma Gandhi" is materialized by the material-realm Mahatma Gandhi. The theoretical _individual_ is considered an instance of  multiple _classes_ such as "Indian lawyer" and "_Homo sapiens_", which are related to each other via subclass relations. The classes themselves are instances of _metaclasses_, like "taxon", a first order metaclass. B) An analogous representation of the MLT framework, but applied to cells and cell types. 
 
-* Justifying the selection: MLT and basic formal ontology 
+In MLT, _individuals_ are instances of some _classes_.
+For example, both "Helder Nakaya ([Q42614737](https://www.wikidata.org/wiki/Q42614737))" and "Charles Darwin ([Q1035](https://www.wikidata.org/wiki/Q42614737))" could be represented as instances of the class "_Homo sapiens_  ([Q15978631](https://www.wikidata.org/wiki/Q15978631))" on Wikidata. 
+"_Homo sapiens_ (Q15978631)" is only one of the classes that those individuals belong to.
+Another one is "animal ([Q729](https://www.wikidata.org/wiki/Q729))". 
+As all instances of "_Homo sapiens_ (Q15978631)" are also instances of "animal (Q729)", "_Homo sapiens_ (Q15978631)" is a subclass of "animal (Q729)".
+It is possible to continue the hierarchy of subclasses, as "animal (Q729)" is a subclass of "organism (Q7239)", until the root case, which in the case of wikidata is the class "entity ([Q35120](https://www.wikidata.org/wiki/Q35120))" 
 
-* Justifying the selection: MLT and wikidata
+
+Classes, however, can themselves behave as individuals. 
+For example, both "_Homo sapiens_ (Q15978631)" and "animal (Q729)" are instances of "taxon ([Q16521](https://www.wikidata.org/wiki/Q16521))".
+"Taxon (Q16521)", thus, is a _metaclass_, or, more precisely, a _1st-order metaclass_. 
+Other examples of metaclasses are "_species_ ([Q7432](https://www.wikidata.org/wiki/Q7432))" and "phylum ([Q38348](https://www.wikidata.org/wiki/Q38348))". 
+These, in turn, are instances of "taxonomic rank ([Q427626](https://www.wikidata.org/wiki/Q427626))", a _2nd-order metaclass_. 
 
 
+In the Figure @fig:multilevel B there is a proposal of this version of MLT for cell types. 
+As individual cells are rarely named, for the sake of example, we can consider the "zygote of Mahatman Gandhi" as an _individual_ in the theoretical system, an instance of the class "zygote ([Q170145](https://www.wikidata.org/wiki/Q170145))", which is itself an instance of the metaclass "cell type ([Q189118](https://www.wikidata.org/wiki/Q189118))" 
+A more concrete example stems from RNA-sequencing datasets with barcodes for each single cell in a particular sample.
+Each barcode can be thought as an identifier for an _individual_. 
+Thus, labeling single-cells is a process of identification, where each _individual_ is connected to a _class_ of interest. 
 
+<!-- From  https://raw.githubusercontent.com/lubianat/technotype/9f428cbcf8e8a8d2843faac684275fb0c37914ed/content/05.logical.md BEGIN-->
+
+For the practical purpose adopted here, we avoid the dissection of the differences between persistent classes of cells (often called "cell types") or the transient, fugacious classes of cells (often called "cell states") (see "Definition of cell identity" section in [@wikidata:Q48563763] for an example). We also consider only the cell as it was observed in an experiment, not necessarily the future conditions of any cell (i.e., the "cell fate"). [@wikidata:Q91908361]  
+Even though such a distinction is an important topic for theoretical research, it is outside the initial scope of this work. 
+
+Another logical consequence of the definition is that the concept of subtype becomes redundant with the concept of cell type.
+The notion of subtype, then, only makes sense when discussing classes with different degrees of universality.
+Thus, claims to discover new cell "subtypes" or "types" differ only stylistically and can be considered indistinguishable from the perspective of research synthesis.
+
+
+<!-- From  https://raw.githubusercontent.com/lubianat/technotype/9f428cbcf8e8a8d2843faac684275fb0c37914ed/content/05.logical.md END-->
+
+We also note that we made a judgment call to use the term "cell type" to emphasize the focus on types as classes (or "kinds") in contrast to real-world objects.
+The term "cell class" is also used in the literature and is a suitable synonym for our notion of cell type.
+We opted to frame our work around the term "cell type" due to its historical usage and familiarity for the life sciences community.
+Other related thems a "cell set," "cell population," and "cell cluster," can also reminisce of a specific, countable group of cells, frequently from the same experiment. 
+The term "cell identity" has also been suggested for avoiding the cell type/cell state dilemma [@wikidata:Q64974172], but we avoid it to emphasize a nominalistic perspective (in the Popperian sense[@wikidata:Q108925548]).
+In doing so, we reinforce the intent on represent on what cell types are _reported to exist_, instead of trying to state bluntly which cell types _exist_ or, even worse, are _essential_ of human beings. 
+
+The employment of MLT as described before, and the notion of species-specific cell types are fundamental for the next chapters of this work. 
+In the chapter about the PanglaoDB integration, we describe how we used the notion of species-specific types to add marker information to Wikidata, and how we cleaned up conceptual disarrays that broke MLT. 
 
 
 
@@ -546,6 +589,7 @@ Wikidata editors often mix first-order classes such as "cells" and "organs" with
 
 We diligently fixed and improved information on cell types on Wikidata. 
 As of 8 December 2021, the Wikidata database contains 2834 instances of "cell type" (see current status at <https://w.wiki/b2t>) and 0 instances of "cell" (<https://w.wiki/4XAg>) highlighting the improvements in both quantity and quality. 
+This increase stems both from the PanglaoDB initiative (around 430 new types) and from the Wikidata Bib curation, described in a later chapter. 
 
 
 ### Methodology for PanglaoDB integration
@@ -804,44 +848,51 @@ Finally, the clean 5-star-open data format enables users to adapt the queries to
 For example, table @tbl:articles_read_hca showcases 10 articles that (1) I have read in the past year and (2) were authored by a speaker of the 1st Human Cell Atlas Latin America Single Cell RNA-seqData Analysis Workshop [@url:https://www.humancellatlas.org/hca-latin-america-2021-workshop/]. 
 One practical application that the dashboard enables, thus, is to identify people in an event, institution or location that the user has read before, therefore catalysing the possibility of colaborations. 
 Anedoctally, this strategy was tested successfully at Biohackathon Europe 2021 [@url:https://biohackathon-europe.org/], where I used the system both to identify possible collaborators and as a conversation starter. 
-
-|workLabel                                                                                                          |authors_in_the_conference                        |DOI                                                                                                                                                                                                                                                                                                                                                |
-|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|A promoter-level mammalian expression atlas                                                                        |Jay W Shin                                       |https://doi.org/10.1038/NATURE13182                                                                                                                                                                                                                                                                                                                |
-|Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors.                  |Muzlifah Haniffa                                 |https://doi.org/10.1126/SCIENCE.AAH4573                                                                                                                                                                                                                                                                                                            |
-|The Human Cell Atlas.                                                                                              |Musa Mhlanga, Jay W Shin, Muzlifah Haniffa, Menna R Clatworthy, Dana Pe'er|https://doi.org/10.7554/ELIFE.27041                                                                                                                                                                                                                                                                                                                |
-|The Human Cell Atlas: Technical approaches and challenges.                                                         |Jay W Shin                                       |https://doi.org/10.1093/BFGP/ELX029                                                                                                                                                                                                                                                                                                                |
-|Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses.                               |Dana Pe'er                                       |https://doi.org/10.1016/J.CELL.2017.04.014                                                                                                                                                                                                                                                                                                         |
-|Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations                     |Sonya A MacParland                               |https://doi.org/10.1038/S41467-018-06318-7                                                                                                                                                                                                                                                                                                         |
-|Single-cell reconstruction of the early maternal–fetal interface in humans                                         |Muzlifah Haniffa                                 |https://doi.org/10.1038/S41586-018-0698-6                                                                                                                                                                                                                                                                                                          |
-|Distinct microbial and immune niches of the human colon                                                            |Rasa Elmentaite, Menna R Clatworthy              |https://doi.org/10.1038/S41590-020-0602-Z                                                                                                                                                                                                                                                                                                          |
-|A cell atlas of human thymic development defines T cell repertoire formation                                       |Muzlifah Haniffa, Menna R Clatworthy             |https://doi.org/10.1126/SCIENCE.AAY3224                                                                                                                                                                                                                                                                                                            |
-|Decoding human fetal liver haematopoiesis                                                                          |Muzlifah Haniffa                                 |https://doi.org/10.1038/S41586-019-1652-Y                                                                                                                                                                                                                                                  Table: Articles read by Tiago Lubiana before 8 December 2021 in which an author was a speaker at HCA Latin America
+|workLabel                                                                                        |authors                                                                   |
+|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+|A promoter-level mammalian expression atlas                                                      |Jay W Shin                                                                |
+|Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors.|Muzlifah Haniffa                                                          |
+|The Human Cell Atlas.                                                                            |Musa Mhlanga, Jay W Shin, Muzlifah Haniffa, Menna R Clatworthy, Dana Pe'er|
+|The Human Cell Atlas: Technical approaches and challenges.                                       |Jay W Shin                                                                |
+|Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses.             |Dana Pe'er                                                                |
+|Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations   |Sonya A MacParland                                                        |
+|Single-cell reconstruction of the early maternal–fetal interface in humans                       |Muzlifah Haniffa                                                          |
+|Distinct microbial and immune niches of the human colon                                          |Rasa Elmentaite, Menna R Clatworthy                                       |
+|A cell atlas of human thymic development defines T cell repertoire formation                     |Muzlifah Haniffa, Menna R Clatworthy                                      |
+|Decoding human fetal liver haematopoiesis                                                        |Muzlifah Haniffa                                                          |
+                                                                                                                                 Table: Articles read by Tiago Lubiana before 8 December 2021 in which an author was a speaker at HCA Latin America
 {#tbl:articles_read_hca}                                                        |
 
 ## Wikidata Bib for curation of cells to Wikidata
 
-* Recording of cell types in Google Spreadsheets
+The Wikidata Bib system was devised originally to allow an overview of the fields of cell classification and biocuration. 
+However, during the process, it was also repurposed for biocuration of new cell classes in Wikidata.
+By fast-tracking the reading of new articles, Wikidata Bib enables an efficient parsing of the literature, and, thus, the identification of previously uncatalogued cell types. 
 
-* Integration to Wikidata via Python script
+Articles read with Wikidata Bib were screened for the mention of cell types absent from Wikidata. 
+As discussed on the chapter about the concept of cell type, we considered as a "cell type" as as any class of cells described by a domain expert with evidence of reality of its instances.
+When a mention of such a class appears in an article, I first verify Wikidata for the existence of a related class. 
+If it is absent from the platform , I enter a class name, alongside a superclass, and a QID in a Google Spreadsheet, as shown in Figure @fig:biocuration_of_cells.
 
-* Figure @fig:biocuration_of_cells
+The information from the spreadsheet is pulled by a python script, and processed locally with a series of dictionaries that match common terms to Wikidata IDs. 
+In the example shown in Figure @fig:biocuration_of_cells, the string "endothelial cell" was matched against a manually curated dictionary to the wikidata entry [Q11394395](https://www.wikidata.org/wiki/Q11394395), the representation of that concept on Wikidata. 
+After reconciling the data, the script uses the Wikidata Integrator python package [@url:https://github.com/SuLab/WikidataIntegrator] to insert the new entries on the Wikidata database. 
+The code for integrating a Google Spreadsheet to Wikidata is available at https://github.com/lubianat/wikidata_cell_curation. 
 
 ![Wikidata Bib was coupled with a biocuration framework for cell types](images/biocuration_of_cells.png){#fig:biocuration_of_cells width="85%"}
 
-### Results 
 
-* Update the status via <https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet#scrollTo=szvBWI9zr_AA>
+Wikidata contains 2940 subclasses of "cell ([Q7868](https://www.wikidata.org/wiki/Q7868))" as of 8 December 2021. 
+From those, 550 cell classes are specific for humans and 318 are specific for mice.  
+As a comparison, as of 8 of December 2021, Wikidata has more cell classes than the Cell Ontology, which lists 2577 classes. 
+It is worth noticing that classes on the Cell Ontology are added after careful consideration by ontologists and domain experts, and should be considered of higher quality than the ones on Wikidata. 
 
-Wikidata statistics on cell types
-2625 total cell classes
-More than the Cell Ontology
-519 human-specific cell classes 
-277 mouse-specific cell classes 
 
-User:TiagoLubiana: 
-At least 1 edit in 2495 cell classes
-Created 1395 cell classes
+From the 2940 cell classes on Wikidata, 2812 (95.6%) have been edited in some way by User:TiagoLubiana, and 1668 (56.7%) have been created by User:TiagoLubiana. 
+Edits made to the cells were often connecting a dangling term, created automatically from an Wikipedia page to the cell subclass hierarchy, but also included adding of identifiers, images, markers and other pieces of information. 
+From the 1668 entities created, approximately 63 species-neutral cell types, 188 human and 188 mouse cell types were added based on PanglaoDB entries (total of 439).
+The remaining 1229 entries were created either directly via Wikidata's web interface or using the curation workflow described in this chapter. 
+Theses statistics are a simple demonstration of how the curation system is efficiently contributing to the status of cell type information on Wikidata. 
 
 ![Subclasses of "cell" on Wikidata](https://keep.google.com/u/0/media/v2/1WoYkTz0M-ew_Tay-DpmOr2zyyCalnmsyd_2Ysq3pyNaJ7R5CIQnfdvZTDviBcvc/18W-amXz1489obuE7Tqb-AQHZKa-x-aVaH7QsO3x7Cy7lz-4a6AMzaGdLffzB?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp){#fig:subclass_of_cell width="85%"}
 
@@ -882,7 +933,7 @@ By approaching the object of study from a new perspective, we hope not only to m
 
 The next years of study will be devoted to improving the projects presented here into mature, useful objects. 
 We hope to improve the interplay of Wikidata and Cell Ontology, developing frameworks to combine community- and expert- based curation of knowledge on  cell types. 
-Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting ontology-based R packages ( asOnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371])) to use Wikidata. 
+Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting ontology-based R packages (as OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371])) to use Wikidata. 
 Finally, we aim at moving the Wikidata Bib system to a well documented, user-friendly mature system, testing usability with other academics and distributing it as a durable open-source project. 
 
 # Additional Work
@@ -925,7 +976,10 @@ During the initial course of this PhD project, I have participated in several ev
 
 ## Course work
 
-During the first year of the PhD program
+During the first year of the PhD program, I took 4 different classes, acquiring a total of 36 academic credits. 
+Figure @fig:courses_taken displays the disciplines taken, available only in portuguese. 
+ 
+![Courses taken](images/janus_courses_taken.png){#fig:courses_taken}
 
 ## References {.page_break_before}
 
