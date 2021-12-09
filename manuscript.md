@@ -6,7 +6,7 @@ keywords:
 - ontology
 - Cell Ontology
 lang: en-US
-date-meta: '2021-12-08'
+date-meta: '2021-12-09'
 author-meta:
 - Tiago Lubiana
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-08" />
-  <meta name="citation_publication_date" content="2021-12-08" />
+  <meta name="dc.date" content="2021-12-09" />
+  <meta name="citation_publication_date" content="2021-12-09" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/16dae36f6c7f242d28e67659bf25890260f681f0/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/16dae36f6c7f242d28e67659bf25890260f681f0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/16dae36f6c7f242d28e67659bf25890260f681f0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/bdc5dbf4cb3698c1da65b9939fa935424b927361/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/bdc5dbf4cb3698c1da65b9939fa935424b927361/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/bdc5dbf4cb3698c1da65b9939fa935424b927361/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/16dae36f6c7f242d28e67659bf25890260f681f0/))
+([permalink](https://lubianat.github.io/quali_phd/v/bdc5dbf4cb3698c1da65b9939fa935424b927361/))
 was automatically generated
-from [lubianat/quali_phd@16dae36](https://github.com/lubianat/quali_phd/tree/16dae36f6c7f242d28e67659bf25890260f681f0)
-on December 8, 2021.
+from [lubianat/quali_phd@bdc5dbf](https://github.com/lubianat/quali_phd/tree/bdc5dbf4cb3698c1da65b9939fa935424b927361)
+on December 9, 2021.
 </em></small>
 
 ## Authors
@@ -89,23 +89,22 @@ on December 8, 2021.
 
 # Abstract
 The Human Cell Atlas (HCA) is an international effort aiming at characterizing every cell type of the human body. 
-By the virtue of tecniques such as single-cell RNA sequencing, mass cytometry, and multiplexed in situ hybridization, HCA members are producing cell-level data from virtually all human tissues. 
-This wealth of data can have a significant impact on biomedical research, but only if its content is genuinely interoperable.
+By techniques such as single-cell RNA sequencing, mass cytometry, and multiplexed in situ hybridization, HCA members are producing cell-level data from virtually all human tissues. 
+This wealth of data can significantly impact biomedical research, but only if its content is genuinely interoperable.
 While ontologies and semantic technologies have emerged as key players in the data interoperability ecosystem, there are still gaps to cover between the technical possibilities and the practical applications in biomedical research.
-In addition to ontologies, like the Cell Ontology and the Gene Ontology, large-scale knowledge graphs are growing as a tool for knowledge makanagement. 
+In addition to ontologies, like the Cell Ontology and the Gene Ontology, large-scale knowledge graphs are growing as knowledge management tools. 
 Among those, Wikidata, a sister project of Wikipedia for structured data, is surfacing as a hub in the semantic web for multiple types of information. 
-The formatting and deployment of information from the Human Cell Atlas to Wikidata can increase information availability and impact, conecting the scientific products with the larger knowledge ecosystem.
-This PhD project aims at studying Wikidata as a platfomr for representing cell types, adressing theoretical and pratical concerns.  
-We are reviewing the literature on cell types, refining and formalizing concepts for cell type delimitation.
-At the same time, we are enriching Wikidata with new classes curated from the literature, and with large scale integrations of biomedical databases (e.g. PanglaoDB) into the Wikidata infrastructure.
-To aid that effort, we are developing Wikidata Bib, a framework for literature management and organized note-taking and recording system for reading the academic literature with high efficiency. 
+The formatting and deployment of information from the Human Cell Atlas to Wikidata can increase information availability and impact, connecting the scientific products with the larger knowledge ecosystem.
+This PhD project aims at studying Wikidata as a platform for representing cell types, addressing theoretical and practical concerns.  
+We review the literature on cell types, refining and formalizing concepts for cell type delimitation.
+At the same time, we are enriching Wikidata with new classes curated from the literature and with large scale integrations of biomedical databases (e.g. PanglaoDB) into the Wikidata infrastructure.
+To aid that effort, we are developing Wikidata Bib, a framework for literature management and organized note-taking system for reading the academic literature with high efficiency. 
 Finally, we plan to improve the interplay of Wikidata, the Cell Ontology and software used for single-cell RNA-seq data, inserting Wikidata _de facto_ as a tool for the Human Cell Atlas community. 
 
-# Preface
 
 Here we present an overview of the different chapters that compose this document, presented as the text for a qualifying exam.  
 This work is concerned with the conceptual modelling of knowledge about cell types. 
-The introduction contains an overview of the Human Cell Atlas project, and the current state of classification of cells into types. 
+The introduction contains an overview of the Human Cell Atlas project and the current state of classifying cells into types. 
 Then, it proceeds to introduce ontologies and knowledge graphs as tools for connecting what we know about cells. 
 
 The methodology section is an overview of the core methods used throughout the work. 
@@ -113,19 +112,18 @@ However, as the project contains elements from different scientific traditions, 
 
 It is worth noticing that the different results shown were not developed chronologically in the order shown. 
 They were actually developed in parallel, with overlapping periods of activity. 
-They have been organized into separate chapters, however, as they tackle different perspectives of the subject matter, and are part of different publications. 
+They have been organized into separate chapters, however, as they tackle different perspectives of the subject matter and are part of different publications. 
 
 The discussion on the concept of cell type is presented first, as it is instrumental for the later steps. 
-It is followed by an account of how PanglaoDB, a database of cell markers, was integrated to Wikidata, based on a notion of species-specific cell type clarified in the preceding chapter. 
+It is followed by an account of how PanglaoDB, a database of cell markers, was integrated into Wikidata, based on a notion of species-specific cell type clarified in the preceding chapter. 
 
-Then, we present Wikidata Bib, a framework for organized reading of the literature. 
-The framework, althoug used as a method throughout the PhD project, is presented in the results session.
-This emphasis as a result was chosen as the technical and theoretical details of the system are part of the intelectual work put into the project. 
-The system evolved into a biocuration platform for the collection of cell types from the literature to Wikidata, and the statistics on this curation are also presented on the section. 
-
+Then, we present Wikidata Bib, a framework for an organized reading of the literature. 
+The framework, although used as a method throughout the PhD project, is presented in the results session.
+We emphasize the technical and theoretical details of the system are part of the intellectual work put into the project. 
+The system evolved into a biocuration platform for the collection of cell types from the literature to Wikidata. 
 To end the results, we discuss how our efforts integrate with the Cell Ontology, the currently leading system for organizing cell types. 
 
-Finally, an account of other academic aspects of the project are presented, as part of the qualification requirements. 
+Finally, an account of other academic aspects of the project is presented as part of the qualification requirements. 
 They present an overview of collaborations, participation in events and academic courses taken during the first part of the PhD project. 
 
 
@@ -137,271 +135,289 @@ They present an overview of collaborations, participation in events and academic
 
 <!-- 1.4.1. The Human Cell Atlas project and its scope -->
 <!-- 1.4.1.1. Participants -->
-The advent of single-cell technologies has ignited the desire of a deep knowledge on cells, the building blocks of life [@wikidata:Q99418649]. 
-The Human Cell Atlas (HCA) project, has been a major player in the cell knowledge ecosystem, running since 2017 towards the task to characterize every cell type in the human body [@wikidata:Q46368626]. 
-The HCA consortium gathers people from all over the world to tackle different parts of the project, so to have a diverse and equitable account of the cell type diversity. [@wikidata:Q100491106]  
+The advent of single-cell technologies has ignited the desire for a deep knowledge of cells, the building blocks of life [@wikidata:Q99418649]. 
+The Human Cell Atlas (HCA) project has been a major player in the cell knowledge ecosystem, running since 2017 to characterize every cell type in the human body [@wikidata:Q46368626]. 
+The HCA consortium gathers people from all over the world to tackle different parts of the project to have a diverse and equitable account of the cell type diversity. [@wikidata:Q100491106]  
 
 <!-- - 1.4.1.2. Overview of main analytical techniques  -->
-Building a full atlas of human cells comes with multiple challenges. The project includes the detection, in single cells, of RNA species (scRNA-Seq), chromatin accessibility (scATAC-Seq), and protein markers (primarily by CYTOF), as well as spatial information on cells with multiplexed _in situ_ hybridization (such as MERFISH) and imaging mass cytometry [@wikidata:Q46368626 ;@wikidata:Q104450645]. Every lab inside the project will contribute with its expertise, providing samples that are representative of human diversity.
+Building a complete atlas of human cells comes with multiple challenges. The project includes the detection, in single cells, of RNA species (scRNA-Seq), chromatin accessibility (scATAC-Seq), and protein markers (primarily by CYTOF), as well as spatial information on cells with multiplexed _in situ_ hybridization (such as MERFISH) and imaging mass cytometry [@wikidata:Q46368626 ;@wikidata:Q104450645]. Every lab inside the project will contribute with its expertise, providing samples representing human diversity.
 
-HCA is set to revolutionize the biomedical sciences, by creating tools and standards for basic research, as well as allowing better characterization of disease, and thus, ultimately, improving diagnostics and therapy. 
+HCA is set to revolutionize the biomedical sciences by creating tools and standards for basic research, allowing better characterization of disease, and improving diagnostics and therapy. 
 Its products (data, information, knowledge and wisdom) need to be FAIR: findable, accessible, interoperable and reusable.
-Data stewardship and data management are growing as core dhttps://www.wikidata.org/wiki/Help:Multilingualemands of the scientific community, ranging from data management plans [@wikidata:Q56524391] to specialized personnel [@wikidata:Q56524391].
+Data stewardship and management are growing as core demands of the scientific community, ranging from data management plans [@wikidata:Q56524391] to specialized data personnel [@wikidata:Q56524391].
 
 <!-- 1.4.3. Data availability -->
 <!-- - 1.4.3.1. As coordinated by the Human Cell Atlas -->
 The Human Cell Atlas has a dedicated team for organizing data: the Data Coordination Platform (DCP) [@url:https://data.humancellatlas.org/about] [@wikidata:Q104450645].
 The DCP is responsible for tracing the plan for computational interoperability, from the data generators to the consumers.[@wikidata:Q104450645].
-The Human Cell Atlas  has its portal for data (<https://dahttps://www.wikidata.org/wiki/Help:Multilingualta.humancellatlas.org/>) which composes the data repository landscape with other resources, like the Broad Institute Single Cell Portal (<https://singlecell.broadinstitute.org/single_cell>) and the Chan-Zuckerberg Biohub Tabula Sapiens (<https://tabula-sapiens-portal.ds.czbiohub.org/>). 
-In addition to its core team, the HCA is poised to grow by community interaction, and states in its opening paper that "As with the Human Genome Project, a robust plan will best emerge from wide-ranging scientific discussions and careful planning".[@wikidata:Q46368626]  
+The Human Cell Atlas has its portal for data [@url:https://data.humancellatlas.org]), which composes the data repository landscape with other resources, like the Broad Institute Single Cell Portal [https://singlecell.broadinstitute.org/single_cell>) and the Chan-Zuckerberg Biohub Tabula Sapiens (<https://tabula-sapiens-portal.ds.czbiohub.org/>). 
+In addition to its core team, the HCA is poised to grow by community interaction. It states in its opening paper that "As with the Human Genome Project, a robust plan will best emerge from wide-ranging scientific discussions and careful planning".[@wikidata:Q46368626]  
 Thus, this project inserts itself among the wide-ranging scientific discussions to improve data - and knowledge - interoperability. 
 
 The highlight of "knowledge" in the last paragraph is meant to stress that raw data _per se_ is not enough to turn the Atlas objectives into reality. 
-There is a long way from raw datasets to commonly agreed scientific knowledge. 
-And, ultimately, this long way is what allows humanity to take advantage of scientific endeavors.
-Currently, the gap between data and knowledge is mostly targeted via the writing and sharing of scientific manuscripts, the _de facto_ currency of exchange of claims about the natural world. 
-The Human Cell Atlas Publication Commitee reviews and selects publications that are directly part of the HCA.
-A set of publications is, thus, one of the major outputs of the whole endeavor.
+There is a long way from raw datasets to commonly-agreed scientific knowledge. 
+And, ultimately, this long way is what allows humanity to take advantage of scientific endeavours.
+Currently, the gap between data and knowledge is mostly targeted by writing and sharing scientific manuscripts, the _de facto_ currency of exchange of claims about the natural world. 
+The Human Cell Atlas Publication Committee reviews and selects publications directly part of the HCA.
+A set of publications is, thus, one of the significant outputs of the whole endeavour.
 
-The challenge that arises, thus, is one of managing a wealth of information and cast it into useful science.
+The challenge that arises, thus, is one of managing a wealth of information and casting it into useful science.
 Experimental articles that analyze thousands of cells pose an overload of information alone. 
-Ideally, we would like to understand, remember and make use of every statement produced by the HCA.
+Ideally, we would like to understand, remember, and use every statement produced by the HCA.
 As this goal is humanely impossible, we need to develop tools to make the knowledge interoperable with the aid of computers. 
-At that point, the challenges of the HCA enter in resonance with the challenges of text-mining, biocuration and literature based discovery, which will be discussed in the chapter <!-- - 1.1. The quest for interoperable knowledge --> of this introduction. 
+At that point, the challenges of the HCA enter in resonance with the challenges of biocuration.
+Knowledge representation tools will be discussed in the chapter on ontologies and knowledge graphs of this introduction. 
 
 
 # Classification of cells into types
 
-Given that a core goal of the Human Cell Atlas is to advance knowledge about _all_ human cell types, [@wikidata:Q46368626] the definition of what a cell type is becomes important. 
+Given that a core goal of the Human Cell Atlas is to advance knowledge about _all_ human cell types, [@wikidata:Q46368626] the definition of "cell type" becomes essential. 
 Although a number of views exist [@wikidata:Q87649649; @doi:10.1242/dev.169854; @doi:10.1242/dev.178996; @wikidata:Q47565008; @wikidata:Q99418657; @wikidata:Q98665291; @wikidata:Q93086971; @wikidata:Q26770736; @wikidata:Q35688096; @wikidata:Q98633613; @wikidata:Q99418649; @wikidata:Q40436539; @wikidata:Q108723646], there is no formal, commonly agreed upon defintion of cell type. 
 A 2017 article on the Human Cell Atlas mentions[@wikidata:Q47565008]: 
 
-"Descriptors such as ‘cell type’ and ‘cell state’ can be difficult to define at the moment. An integrative, systematic effort by many teams of scientists working together and bringing different expertise to the problem could dramatically sharpen our terminology, and revolutionize the way we see our cells, tissues and organs. We invite you to join the effort." 
-The article highlights both the current gap in knowledge and the need of a community effort to work in that direction, in a direction that justifies the existence of the present work. 
+"Descriptors such as 'cell type' and 'cell state' can be difficult to define at the moment. An integrative, systematic effort by many teams of scientists working together and bringing different expertise to the problem could dramatically sharpen our terminology, and revolutionize the way we see our cells, tissues and organs. We invite you to join the effort." 
 
-One consequence of a lack of a definition is that there is no commonly agreed number of cell types, and not even on an order of magnitude. 
-As of November 2021, the leading answers in the Google Search Engine for the question "How many different cell types are found in the human body?" all point to around 200 different types (https://askabiologist.asu.edu/questions/human-cell-types, https://www.researchgate.net/post/How-many-cell-types-in-a-human-body-How-about-the-number-of-cell-cycles-in-each-species, https://www.kenhub.com/en/library/anatomy/types-of-cells-in-the-human-body), an estimate that is agreed upon by Bionumbers, a database of useful biological numbers [@wikidata:Q24643881] (https://bionumbers.hms.harvard.edu/bionumber.aspx?id=103626).
+The article further highlights both the current gap in knowledge and the need for a community effort to work in finding definitions. 
+
+One consequence of a lack of a definition is that there is no commonly agreed number of cell types, and not even on the order of magnitude. 
+As of November 2021, the leading answers in the Google Search Engine for the question "How many different cell types are found in the human body?" all point to around 200 different types [@url:https://askabiologist.asu.edu/questions/human-cell-types, https://www.researchgate.net/post/How-many-cell-types-in-a-human-body-How-about-the-number-of-cell-cycles-in-each-species] [@url:https://www.kenhub.com/en/library/anatomy/types-of-cells-in-the-human-body], an estimate that is agreed upon by Bionumbers, a database of useful biological numbers [@wikidata:Q24643881] [@url:https://bionumbers.hms.harvard.edu/bionumber.aspx?id=103626].
 A list of cell types in the adult human body on Wikipedia also amounts to around a couple hundred cell types [@url:https://en.wikipedia.org/w/index.php?title=List_of_distinct_cell_types_in_the_adult_human_body&oldid=1044853788].
-However, the Cell Ontology has so far had catalogued 2,311 cell types of interest for the Human Cell Atlas as of June 2021 [@wikidata:Q107373831], increasing the estimate by at least one order of magnitude. 
-Additionally, with an estimate of 37 trillion cells on average per human body [@wikidata:Q34037445] and an ever-increasing report of new cell types/clusters in single-cell transcriptomics ([@wikidata:Q103034964]), a precise estimate is not reasonable. 
-In fact, the Human Cell Atlas project itself does not commit to any estimates of numbers of cell types, due to the sheer difficulty of estimating a number given current knowledge. (Aviv Regev; reply to question in the HCA conference) 
+However, the Cell Ontology has catalogued more than 2,311 cell types of interest for the Human Cell Atlas [@wikidata:Q107373831], increasing the estimate by at least one order of magnitude. 
+Additionally, with an estimate of 37 trillion cells on average per human body [@wikidata:Q34037445] and an ever-increasing report of new cell types/clusters in single-cell transcriptomics [@wikidata:Q103034964], it is reasonable that the number of relevant cell types is much larger.
+The Human Cell Atlas project itself does not commit to any estimates of numbers of cell types due to the sheer difficulty of estimating a number given current knowledge. (Aviv Regev; reply to a question in the general HCA conference) 
 
-<!-- Text from https://github.com/lubianat/technotype/blob/9f428cbcf8e8a8d2843faac684275fb0c37914ed/content/02.introduction.md BEGIN-->
+<!-- Adapted from https://github.com/lubianat/technotype/blob/9f428cbcf8e8a8d2843faac684275fb0c37914ed/content/02.introduction.md BEGIN-->
 
 Even though there is no agreement, different views on cell types are maturing. 
-One core line of thought to define "cell type" is based on the cell type as an evolutionary unit defined by a Core Regulatory Complex (CoRC) of transcription factors. That definition enables the drawing of parallels, from the evolution of other biological entities (such as genes, proteins, and species) to cell types' evolution. Models of how multicellular life works greatly benefit from concepts such as "sister types" (cell types that diverged from a single ancestor), "cell type homology" (cell types in different species that share a common evolutionary origin), and "cell type convergence" (cell types that execute similar functions but which are not directly evolutionarily related) [@pmid:18927580; @doi:10.1038/nrg.2016.127]
+One core line of thought to define "cell type" is based on the cell type as an evolutionary unit. 
+That definition enables the drawing of parallels, from the evolution of other biological entities (such as genes, proteins, and species) to cell types' evolution. 
+Models of how multicellular life works greatly benefit from concepts as sister types (sharing a single ancestor), cell type homology ( sharing a common evolutionary origin), and cell type convergence (executing similar functions without direct evolutionary links) [@pmid:18927580; @doi:10.1038/nrg.2016.127]
 
-Another direction is based on the notion of attractors: regions of dynamical stability in a feature space, which might have different qualities. [@wikidata:Q37475461; @wikidata:Q91908361] In this theory, "basins of attraction" direct cell phenotypes, providing points in, say, a gene expression space towards which different cells "move" their expression programs. This dynamic view see each cell type corresponding to "a self-stabilizing regulatory program, which acts to maintain and restore the cell type-specific program of gene expression." [@wikidata:Q90361677] It alligns itself with dynamic systems theory, and some authors go as far as to say that "Lacking the idea of attractors we have no clear idea of what a cell type is." [@wikidata:Q91316993]
+Another school of thought is based on attractors: regions of dynamical stability in a feature space. [@wikidata:Q37475461; @wikidata:Q91908361] 
+In this theory, "basins of attraction" direct cell phenotypes, providing points in, say, a gene expression space towards which different cells "move" their expression programs. 
+This dynamic view sees each cell type corresponding to "a self-stabilizing regulatory program, which acts to maintain and restore the cell type-specific program of gene expression." [@wikidata:Q90361677] 
+It aligns itself with dynamic systems theory, and some authors go as far as to say that "Lacking the idea of attractors we have no clear idea of what a cell type is." [@wikidata:Q91316993]
 
-As much as different concepts of species coexist [@doi:10.1080/10635150701701083], our quest to define cell types may take various forms. The challenge of representing cell types in the context of evolution is conceptually different from representing cell types in biomedical experimentation. In that second direction, the groundwork of the Cell Ontology [@wikidata:Q21184168; @doi:10.1186/1471-2105-12-6; @doi:10.1186/s13326-016-0088-7] and CELDA [@wikidata:Q21284308] and the contributions of the International Workshop on Cells in Experimental Life Sciences series [@doi:10.1186/s12859-017-1976-2; @doi:10.1186/s12859-019-2721-9] are notable. 
+As much as different species concepts coexist [@doi:10.1080/10635150701701083], the quest to define cell types may take various forms.
+The challenge of representing cell types in evolution is conceptually different from representing cell types in biomedical experimentation. 
+In that second direction, the groundwork of the Cell Ontology [@wikidata:Q21184168; @doi:10.1186/1471-2105-12-6; @doi:10.1186/s13326-016-0088-7] and CELDA [@wikidata:Q21284308] and the contributions of the International Workshop on Cells in Experimental Life Sciences series [@doi:10.1186/s12859-017-1976-2; @doi:10.1186/s12859-019-2721-9] are notable. 
 
 <!-- Text from https://github.com/lubianat/technotype/blob/9f428cbcf8e8a8d2843faac684275fb0c37914ed/content/02.introduction.md END-->
 
-Even though many sources of knowledge contribute to our knowledge about cell types [@wikidata:Q109717199], arguably single-cell transcriptomics is the workhorse for current efforts of the HUman cell Atlas, with an increasing amount of published studies using the methodology and of cells per study. [@wikidata:Q109717199]
-Current scRNA-seq data analyses often rely on unsupervised clustering of cells followed by assignment of cell-type labels to clusters.
+## Single-cell transcriptomics
+
+Even though many sources of knowledge contribute to our understanding of cell types [@wikidata:Q109717199], arguably single-cell transcriptomics is the workhorse for current efforts of the HUman cell Atlas, with an increasing amount of published studies. [@wikidata:Q109717199]
+Current scRNA-seq data analyses often rely on unsupervised clustering of cells followed by the assignment of cell-type labels to clusters.
 For the clustering, bioinformaticians tailor parameter sets to a target resolution, i.e., the level of detail used to detect cell identities. [@wikidata:Q64974172] [@wikidata:Q46368626]
  When the clustering is finished, the groups of cells are annotated with class labels, representing the underlying biology in a language we can understand. [@wikidata:Q107158224]
 
 
 Instead of assigning expression gates from pre-defined markers, as is the standard for flow-cytometry analysis, single-cell RNA-seq analysis pipelines usually start from _de novo_ clustering of cells followed by cluster annotation. [@wikidata:Q64974172]
 While it is clear that clusters and cell types are different concepts [@wikidata:Q64974172], often cluster labels are treated as cell types. 
-There are a number of ways to cluster cells to find groups of similarity, but arguably the current default is dirived on the methodology proposed by PhenoGraph. [@wikidata:Q30975629]
-The protocol is to calculate the distances between cells in a reduced PCA space (with the number of dimensions chosen by the experimenters), followed by constructing a k-nearest-neighbours network, in which each cell is a node connected by _k_ (another parameter) edges to other cells. 
-Once the network is build, network modules (i.e. cell clusters) are commonly found using the Louvain algorithm, published in 2008 by researchers of the Université catholique de Louvain, in Belgium. [@wikidata:Q29305711]
-The cell clusters found by the PhenoGraph (or any other) algorithm are then labeled by domain experts, often based on genes differentially expressed on each cluster, so-called "markers". [@wikidata:Q64974172]
+There are several ways to cluster cells to find groups of similarity, but arguably the current default is derived from the methodology proposed by PhenoGraph. [@wikidata:Q30975629]
+The protocol is to calculate the distances between cells in a reduced PCA space (with the number of dimensions chosen by the experimenters), followed by constructing a k-nearest-neighbours network. 
+Each cell is a node connected by _k_ (another parameter) edges to other cells. 
+Once the network is built, network modules (i.e. cell clusters) are commonly found using the Louvain algorithm, published in 2008 by researchers of the Université Catholique de Louvain in Belgium. [@wikidata:Q29305711]
+The cell clusters found by the PhenoGraph (or any other) algorithm are then labelled by domain experts, often based on genes differentially expressed on each cluster, so-called "markers". [@wikidata:Q64974172]
 
-While it is possible to manually investigate the identities of which clusters, automatic methods have been developed to aid on the task. [@wikidata:Q107158224]
+While it is possible to manually investigate the identities of which clusters, automatic methods have been developed to aid in the task. [@wikidata:Q107158224]
 One approach ("marker-based automatic annotation") bases itself on crossing clusters markers in the analyzed dataset with previous knowledge from databases like PanglaoDB [@wikidata:Q63664483] and CellMarker [@wikidata:Q56984510] [@wikidata:Q107158224].
 Another approach (reference-based automatic cell annotation) relies on base, expert-annotated datasets as references from which labels are transferred to the dataset of interest. [@wikidata:Q107158224] 
-Other methods bypass the clustering step and focus on labelling the individual cells, which avoids lumping dissimilar cells together, but require a high amount of reads per individual cells for it to be efficient. [@wikidata:Q107158224] 
-A recent review and tutorial by Clarke et al [@wikidata:Q107158224] provides an extensive account of current techniques. 
+Other methods bypass the clustering step and focus on labelling the individual cells, which avoids lumping different cells together but requires a high amount of reads per individual cells to be efficient. [@wikidata:Q107158224] 
+Clarke et al.'s recent review and tutorial [@wikidata:Q107158224] provides an extensive account of current techniques. 
 
-Of note, even though a range of methods is available, the vast majority of techniques and publications do not use standard identifiers for cell types. 
+Of note, even though a range of methods is available, most techniques and publications do not use standard identifiers for cell types. 
 This is in contradiction with the acknowledgement by the community of the advantages of using identifiers the ad using standard identifiers, such as those provided by the Cell Ontology. [@wikidata:Q107158224] [@wikidata:Q33037209] [@wikidata:Q107373831] [@wikidata:Q36067763] [@wikidata:Q52625486]  [@wikidata:Q49192555].
 Nevertheless, projects that use Cell Ontology identifiers for single-cell RNA-seq data are appearing [@wikidata:Q109755180], including python and R packages (e.g. Besca [@wikidata:Q104450593], OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371]), data management projects and reference datasets, (e.g. Tabula Muris [@url:https://tabula-muris.ds.czbiohub.org/] and Tabula Sapiens [@url:https://tabula-sapiens-portal.ds.czbiohub.org/celltypes] Azimuth map [@url:https://azimuth.hubmapconsortium.org/] and HubMap's ASCT+B Tables [@wikidata:Q109755184]) and annotation platforms (e.g. the Cell Annotation Platform [@url:http://celltype.info] and CellTypist [@wikidata:Q107363182].
 
-As elegantly put by Meehan et al [@wikidata:Q34978215] the Cell Ontology is a "manually constructed computer readable resource that links cell types by different relationships".
-it was first described in 2005 by Jonathan Bard, Seung Y Rhee† and Michael Ashburner [@wikidata:Q21184168] and was oriented at creating an "organism-independent classification of cells", following criteria that included function, histology, lineage and ploidy and providing "Cell-type unique identifiers (ID) that can be incorporated into any database holding cell-type-associated knowledge." It also had a didatic goal in itself, as the authors mention [@wikidata:Q21184168]: 
+As elegantly put by Meehan et al. [@wikidata:Q34978215] the Cell Ontology is a "manually constructed computer-readable resource that links cell types by different relationships".
+it was first described in 2005 by Jonathan Bard, Seung Y Rhee† and Michael Ashburner [@wikidata:Q21184168] and was oriented at creating an "organism-independent classification of cells".
+It followed criteria that included function, histology, lineage and ploidy and providing "Cell-type unique identifiers (ID) that can be incorporated into any database holding cell-type-associated knowledge." 
+It also had a didactic goal in itself, as the authors mention [@wikidata:Q21184168]: 
 "It is designed to be useful in the sense that a researcher should be able to find, in a rapid and intuitive way, any cell type in any of the major model organisms and, having found it, learn a considerable amount about that cell type and its relationships to other biological objects."
 The collaborative project gradually evolved and changed its design and scope to fit new needs. 
-By 2011, for example, a need for computable definitions for hematopoietic cell types lead to a sizeable advance in the number and quality of immune cell types represented in CL. [@wikidata:Q33786317] 
-It also included the addidion of species-specific cell types to better handle marker-based definitions, which are usually given at the species level. [@wikidata:Q33786317] 
-Further developments over the years included both technical improvements as well of the addition of new cell types, and by the time of the last official CL publication, in 2016, it contained approximately 2,200 classes.   [@wikidata:Q36067763]  
-The Cell Ontology, currently, is growing as a resource for the Human Cell Atlas and in providing identifiers for cell types [@wikidata:Q109755180].
+By 2011, a need for computable definitions led to an advance in the number and quality of immune cell types represented in CL. [@wikidata:Q33786317] 
+It also included the addition of species-specific cell types to handle better marker-based definitions, usually presented at the species level. [@wikidata:Q33786317] 
+Further developments over the years included both technical improvements and the addition of new cell types. 
+By the time of the last official CL publication, in 2016, it contained approximately 2,200 classes.   [@wikidata:Q36067763]  
+Currently, the Cell Ontology is growing as a resource for the Human Cell Atlas and in providing identifiers for cell types [@wikidata:Q109755180] and presents over 2500 classes of cells (Figure @fig:cl_counts)
 
+![Cell Ontology counts per release. Some releases around 2014 are not available anymore, thus yielding 0 counts.](https://github.com/lubianat/cell_ontology_count/blob/master/results/classes_per_release.png?raw=true){#fig:cl_counts width="85 %"}
 
-In conclusion, the advancement of our _formal_ classification of cell types, such as in the Cell Ontology, represents a tangible goal of current cell-oriented large scale projects. 
-While purely theoretical developments have their value, refining the cell type theory in the context of knowledge management arguably will have a influence direcly on how the products of the Human Cell Atlas will impact modern science. 
-One reason is that formal systems enable automation of knowledge integration, and can feed intelligent systems that aid current research practices. 
-In the following chapter, it will be discussed how computer-based knowledge processing can influence life-sciences research, as well as discuss techniques and platforms to advance the frontier. 
-
+While purely theoretical developments have their value, refining the cell type theory in the context of knowledge management arguably will directly influence how the products of the Human Cell Atlas will impact modern science. 
+One reason is that formal systems enable automation of knowledge integration and can feed intelligent systems that aid current research practices. 
+In the following chapter, it will be discussed how computer-based knowledge processing can influence life-sciences research and discuss techniques and platforms to advance the frontier. 
 
 ## Ontologies
 <!-- - 1.2. Formal representation of knowledge and - 1.3. Knowledge Representation in biology --> 
 
 The classification of biological concepts is at the core of biology. At least since the Aristotelian endeavours to group classes of animals, a good part of the scientific work is to capture concepts into knowledge systems   [@wikidata:Q105870680]. 
-Linnaeus' binomial system for naming species and Mendeleiev's periodic table are likely the two most famous classification systems, but are part of a much larger ecosystem of structuring scientific knowledge. 
+Linnaeus' binomial system for naming species and Mendeleev's periodic table are likely the two most famous classification systems but are part of a much larger ecosystem of structuring scientific knowledge. 
 
 <!-- - 1.2.1. Descriptional logic and its historical context -->
 
-On the 20th century, the development of the analytical philosophy of Russel and Wittgenstein and their search for formalizations  [@wikidata:Q105105637] gradually layed the foundations for the the logic of scientific descriptions. Karl Popper and his "The Logic of Scientific Discovery"[@wikidata:Q1868040] was heavily influenced by analytical philosophy, and the field is at the foundation of the "falseability" system of Popper. Less known among life scientists, Tarski's inquiries on what can be considered to be "true" [@wikidata:Q106090790] were also 
+On the 20th century, the development of the analytical philosophy of Russel and Wittgenstein and their search for formalizations  [@wikidata:Q105105637] gradually layed the foundations for the the logic of scientific descriptions.
+Karl Popper and his "The Logic of Scientific Discovery"[@wikidata:Q1868040] was heavily influenced by analytical  philosophy.
+Less known among life scientists, Tarski's inquiries on what can be considered to be "true" [@wikidata:Q106090790] were also foundational for formal ontologies. 
+In the end of the 20th century, the tradition of analytic philosophy contributed to the rise of applied ontology, which provided the theoretical basis for the computational ontlogies from the early 21st centhury.  [@wikidata:Q110015932]
 
-The whole movement for formalization of knowledge progressed on the computational end, and at the late 20th century were at the root of the functioning of the World Wide Web, the advent of computational ontologies and large scale knowledge graphs.
-In this chapter, I will provide an overview of ontologies and knowledge graphs and their use in today's biomedical sciences, alongside its future prospects. 
+The whole movement for formalization of knowledge progressed on the computational end. At the late 20th century, the advent of computational ontologies and large-scale knowledge graphs were at the root of the functioning of the World Wide Web.
+This chapter will provide an overview of ontologies and knowledge graphs and their use in today's biomedical sciences, alongside its future prospects. 
 
 ### The OBO Foundry and biomedical ontologies
 
 An ontology, as used here, is a formal computational representation of reality, which tries to represent each concept (and their relations) as precisely as possible.  [@wikidata:Q105870680]  
 Constructing an ontology is a process of selecting and defining terms of interest, selecting and defining relationships of interest and making statements about reality using terms and relationships. 
-The Gene Ontology is probably the most well known biomedical ontology; it describes (among other things) different classes of biological process, related to each_other by "is_a" and "part_of relations. [@wikidata:Q104130127] [@wikidata:Q23781406].
+The Gene Ontology is probably the most well known biomedical ontology; it describes (among other things) different classes of biological process related to each_other by "is_a" and "part_of relations. [@wikidata:Q104130127] [@wikidata:Q23781406].
 
 
 The Gene Ontology is part of a much larger effort to formalize concepts across biology: the Open Biomedical and Biological Ontologies (OBO) Foundry. [@wikidata:Q19671692]
-Created in 2007, the OBO Foundry is a hub of biomedical ontologies that sets guidelines for the design and construction of high-quality ontologies. 
-The initial OBO Foundry united several independent ontologies, like the Cell Ontology (CL), the Disease Ontology (DO) and the Protein Ontology (PRO) under a common framework towards interoperability. 
-At the same time, the creation of the Relation Ontology (RO) provided a go-to point for relations in biology that could them be reused by different ontologies.
+Created in 2007, the OBO Foundry is a hub of biomedical ontologies that sets guidelines for designing and constructing high-quality ontologies. 
+Under a common framework towards interoperability, the initial OBO Foundry united several independent ontologies (like the Cell Ontology, the Disease Ontology and the Protein Ontology). 
+At the same time, the creation of the Relation Ontology (RO) provided a go-to point for relations in biology that different ontologies could reuse.
 
 ### OWL and ontology languages 
 One of the OBO Principles for its ontologies is that they should be resolvable as a "syntactically valid OWL file using the RDF-XML syntax." (http://www.obofoundry.org/principles/fp-002-format.html). 
 The OWL Web Ontology Language was introduced as a standard by the W3C consortium in 2004. 
 OWL is not a programming language, as it does not instruct computers to perform actions, but an ontology language, which allows computerizable descriptions of the world. 
 Furthermore, it is an umbrella ontology language that includes several languages with varying levels of expressivity. 
-Generally, more expressive languages can represent more complex ideas, but make computations harder.
+Generally, more expressive languages can represent more complex ideas but make computations harder.
 
-Regardless of the sublanguage used by ontology it must be resolvable to an RDF-XML file. RDF stands for Resource Description Framework, another W3C standard built around a graph-based data model (https://www.w3.org/TR/rdf11-concepts/). 
+Regardless of ontology's sublanguage, it must be resolvable to an RDF-XML file. 
+RDF stands for Resource Description Framework, another W3C standard built around a graph-based data model [@url:https://www.w3.org/TR/rdf11-concepts/]. 
 Statements in RDF are triples consisting of 2 nodes (a subject and an object) and an edge (a predicate) connecting the nodes. 
 All nodes and edges are represented in RDFs by International Resource Identifiers (IRIs), and there are many ways to lay out those IRIs on a text file to represent triples. 
 One of those layouts is the RDF-XML syntax, inspired by the XML markup language. 
-Arguably, other syntaxes (interchangeable with RDF-XML) are easier to read for human. 
+Arguably, other syntaxes (interchangeable with RDF-XML) are easier to read for a human. 
 As an example of an RDF triple, here is how one would represent in the Turtle RDF Syntax, the notion that plasmacytoid dendritic cells are a type of dendritic cells:
 
 ```
 http://purl.obolibrary.org/obo/CL_0000784  http://www.w3.org/2000/01/rdf-schema#subClassOf  http://purl.obolibrary.org/obo/CL_0000451 .
 ```
-Where http://purl.obolibrary.org/obo/CL_0000784 and  http://purl.obolibrary.org/obo/CL_0000451  are the unique IDs in the Cell Ontology for "plasmocytoid dendritic cells" and dentritic cells, respectively, and http://www.w3.org/2000/01/rdf-schema#subClassOf is the identifier for the "subclass of" relation as defined by the RDF schema. 
+Where http://purl.obolibrary.org/obo/CL_0000784 and  http://purl.obolibrary.org/obo/CL_0000451  are the unique IDs in the Cell Ontology for "plasmacytoid dendritic cells" and dendritic cells, respectively, and http://www.w3.org/2000/01/rdf-schema#subClassOf is the identifier for the "subclass of" relation as defined by the RDF schema. 
 
 A longer explanation of the details of OWL and RDF is outside the scope of this work. 
-This brief introduction has a dual goal of introducing the architecture of formal representations and of demonstrating the complexity of the system.
-There is a high energy barrier to acquire the knowledge and the technical skills to  engage in ontology building. 
-That complexity might be one of the reasons why a very small fraction of the biomedical communities represents data with ontologies and an even smaller fraction engages with ontology building. 
-
+This brief introduction has a dual goal of introducing the architecture of formal representations and demonstrating the system's complexity.
+There is a high energy barrier to acquiring the knowledge and the technical skills to engage in ontology building. 
+That complexity might be one of the reasons why a tiny fraction of the biomedical communities represent data with ontologies, and an even smaller fraction engages with ontology building. 
 
 ## Wikidata
 
 <!-- - 1.2.3. Web of Data and Linked Open Data -->
-Even though the Semantic Web  (which ontologies are a part of) spawned with promises of a revolution in the way knowledge is shared, it is still to be widely known outside the semantic engineering. Two recent projects are playing a particularly important role in bringing the Semantic Web to a wider audience has been receiving a boost of attention recently powered by two large projects: the Google Knowledge Graph and Wikidata. 
+Even though the Semantic Web  (which ontologies are a part of) spawned with promises of a revolution in the way knowledge is shared, it is still to be widely known outside semantic engineering. Two recent projects are playing a significant role in bringing the Semantic Web to a broader audience: the Google Knowledge Graph and Wikidata. 
 
-
-The Google Knowledge Graph introduced the Semantic Web _de facto_ in the daily life of users of Google. [@url:https://blog.google/products/search/introducing-knowledge-graph-things-not/ ]. Its underlying structure is similar to the triples in an ontology, but it is less concerned with being logically coherent, and does have strict semantics of a representation. 
+The Google Knowledge Graph introduced the Semantic Web _de facto_ in the daily life of users of Google. [@url:https://blog.google/products/search/introducing-knowledge-graph-things-not/ ]. Its underlying structure is similar to the triples in an ontology, but it is less concerned with being logically coherent and does have strict semantics of a representation. 
 In that way, Google Knowledge Graphs can feed on a variety of sources and not crash if there is some data modelling that, rigorously, could be inconsistent.
-Even though there is not a rigorous boundary between ontologies and knowledge graphs, one reasonable interpretation is that a knowledge graph may not be perfectly coherent, as long as it still can provide enough knowledge and reasoning for the approach of interest. 
-While the lack of formal semantics limits reasoning and inference, the knowledge graphs are arguably easier to use, edit and and understand, and so provide an user friendly alternative for computable information with a lower entry barrier. 
+Even though there is not a strict boundary between ontologies and knowledge graphs, one reasonable interpretation is that a knowledge graph may not be perfectly coherent, as long as it still can provide enough knowledge and reasoning for the approach of interest. 
+While the lack of formal semantics limits reasoning and inference, the knowledge graphs are arguably easier to use, edit and understand, and so provide a user-friendly alternative for computable information with a lower entry barrier. 
 
 
-While the Google Knowledge Graph is widely used as a source of knowledge, it does not allow independent users to contribute with information. 
-On the other hand, Wikidata, the collaborative knowledge graph of the Wikimedia foundation, allows users to contribute with classes and statements, in the same spirit of Wikipedia and share its "epistemic virtues, like power, speed and availability. [@wikidata:Q101955295]
-Its power is derived of its large community of contributors, closedly linked to the hugely successful Wikipedia.
-With a community of more than 20,000 active editors (https://www.wikidata.org/wiki/Wikidata:Statistics) and growing, it is able to cover a much wider number of concepts than any user individually. 
-It is fast, because one does not need to install any software or ask for permissions to update it: any user can simply do it via a web interface. 
+While the Google Knowledge Graph is widely used as a source of knowledge, it does not allow independent users to contribute information. 
+On the other hand, Wikidata, the collaborative knowledge graph of the Wikimedia Foundation, allows users to contribute with classes and statements in the same spirit as Wikipedia and share its "epistemic virtues, like power, speed and availability. [@wikidata:Q101955295]
+Its power is derived from its large community of contributors, closely linked to the hugely successful Wikipedia.
+With a community of more than 20,000 active editors [@url:https://www.wikidata.org/wiki/Wikidata:Statistics] and growing, it can cover a much wider number of concepts than any user individually. 
+It is fast because one does not need to install any software or ask for permissions to update it: any user can do it via a web interface. 
 That speed makes it easier for newcomers to join and contribute, in contrast to OBO Foundry ontologies, which require extensive training on semantics and knowledge of Git/GitHub for contributions. 
-Finally, the information on Wikidata is available via an user interface, via a SPARQL query service and as large, full-size database dumps, providing full extent reusability. 
-The Wikidata model has been so sucessfull that Google decided to migrate its own knowledge base, Freebase, fully into Wikidata.[@wikidata:Q24074986]
+Finally, the information on Wikidata is available via a user interface, via a SPARQL query service and as large, full-size database dumps, providing full extent reusability. 
+The Wikidata model has been so successful that Google decided to migrate its knowledge base, Freebase, fully into Wikidata.[@wikidata:Q24074986]
 
 
 
 ### The inner workings of Wikidata
 <!-- Wikidata's technical infrastructure -->
 
-Wikidata uses the same framework (RDF) that powers ontologies, and its model represents statements about the world in triples containing a subjects, a property and an object. [@url:https://www.mediawiki.org/wiki/Wikibase/DataModel] 
+Wikidata uses the same framework (RDF) that powers ontologies, and its model represents statements about the world in triples containing a subject, a property and an object. [@url:https://www.mediawiki.org/wiki/Wikibase/DataModel] 
 Its data model is serialized both in JSON and RDF.
-The data model contains 17 different datatypes, including, for example "Item", any entry on Wikidata that refers to "o a real-world object, concept, or event that is given an identifier in Wikidata" and "String", a "sequence of freely chosen characters interpreted as text". [@url:https://www.wikidata.org/wiki/Help:Data_type].
+The data model contains 17 different data types, including, for example, "Item", an entry on Wikidata that refers to "o a real-world object, concept, or event that is given an identifier in Wikidata" and "String", a "sequence of freely chosen characters interpreted as text". [@url:https://www.wikidata.org/wiki/Help:Data_type].
 Knowledge is stored on Wikidata upon basic triples containing a subject (of type "Item"), a property and a value (which can be of any of the 17 types). 
 As of November 2021, Wikidata contains more than 90 million data items [@url:https://www.wikidata.org/wiki/Wikidata:Statistics] and more than 9000 properties that link them to values. 
-As values often are other items, the database aquires a network format with labeled edges.
+As values often are other items, the database acquires a network format with labelled edges.
 
 
-As can be seen in the example in @fig:douglas_adams, each the items in the database contain an item identifiers (Q followed by numbers). 
-They also contain a label, a description and a list of aliases, which can be recorded in any of the more than 200 hundred languages, thereby making it a multilingual project. [@url:https://www.wikidata.org/wiki/Help:Multilingual]
-Each item is decorated with statements, comprising of property-value pairs. 
+As seen in the example in @fig:douglas_adams, each of the items in the database contains an item identifier (Q followed by numbers). 
+They also contain a label, a description, and a list of aliases, which can be recorded in more than 200 hundred languages, making it a multilingual project. [@url:https://www.wikidata.org/wiki/Help:Multilingual]
+Each item is decorated with statements comprising property-value pairs. 
 These pairs can be further specified via qualifiers and references, which treats the full triple as the subject, adding metadata to it (a process called reification [@url:https://www.w3.org/TR/rdf11-mt/#reification]).
 Qualifiers provide ways to extend the information on the triple, while references provide provenance, enabling users to judge the validity of the claims in the database. 
 
 ![Wikidata's model for describing an item. Image released in Public Domain by Charlie Kritschmar.](https://upload.wikimedia.org/wikipedia/commons/a/ae/Datamodel_in_Wikidata.svg){#fig:douglas_adams}
 
 
-All the information is available on a user interface, but its data is also available programatically in diverse formats, including as full JSON and RDF dumps, the MediaWiki API and a SPARQL endpoint. [@url:https://www.wikidata.org/wiki/Wikidata:Data_access]
-A number of wrappers of such services are available in languages such as R [@url:https://www.rdocumentation.org/packages/WikidataR/versions/2.2.0] and python [@url:https://pypi.org/project/wikidata2df/]. 
-A scheme of the data can be seen in @fig:datamodel, where each item is connected to a statement node via a property in the "p:" namespace, from which references and qualifiers are acessible. 
-To facilitate basic usage, the namespace "wdt:" connects items to values directly, simplifying, for example, the writing of SPARQL queries. 
+All the information is available on a user interface and programmatically. 
+Advanced users can download dumps in JSON and RDF dumps and acess the data via the MediaWiki API and a SPARQL endpoint. [@url:https://www.wikidata.org/wiki/Wikidata:Data_access]
+Several wrappers of such services are available in languages such as R [@url:https://www.rdocumentation.org/packages/WikidataR/versions/2.2.0] and python [@url:https://pypi.org/project/wikidata2df/]. 
+The data scheme can be seen in @fig:data model, where each item is connected to a statement node via a property in the "p:" namespace, from which references and qualifiers are accessible. 
+To facilitate primary usage, the namespace "wdt:" connects items to values directly, simplifying, for example, the writing of SPARQL queries. 
 
 
-![Wikidata's data model, scheme released under the CC-BY 4.0 license by Michael F. Schönitzer. It outlines the basic representation of statements, qualifiers and values in the Wikidata database](https://upload.wikimedia.org/wikipedia/commons/6/6c/Rdf_mapping-vector.svg){#fig:datamodel}
+![Wikidata's data model, scheme released under the CC-BY 4.0 license by Michael F. Schönitzer. It outlines the primary representation of statements, qualifiers and values in the Wikidata database](https://upload.wikimedia.org/wikipedia/commons/6/6c/Rdf_mapping-vector.svg){#fig:datamodel}
 
 Information on Wikidata is released under a CC0 license, which enables full reuse of the data. [@url:https://www.wikidata.org/wiki/Wikidata:Licensing]
 One of the major points of access and reuse of the information is the Wikidata Query Service [@url:https://query.wikidata.org/], a core resource of the community which enables live querying in the SPARQL language. [@url:Q56010228] 
-A number of services make use of embedded queries from the Wikidata Query Service [@url:https://query.wikidata.org/] to create interactive, live dashboards, for example Scholia [@url:https://scholia.toolforge.org/] aht the SARS-CoV-2 Query Book [@url:https://egonw.github.io/SARS-CoV-2-Queries/] 
+A number of services make use of embedded queries from the Wikidata Query Service [@url:https://query.wikidata.org/] to create interactive, live dashboards like Scholia [@url:https://scholia.toolforge.org/] and the SARS-CoV-2 Query Book [@url:https://egonw.github.io/SARS-CoV-2-Queries/] 
 
 
-Wikidata is not only acessible in different ways, but also writable in many ways. 
-It provides a user-friendly, point-and-click interface for modifying the database, providing a low entry barriers for newcomers.
-It is also possible to semi-automatically reconcile spreadsheets to Wikidata items and use batch tools such as Open Refine [@url:https://www.wikidata.org/wiki/Wikidata:Tools/OpenRefine] and Quickstatements [@url:https://www.wikidata.org/wiki/Help:QuickStatements], which enable batches on the magnitude of  thousands of edits. 
+Wikidata is accessible in many ways and writable in many ways. 
+It provides a user-friendly, point-and-click interface for modifying the database, providing low entry barriers for newcomers.
+It is also possible to semi-automatically reconcile spreadsheets to Wikidata items and use batch tools such as Open Refine [@url:https://www.wikidata.org/wiki/Wikidata:Tools/OpenRefine] and Quickstatements [@url:https://www.wikidata.org/wiki/Help:QuickStatements], which enable batches on the magnitude of thousands of edits. 
 For larger amounts of edits, it is possible to ask for bot permissions [@url:https://www.wikidata.org/wiki/Wikidata:Bots] and deploy systems that integrate big data sources.
-Bot edits are made via the WikiMedia API and are predominantly written via Python wrappers, such as Pywikibot [@url:https://www.wikidata.org/wiki/Wikidata:Pywikibot_-_Python_3_Tutorial] and the Wikidata Integrator. [@url:https://github.com/SuLab/WikidataIntegrator]
+Bot edits are made via the Wikimedia API and are predominantly written via Python wrappers, such as Pywikibot [@url:https://www.wikidata.org/wiki/Wikidata:Pywikibot_-_Python_3_Tutorial] and the Wikidata Integrator. [@url:https://github.com/SuLab/WikidataIntegrator]
 
 
 
 ###  Wikidata as a knowledge graph for the life sciences 
 
 
-Due to its privileged position inside the linked data ecosystem and its ease of write and query, Wikidata has been growing as a hub for interoperable data for the life sciences community. [@wikidata:Q87830400] [@wikidata:Q68471881] 
-Even though Wikidata was created in 2013, the demand for a community-cured life sciences knowledge graph is clear at least since 2008 [@wikidata:Q28292893] [@wikidata:Q21183907] 
-The Wikidata-like project proposed at the time was eventually discontinued, an example of the challenge of maintaining independent biomedical databases. [@wikidata:Q28595967]
-As Wikidata has a very large community, has stable funding and is at the core of modern technologies, like the Google Knowledge Graph [@wikidata:Q24074986] and Amazon's Alexa, [@url:https://www.wired.com/story/inside-the-alexa-friendly-world-of-wikidata/] it is virtually guaranteed that data in Wikidata will remain acessible for a long time, regardless of local funding schemes. 
+Due to its privileged position inside the linked data ecosystem and its ease of writing and query, Wikidata has been growing as a hub for interoperable data for the life sciences community. [@wikidata:Q87830400] [@wikidata:Q68471881] 
+Even though Wikidata was created in 2013, the demand for a community-cured life sciences knowledge graph is apparent at least since 2008 [@wikidata:Q28292893] [@wikidata:Q21183907] 
+The Wikidata-like project proposed was eventually discontinued, an example of the challenge of maintaining independent biomedical databases. [@wikidata:Q28595967]
+As Wikidata has a very large community, has stable funding and is at the core of modern technologies, like the Google Knowledge Graph [@wikidata:Q24074986] and Amazon's Alexa, [@url:https://www.wired.com/story/inside-the-alexa-friendly-world-of-wikidata/] it is virtually guaranteed that data in Wikidata will remain accessible for a long time, regardless of local funding schemes. 
 
 The Gene Wiki project [@wikidata:Q21092744] was likely the first large scale biomedical project to rely directly on the Wikipedia infrastructure for community curation. 
 It provided a direction connection between the generalist community of Wikipedia and domain experts. 
 The interplay of both communities is a topic of discussion and the opportunities and challenges were already discussed in NAR in 2012. [@wikidata:Q28254676]  
 Notably, Wikidata appeared chronologically after those efforts.  
-Notwithstandingly, the Gene Wiki research group has embraced the Wikidata environment for community biocuration and data interoperability [@wikidata:Q23712646][@wikidata:Q28529449] [@wikidata:Q87830400] [@wikidata:Q63286185]. 
-The information on Wikidata is still integrated to Wikipedias across multiple languages, often as source of information in Wikipedia's infoboxes.  
+Notwithstanding, the Gene Wiki research group has embraced the Wikidata environment for community biocuration and data interoperability [@wikidata:Q23712646][@wikidata:Q28529449] [@wikidata:Q87830400] [@wikidata:Q63286185]. 
+The information on Wikidata is still integrated to Wikipedias across multiple languages, often a a source of information in Wikipedia's infoboxes.  
 
-Other projects outside the Gene Wiki innitiative also started using Wikidata as a platform for knowledge integration. 
-A list of several projects that use Wikidata as part of their service to their community is given on table 1. 
-There is movement exploring how Wikidata can be employed to the advance of Computational Biology, and how it can be integrated to current publication status quo. [@wikidata:Q54655231]
-In that direction, Wikidata is being developed as a platform for scholarly linked open data, particularly via the Scholia platform [@wikidata:Q41799194] [@wikidata:Q63433973],(<https://scholia.toolforge.org/>) which provides profiles of pre-templated SPARQL queries for entities like particular authors and articles (e.g. Scholia profile on Prof. Helder Nakaya: https://scholia.toolforge.org/author/Q42614737).  
+Other projects outside the Gene Wiki initiative also started using Wikidata as a platform for knowledge integration. 
+A list of several projects that use Wikidata as part of their service to their community is given in table 1. 
+There is a movement exploring how Wikidata can be employed to advance Computational Biology and how it can be integrated to the current publication status quo. [@wikidata:Q54655231]
+In that direction, Wikidata is being developed as a platform for scholarly linked open data, mainly via the Scholia platform [@wikidata:Q41799194] [@wikidata:Q63433973],(<https://scholia.toolforge.org/>) which provides profiles of pre-templated SPARQL queries for entities like particular authors and articles (e.g. Scholia profile on Prof. Helder Nakaya available at <https://scholia.toolforge.org/author/Q42614737>).  
 
 # [Table 1](https://docs.google.com/spreadsheets/d/1loPE0bfJsih4eLrwNGvQf2c-9_I8z-GEvV21496o8h8/edit#gid=0)
 
-During the COVID-19 pandemic, Wikidata has spawned as a hotspot for modelling information about the virus and the pandemic in real time.  [@wikidata:Q108766311] [@wikidata:99196713]
-The general scope of the databasae allowed representation in a shared system of molecular, epidemiologic and socio-economic aspects of the pandemic. [@wikidata:Q108766311][@wikidata:Q105037759]
-Information curated in Wikidata was immediately available, feeding live dashboards and other applications based on SPARQL queries .[@wikidata:Q88647643]  [@wikidata:Q105833381] [@wikidata:Q106249454] 
-Additionally, as the information presented on Wikidata is multilingual and collaboratively edited, it presented itself as a resource for constructing structured vocabularies in non-english languages. [@wikidata:Q107377131]  
+During the COVID-19 pandemic, Wikidata has spawned as a hotspot for modelling information about the virus and the pandemic in real-time.  [@wikidata:Q108766311] [@wikidata:99196713]
+The general scope of the database allowed representation in a shared system of molecular, epidemiologic and socio-economic aspects of the pandemic. [@wikidata:Q108766311][@wikidata:Q105037759]
+Information curated in Wikidata was immediately available, feeding live dashboards and other applications based on SPARQL queries. [@wikidata:Q88647643]  [@wikidata:Q105833381] [@wikidata:Q106249454] 
+Additionally, as the information presented on Wikidata is multilingual and collaboratively edited, it presented itself as a resource for constructing structured vocabularies in non-English languages. [@wikidata:Q107377131]  
 
 In addition to its value as a structured database, Wikidata is tightly connected to Wikipedia.
 The gene identifiers in the context of Gene Wiki [@wikidata:Q23712646] are now fed to Wikipedias across languages, benefitting users directly.
-Additionally, gene expression information from the Bgee database [@wikidata:Q100513179] was added to Wikidata and connected to Wikipedia, which lead to a sizeable increase of the Bgee database. Currently, Wikipedia is one of the top 3 sources from which people access Bgee (personal communication with Tarcisio Farias, https://scholar.google.fr/citations?hl=fr&user=sB87J-cAAAAJ), thus leading to direct recognition for integrated bases.
-More generally, the connections of Wikidata and Wikipedia make it unique in the power of flowing knowledge back to human-acessed interfaces. 
-In the words of Matthias Samwald [@wikidata:Q21503276] and colleagues "Wikidata could emerge as a community-backed and highly visible structured knowledge base of medical and biological information, bringing concepts and methodologies such as controlled taxonomies, Semantic Web / semantic technologies and ontologies into mainstream use."
+Additionally, gene expression information from the Bgee database [@wikidata:Q100513179] was added to Wikidata and connected to Wikipedia, which led to a sizeable increase of access to the Bgee database. 
+Currently, Wikipedia is one of the top 3 sources from which people access Bgee (personal communication with Tarcisio Farias), thus leading to direct recognition for integrated bases.
+More generally, the connections of Wikidata and Wikipedia make it unique in the power of flowing knowledge back to human-accessed interfaces. 
+In the words of Matthias Samwald [@wikidata:Q21503276] and colleagues, "Wikidata could emerge as a community-backed and highly visible structured knowledge base of medical and biological information, bringing concepts and methodologies such as controlled taxonomies, Semantic Web / semantic technologies and ontologies into mainstream use."
 
 
-In conclusion, Wikidata's unique position, robustness and guarantee of long term stability, prompts the need of works exploring new ways of integrating it to current knowledge management. 
-Given the speed and breadth of the Human Cell Atlas, and the challenges of knowledge representation on cell types, this PhD work plans on discovering and adressing knowledge gaps on how Wikidata can play a role in organizing and disseminating the discoveries about all human cell types. 
+In conclusion, Wikidata's unique position, robustness and guarantee of long term stability prompts the need for works exploring new ways of integrating it into current knowledge management systems. 
+In light of the speed and breadth of the Human Cell Atlas and the challenges of knowledge representation on cells, this PhD works on addressing how Wikidata can play a role in organizing the discoveries about all human cell types. 
 
 
 # Objectives 
 
 * Study and refine theories of classes of cells within the constraints of ontologies and knowledge bases
 
-* Provide a comprehensive list of currently described cell types on Wikidata
-    * Develop a biocuration framework for the task of sharing information on Wikidata 
-    * Catalog as many cell types as possible, as a groundwork for future applications 
+* Catalog a comprehensive list of currently described cell types
+    * Develop a biocuration framework connected to Wikidata 
+    * Catalog as many cell types as possible
 
-* Devise ways to connect the Human Cell Atlas and other life-sciences products to Wikidata: 
-  * Craft wikidata relations ("properties") for making cell-type-related assertions
+* Devise ways to connect life-sciences resources to Wikidata: 
+  * Design and implement relations for making cell-type-related assertions
+  * Connect Wikidata to the Cell Ontology and other authoritative sources of identifiers
   * Write bots and scripts to reconcile data sources to Wikidata
 
-* Provide proofs-of-concepts of how Wikidata integration can benefit the advancement of HCA
-
+* Provide proofs-of-concept of how Wikidata integration can benefit the advancement of the Human Cell Atlas Project
 
 # Methodology
 
@@ -552,7 +568,6 @@ Another logical consequence of the definition is that the concept of subtype bec
 The notion of subtype, then, only makes sense when discussing classes with different degrees of universality.
 Thus, claims to discover new cell "subtypes" or "types" differ only stylistically and can be considered indistinguishable from the perspective of research synthesis.
 
-
 <!-- From  https://raw.githubusercontent.com/lubianat/technotype/9f428cbcf8e8a8d2843faac684275fb0c37914ed/content/05.logical.md END-->
 
 We also note that we made a judgment call to use the term "cell type" to emphasize the focus on types as classes (or "kinds") in contrast to real-world objects.
@@ -560,11 +575,11 @@ The term "cell class" is also used in the literature and is a suitable synonym f
 We opted to frame our work around the term "cell type" due to its historical usage and familiarity for the life sciences community.
 Other related thems a "cell set," "cell population," and "cell cluster," can also reminisce of a specific, countable group of cells, frequently from the same experiment. 
 The term "cell identity" has also been suggested for avoiding the cell type/cell state dilemma [@wikidata:Q64974172], but we avoid it to emphasize a nominalistic perspective (in the Popperian sense[@wikidata:Q108925548]).
-In doing so, we reinforce the intent on represent on what cell types are _reported to exist_, instead of trying to state bluntly which cell types _exist_ or, even worse, are _essential_ of human beings. 
+In doing so, we reinforce the intent on represent on what cell types are _reported to exist_, instead of trying to state bluntly which cell types _exist_ or are _essential_ of human beings. 
 
 The employment of MLT as described before, and the notion of species-specific cell types are fundamental for the next chapters of this work. 
-In the chapter about the PanglaoDB integration, we describe how we used the notion of species-specific types to add marker information to Wikidata, and how we cleaned up conceptual disarrays that broke MLT. 
-
+In the chapter about the PanglaoDB integration, we describe how we used the notion of species-specific types to add marker information to Wikidata, and how we cleaned up conceptual disarrays that broke MLT for cell types.
+Later, on the chapter about Wikidata Bib, we describe how we performed a large-scale curation of the biomedical literature for new cell types, using as starting principle the theories discussed here.  
 
 
 ## PanglaoDB integration to Wikidata  {.page_break_before}
@@ -848,19 +863,19 @@ Finally, the clean 5-star-open data format enables users to adapt the queries to
 For example, table @tbl:articles_read_hca showcases 10 articles that (1) I have read in the past year and (2) were authored by a speaker of the 1st Human Cell Atlas Latin America Single Cell RNA-seqData Analysis Workshop [@url:https://www.humancellatlas.org/hca-latin-america-2021-workshop/]. 
 One practical application that the dashboard enables, thus, is to identify people in an event, institution or location that the user has read before, therefore catalysing the possibility of colaborations. 
 Anedoctally, this strategy was tested successfully at Biohackathon Europe 2021 [@url:https://biohackathon-europe.org/], where I used the system both to identify possible collaborators and as a conversation starter. 
-
-|workLabel                                                                                                          |authors_in_the_conference                        |DOI                                                                                                                                                                                                                                                                                                                                                |
-|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|A promoter-level mammalian expression atlas                                                                        |Jay W Shin                                       |https://doi.org/10.1038/NATURE13182                                                                                                                                                                                                                                                                                                                |
-|Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors.                  |Muzlifah Haniffa                                 |https://doi.org/10.1126/SCIENCE.AAH4573                                                                                                                                                                                                                                                                                                            |
-|The Human Cell Atlas.                                                                                              |Musa Mhlanga, Jay W Shin, Muzlifah Haniffa, Menna R Clatworthy, Dana Pe'er|https://doi.org/10.7554/ELIFE.27041                                                                                                                                                                                                                                                                                                                |
-|The Human Cell Atlas: Technical approaches and challenges.                                                         |Jay W Shin                                       |https://doi.org/10.1093/BFGP/ELX029                                                                                                                                                                                                                                                                                                                |
-|Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses.                               |Dana Pe'er                                       |https://doi.org/10.1016/J.CELL.2017.04.014                                                                                                                                                                                                                                                                                                         |
-|Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations                     |Sonya A MacParland                               |https://doi.org/10.1038/S41467-018-06318-7                                                                                                                                                                                                                                                                                                         |
-|Single-cell reconstruction of the early maternal–fetal interface in humans                                         |Muzlifah Haniffa                                 |https://doi.org/10.1038/S41586-018-0698-6                                                                                                                                                                                                                                                                                                          |
-|Distinct microbial and immune niches of the human colon                                                            |Rasa Elmentaite, Menna R Clatworthy              |https://doi.org/10.1038/S41590-020-0602-Z                                                                                                                                                                                                                                                                                                          |
-|A cell atlas of human thymic development defines T cell repertoire formation                                       |Muzlifah Haniffa, Menna R Clatworthy             |https://doi.org/10.1126/SCIENCE.AAY3224                                                                                                                                                                                                                                                                                                            |
-|Decoding human fetal liver haematopoiesis                                                                          |Muzlifah Haniffa                                 |https://doi.org/10.1038/S41586-019-1652-Y                                                                                                                                                                                                                                                  Table: Articles read by Tiago Lubiana before 8 December 2021 in which an author was a speaker at HCA Latin America
+|workLabel                                                                                        |authors                                                                   |
+|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+|A promoter-level mammalian expression atlas                                                      |Jay W Shin                                                                |
+|Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors.|Muzlifah Haniffa                                                          |
+|The Human Cell Atlas.                                                                            |Musa Mhlanga, Jay W Shin, Muzlifah Haniffa, Menna R Clatworthy, Dana Pe'er|
+|The Human Cell Atlas: Technical approaches and challenges.                                       |Jay W Shin                                                                |
+|Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses.             |Dana Pe'er                                                                |
+|Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations   |Sonya A MacParland                                                        |
+|Single-cell reconstruction of the early maternal–fetal interface in humans                       |Muzlifah Haniffa                                                          |
+|Distinct microbial and immune niches of the human colon                                          |Rasa Elmentaite, Menna R Clatworthy                                       |
+|A cell atlas of human thymic development defines T cell repertoire formation                     |Muzlifah Haniffa, Menna R Clatworthy                                      |
+|Decoding human fetal liver haematopoiesis                                                        |Muzlifah Haniffa                                                          |
+                                                                                                                                 Table: Articles read by Tiago Lubiana before 8 December 2021 in which an author was a speaker at HCA Latin America
 {#tbl:articles_read_hca}                                                        |
 
 ## Wikidata Bib for curation of cells to Wikidata
