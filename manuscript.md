@@ -6,7 +6,7 @@ keywords:
 - ontology
 - Cell Ontology
 lang: en-US
-date-meta: '2021-12-09'
+date-meta: '2021-12-10'
 author-meta:
 - Tiago Lubiana
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-09" />
-  <meta name="citation_publication_date" content="2021-12-09" />
+  <meta name="dc.date" content="2021-12-10" />
+  <meta name="citation_publication_date" content="2021-12-10" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/bdc5dbf4cb3698c1da65b9939fa935424b927361/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/bdc5dbf4cb3698c1da65b9939fa935424b927361/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/bdc5dbf4cb3698c1da65b9939fa935424b927361/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/cf629fe1f70f8f676f43e4ec04950c65a9674e6f/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/cf629fe1f70f8f676f43e4ec04950c65a9674e6f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/cf629fe1f70f8f676f43e4ec04950c65a9674e6f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/bdc5dbf4cb3698c1da65b9939fa935424b927361/))
+([permalink](https://lubianat.github.io/quali_phd/v/cf629fe1f70f8f676f43e4ec04950c65a9674e6f/))
 was automatically generated
-from [lubianat/quali_phd@bdc5dbf](https://github.com/lubianat/quali_phd/tree/bdc5dbf4cb3698c1da65b9939fa935424b927361)
-on December 9, 2021.
+from [lubianat/quali_phd@cf629fe](https://github.com/lubianat/quali_phd/tree/cf629fe1f70f8f676f43e4ec04950c65a9674e6f)
+on December 10, 2021.
 </em></small>
 
 ## Authors
@@ -421,20 +421,26 @@ In light of the speed and breadth of the Human Cell Atlas and the challenges of 
 
 # Methodology
 
-This project's methodology resembles practical research-action practices [@wikidata:Q108479295]. Its goals of improving inteoperability of cell-type data implies a combination of action and research. Action in the form of active contributions to ontologies and knowledge-graphs, by getting involved and contributing to ongoing projects in the context of the Human Cell Atlas and knowledge management. Research in the 3 forms:
+This project's methodology resembles practical research-action practices [@wikidata:Q108479295]. 
+Our goal of improving the interoperability of cell-type data implies a combination of action and research. 
+Action in the form of active contributions to ontologies and knowledge graphs by getting involved and contributing to ongoing projects in the Human Cell Atlas and knowledge management context. 
+Research in 3 forms:
     - Philosophical investigation on the nature of knowledge representations of cell types, both in formal logic settings and in current academic practice
     - Applied investigations of database integration and data quality in the context of Wikidata and biomedical ontologies
     - Data-driven biomedical research targeted at hypothesis generation and literature-based discovery using knowledge at the level of cell-type
 
-All the research forms are intertwined with the improvement of knowledge management in biomedical sciences, with a focus on the Human Cell Atlas. The methods included the development and application of a framework for organized reading of the scientific literature, aimed at providing contact with the different facets of biocuration and Human Cell Atlas-related research. 
+All the research forms are intertwined with the improvement of knowledge management in biomedical sciences, focusing on the Human Cell Atlas. 
+The methods included the development and application of a framework for an organized reading of the scientific literature, providing contact with the different facets of biocuration and Human Cell Atlas-related research. 
 
 ## Organized reading
 
-To handle the literature reading necessary for this project, a framework was developed for reading and is described in details in the results section. 
-The framework is based on GitHub and includes Python scripts, a file organizing the reading list, and another documenting the reading history in RDF. Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings. The source code for Wikidata Bib is available at <https://github.com/lubianat/wikidata_bib/tree/template> and notes on my readings can currently be accessed at <https://lubianat.github.io/wikidata_bib/>.
+A reading framework was developed to handle the literature reading necessary for this project and is described in detail in the results section. 
+The framework is based on GitHub and includes Python scripts, a file organizing the reading list, and another documenting the reading history in RDF.
+Notes and additional information are saved in a GitHub repository, and the structured information powers a live website with analytics on the users recent readings. 
+The source code for Wikidata Bib is available at <https://github.com/lubianat/wikidata_bib/tree/template> and notes on my readings can currently be accessed at <https://lubianat.github.io/wikidata_bib/>.
 
-Additionaly, the methodology included a discipline of reading that entails the daily reading of 2 articles, one about "cell types" and another about "biocuration". 
-The articles are obtained by a mixed manual and automatic approach, including a la carte selection of articles to read alongside Wikidata queries for Cell, Nature, Science and eLife papers about single cell transcriptomics (query: <https://w.wiki/4LHr>) and for papers on biocuration (query: <https://w.wiki/4LHi>). 
+Additionally, the methodology included a discipline of reading that entails the daily task of reading 2 articles, one about "cell types" and another about "biocuration". 
+The articles are obtained by a mixed manual and automatic approach, including a la carte selection of articles to read alongside Wikidata queries for Cell, Nature, Science and eLife papers about single-cell transcriptomics (query: <https://w.wiki/4LHr>) and papers on biocuration (query: <https://w.wiki/4LHi>). 
 )
 
 ### Biocuration of cell classes for Wikidata
@@ -443,36 +449,37 @@ For each article about cell types read, cell types previously absent on Wikidata
 
 ### Annotation of Human Cell Atlas articles
 
-Human Cell Atlas publications (https://www.humancellatlas.org/publications) were selected and abstracts were annotated as richfully as possible with Wikidata IDs using the hypothes.is annotation system (https://web.hypothes.is/). One article [@wikidata:Q46368626], describing the complete Human Cell Atlas project, was annotated in full. Annotations were retrieved via the hypothes.is API and processed with custom Python and R scripts (https://github.com/lubianat/ann/tree/main/hypothesis_parsing).
+Human Cell Atlas publications (https://www.humancellatlas.org/publications) were selected and abstracts were annotated as richly as possible with Wikidata IDs using the hypothes.is annotation system (https://web.hypothes.is/). One article [@wikidata:Q46368626], describing the complete Human Cell Atlas project, was annotated in full. Annotations were retrieved via the hypothes.is API and processed with custom Python and R scripts (https://github.com/lubianat/ann/tree/main/hypothesis_parsing).
 
 ## Wikidata updates
 
-Wikidata is similar to a graph database, and is flexible enough to add new relations without need to change the underlying infrastructure. 
+Wikidata is similar to a graph database and is flexible enough to add new relations without changing the underlying infrastructure. 
 
 Creation of new entities was done either manually in the Graphical User Interface (<https://www.wikidata.org/wiki/Special:NewItem>) or via custom python scripts combined with the Quickstatements tool (<https://quickstatements.toolforge.org/#/>) or the Wikidata Integrator python library (<https://github.com/SuLab/WikidataIntegrator>). 
 
-Properties, which link items to values, cannot be created at will and need to undergo community approval. Under the scope of this PhD project, we have gotten the community approval for a number of properties: 
+Properties, which link items to values, cannot be created at will and need to undergo community approval. Under the scope of this PhD project, we have gotten the community approval for many properties: 
 
 - entry receptor (<https://www.wikidata.org/wiki/Property:P8339>) used to link pathogens to their cellular entry receptors. 
 - Cell Ontology ID (<https://www.wikidata.org/wiki/Property:P7963>) used to link cell types to their IDs in the Cell Ontology
 - has marker (<https://www.wikidata.org/wiki/Property:P8872>) used to link cell types to genes and proteins considered their markers
 - derived from organism type (<https://www.wikidata.org/wiki/Property:P9072>) used to link cell lines to the taxon of the organism from which it was derived. 
 
-The property acceptance cycle takes at least one week and is completely open for opinions by any Wikidata user. All the information regarding the property proposal is available at <https://www.wikidata.org/wiki/Wikidata:Property_proposal>.
+The property acceptance cycle takes at least one week and is  open for opinions by any Wikidata user.
+ All the information regarding property proposals is available at <https://www.wikidata.org/wiki/Wikidata:Property_proposal>.
 
 
 ## Cell Ontology participation
 
 As part of the research-action process, I have joined the Cell Ontology working group. 
 I participate in the monthly meetings and sporadic workshops, learning and contributing to the discussions. 
-Additionaly, I contribute to the ontology development, actively engaging in the Cell Ontology GitHub repository (<https://github.com/obophenotype/cell-ontology>) and contributing with new terms and assertions. 
+Additionally, I contribute to the ontology development, actively engaging in the Cell Ontology GitHub repository (<https://github.com/obophenotype/cell-ontology>) and contributing with new terms and assertions. 
 I edit the ontology with the software for ontology editing Protégé v. 5.5.0 (<https://protege.stanford.edu/>).
 
 ### Status of cell type info on Wikidata and the Cell Ontology
 
-Status of cell type information on Wikidat was acessed via SPARQL queries combined with processing in python and is available at <https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet#scrollTo=szvBWI9zr_AA>.
+Status of cell type information on Wikidata was accessed via SPARQL queries combined with processing in python and is available at <https://colab.research.google.com/drive/1GvQXOs51_U8icdGMtKXMeLOXKM8pXWet#scrollTo=szvBWI9zr_AA>.
 
-Counts of cell classes in the Cell Ontology were performed via regex matching on Cell Ontology releases following the code available at https://github.com/lubianat/cell_ontology_count. 
+Counts of cell classes in the Cell Ontology were performed via regex matching on Cell Ontology releases following the code available at <https://github.com/lubianat/cell_ontology_count>. 
 
 
 # Preliminary Results
@@ -484,66 +491,66 @@ Counts of cell classes in the Cell Ontology were performed via regex matching on
 ## Concept of cell types  {.page_break_before}
 
 ### General work on the concept of cell type
-As an initial step of this PhD project, we decided to investigate the definition of "cell type" and how to shape a definition for knowledge management on Wikidata. 
+As an initial step of this PhD project, we decided to investigate the definition of "cell type" and shape a definition for knowledge management on Wikidata. 
 The definition of the concept of "cell type" is currently a topic of debate by the biomedical community.[@wikidata:Q87649649; @doi:10.1242/dev.169854; @doi:10.1242/dev.178996; @wikidata:Q47565008; @wikidata:Q99418657; @wikidata:Q98665291; @wikidata:Q93086971; @wikidata:Q26770736; @wikidata:Q35688096; @wikidata:Q98633613; @wikidata:Q99418649; @wikidata:Q40436539].
-Before we proceeded with the knowledge-graph formalizations via Wikidata, we dedicated time for a theoretical research on the concept of "cell type" in the context of knowledge representation. 
+Before we proceeded with the knowledge-graph formalizations via Wikidata, we dedicated time for theoretical research on the concept of "cell type" in the context of knowledge representation. 
 This line of research aligns itself with the groundwork of the Cell Ontology [@wikidata:Q21184168; @doi:10.1186/1471-2105-12-6; @doi:10.1186/s13326-016-0088-7] and CELDA [@wikidata:Q21284308]  and the contributions of the International Workshop on Cells in Experimental Life Sciences series [@doi:10.1186/s12859-017-1976-2; @doi:10.1186/s12859-019-2721-9].
 
-In this period, we targeted the question: which cell type definition allows crafting coherent biological statements? 
-The goal was to not say what cell types _are_, but what they can be for a consistent representation on an ontology or a knowledge graph, like Wikidata.
+We targeted the question: which cell type definition allows crafting coherent biological statements? 
+The goal was not to say what cell types _are_, but what they can be for a consistent representation on an ontology or a knowledge graph, like Wikidata.
 We avoided the dissection of the differences between persistent classes of cells (often called "cell types") or the transient, fugacious classes of cells (often called "cell states") (see "Definition of cell identity" section in [@wikidata:Q48563763] for an example).
-Even though such a distinction is an essential topic for theoretical research, it is not required to represent formally biomedical experiments.
+Even though such a distinction is essential for theoretical research, it is not required to represent biomedical experiments formally.
 
-To facilitate communication among life scientists, in a preprint derived from this PHD project[@doi:10.22541/au.160979530.02627436/v1], we proposed, among other theoretical novelties, naming conventions for different cell types classes. 
+In a preprint derived from this PhD project [@doi:10.22541/au.160979530.02627436/v1], we proposed naming conventions for different cell types classes. 
 Much of the literature mixes cell types in one species (e.g., when dealing with a cell type as an evolutionary unit) or multiple species (e.g., in the Cell Ontology). 
-It is useful to distill these different concepts into names. Given the importance of the species' concept in biological classification [@wikidata:Q1189395], we derive a species-centric view on the naming of classes of cell types. 
+It is helpful to distil these different concepts into names. Given the importance of the species' concept in biological classification [@wikidata:Q1189395], we derive a species-centric view on naming classes of cell types. 
 The four classes (Figure @fig:classes) we propose are as follows:
 
 - archetypes, for when the taxonomic scope of the type is beyond the level of species; for example, "mammal neutrophils."
 - _sensu stricto_ cell types, for when the taxonomic scope of the type corresponds to a single species; for example, _Mus musculus_ neutrophils."
-- infratypes, for when the taxonomic scope is below the level of species; for example, considering the mouse strain "C57BL/6J", "neutrophils from C57BL/6J mice". 
+- infratypes, for when the taxonomic scope is below the species level; for example, considering the mouse strain "C57BL/6J", "neutrophils from C57BL/6J mice". 
 - technotypes, for specific, experimentally defined cell types that harbor in their definition the precise conditions of the cells sampled; “2-month-old male C57BL/6J, Ly-6G<sup>+</sup> CD11b<sup>+</sup>  M-CSF R<sup>-</sup>  CD244<sup>-</sup> neutrophils”.
 
 ![ Names for classes of cell types.](https://raw.githubusercontent.com/lubianat/fapesp_report_1/main/content/images/archetypes_hn.jpg){#fig:classes}
 
-The 4 different categories of cell types help us to better organize the knowledge about cell types. 
+The 4 different categories of cell types help us better organize the knowledge about cell types. 
 Even though individual articles and databases often have species-neutral names, the information often comes from experiments with a single strain of a single species.
-Two articles might call by the same name cells that come from different animals, or were selected by different protocols. 
+Two articles might call by the same name cells from different animals or were selected by other protocols. 
 Large scale knowledge management requires an organized way of representing those details.
 
-The division between archetypes and _sensu stricto_ cell types is of special importance in the context of biocuration and annotation of data. 
+The division between archetypes and _sensu stricto_ cell types is of particular importance for biocuration and data annotation. 
 Associations like the  HUGO Gene Nomenclature Committee and UniProt organize names and identifiers for genes and proteins in single species. 
-Thus, if we want to annotate marker genes, for example, we need to associate them to a species-specific cell type (a _sensu stricto_ cell type) instead of the more vague association to a species-neutral type. 
+Thus, if we want to annotate marker genes, we need to associate them to a species-specific cell type (a _sensu stricto_ cell type) instead of the more vague association to a species-neutral type. 
 That might seem obvious, but current standards still use identifiers that are species-neutral (e.g. in the reference HuBMAP app; <https://azimuth.hubmapconsortium.org/references/>)
 
-The ontological discussion on the classes of cell types, thus, extends the current state-of-the-art and introduce new ways to organize our knowledge about cells. 
-Notably, the technotype and the infratype are, currently, mostly theoretical constructs and almost no resources deal with cell types at the level of strains or below. 
+, the ontological discussion on the classes of cell types, thus, extends the current state-of-the-art and introduces new ways to organize our knowledge about cells. 
+Notably, the technotype and the infratype are currently pure theoretical constructs, and almost no resources deal with cell types at the level of strains or below. 
 The division of archetypes and _sensu stricto_ cell types, on the other hand, was already instrumental for the integration of the Panglao database of cell markers to Wikidata, described in a future session.
 
 ### A simplified definition
 
- Refining the different concepts around the notion of "cell type" is important, but will require decades before a reasonable consensus. Here we adopt a liberal view of cell type, defining, for our purposes, a cell type as any class of cells described by a domain expert with evidence of reality of its instances.
-The requirement of evidence of existence in reality is based on the Principle of instantiation of ontological realism [@wikidata:Q28239464]. Barry Smith and Werner Ceuster states that "A term should be included in a reference ontology only if there is experimental evidence that instances to which that term refers exist in reality.(‘Exists’ here should be understood in a tenseless sense in order to accommodate, for example, universals pertaining to extinct species as well as universals such as swarm or hurricane which are instantiated only intermittently.)"
-Thus, in this work one minimum requirement for a cell type to be catalogued is a public description by a researcher of the class, with evidence for existence of instances of the class in reality. 
+ Refining the different concepts around the notion of "cell type" is important but will require decades before a reasonable consensus. Here we adopt a liberal view of cell type, defining, for our purposes, a cell type as any class of cells described by a domain expert with evidence of the reality of its instances.
+The requirement of evidence of existence in the material world is based on the principle of instantiation of ontological realism [@wikidata:Q28239464]. Barry Smith and Werner Ceuster state  "A term should be included in a reference ontology only if there is experimental evidence that instances to which that term refers exist in reality. ('Exists' here should be understood in a tenseless sense in order to accommodate, for example, universals pertaining to extinct species as well as universals such as swarm or hurricane which are instantiated only intermittently.)"
+Thus, in this work, one minimum requirement for a cell type to be catalogued is a public description of the class, with evidence for the existence of instances of the class in reality. 
 
 
-By "class" we mean an abstract entity in the sense intended by the multilevel theory (MLT) of conceptual modelling (referred as "_types_" by Carvalho et al. ) [@wikidata:Q108926456]
+By "class", we mean an abstract entity in a sense intended by the multilevel theory (MLT) of conceptual modelling [@wikidata:Q108926456]
 Figure @fig:multilevel displays a simplified version of MLT adopted throughout this project.
 In this framework, real-world entities are materializations of _individuals_. 
-_Individuals_ are theoretical constructs which are (1) thought to exist or have existed, as per the principle of instantiation, and (2) refer to only one (01) material entity at any point in time. 
-For example, Wikidata has entries for people, e.g. "Helder Nakaya ([Q42614737](https://www.wikidata.org/wiki/Q42614737))" and "Charles Darwin ([Q1035](https://www.wikidata.org/wiki/Q42614737))" which are considered _individuals_ by Multi Level Theory.
+_Individuals_ are theoretical constructs that are (1) thought to exist or have existed, as per the principle of instantiation, and (2) refer to only one (01) material entity at any point in time. 
+For example, Wikidata has entries for people, e.g. "Helder Nakaya ([Q42614737](https://www.wikidata.org/wiki/Q42614737))" and "Charles Darwin ([Q1035](https://www.wikidata.org/wiki/Q42614737))"  are considered _individuals_ by Multi-Level Theory.
 Other examples of _individuals_ include "Albert Einstein's brain ([Q2464312](https://www.wikidata.org/wiki/Q2464312))" and the "Christ the Redeemer statue ([Q79961](https://www.wikidata.org/wiki/Q79961))".
 
-![ Multileveltheory for cell types](https://raw.githubusercontent.com/lubianat/multilevel_ontology_drawings/master/combination_human_cell.png){#fig:multilevel width="85%"}
+![ Multi-Level Theory for cell types](https://raw.githubusercontent.com/lubianat/multilevel_ontology_drawings/master/combination_human_cell.png){#fig:multilevel width="85%"}
 
-Figure @fig:multilevel A multilevel theory (MLT) can divide the theoretical realm into different kingdoms. A) A representation of people in the MLT framework adopted in this work. The theoretical-realm entity "Mahatma Gandhi" is materialized by the material-realm Mahatma Gandhi. The theoretical _individual_ is considered an instance of  multiple _classes_ such as "Indian lawyer" and "_Homo sapiens_", which are related to each other via subclass relations. The classes themselves are instances of _metaclasses_, like "taxon", a first order metaclass. B) An analogous representation of the MLT framework, but applied to cells and cell types. 
+Figure @fig:multilevel A multilevel theory (MLT) can divide the theoretical realm into different kingdoms. A) A representation of people in the MLT framework as adopted in this work. The theoretical-realm entity "Mahatma Gandhi" is materialized by the material-realm Mahatma Gandhi. The theoretical _individual_ is considered an instance of multiple _classes_ such as "Indian lawyer" and "_Homo sapiens_", which are related to each other via subclass relations. The classes themselves are instances of _metaclasses_, like "taxon", a first-order metaclass. B) An analogous representation of the MLT framework, but applied to cells and cell types. 
 
 In MLT, _individuals_ are instances of some _classes_.
 For example, both "Helder Nakaya ([Q42614737](https://www.wikidata.org/wiki/Q42614737))" and "Charles Darwin ([Q1035](https://www.wikidata.org/wiki/Q42614737))" could be represented as instances of the class "_Homo sapiens_  ([Q15978631](https://www.wikidata.org/wiki/Q15978631))" on Wikidata. 
 "_Homo sapiens_ (Q15978631)" is only one of the classes that those individuals belong to.
 Another one is "animal ([Q729](https://www.wikidata.org/wiki/Q729))". 
 As all instances of "_Homo sapiens_ (Q15978631)" are also instances of "animal (Q729)", "_Homo sapiens_ (Q15978631)" is a subclass of "animal (Q729)".
-It is possible to continue the hierarchy of subclasses, as "animal (Q729)" is a subclass of "organism (Q7239)", until the root case, which in the case of wikidata is the class "entity ([Q35120](https://www.wikidata.org/wiki/Q35120))" 
+It is possible to continue the hierarchy of subclasses, as "animal (Q729)" is a subclass of "organism (Q7239)", until the root case, which in the case of Wikidata is the class "entity ([Q35120](https://www.wikidata.org/wiki/Q35120))" 
 
 
 Classes, however, can themselves behave as individuals. 
@@ -555,16 +562,16 @@ These, in turn, are instances of "taxonomic rank ([Q427626](https://www.wikidata
 
 In the Figure @fig:multilevel B there is a proposal of this version of MLT for cell types. 
 As individual cells are rarely named, for the sake of example, we can consider the "zygote of Mahatman Gandhi" as an _individual_ in the theoretical system, an instance of the class "zygote ([Q170145](https://www.wikidata.org/wiki/Q170145))", which is itself an instance of the metaclass "cell type ([Q189118](https://www.wikidata.org/wiki/Q189118))" 
-A more concrete example stems from RNA-sequencing datasets with barcodes for each single cell in a particular sample.
+A more concrete example stems from RNA-sequencing datasets with barcodes for each cell in a particular sample.
 Each barcode can be thought as an identifier for an _individual_. 
-Thus, labeling single-cells is a process of identification, where each _individual_ is connected to a _class_ of interest. 
+Thus, labelling single-cells is a process of identification, where each _individual_ is connected to a _class_ of interest. 
 
 <!-- From  https://raw.githubusercontent.com/lubianat/technotype/9f428cbcf8e8a8d2843faac684275fb0c37914ed/content/05.logical.md BEGIN-->
 
 For the practical purpose adopted here, we avoid the dissection of the differences between persistent classes of cells (often called "cell types") or the transient, fugacious classes of cells (often called "cell states") (see "Definition of cell identity" section in [@wikidata:Q48563763] for an example). We also consider only the cell as it was observed in an experiment, not necessarily the future conditions of any cell (i.e., the "cell fate"). [@wikidata:Q91908361]  
 Even though such a distinction is an important topic for theoretical research, it is outside the initial scope of this work. 
 
-Another logical consequence of the definition is that the concept of subtype becomes redundant with the concept of cell type.
+Another logical consequence of the definition is that the concept of subtype becomes redundant with the idea of cell type.
 The notion of subtype, then, only makes sense when discussing classes with different degrees of universality.
 Thus, claims to discover new cell "subtypes" or "types" differ only stylistically and can be considered indistinguishable from the perspective of research synthesis.
 
@@ -573,43 +580,47 @@ Thus, claims to discover new cell "subtypes" or "types" differ only stylisticall
 We also note that we made a judgment call to use the term "cell type" to emphasize the focus on types as classes (or "kinds") in contrast to real-world objects.
 The term "cell class" is also used in the literature and is a suitable synonym for our notion of cell type.
 We opted to frame our work around the term "cell type" due to its historical usage and familiarity for the life sciences community.
-Other related thems a "cell set," "cell population," and "cell cluster," can also reminisce of a specific, countable group of cells, frequently from the same experiment. 
+Other related terms a "cell set," "cell population," and "cell cluster," can also reminisce of a specific, countable group of cells, frequently from the same experiment. 
 The term "cell identity" has also been suggested for avoiding the cell type/cell state dilemma [@wikidata:Q64974172], but we avoid it to emphasize a nominalistic perspective (in the Popperian sense[@wikidata:Q108925548]).
-In doing so, we reinforce the intent on represent on what cell types are _reported to exist_, instead of trying to state bluntly which cell types _exist_ or are _essential_ of human beings. 
+In doing so, we reinforce the intent to represent the cell types  _reported to exist_instead of stating bluntly which cell types _exist_ or are _essential_ for human beings. 
 
-The employment of MLT as described before, and the notion of species-specific cell types are fundamental for the next chapters of this work. 
-In the chapter about the PanglaoDB integration, we describe how we used the notion of species-specific types to add marker information to Wikidata, and how we cleaned up conceptual disarrays that broke MLT for cell types.
-Later, on the chapter about Wikidata Bib, we describe how we performed a large-scale curation of the biomedical literature for new cell types, using as starting principle the theories discussed here.  
+The employment of MLT as described before and the notion of species-specific cell types are fundamental for the next chapters of this work. 
+In the chapter about the PanglaoDB integration, we describe how we used the notion of species-specific types to add marker information to Wikidata and how we cleaned up conceptual disarrays that broke MLT for cell types.
+Later, on the chapter about Wikidata Bib, we describe how we performed a large-scale curation of the biomedical literature for new cell types, using the theories discussed here as a starting principle.  
 
 
 ## PanglaoDB integration to Wikidata  {.page_break_before}
 
 ### Introduction
 
-The process of making the Human Cell Atlas more useful via Wikidata also includes the connection of related databases. 
+Making the Human Cell Atlas more useful via Wikidata also includes the connection of related databases. 
 PanglaoDB [@https://panglaodb.se/index.html] [@doi:10.1093/database/baz046] is a publically-available database that contains data and metadata on hundreds of single-cell RNA sequencing experiments. 
-It provides extensive information on cell types, genes, and tissues and cell type markers, obtained both via automatic and manual methods.
+It provides extensive information on cell types, genes, tissues, and cell type markers, obtained via automatic and manual methods.
 It also displays a rich web user interface for easy data acquisition, including database dumps for bulk downloads.
 
 
 As of 8 December June 2021, the article describing PanglaoDB had been cited 230 times. 
 Despite its use by the community, the database is on a 3-star category for Linked Open Data [@url:https://www.w3.org/DesignIssues/LinkedData.html] as it does not use the open semantic standards from W3C (RDF and SPARQL) needed for a 4-star rank, neither the links to external data via standard identifiers that make datasets 5-star. 
 Improving the data format toward W3C's gold standards is a valuable step in making biological knowledge FAIR (Findable, Accessible, Interoperable, and Reusable). 
-Thus, we aimed to provide a case study of making the core information of PandlaoDB available in a 5-star Linked Open Data Format while improving the modeling of the necessary concepts on Wikidata.
+Thus, we aimed to provide a case study of making the core information of PandlaoDB available in a 5-star Linked Open Data Format while improving the modelling of the necessary concepts on Wikidata.
 
-As of August 2020, Wikidata had 264 items being categorized as a "cell type", considerably less than in specialized cell catalogs, which count over two thousand cell types [@wikidata:Q28660708; @wikidata:Q36067763].
-Strikingly, there were also 23 items categorized as "instances of cell (Q7868)". This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual, an example of conceptual disarray that often occurs on Wikidata. [@wikidata:Q109990743]
+As of August 2020, Wikidata had 264 items categorized as a "cell type", considerably less than in specialized cell catalogues, which count over two thousand cell types [@wikidata:Q28660708; @wikidata:Q36067763].
+Strikingly, there were also 23 items categorized as instances of "cell (Q7868)". 
+This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual, an example of conceptual disarray that often occurs on Wikidata. [@wikidata:Q109990743]
 
-Wikidata editors often mix first-order classes such as "cells" and "organs" with second-order classes like "cell types" and "organ types" (Supplementary Information). First-order classes point to real-world individuals, like the "Dolly sheep zygote" (a real-world "cell") and the "brain of Albert Einstein" (a real-world "organ"). Second-order classes point to classes, like "zygote" (a conceptual "cell type") and "brain" (a conceptual "organ type").
+Wikidata editors often mix 1st-order classes such as "cells" and "organs" with metaclasses like "cell types" and "organ types".
+As mentioned in the chapter on the concept of cell type, individuals, like the "Dolly sheep zygote" (a real-world "cell") and the "brain of Albert Einstein" (a real-world "organ") are instances of classes.
+Classes, like "zygote" (a conceptual "cell type") and "brain" (a conceptual "organ type") are instances of _metaclasses_. 
 
-We diligently fixed and improved information on cell types on Wikidata. 
+We diligently fixed and improved the conceptual consistency of cell type entries on Wikidata. 
 As of 8 December 2021, the Wikidata database contains 2834 instances of "cell type" (see current status at <https://w.wiki/b2t>) and 0 instances of "cell" (<https://w.wiki/4XAg>) highlighting the improvements in both quantity and quality. 
-This increase stems both from the PanglaoDB initiative (around 430 new types) and from the Wikidata Bib curation, described in a later chapter. 
+This increase stems from the PanglaoDB integration (around 430 new types) and the Wikidata Bib curation described later. 
 
 
 ### Methodology for PanglaoDB integration
 
-After obtaining approval from the owners of the database, we matched genes and cell types to Wikidata, and performed Wikidata queries to demonstrate the value of the approach. An overview of the process is shown in @fig:iscb_intro.
+After obtaining approval from the database owners, we matched genes and cell types to Wikidata and performed Wikidata queries to demonstrate the value of the approach. 
+An overview of the process is shown in @fig:iscb_intro.
 ![
 Wikidata SPARQL queries bring to light hidden biomedical knowledge
 ](https://github.com/lubianat/fapesp_report_1/blob/main/content/images/poster_ISCB_intro.png?raw=true){#fig:iscb_intro width="85%"}
@@ -621,7 +632,7 @@ A manually-curated dictionary matching terms in PanglaoDB to Wikidata identifier
 Cell types that were not represented on Wikidata were added to the database via the graphical user interface (<https://www.wikidata.org/wiki/Special:NewItem>) and logged in the reference table.
 
 Species-specific cell types for human and mouse cell types were created for every entry in the reference table and connected to the species-neutral concept via a "[subclass of](http://www.wikidata.org/entity/P279)" property (e.g. every single "[human neutrophil](http://www.wikidata.org/entity/Q101405102)" is a also "[neutrophil](http://www.wikidata.org/entity/Q188417)"). 
-Our approach was analogous to the one taken by the CELDA ontology to create species-specific cell-types [@wikidata:Q21284308].
+Our approach was analogous to the one taken by the CELDA ontology to create species-specific cell types. [@wikidata:Q21284308]
 
 #### Integration of PanglaoDB to Wikidata 
 
@@ -630,7 +641,7 @@ The reconciled dataset was uploaded to Wikidata via the WikidataIntegrator Pytho
 
 #### SPARQL queries
 
-Besides the Wikidata Dumps, Wikidata provides an SPARQL endpoint with a Graphical User Interface (<https://query.wikidata.org/>). 
+Besides the Wikidata Dumps, Wikidata provides a SPARQL endpoint with a Graphical User Interface (<https://query.wikidata.org/>). 
 Updated data was immediately accessible via this endpoint, enabling integrative queries integrated with other database statements.
 
 ### Results
@@ -645,19 +656,21 @@ The PanglaoDB is referenced both via URL to the website (<https://panglaodb.se/m
 ![Subset of the marker genes for item Q101405051 (human cholinergic neuron)](https://github.com/lubianat/fapesp_report_1/blob/main/content/images/chat_marker.png?raw=true){#fig:chat_marker width="85%"}
 
 
-Now that we re-formatted the markers on PanglaoDB as Linked Open Data, we can make queries that were not possible before, includingfederated queries with other biological databases, such as Uniprot [@https://sparql.uniprot.org/sparql]
+Now that we re-formatted the markers on PanglaoDB as Linked Open Data, we can make queries that were not possible before, including federated queries with other biological databases, such as Uniprot [@https://sparql.uniprot.org/sparql]
 and Wikipathways [@https://www.wikipathways.org/index.php/Portal:Semantic_Web].
 Due to previous similar reconciliation projects, Wikidata already contains information about genes, including their relations to Gene Ontology (GO) terms.
 
-PanglaoDB's integration to the Wikidata ecosystem allows us to ask a variety of questions (figure @fig:iscb_results).
+PanglaoDB's integration to the Wikidata ecosystem allows us to ask various questions (figure @fig:iscb_results).
 
 ![
-SPARQL queries in Wikidata now harness information from Panglao DB. Queries with the above design were run on Wikidata. Results might change in real time with Wikidata updates by contributors A-C) Graphical representation of feasible SPARQL queries (https://w.wiki/yQ6, https://w.wiki/yQD and https://w.wiki/3HjX,). D) Sample result from query C. 
+SPARQL queries in Wikidata now harness information from Panglao DB. Queries with the above design were run on Wikidata. Results might change in real-time with Wikidata updates by contributors A-C) Graphical representation of feasible SPARQL queries (https://w.wiki/yQ6, https://w.wiki/yQD and https://w.wiki/3HjX,). D) Sample result from query C. 
 ](https://github.com/lubianat/fapesp_report_1/blob/main/content/images/poster_ISCB_results.png?raw=true){#fig:iscb_results width="85%"}
 
 ### "Which human cell types are related to neurogenesis via their markers?"
 
-As expected, the query below retrieved a series of neuron types, such as "[human purkinje neuron](https://www.wikidata.org/wiki/Q101404913)" and "[human cajal-retzius cell](https://www.wikidata.org/wiki/Q101405091)." It also retrieved non-neural cell types such as the "[human loop of henle cell](https://www.wikidata.org/wiki/Q101405109), a kidney cell type, and "[human osteoclast](https://www.wikidata.org/wiki/Q101404928). These seemingly unrelated cell types markedly express genes involved in neurogenesis, but that does not mean that they are involved with this process. The seemingly confusing results reinforce the idea that one needs to be careful when using curated pathways to enrich one's analysis, as false positives abound.
+As expected, the query below retrieved a series of neuron types, such as "[human Purkinje neuron](https://www.wikidata.org/wiki/Q101404913)" and "[human Cajal-retzius cell](https://www.wikidata.org/wiki/Q101405091)." It also retrieved non-neural cell types such as the "[human loop of Henle cell](https://www.wikidata.org/wiki/Q101405109), a kidney cell type, and "[human osteoclast](https://www.wikidata.org/wiki/Q101404928). 
+These seemingly unrelated cell types markedly express genes involved in neurogenesis, but that does not mean that they are involved with this process. 
+The unexpected results reinforce that one needs to be careful when using curated pathways to analyze gene sets, as false positives abound.
 
 The molecular process that gene products take part depends on the cell type. SPARQL allows us to seamlessly compare Gene Ontology processes with cell marker data, providing a sandbox to generate hypotheses and explore the biomedical knowledge landscape.
 
@@ -672,7 +685,7 @@ The molecular process that gene products take part depends on the cell type. SPA
 | PCSK9     | human loop of Henle cell        |
 | CXCR4     | human b cell                    |
 | CXCR4     | human T cell                    |
-| CXCR4     | human nk cell                   |
+| CXCR4     | human NK cell                   |
 
 Table: Sample of 10 cell types related to neurogenesis via markers (07/02/2020, full query on <https://w.wiki/yQ6>).
 {#tbl:neuro}
@@ -690,7 +703,7 @@ Besides integration with Gene Ontology, Wikidata reconciliation makes it possibl
 | BST1      | Parkinson's disease | human neutrophil |
 | RIT2      | Parkinson's disease | human neuron     |
 | SH3GL2    | Parkinson's disease | human alpha cell |
-| SH3GL2    | Parkinson's disease | human beta cell  |
+| SH3GL2    | Parkinson's disease | human beta-cell  |
 
 Table: Sample of 5 cell types related to Parkinson's disease via markers (07/02/2020, full query on <https://w.wiki/yQD>).
 {#tbl:parkinson}
@@ -703,46 +716,45 @@ Each cell-type/marker statement was added to Wikidata with a pointer to PanglaoD
 Based on the theoretical considerations on the concept of cell type, we added species-specific terms to Wikidata for cell types of _Homo sapiens_ and _Mus musculus_ described in the PanglaoDB database.
 
 This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers, easily reachable from Wikidata's SPARQL Query Service (<https://query.wikidata.org/>).
-It is not first case study of biomedical data integration to Wikidata (see [@wikidata:Q105037759] for example.
-Nevertheless, the differences among the articles in style and scope contribute to a richer ecosystem for possible contributor.
-])
-The work also paves the way for Wikidata reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]) (if proper authorization are given by the owners).
-The approach we took here can in essence be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold standard format.
+Alongside other case studies of biomedical data integration to Wikidata (see [@wikidata:Q105037759], it contributes with tools and practices to serve as basis for contributors.)
+The work also paves the way for reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]) (if the owners give proper authorization).
+The approach we took here can be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold-standard format.
 
 ## Wikidata Bib and a professional system for biocuration
 
 ### Introduction 
 
 Reading scientific articles is an integral part of the routine of modern scientists.
-Although a number of literature/reference management software are available [@wikidata:https://en.wikipedia.org/wiki/Comparison_of_reference_management_software], the process of reading is largely artisanal. 
+Although several literature-management software are available [@wikidata:https://en.wikipedia.org/wiki/Comparison_of_reference_management_software], the process of reading is mainly artisanal. 
 There are no standard guidelines on how to probe the literature organize notes for biomedical researchers. 
-Thus, while reading and studying is a core activity, there are few (if any) protocols for efficient screening of scientific articles. 
+Thus, while reading and studying is a core activity, there are few (if any) protocols for the efficient screening of scientific articles. 
 
 Other professional traditions have dealt with similar issues in the past. 
-In the field of accounting, note-taking is of outstanding importance, to keep track of financial balances and avoid costly problems.
-Double-entry bookkeeping was developed in the 13th century as a professional solution for note-taking in accounting where "every entry to an account requires a corresponding and opposite entry to a different account." [@url:https://en.wikipedia.org/w/index.php?title=Double-entry_bookkeeping&oldid=1055066428]
+Notetaking is vital to keep track of financial balances and avoid costly problems in accounting.
+Double-entry bookkeeping was developed in the 13th century as a professional solution for notetaking in accounting where "every entry to an account requires a corresponding and opposite entry to a different account." [@url:https://en.wikipedia.org/w/index.php?title=Double-entry_bookkeeping&oldid=1055066428]
 In software development, Test-Driven Development (TDD) is a popular methodology where tests for code snippets are written before the code itself, therefore ensuring that written software passes minimum quality standards.
-The similarities of Double-entry bookkeeping and TDD are diverse [@wikidata:https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html], but for our purpose here suffices to see both as professionalized systems that promote better quality and accountability of works. 
+The similarities of Double-entry bookkeeping and TDD are diverse [@wikidata:https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html], but for our purpose, here suffices to see both as professionalized systems that promote better quality and accountability of works. 
 
 
 In the humanities, there is a well-established practice of annotations of readings. 
-The annotation skills are part of common academic training in the humanities [@url:https://bibliotecadaeca.wordpress.com/2019/09/30/como-fazer-um-fichamento/][@url:https://www.youtube.com/playlist?list=PLAudUnJeNg4vWJhEJ_da26C-QW5qiS7uZ]. 
+The annotation skills are part of standard academic training in the humanities [@url:https://bibliotecadaeca.wordpress.com/2019/09/30/como-fazer-um-fichamento/][@url:https://www.youtube.com/playlist?list=PLAudUnJeNg4vWJhEJ_da26C-QW5qiS7uZ]. 
 An influential work in presenting methods for academic reading in the humanities is Umberto Eco's book "How to Write a Thesis" [@wikidata:Q3684178], which outlines not only _how_ to annotate the literature that basis an academic thesis, but also _why_ to do so. 
-The book, written originally in 1977, is still influential today, but its theoretical scope (roughly the humanities) and its date, preceding the digital era, limits the extent in which it applies to the biomedical sciences. 
+The book, written originally in 1977, is still influential today. 
+Still, its theoretical scope (roughly the humanities) and its date preceding the digital era limits the extent to which it applies to the biomedical sciences. 
 
 
-Notably, the need of an organized reading system for biocuration studies stems from a difference in methodology. 
-In humanities, the main (if not sole) research material is the written text, the books and articles from which research stems. [@url:https://www.youtube.com/playlist?list=PLAudUnJeNg4vWJhEJ_da26C-QW5qiS7uZ].
+Notably, the need for an organized reading system for biocuration studies stems from a difference in methodology. 
+In humanities, the main (if not sole) research material is the written text, the books and articles from which research stems—[@url:https://www.youtube.com/playlist?list=PLAudUnJeNg4vWJhEJ_da26C-QW5qiS7uZ].
 In the biomedical sciences, including a large part of bioinformatics, the object of study is the natural world, observed via experimentation. 
-Thus, naturally, scientific training focuses on the theoretical and practical basis of experimentation and data analysis. 
-With the bloom of scientific articles, however, the scientific literature (and accompaning public datasets) provide already a strong material for the sculpting of scientific projects.
-Thus, the development of a methodology for academic reading, tailored to the digital environment, presents itself as a need. 
+Thus, naturally, scientific training focuses on experimentation and data analysis's theoretical and practical basis. 
+With the boom of scientific articles, however, the scientific literature (and accompanying public datasets) already provide a strong material for sculpting scientific projects.
+Thus, developing a methodology for academic reading tailored to the digital environment is a need. 
 
 This chapter concerns itself with presenting Wikidata Bib, a framework for large scale reading of scientific articles. 
-It is presented as three parts, each of them with a technical overview alongside the theoretical foundations. 
-First, Wikidata Bib is presenting as a reading system, for managing references and notes using a GitHub repository and plain text notes.
-Then, we present how the system ensures accountability, allowing its user to get personalized analytics on their reading patterns.
-Finally, we demonstrate how Wikidata Bib  fits an active curation environment, connecting the framework with the larger goal of this project of curating information about cell types on Wikidata.  
+It is presented in three parts, each with a technical overview alongside the theoretical foundations. 
+First, Wikidata Bib is presented as a reading system for managing references and notes using a GitHub repository and plain text notes.
+Then, we present how the system ensures accountability, allowing users to get personalized analytics on their reading patterns.
+Finally, we demonstrate how Wikidata Bib fits an active curation environment, connecting the framework with the larger goal of this project of curating information about cell types on Wikidata.  
 
 ## Wikidata Bib as a reading system 
 
@@ -771,27 +783,27 @@ It has a standard file structure, summarized as the following:
 
 The `docs/` directory contains the live dashboard from the readings, which will be discussed in the following sessions.
 The `downloads/` directory hosts the pdfs of the articles read with the system. 
-These are not commited to the repository, and are only stored locally. 
+These are not committed to the repository and are only stored locally. 
 The `notes/` directory contains markdown files, one for each article read. 
-The `src/` directory contains the python code with the mechanics of the system. 
+The `src/` directory contains the python code with the system's mechanics. 
 They contain helper functions for the command line commands discussed below:
-    - `wread` which receives a Wikidata QID for an article and outputs (1) a notes document, (2) a pdf for the paper obtained from Unpaywall [@url:https://unpaywall.org/] and (3) an updated version of the dashboard html files in the `docs/` directory.
+    - `wread` which receives a Wikidata QID for an article and outputs (1) a notes document, (2) a pdf for the paper obtained from Unpaywall [@url:https://unpaywall.org/] and (3) an updated version of the dashboard HTML files in the `docs/` directory.
     - `pop`, which "pops" an article from `toread.md` and runs `wread` for it
-    - `wadd`, which takes an URL for an Wikidata SPARQL query and adds new QIDs to `toread.md`
+    - `wadd`, which takes an URL for a Wikidata SPARQL query and adds new QIDs to `toread.md`
     - `wadd_all`, which parses `config.yaml` for recurrent SPARQL queries and runs `wadd` for each
     - `wlog`, which adds, commits and pushes recent readings and dashboard updates to GitHub
 
 All the structures described so far are commonly shared by any user of Wikidata Bib. 
 To personalize the use of the system, the user edits three plain text files.
-`toread.md` hosts a plain text QIDs of the articles that will be read. 
-These can be added either manually, or via wadd.
-While the `pop` command only sees QIDs, articles titles or other identifiers can be added to `toread.md` temporarily without breaking the system. 
+`toread.md` hosts plain text QIDs of the articles that will be read. 
+These can be added either manually or via wadd.
+While the `pop` command only sees QIDs, articles titles or other identifiers can temporarily be added to `toread.md` without breaking the system. 
 `index.md` hosts a numbered list of topics of interest.
 This file plays the role of  Umberto Eco's work plan, with the topics of interest for the academic. [@wikidata:Q3684178]
 These are used to tag articles for retrieval in a later step. 
 `config.yaml` contains shortcuts for different reading lists. 
 This is better explained by example. 
-In my `toread.md` file there are two reading lists, one following a `# Cell types` header, and another following a `# Biocuration` header. 
+In my `to read.md` file there are two reading lists, one following a `# Cell types` header and another following a `# Biocuration` header. 
 My `config.yaml` contains the following snippet: 
 ```yaml
 lists:
@@ -799,29 +811,29 @@ lists:
   ct: Cell types
   bioc: Biocuration
 ```
-The shortcuts in `config.yaml` are used as arguments by the `pop` command, where `$ ./pop ct` retrieves an article from the "Cell types" list, while `$ ./pop bioc` retrieves an article from the "Biocuration" list.  
+The `config.yaml` shortcuts are used as arguments by the `pop` command, where `$ ./pop ct` retrieves an article from the "Cell types" list, while `$ ./pop bioc` retrieves an article from the "Biocuration" list.  
 
 The Wikidata bib framework is coupled with a discipline of daily reading.
-This is inspired by Robert Cecil Martin's description of Test Driven Development in the book "Clean Code", which includes not only a technical description, but a _school of thought_ of how software development can be approached.  [@wikidata:Q109996684]
-Every day, I read one article of each list, using the notetaking station displayed in Figure @fig:notetaking.
+The discipline is inspired by Robert Cecil Martin's description of Test Driven Development in the book "Clean Code", which includes not only a technical description but a _school of thought_ of how software development might be approached.  [@wikidata:Q109996684]
+Every day, I read one article of each list, using the notetaking station displayed in Figure @fig: notetaking.
 The constancy of reading allows steady coverage of the relevant literature. 
-While it has worked for this research project, however, it is not required for use of the Wikidata Bib system.
+While the discipline has worked for this research project, it is not required to use the Wikidata Bib system.
 
-The notetaking station of Wikidata Bib is, by default, opened in Virtual Studio Code, and is depicted on Figure @fig:notetaking A.
+The notetaking station of Wikidata Bib, opened in Virtual Studio Code, is depicted on Figure @fig: notetaking A.
 The title and publication dates are displayed, and the reading process entails copying snippets from the text to the "Highlights" session. 
-By copying the highlights into plain text, the sections of interest become searchable via command line using `grep` (https://en.wikipedia.org/w/index.php?title=Grep&oldid=1039541979).
+Copying the highlights into plain text makes the sections of interest searchable via command line using `grep` (https://en.wikipedia.org/w/index.php?title=Grep&oldid=1039541979).
 Comments can be added either in the comment section or inline, alongside the highlights, using ` --> Comment goes here ` to differentiate from highlights.
 Also searchable by `grep` are the tags, copied and pasted from `index.md` in the `## Tags` session or alongside the main article. 
 
 
 The discipline also includes, whenever possible, an improvement of the metadata about the article on Wikidata. 
-In @fig:notetaking B are shown the links included in the dashboard. 
+In @fig: notetaking B are shown the links included in the dashboard. 
 A link to a Scholia [@wikidata:Q41799194] profile allows identification of related articles from a series of pre-made SPARQL queries probing bibliography data on Wikidata.
 While Scholia provides an overview of a given article, it does not allow direct curation of the metadata.
 For that, two links are provided, one to Wikidata and one to Author Disambiguator [@url:https://www.wikidata.org/wiki/Wikidata:Tools/Author_Disambiguator].
-By acessing the Wikidata page for the entity, one can add new triples, for example curating authors and topics of the article, which are then used by Scholia and by Wikidata Bib's dashboard. 
-Author Disambiguator is a wrapper of an Wikimedia API which facilitates the process of disambiguating author names to unique identifiers on Wikidata, thus  feeding the publict knowledge graph of publication and authors.  
-Finally, a link to the article's DOI or full text URL is provided, and serves as a fallback when the automatic download fails. 
+By accessing the Wikidata page for the entity, one can add new triples, for example, curating authors and topics of the article, which are then used by Scholia and by Wikidata Bib's dashboard. 
+Author Disambiguator is a wrapper of an Wikimedia API that facilitates disambiguating author names to unique identifiers on Wikidata, thus feeding the public knowledge graph of publication and authors.  
+Finally, a link to the article's DOI or full-text URL is provided and serves as a fallback when the automatic download fails. 
 Of note, while the metadata curation has a technical benefit to Wikidata and the dashboard, it also plays a theoretical role. 
 By curating metadata on authors, the user of Wikidata Bib can better understand the people they read, and expand their metascientific perspective on their domain of interest. 
 
@@ -835,9 +847,9 @@ The source code for Wikidata Bib is available at https://github.com/lubianat/wik
 The Wikidata Bib system also enables the reader to get statistics on their readings. 
 Two simple databases are stored on the GitHub repository:
  * `read.ttl` - An RDF document recording the dates in which each article was read. 
- * `read.csv` - An simple, human-readable, index connecting QIDs with article titles. 
-The csv file is only stored for accountability, and as a quick way to glance at the titles read. 
-The .ttl file, in the other hand, is processed by the `update_dashboard.py` script to render 4 different html files under the `docs/` folder: 
+ * `read.csv` - An simple, human-readable index connecting QIDs with article titles. 
+The CSV file is only stored for accountability and as a quick way to glance at the titles read. 
+The .ttl file, on the other hand, is processed by the `update_dashboard.py` script to render 4 different HTML files under the `docs/` folder: 
  - `index.html`
  - `last_day.html`
  - `past_week.html`
@@ -847,31 +859,31 @@ In the case of this work, they are displayed at https://lubianat.github.io/wikid
 
 To organize the code for rendering the dashboard, we created a python package, wbib, and deposited it in PyPi, making it available via `pip`. [@url:https://pypi.org/project/wbib/].
 The package implements the logic for rendering complex Wikidata-based academic dashboards and is available in GitHub at https://github.com/lubianat/wbib. 
-It allows the user to build dashboards based on Wikidata records of information such as gender of authors, the region of author`s intitutions, topics of articles and similar metascientific information. 
+It allows the user to build dashboards based on Wikidata records of information such as gender of authors, the region of author's institutions, topics of articles and similar metascientific information. 
 The dashboard is composed of SPARQL queries written for the Wikidata Query Service [@url:https://query.wikidata.org] 
 It also allows users to feed an arbitrary list of articles and obtain a custom dashboard. 
-Wikidata Bib obtains the html dashboards after feeding wbib the lists of articles read in total (`index.html`) or in pre-determined time spans (`last_day.html`, `past_week.html` and `past_month.html` )
+Wikidata Bib obtains the HTML dashboards after feeding wbib the lists of articles read in total (`index.html`) or in pre-determined time spans (`last_day.html`, `past_week.html` and `past_month.html` )
 
 
-![Wikidata Bib queries for institutions of authors and most read venues](images/wikidata_bib_display.png){#fig:dashboard}
+![Wikidata Bib queries for institutions of authors and most-read venues](images/wikidata_bib_display.png){#fig:dashboard}
 
-The dashboard includes not only a basic list of read articles, but also statistics on most read authors and most read venues. 
-It also displays an interactive map of the instituions of articles read, permitting a glance on geographic biases in activities. 
-An example of queries is show in @fig:dashboard.
+The dashboard includes not only a basic list of read articles, but also statistics on most read authors and most-read venues. 
+It also displays an interactive map of the institutions of articles read, permitting a glance at geographic biases in activities. 
+An example of queries is shown in @fig:dashboard.
 As the queries are rendered live, they evolve in quality with the growth of Wikidata. 
 Finally, the clean 5-star-open data format enables users to adapt the queries to include different aspects of Wikidata. 
 For example, table @tbl:articles_read_hca showcases 10 articles that (1) I have read in the past year and (2) were authored by a speaker of the 1st Human Cell Atlas Latin America Single Cell RNA-seqData Analysis Workshop [@url:https://www.humancellatlas.org/hca-latin-america-2021-workshop/]. 
-One practical application that the dashboard enables, thus, is to identify people in an event, institution or location that the user has read before, therefore catalysing the possibility of colaborations. 
-Anedoctally, this strategy was tested successfully at Biohackathon Europe 2021 [@url:https://biohackathon-europe.org/], where I used the system both to identify possible collaborators and as a conversation starter. 
+One practical application that the dashboard enables, thus, is to identify people in an event, institution or location that the user has read before, therefore catalyzing the possibility of collaborations. 
+Anecdotally, this strategy was tested successfully at Biohackathon Europe 2021 [@url:https://biohackathon-europe.org/], where I used the system both to identify possible collaborators and as a conversation starter. 
 |workLabel                                                                                        |authors                                                                   |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 |A promoter-level mammalian expression atlas                                                      |Jay W Shin                                                                |
 |Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors.|Muzlifah Haniffa                                                          |
 |The Human Cell Atlas.                                                                            |Musa Mhlanga, Jay W Shin, Muzlifah Haniffa, Menna R Clatworthy, Dana Pe'er|
 |The Human Cell Atlas: Technical approaches and challenges.                                       |Jay W Shin                                                                |
-|Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses.             |Dana Pe'er                                                                |
+|Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses.             |Dana Pe'er |
 |Single cell RNA sequencing of human liver reveals distinct intrahepatic macrophage populations   |Sonya A MacParland                                                        |
-|Single-cell reconstruction of the early maternal–fetal interface in humans                       |Muzlifah Haniffa                                                          |
+|Single-cell reconstruction of the early maternal-fetal interface in humans                       |Muzlifah Haniffa                                                          |
 |Distinct microbial and immune niches of the human colon                                          |Rasa Elmentaite, Menna R Clatworthy                                       |
 |A cell atlas of human thymic development defines T cell repertoire formation                     |Muzlifah Haniffa, Menna R Clatworthy                                      |
 |Decoding human fetal liver haematopoiesis                                                        |Muzlifah Haniffa                                                          |
@@ -882,15 +894,15 @@ Anedoctally, this strategy was tested successfully at Biohackathon Europe 2021 [
 
 The Wikidata Bib system was devised originally to allow an overview of the fields of cell classification and biocuration. 
 However, during the process, it was also repurposed for biocuration of new cell classes in Wikidata.
-By fast-tracking the reading of new articles, Wikidata Bib enables an efficient parsing of the literature, and, thus, the identification of previously uncatalogued cell types. 
+By fast-tracking the reading of new articles, Wikidata Bib enables an efficient parsing of the literature and, thus, the identification of previously uncatalogued cell types. 
 
-Articles read with Wikidata Bib were screened for the mention of cell types absent from Wikidata. 
-As discussed on the chapter about the concept of cell type, we considered as a "cell type" as as any class of cells described by a domain expert with evidence of reality of its instances.
+Articles read with Wikidata Bib were screened to mention cell types absent from Wikidata. 
+As discussed in the chapter about the concept of cell type, we considered a "cell type" as any class of cells described by a domain expert with evidence of the reality of its instances.
 When a mention of such a class appears in an article, I first verify Wikidata for the existence of a related class. 
-If it is absent from the platform , I enter a class name, alongside a superclass, and a QID in a Google Spreadsheet, as shown in Figure @fig:biocuration_of_cells.
+If it is absent from the platform, I enter a class name, alongside a superclass, and a QID in a Google Spreadsheet, as shown in Figure @fig:biocuration_of_cells.
 
-The information from the spreadsheet is pulled by a python script, and processed locally with a series of dictionaries that match common terms to Wikidata IDs. 
-In the example shown in Figure @fig:biocuration_of_cells, the string "endothelial cell" was matched against a manually curated dictionary to the wikidata entry [Q11394395](https://www.wikidata.org/wiki/Q11394395), the representation of that concept on Wikidata. 
+The information from the spreadsheet is pulled by a python script and processed locally with a series of dictionaries that match common terms to Wikidata IDs. 
+In the example shown in Figure @fig:biocuration_of_cells, the string "endothelial cell" was matched against a manually curated dictionary to the Wikidata entry [Q11394395](https://www.wikidata.org/wiki/Q11394395), the representation of that concept on Wikidata. 
 After reconciling the data, the script uses the Wikidata Integrator python package [@url:https://github.com/SuLab/WikidataIntegrator] to insert the new entries on the Wikidata database. 
 The code for integrating a Google Spreadsheet to Wikidata is available at https://github.com/lubianat/wikidata_cell_curation. 
 
@@ -898,16 +910,16 @@ The code for integrating a Google Spreadsheet to Wikidata is available at https:
 
 
 Wikidata contains 2940 subclasses of "cell ([Q7868](https://www.wikidata.org/wiki/Q7868))" as of 8 December 2021. 
-From those, 550 cell classes are specific for humans and 318 are specific for mice.  
-As a comparison, as of 8 of December 2021, Wikidata has more cell classes than the Cell Ontology, which lists 2577 classes. 
-It is worth noticing that classes on the Cell Ontology are added after careful consideration by ontologists and domain experts, and should be considered of higher quality than the ones on Wikidata. 
+From those, 550 cell classes are specific for humans, and 318 are specific for mice.  
+As a comparison, as of 8 December 2021, Wikidata has more cell classes than the Cell Ontology, which lists 2577 classes. 
+It is worth noticing that classes on the Cell Ontology are added after careful consideration by ontologists and domain experts and should be considered of higher quality than the ones on Wikidata. 
 
 
-From the 2940 cell classes on Wikidata, 2812 (95.6%) have been edited in some way by User:TiagoLubiana, and 1668 (56.7%) have been created by User:TiagoLubiana. 
-Edits made to the cells were often connecting a dangling term, created automatically from an Wikipedia page to the cell subclass hierarchy, but also included adding of identifiers, images, markers and other pieces of information. 
+From the 2940 cell classes on Wikidata, 2812 (95.6%) have been edited somehow by User:TiagoLubiana, and 1668 (56.7%) have been created by User:TiagoLubiana. 
+Edits made to the cells were often connecting a dangling term, created automatically from an Wikipedia page to the cell subclass hierarchy, and included adding identifiers, images, markers, and other pieces of information. 
 From the 1668 entities created, approximately 63 species-neutral cell types, 188 human and 188 mouse cell types were added based on PanglaoDB entries (total of 439).
-The remaining 1229 entries were created either directly via Wikidata's web interface or using the curation workflow described in this chapter. 
-Theses statistics are a simple demonstration of how the curation system is efficiently contributing to the status of cell type information on Wikidata. 
+The remaining 1229 entries were created either via Wikidata's web interface or via the curation workflow described in this chapter. 
+These statistics are a simple demonstration of how the curation system efficiently contributes to the status of cell type information on Wikidata. 
 
 ![Subclasses of "cell" on Wikidata](https://keep.google.com/u/0/media/v2/1WoYkTz0M-ew_Tay-DpmOr2zyyCalnmsyd_2Ysq3pyNaJ7R5CIQnfdvZTDviBcvc/18W-amXz1489obuE7Tqb-AQHZKa-x-aVaH7QsO3x7Cy7lz-4a6AMzaGdLffzB?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp){#fig:subclass_of_cell width="85%"}
 
@@ -916,20 +928,20 @@ Theses statistics are a simple demonstration of how the curation system is effic
 ## Wikidata and the Cell Ontology interplay
 
 The contributions to cell types on Wikidata will be of most value if they are integrated to the current state-of-art of knowledge representation. 
-Arguably, the Cell Ontology is the current leading source of cell type identifiers in the context of the Human Cell Atlas project.[@wikidata:Q109755180]
-Thus, it is crucial that data about cell types on Wikidata is connected to the Cell Ontology. 
+Arguably, the Cell Ontology is the main source of cell type identifiers in the context of the Human Cell Atlas project.[@wikidata:Q109755180]
+Thus, data about cell types on Wikidata must be connected to the Cell Ontology. 
 
-To start the improvement in the interplay of both databases, we proposed and got approval of a specific Wikidata identifier for the Cell Ontology, the "Cell Ontology ID" (<https://www.wikidata.org/wiki/Property:P7963>).
-IDs can be added to Wikidata entities and connect them to external databases enabling integrative SPARQL queries. 
-Besides using the common Wikidata interface, one can crowd-curate identifiers via 3rd-party service, Mix'N'Match, which provides an user-friendly framework for connecting idenfier catalogs to Wikidata. [@url:http://magnusmanske.de/wordpress/?p=114], as seen in Figure @fig:mixn_match_cl. 
-Logically, we created a Mix'N'Match catalog for harmonizing Cell Ontology IDs to Wikidata (<https://mix-n-match.toolforge.org/#/catalog/4719>), harnessing the community support for the task. 
+To start the improvement in the interplay of both databases, we proposed and got the approval of a specific Wikidata identifier for the Cell Ontology, the "Cell Ontology ID" (<https://www.wikidata.org/wiki/Property:P7963>).
+IDs can be added to Wikidata entities and connected them to external databases enabling integrative SPARQL queries. 
+Besides using the common Wikidata interface, one can crowd-curate identifiers via a 3rd-party service, Mix'N'Match, which provides a user-friendly framework for connecting identifier catalogues to Wikidata. [@url:http://magnusmanske.de/wordpress/?p=114], as seen in Figure @fig:mixn_match_cl. 
+Logically, we created a Mix'N'Match catalogue for harmonizing Cell Ontology IDs to Wikidata (<https://mix-n-match.toolforge.org/#/catalog/4719>), harnessing the community support for the task. 
 
 ![Mix'N'Match curation system](https://pointstodots.files.wordpress.com/2021/09/image-17.png){#fig:mixnmatch_cl width="85%"}
 
 As of early December 2021, more than 700 Cell Ontology IDs have been manually matched to Wikidata. 
-The integration already enables queries that harness the previously existing information on Wikidata for Cell Ontology - based applications. 
+The integration already enables queries that harness the previously existing information on Wikidata for Cell Ontology-based applications. 
 For example, one can query Wikidata items that have (1) a crossref to a CL ID (2) a picture in Wikimedia Commons (<https://w.wiki/4F6e>, Figure @fig:cl_images). 
-The different possibilities of mutual benefit between the Cell Ontology and Wikidata will continue to be explored in the next years of this PhD project. 
+The different possibilities of mutual benefit between the Cell Ontology and Wikidata will continue to be explored in the following years of this PhD project. 
 
 ![Entries on Wikidata with a depicting image and a Cell Ontology ID](https://user-images.githubusercontent.com/7917951/137942026-7645f368-d62a-4434-be05-083555cf0757.png) {#fig:cl_images width="85%"}
 
@@ -943,11 +955,11 @@ The different possibilities of mutual benefit between the Cell Ontology and Wiki
 # Final considerations and next steps
 
 To sum up, this PhD research project aims at improving knowledge representation in the context of the Human Cell Atlas. 
-It is composed by a mixture of theoretical studies on conceptual modelling, practical contributions to knowledge organization projects, (mainly the Cell Ontology and Wikidata), explorations of the data to generate biomedical insights and the development of a technical framework for organized reading. 
-By approaching the object of study from a new perspective, we hope not only to make sizeable contributions, but to promote discussion and fruitful conflation of approaches. 
+It is composed of a mixture of theoretical studies on conceptual modelling, practical contributions to knowledge organization projects (mainly the Cell Ontology and Wikidata), explorations of the data to generate biomedical insights, and a technical framework for organized reading. 
+By approaching the object of study from a new perspective, we hope to make sizeable contributions and promote discussion and fruitful conflation of approaches. 
 
 The next years of study will be devoted to improving the projects presented here into mature, useful objects. 
-We hope to improve the interplay of Wikidata and Cell Ontology, developing frameworks to combine community- and expert- based curation of knowledge on  cell types. 
+We hope to improve the interplay of Wikidata and Cell Ontology, developing frameworks to combine community- and expert-based curation of knowledge on cell types. 
 Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting ontology-based R packages (as OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371])) to use Wikidata. 
 Finally, we aim at moving the Wikidata Bib system to a well documented, user-friendly mature system, testing usability with other academics and distributing it as a durable open-source project. 
 
@@ -957,25 +969,25 @@ Finally, we aim at moving the Wikidata Bib system to a well documented, user-fri
 
 ### fcoex 
 
-During the initial course of this PhD work, we also completed the development and reportin of _fcoex_, an R package for investigating cellular phenotypes using co-expression networks. [@url:https://www.bioconductor.org/packages/release/bioc/html/fcoex.html] The software was mantained to withstand new releases of dependencies and new R version, and *WAS PUBLISHED AS A PRE_PRINT ADD HERE THE LINK*. 
+During the initial course of this PhD work, we also completed the development and reporting of _fcoex_, an R package for investigating cellular phenotypes using co-expression networks. [@url:https://www.bioconductor.org/packages/release/bioc/html/fcoex.html] The software was maintained to withstand new releases of dependencies and new R version and was published as a preprint on biorxiv. [@doi:10.1101/2021.12.07.471603v1]
  
 ### Wikidata Bots
 
 Alongside the editing of cell-type information on Wikidata, I have joined different efforts to improve biological information on Wikidata.
-I have collaborated with the ComplexPortal curators, as part of the Virtual Elixir BioHackathon 2020 (https://github.com/virtual-biohackathons/covid-19-bh20/wiki) and for the following year, to build an Wikidata Bot to integrate information on protein complexes to Wikidata. An overview of the Wikidata integration is in Figure @fig:complexportal, presented in an article published in Nucleic Acid Research (re-use of the image and legend possible under the CC-BY license of the article). [@wikidata:Q109348309]
-![Complex Portal and Wikidata. (A) example of an entry assertion in Wikidata with provenance pointing to Complex Portal (Q104836061). (B) Number of protein complexes in Wikidata per taxon (https://w.wiki/3ggX). (C) Subset of Wikidata connected to the SARS-CoV-2 polymerase complex (https://w.wiki/3eta).](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/PAP/10.1093_nar_gkab991/2/gkab991fig3.jpeg?Expires=1641821957&Signature=RK-es18S~Qh6vGQE~61i6u4prMuij8kVTbrjN6WUJLfYHOAhUhx9qQorBxROohjLLxbHvZ2YK9e7EwlI9HjVeNoGZ2PJs0Pv78Y31MdZLY8FeLYI2E4azwrqRyv9q0AH8QL3RorWZV1AhOb9bl-44Mr97Q~9MWzeTDnQQbxpCnGLG~YoG49kocD5KE~dmTSQdkXBU7kZnuGM1NPqMHo5ZDUoCRFwmTbLvd4kXoH~6CTyqx4ruQRIO-ks4Q0FUjYnxGX18gCFvoO2LMPZUPrQjTgD35RrVAkLs91Ur6BQHUuZ-ZsE3Iag3mBDu27vT9Jr93bOj0i9wz~surTtEGATgw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){#fig:complexportal}
+I have collaborated with the ComplexPortal curators as part of the Virtual Elixir BioHackathon 2020 (https://github.com/virtual-biohackathons/covid-19-bh20/wiki) and for the following year, to build a Wikidata Bot to integrate information on protein complexes to Wikidata. An overview of the Wikidata integration is in Figure @fig:complexportal, presented in an article published in Nucleic Acid Research (re-use of the image and legend possible under the CC-BY license of the article). [@wikidata:Q109348309]
+![Complex Portal and Wikidata. (A) example of an entry assertion in Wikidata with provenance pointing to Complex Portal (Q104836061). (B) The number of protein complexes in Wikidata per taxon (https://w.wiki/3ggX). (C) Subset of Wikidata connected to the SARS-CoV-2 polymerase complex (https://w.wiki/3eta).](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/PAP/10.1093_nar_gkab991/2/gkab991fig3.jpeg?Expires=1641821957&Signature=RK-es18S~Qh6vGQE~61i6u4prMuij8kVTbrjN6WUJLfYHOAhUhx9qQorBxROohjLLxbHvZ2YK9e7EwlI9HjVeNoGZ2PJs0Pv78Y31MdZLY8FeLYI2E4azwrqRyv9q0AH8QL3RorWZV1AhOb9bl-44Mr97Q~9MWzeTDnQQbxpCnGLG~YoG49kocD5KE~dmTSQdkXBU7kZnuGM1NPqMHo5ZDUoCRFwmTbLvd4kXoH~6CTyqx4ruQRIO-ks4Q0FUjYnxGX18gCFvoO2LMPZUPrQjTgD35RrVAkLs91Ur6BQHUuZ-ZsE3Iag3mBDu27vT9Jr93bOj0i9wz~surTtEGATgw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){#fig:complexportal}
 
-I have also collaborated with the Cellosaurus database [@wikidata:Q54370168] to revive the CellosaurusBot [@url:https://www.wikidata.org/wiki/User:CellosaurusBot], responsible for updating the metadata on more than 100,000 cell lines on Wikidata. The bot code, written in Python, was completely refactored, and is run by me semi-automatically after the Cellosaurus database releases. A write-up of he integration is in progress, and is planned for release/submisson in the first semester of 2022. 
+I have also collaborated with the Cellosaurus database [@wikidata:Q54370168] to revive the CellosaurusBot [@url:https://www.wikidata.org/wiki/User:CellosaurusBot], responsible for updating the metadata on more than 100,000 cell lines on Wikidata. The bot code, written in Python, was refactored entirely and runs semi-automatically after the Cellosaurus database was released. A write-up of the integration is in progress and is planned for release/submission in the first semester of 2022. 
 
 ### Systematic Reviews and publishing of intermediary tables
 
-Finally, in a collaboration with Olavo Amaral and Kleber, from the Brazilian Reproducibility Initiative [@wikidata:Q61799268] I wrote a commentary on the value of publishing intermediate datasets as citable products. [@url:https://osf.io/preprints/metaarxiv/vbwa9/] 
+Finally, in collaboration with Olavo Amaral and Kleber Neves, from the Brazilian Reproducibility Initiative [@wikidata:Q61799268] I wrote a commentary on the value of publishing intermediate datasets as citable products. [@url:https://osf.io/preprints/metaarxiv/vbwa9/] 
 The pieces discuss the value of small curations done both in systematic reviews and by experimentalists in the course of their research projects. Published curation tables can serve as a source for improving the ecosystem of open knowledge, not less by reconciliation to Wikidata (thereby bridging the commentary with this project)
 
 ### WiseCube - enterprise biomedical question and answering
 
 During a part of this project, I have worked part-time as a consultant for the Wisecube company, based in Seattle, United States. [@url:https://www.wisecube.ai/]
-The job was approved by FAPESP, and consisted mainly in writing SPARQL queries that probe Wikidata for answers to the questions posed by the BioASQ competition. [@wikidata:Q28646342]
+The job was approved by FAPESP and consisted mainly in writing SPARQL queries that probe Wikidata for answers to the questions posed by the BioASQ competition. [@wikidata:Q28646342]
 It also entails on-demand curation of biomedical topics on Wikidata based on requests by pharmaceutical companies as well as the development of dashboards targeted at providing insights to customers. 
 
 
@@ -991,8 +1003,8 @@ During the initial course of this PhD project, I have participated in several ev
 
 ## Course work
 
-During the first year of the PhD program, I took 4 different classes, acquiring a total of 36 academic credits. 
-Figure @fig:courses_taken displays the disciplines taken, available only in portuguese. 
+During the first year of the PhD program, I took four different classes, acquiring 36 academic credits. 
+Figure @fig:courses_taken displays the disciplines taken, available only in Portuguese. 
  
 ![Courses taken](images/janus_courses_taken.png){#fig:courses_taken}
 
