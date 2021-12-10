@@ -15,7 +15,7 @@ Bgee
 BioASQ
 biocurated
 biocuration
-Biohackathon
+BioHackathon
 Biohub
 Bioinformática
 bioinformaticians
@@ -44,7 +44,7 @@ cholinergic
 citable
 Clatworthy
 colinergic
-complexportal
+ComplexPortal
 computable
 computerizable
 CoV
@@ -83,6 +83,7 @@ findable
 formalizations
 Franzen
 fugacious
+GeneDB
 geneLabel
 Genomic
 GL
@@ -90,7 +91,7 @@ hackathon
 HackWeek
 haematopoiesis
 Haniffa
-hca
+HCA
 Helder
 Henle
 hotspot
@@ -176,7 +177,6 @@ Pe’er
 PhenoGraph
 phenotypes
 plasmacytoid
-PLAudUnJeNg
 ploidy
 polymerase
 Popperian
@@ -184,18 +184,18 @@ pre
 preprint
 programmatically
 Protégé
+PubChem
 publically
 purkinje
 PyPi
 Pywikibot
 QID
 QIDs
-qiS
 Quickstatements
-QW
 Rasa
 RDF
 RDFs
+Reactome
 Regev
 Reproducibility
 retzius
@@ -238,12 +238,10 @@ TiagoLubiana
 transcriptomics
 ttl
 Umberto
-Uniprot
+UniProt
 Université
 Unpaywall
-uZ
 VDvCxskIGEI
-vWJhEJ
 wadd
 wbib
 wdt

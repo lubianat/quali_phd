@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/cf629fe1f70f8f676f43e4ec04950c65a9674e6f/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/cf629fe1f70f8f676f43e4ec04950c65a9674e6f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/cf629fe1f70f8f676f43e4ec04950c65a9674e6f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/bd9740705b22bf1d745d859aebf5f1b9fc80b3e1/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/bd9740705b22bf1d745d859aebf5f1b9fc80b3e1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/bd9740705b22bf1d745d859aebf5f1b9fc80b3e1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,9 +62,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/cf629fe1f70f8f676f43e4ec04950c65a9674e6f/))
+([permalink](https://lubianat.github.io/quali_phd/v/bd9740705b22bf1d745d859aebf5f1b9fc80b3e1/))
 was automatically generated
-from [lubianat/quali_phd@cf629fe](https://github.com/lubianat/quali_phd/tree/cf629fe1f70f8f676f43e4ec04950c65a9674e6f)
+from [lubianat/quali_phd@bd97407](https://github.com/lubianat/quali_phd/tree/bd9740705b22bf1d745d859aebf5f1b9fc80b3e1)
 on December 10, 2021.
 </em></small>
 
@@ -101,6 +101,7 @@ At the same time, we are enriching Wikidata with new classes curated from the li
 To aid that effort, we are developing Wikidata Bib, a framework for literature management and organized note-taking system for reading the academic literature with high efficiency. 
 Finally, we plan to improve the interplay of Wikidata, the Cell Ontology and software used for single-cell RNA-seq data, inserting Wikidata _de facto_ as a tool for the Human Cell Atlas community. 
 
+## Preface {.page_break_before}
 
 Here we present an overview of the different chapters that compose this document, presented as the text for a qualifying exam.  
 This work is concerned with the conceptual modelling of knowledge about cell types. 
@@ -128,7 +129,7 @@ They present an overview of collaborations, participation in events and academic
 
 
 
-# Background
+## Background {.page_break_before}
 
 <!-- 1.4. The challenges of the Human Cell Atlas -->
 ## The Human Cell Atlas (HCA) Project
@@ -228,7 +229,7 @@ Clarke et al.'s recent review and tutorial [@wikidata:Q107158224] provides an ex
 
 Of note, even though a range of methods is available, most techniques and publications do not use standard identifiers for cell types. 
 This is in contradiction with the acknowledgement by the community of the advantages of using identifiers the ad using standard identifiers, such as those provided by the Cell Ontology. [@wikidata:Q107158224] [@wikidata:Q33037209] [@wikidata:Q107373831] [@wikidata:Q36067763] [@wikidata:Q52625486]  [@wikidata:Q49192555].
-Nevertheless, projects that use Cell Ontology identifiers for single-cell RNA-seq data are appearing [@wikidata:Q109755180], including python and R packages (e.g. Besca [@wikidata:Q104450593], OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371]), data management projects and reference datasets, (e.g. Tabula Muris [@url:https://tabula-muris.ds.czbiohub.org/] and Tabula Sapiens [@url:https://tabula-sapiens-portal.ds.czbiohub.org/celltypes] Azimuth map [@url:https://azimuth.hubmapconsortium.org/] and HubMap's ASCT+B Tables [@wikidata:Q109755184]) and annotation platforms (e.g. the Cell Annotation Platform [@url:http://celltype.info] and CellTypist [@wikidata:Q107363182].
+Nevertheless, projects that use Cell Ontology identifiers for single-cell RNA-seq data are appearing [@wikidata:Q109755180], including python and R packages (e.g. Besca [@wikidata:Q104450593], OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371]), data management projects and reference datasets, (e.g. Tabula Muris [@url:https://tabula-muris.ds.czbiohub.org] and Tabula Sapiens [@url:https://tabula-sapiens-portal.ds.czbiohub.org/celltypes] Azimuth map [@url:https://azimuth.hubmapconsortium.org] and HubMap's ASCT+B Tables [@wikidata:Q109755184]) and annotation platforms (e.g. the Cell Annotation Platform [@url:http://celltype.info] and CellTypist [@wikidata:Q107363182].
 
 As elegantly put by Meehan et al. [@wikidata:Q34978215] the Cell Ontology is a "manually constructed computer-readable resource that links cell types by different relationships".
 it was first described in 2005 by Jonathan Bard, Seung Y Rhee† and Michael Ashburner [@wikidata:Q21184168] and was oriented at creating an "organism-independent classification of cells".
@@ -248,7 +249,7 @@ While purely theoretical developments have their value, refining the cell type t
 One reason is that formal systems enable automation of knowledge integration and can feed intelligent systems that aid current research practices. 
 In the following chapter, it will be discussed how computer-based knowledge processing can influence life-sciences research and discuss techniques and platforms to advance the frontier. 
 
-## Ontologies
+## Ontologies {.page_break_before}
 <!-- - 1.2. Formal representation of knowledge and - 1.3. Knowledge Representation in biology --> 
 
 The classification of biological concepts is at the core of biology. At least since the Aristotelian endeavours to group classes of animals, a good part of the scientific work is to capture concepts into knowledge systems   [@wikidata:Q105870680]. 
@@ -284,7 +285,7 @@ Furthermore, it is an umbrella ontology language that includes several languages
 Generally, more expressive languages can represent more complex ideas but make computations harder.
 
 Regardless of ontology's sublanguage, it must be resolvable to an RDF-XML file. 
-RDF stands for Resource Description Framework, another W3C standard built around a graph-based data model [@url:https://www.w3.org/TR/rdf11-concepts/]. 
+RDF stands for Resource Description Framework, another W3C standard built around a graph-based data model [@url:https://www.w3.org/TR/rdf11-concepts]. 
 Statements in RDF are triples consisting of 2 nodes (a subject and an object) and an edge (a predicate) connecting the nodes. 
 All nodes and edges are represented in RDFs by International Resource Identifiers (IRIs), and there are many ways to lay out those IRIs on a text file to represent triples. 
 One of those layouts is the RDF-XML syntax, inspired by the XML markup language. 
@@ -345,7 +346,7 @@ Qualifiers provide ways to extend the information on the triple, while reference
 
 All the information is available on a user interface and programmatically. 
 Advanced users can download dumps in JSON and RDF dumps and acess the data via the MediaWiki API and a SPARQL endpoint. [@url:https://www.wikidata.org/wiki/Wikidata:Data_access]
-Several wrappers of such services are available in languages such as R [@url:https://www.rdocumentation.org/packages/WikidataR/versions/2.2.0] and python [@url:https://pypi.org/project/wikidata2df/]. 
+Several wrappers of such services are available in languages such as R [@url:https://www.rdocumentation.org/packages/WikidataR/versions/2.2.0] and python [@url:https://pypi.org/project/wikidata2df]. 
 The data scheme can be seen in @fig:data model, where each item is connected to a statement node via a property in the "p:" namespace, from which references and qualifiers are accessible. 
 To facilitate primary usage, the namespace "wdt:" connects items to values directly, simplifying, for example, the writing of SPARQL queries. 
 
@@ -353,8 +354,8 @@ To facilitate primary usage, the namespace "wdt:" connects items to values direc
 ![Wikidata's data model, scheme released under the CC-BY 4.0 license by Michael F. Schönitzer. It outlines the primary representation of statements, qualifiers and values in the Wikidata database](https://upload.wikimedia.org/wikipedia/commons/6/6c/Rdf_mapping-vector.svg){#fig:datamodel}
 
 Information on Wikidata is released under a CC0 license, which enables full reuse of the data. [@url:https://www.wikidata.org/wiki/Wikidata:Licensing]
-One of the major points of access and reuse of the information is the Wikidata Query Service [@url:https://query.wikidata.org/], a core resource of the community which enables live querying in the SPARQL language. [@url:Q56010228] 
-A number of services make use of embedded queries from the Wikidata Query Service [@url:https://query.wikidata.org/] to create interactive, live dashboards like Scholia [@url:https://scholia.toolforge.org/] and the SARS-CoV-2 Query Book [@url:https://egonw.github.io/SARS-CoV-2-Queries/] 
+One of the major points of access and reuse of the information is the Wikidata Query Service [@url:https://query.wikidata.org], a core resource of the community which enables live querying in the SPARQL language. [@url:Q56010228] 
+A number of services make use of embedded queries from the Wikidata Query Service [@url:https://query.wikidata.org] to create interactive, live dashboards like Scholia [@url:https://scholia.toolforge.org] and the SARS-CoV-2 Query Book [@url:https://egonw.github.io/SARS-CoV-2-Queries] 
 
 
 Wikidata is accessible in many ways and writable in many ways. 
@@ -371,7 +372,7 @@ Bot edits are made via the Wikimedia API and are predominantly written via Pytho
 Due to its privileged position inside the linked data ecosystem and its ease of writing and query, Wikidata has been growing as a hub for interoperable data for the life sciences community. [@wikidata:Q87830400] [@wikidata:Q68471881] 
 Even though Wikidata was created in 2013, the demand for a community-cured life sciences knowledge graph is apparent at least since 2008 [@wikidata:Q28292893] [@wikidata:Q21183907] 
 The Wikidata-like project proposed was eventually discontinued, an example of the challenge of maintaining independent biomedical databases. [@wikidata:Q28595967]
-As Wikidata has a very large community, has stable funding and is at the core of modern technologies, like the Google Knowledge Graph [@wikidata:Q24074986] and Amazon's Alexa, [@url:https://www.wired.com/story/inside-the-alexa-friendly-world-of-wikidata/] it is virtually guaranteed that data in Wikidata will remain accessible for a long time, regardless of local funding schemes. 
+As Wikidata has a very large community, has stable funding and is at the core of modern technologies, like the Google Knowledge Graph [@wikidata:Q24074986] and Amazon's Alexa, [@url:https://www.wired.com/story/inside-the-alexa-friendly-world-of-wikidata] it is virtually guaranteed that data in Wikidata will remain accessible for a long time, regardless of local funding schemes. 
 
 The Gene Wiki project [@wikidata:Q21092744] was likely the first large scale biomedical project to rely directly on the Wikipedia infrastructure for community curation. 
 It provided a direction connection between the generalist community of Wikipedia and domain experts. 
@@ -381,11 +382,25 @@ Notwithstanding, the Gene Wiki research group has embraced the Wikidata environm
 The information on Wikidata is still integrated to Wikipedias across multiple languages, often a a source of information in Wikipedia's infoboxes.  
 
 Other projects outside the Gene Wiki initiative also started using Wikidata as a platform for knowledge integration. 
-A list of several projects that use Wikidata as part of their service to their community is given in table 1. 
+A list of several projects that use Wikidata as part of their service to their community is given in table @tbl:wikidata_databases1. 
 There is a movement exploring how Wikidata can be employed to advance Computational Biology and how it can be integrated to the current publication status quo. [@wikidata:Q54655231]
 In that direction, Wikidata is being developed as a platform for scholarly linked open data, mainly via the Scholia platform [@wikidata:Q41799194] [@wikidata:Q63433973],(<https://scholia.toolforge.org/>) which provides profiles of pre-templated SPARQL queries for entities like particular authors and articles (e.g. Scholia profile on Prof. Helder Nakaya available at <https://scholia.toolforge.org/author/Q42614737>).  
 
-# [Table 1](https://docs.google.com/spreadsheets/d/1loPE0bfJsih4eLrwNGvQf2c-9_I8z-GEvV21496o8h8/edit#gid=0)
+|name          |project website                     |citation                                |
+|--------------|------------------------------------|----------------------------------------|
+|LOTUS         |<https://lotus.naturalproducts.net/>|[@doi:10.1101/2021.02.28.433265]        |
+|GeneDB        |<https://www.genedb.org/>           |[@doi:10.12688/WELLCOMEOPENRES.15355.2] |
+|Cellosaurus   |<https://web.expasy.org/cellosaurus/>|[@doi:10.7171/JBT.18-2902-002]          |
+|Complex Portal|<https://www.ebi.ac.uk/complexportal/>|[@doi:10.1093/NAR/GKAB991]              |
+|WikiPathways  |<https://www.wikipathways.org/>     |[@doi:10.1093/NAR/GKAA1024]             |
+|Reactome      |<https://reactome.org/>             |[@doi:10.1093/NAR/GKY1001]              |
+|CIViC         |<http://www.civicdb.org>            |[@doi:10.7554/eLife.52614]              |
+|PubChem       |<https://pubchem.ncbi.nlm.nih.gov/ >|[@doi:10.7554/eLife.52614]              |
+|Human Disease Ontology|<https://www.ebi.ac.uk/ols/ontologies/doid>|[@doi:10.7554/eLife.52614]              |
+
+Table: Samples of databases reconciled partially or totally to Wikidata
+{#tbl:wikidata_databases}
+
 
 During the COVID-19 pandemic, Wikidata has spawned as a hotspot for modelling information about the virus and the pandemic in real-time.  [@wikidata:Q108766311] [@wikidata:99196713]
 The general scope of the database allowed representation in a shared system of molecular, epidemiologic and socio-economic aspects of the pandemic. [@wikidata:Q108766311][@wikidata:Q105037759]
@@ -404,7 +419,7 @@ In conclusion, Wikidata's unique position, robustness and guarantee of long term
 In light of the speed and breadth of the Human Cell Atlas and the challenges of knowledge representation on cells, this PhD works on addressing how Wikidata can play a role in organizing the discoveries about all human cell types. 
 
 
-# Objectives 
+## Objectives {.page_break_before}
 
 * Study and refine theories of classes of cells within the constraints of ontologies and knowledge bases
 
@@ -419,7 +434,7 @@ In light of the speed and breadth of the Human Cell Atlas and the challenges of 
 
 * Provide proofs-of-concept of how Wikidata integration can benefit the advancement of the Human Cell Atlas Project
 
-# Methodology
+## Methodology {.page_break_before}
 
 This project's methodology resembles practical research-action practices [@wikidata:Q108479295]. 
 Our goal of improving the interoperability of cell-type data implies a combination of action and research. 
@@ -473,7 +488,7 @@ The property acceptance cycle takes at least one week and is  open for opinions 
 As part of the research-action process, I have joined the Cell Ontology working group. 
 I participate in the monthly meetings and sporadic workshops, learning and contributing to the discussions. 
 Additionally, I contribute to the ontology development, actively engaging in the Cell Ontology GitHub repository (<https://github.com/obophenotype/cell-ontology>) and contributing with new terms and assertions. 
-I edit the ontology with the software for ontology editing Protégé v. 5.5.0 (<https://protege.stanford.edu/>).
+I edit the ontology with the software for ontology editing Protégé v. 5.5.0 [@url:https://protege.stanford.edu].
 
 ### Status of cell type info on Wikidata and the Cell Ontology
 
@@ -482,7 +497,7 @@ Status of cell type information on Wikidata was accessed via SPARQL queries comb
 Counts of cell classes in the Cell Ontology were performed via regex matching on Cell Ontology releases following the code available at <https://github.com/lubianat/cell_ontology_count>. 
 
 
-# Preliminary Results
+## Preliminary results {.page_break_before}
 
 <!-- Maybe include annotation of HCA articles ? -->
 <!-- Maybe include Scholia and Bioinformatics ? -->
@@ -621,9 +636,7 @@ This increase stems from the PanglaoDB integration (around 430 new types) and th
 
 After obtaining approval from the database owners, we matched genes and cell types to Wikidata and performed Wikidata queries to demonstrate the value of the approach. 
 An overview of the process is shown in @fig:iscb_intro.
-![
-Wikidata SPARQL queries bring to light hidden biomedical knowledge
-](https://github.com/lubianat/fapesp_report_1/blob/main/content/images/poster_ISCB_intro.png?raw=true){#fig:iscb_intro width="85%"}
+![Overview of how data from a database is integrated into Wikidata](https://github.com/lubianat/fapesp_report_1/blob/main/content/images/poster_ISCB_intro.png?raw=true){#fig:iscb_intro width="85%"}
 
 ### Class creation on Wikidata
 
@@ -717,15 +730,15 @@ Based on the theoretical considerations on the concept of cell type, we added sp
 
 This work exemplifies the power of releasing Linked Open Data via Wikidata, and provides the biomedical community with the first semantically accessible, 5-star LOD dataset of cell markers, easily reachable from Wikidata's SPARQL Query Service (<https://query.wikidata.org/>).
 Alongside other case studies of biomedical data integration to Wikidata (see [@wikidata:Q105037759], it contributes with tools and practices to serve as basis for contributors.)
-The work also paves the way for reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org/]) (if the owners give proper authorization).
+The work also paves the way for reconciling of other databases for cell-type markers, such as CellMarker [@wikidata:Q56984510], labome [@doi:10.13070/mm.en.3.183], CellFinder [@wikidata:Q28660708] and SHOGoiN/CELLPEDIA [@https://stemcellinformatics.org]) (if the owners give proper authorization).
 The approach we took here can be applied to any knowledge set of public interest, providing a low-cost and low-barrier platform for sharing biocurated knowledge in gold-standard format.
 
-## Wikidata Bib and a professional system for biocuration
+## Wikidata Bib and a professional system for biocuration {.page_break_before}
 
 ### Introduction 
 
 Reading scientific articles is an integral part of the routine of modern scientists.
-Although several literature-management software are available [@wikidata:https://en.wikipedia.org/wiki/Comparison_of_reference_management_software], the process of reading is mainly artisanal. 
+Although several literature-management software are available [@url:https://en.wikipedia.org/wiki/Comparison_of_reference_management_software], the process of reading is mainly artisanal. 
 There are no standard guidelines on how to probe the literature organize notes for biomedical researchers. 
 Thus, while reading and studying is a core activity, there are few (if any) protocols for the efficient screening of scientific articles. 
 
@@ -733,18 +746,18 @@ Other professional traditions have dealt with similar issues in the past.
 Notetaking is vital to keep track of financial balances and avoid costly problems in accounting.
 Double-entry bookkeeping was developed in the 13th century as a professional solution for notetaking in accounting where "every entry to an account requires a corresponding and opposite entry to a different account." [@url:https://en.wikipedia.org/w/index.php?title=Double-entry_bookkeeping&oldid=1055066428]
 In software development, Test-Driven Development (TDD) is a popular methodology where tests for code snippets are written before the code itself, therefore ensuring that written software passes minimum quality standards.
-The similarities of Double-entry bookkeeping and TDD are diverse [@wikidata:https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html], but for our purpose, here suffices to see both as professionalized systems that promote better quality and accountability of works. 
+The similarities of Double-entry bookkeeping and TDD are diverse [@url:https://blog.cleancoder.com/uncle-bob/2017/12/18/Excuses.html], but for our purpose, here suffices to see both as professionalized systems that promote better quality and accountability of works. 
 
 
 In the humanities, there is a well-established practice of annotations of readings. 
-The annotation skills are part of standard academic training in the humanities [@url:https://bibliotecadaeca.wordpress.com/2019/09/30/como-fazer-um-fichamento/][@url:https://www.youtube.com/playlist?list=PLAudUnJeNg4vWJhEJ_da26C-QW5qiS7uZ]. 
+The annotation skills are part of standard academic training in the humanities [@url:https://bibliotecadaeca.wordpress.com/2019/09/30/como-fazer-um-fichamento][@url:"https://www.youtube.com/playlist?list=PLAudUnJeNg4vWJhEJ_da26C-QW5qiS7uZ"]. 
 An influential work in presenting methods for academic reading in the humanities is Umberto Eco's book "How to Write a Thesis" [@wikidata:Q3684178], which outlines not only _how_ to annotate the literature that basis an academic thesis, but also _why_ to do so. 
 The book, written originally in 1977, is still influential today. 
 Still, its theoretical scope (roughly the humanities) and its date preceding the digital era limits the extent to which it applies to the biomedical sciences. 
 
 
 Notably, the need for an organized reading system for biocuration studies stems from a difference in methodology. 
-In humanities, the main (if not sole) research material is the written text, the books and articles from which research stems—[@url:https://www.youtube.com/playlist?list=PLAudUnJeNg4vWJhEJ_da26C-QW5qiS7uZ].
+In humanities, the main (if not sole) research material is the written text, the books and articles from which research stems—[@url:"https://www.youtube.com/playlist?list=PLAudUnJeNg4vWJhEJ_da26C-QW5qiS7uZ"].
 In the biomedical sciences, including a large part of bioinformatics, the object of study is the natural world, observed via experimentation. 
 Thus, naturally, scientific training focuses on experimentation and data analysis's theoretical and practical basis. 
 With the boom of scientific articles, however, the scientific literature (and accompanying public datasets) already provide a strong material for sculpting scientific projects.
@@ -787,7 +800,7 @@ These are not committed to the repository and are only stored locally.
 The `notes/` directory contains markdown files, one for each article read. 
 The `src/` directory contains the python code with the system's mechanics. 
 They contain helper functions for the command line commands discussed below:
-    - `wread` which receives a Wikidata QID for an article and outputs (1) a notes document, (2) a pdf for the paper obtained from Unpaywall [@url:https://unpaywall.org/] and (3) an updated version of the dashboard HTML files in the `docs/` directory.
+    - `wread` which receives a Wikidata QID for an article and outputs (1) a notes document, (2) a pdf for the paper obtained from Unpaywall [@url:https://unpaywall.org] and (3) an updated version of the dashboard HTML files in the `docs/` directory.
     - `pop`, which "pops" an article from `toread.md` and runs `wread` for it
     - `wadd`, which takes an URL for a Wikidata SPARQL query and adds new QIDs to `toread.md`
     - `wadd_all`, which parses `config.yaml` for recurrent SPARQL queries and runs `wadd` for each
@@ -839,7 +852,7 @@ By curating metadata on authors, the user of Wikidata Bib can better understand 
 
 ![Wikidata Bib's platform for note taking](images/note_taking_station_annotated_with_links.png){#fig:notetaking}
 
-The source code for Wikidata Bib is available at https://github.com/lubianat/wikidata_bib. 
+The source code for Wikidata Bib is available at <https://github.com/lubianat/wikidata_bib>. 
 
 
 ## Wikidata Bib as a dashboard 
@@ -855,26 +868,27 @@ The .ttl file, on the other hand, is processed by the `update_dashboard.py` scri
  - `past_week.html`
  - `past_month.html`
 All files are displayed in a GitHub pages. 
-In the case of this work, they are displayed at https://lubianat.github.io/wikidata_bib/. 
+In the case of this work, they are displayed at <https://lubianat.github.io/wikidata_bib/>. 
 
-To organize the code for rendering the dashboard, we created a python package, wbib, and deposited it in PyPi, making it available via `pip`. [@url:https://pypi.org/project/wbib/].
-The package implements the logic for rendering complex Wikidata-based academic dashboards and is available in GitHub at https://github.com/lubianat/wbib. 
+To organize the code for rendering the dashboard, we created a python package, wbib, and deposited it in PyPi, making it available via `pip`. [@url:https://pypi.org/project/wbib].
+The package implements the logic for rendering complex Wikidata-based academic dashboards and is available in GitHub at <https://github.com/lubianat/wbib>. 
 It allows the user to build dashboards based on Wikidata records of information such as gender of authors, the region of author's institutions, topics of articles and similar metascientific information. 
 The dashboard is composed of SPARQL queries written for the Wikidata Query Service [@url:https://query.wikidata.org] 
 It also allows users to feed an arbitrary list of articles and obtain a custom dashboard. 
 Wikidata Bib obtains the HTML dashboards after feeding wbib the lists of articles read in total (`index.html`) or in pre-determined time spans (`last_day.html`, `past_week.html` and `past_month.html` )
 
 
-![Wikidata Bib queries for institutions of authors and most-read venues](images/wikidata_bib_display.png){#fig:dashboard}
+![Wikidata Bib queries for institutions of authors and most-read venues](images/wikidata_bib_display.svg){#fig:dashboard width="85%"}
 
 The dashboard includes not only a basic list of read articles, but also statistics on most read authors and most-read venues. 
 It also displays an interactive map of the institutions of articles read, permitting a glance at geographic biases in activities. 
 An example of queries is shown in @fig:dashboard.
 As the queries are rendered live, they evolve in quality with the growth of Wikidata. 
 Finally, the clean 5-star-open data format enables users to adapt the queries to include different aspects of Wikidata. 
-For example, table @tbl:articles_read_hca showcases 10 articles that (1) I have read in the past year and (2) were authored by a speaker of the 1st Human Cell Atlas Latin America Single Cell RNA-seqData Analysis Workshop [@url:https://www.humancellatlas.org/hca-latin-america-2021-workshop/]. 
+For example, table @tbl:articles_read_hca showcases 10 articles that (1) I have read in the past year and (2) were authored by a speaker of the 1st Human Cell Atlas Latin America Single Cell RNA-seqData Analysis Workshop [@url:https://www.humancellatlas.org/hca-latin-america-2021-workshop]. 
 One practical application that the dashboard enables, thus, is to identify people in an event, institution or location that the user has read before, therefore catalyzing the possibility of collaborations. 
-Anecdotally, this strategy was tested successfully at Biohackathon Europe 2021 [@url:https://biohackathon-europe.org/], where I used the system both to identify possible collaborators and as a conversation starter. 
+Anecdotally, this strategy was tested successfully at Biohackathon Europe 2021 [@url:https://biohackathon-europe.org], where I used the system both to identify possible collaborators and as a conversation starter. 
+
 |workLabel                                                                                        |authors                                                                   |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 |A promoter-level mammalian expression atlas                                                      |Jay W Shin                                                                |
@@ -887,7 +901,8 @@ Anecdotally, this strategy was tested successfully at Biohackathon Europe 2021 [
 |Distinct microbial and immune niches of the human colon                                          |Rasa Elmentaite, Menna R Clatworthy                                       |
 |A cell atlas of human thymic development defines T cell repertoire formation                     |Muzlifah Haniffa, Menna R Clatworthy                                      |
 |Decoding human fetal liver haematopoiesis                                                        |Muzlifah Haniffa                                                          |
-                                                                                                                                 Table: Articles read by Tiago Lubiana before 8 December 2021 in which an author was a speaker at HCA Latin America
+
+Table: Articles read by Tiago Lubiana before 8 December 2021 in which an author was a speaker at HCA Latin America
 {#tbl:articles_read_hca}                                                        |
 
 ## Wikidata Bib for curation of cells to Wikidata
@@ -904,7 +919,7 @@ If it is absent from the platform, I enter a class name, alongside a superclass,
 The information from the spreadsheet is pulled by a python script and processed locally with a series of dictionaries that match common terms to Wikidata IDs. 
 In the example shown in Figure @fig:biocuration_of_cells, the string "endothelial cell" was matched against a manually curated dictionary to the Wikidata entry [Q11394395](https://www.wikidata.org/wiki/Q11394395), the representation of that concept on Wikidata. 
 After reconciling the data, the script uses the Wikidata Integrator python package [@url:https://github.com/SuLab/WikidataIntegrator] to insert the new entries on the Wikidata database. 
-The code for integrating a Google Spreadsheet to Wikidata is available at https://github.com/lubianat/wikidata_cell_curation. 
+The code for integrating a Google Spreadsheet to Wikidata is available at <https://github.com/lubianat/wikidata_cell_curation>. 
 
 ![Wikidata Bib was coupled with a biocuration framework for cell types](images/biocuration_of_cells.png){#fig:biocuration_of_cells width="85%"}
 
@@ -920,9 +935,6 @@ Edits made to the cells were often connecting a dangling term, created automatic
 From the 1668 entities created, approximately 63 species-neutral cell types, 188 human and 188 mouse cell types were added based on PanglaoDB entries (total of 439).
 The remaining 1229 entries were created either via Wikidata's web interface or via the curation workflow described in this chapter. 
 These statistics are a simple demonstration of how the curation system efficiently contributes to the status of cell type information on Wikidata. 
-
-![Subclasses of "cell" on Wikidata](https://keep.google.com/u/0/media/v2/1WoYkTz0M-ew_Tay-DpmOr2zyyCalnmsyd_2Ysq3pyNaJ7R5CIQnfdvZTDviBcvc/18W-amXz1489obuE7Tqb-AQHZKa-x-aVaH7QsO3x7Cy7lz-4a6AMzaGdLffzB?sz=512&accept=image%2Fgif%2Cimage%2Fjpeg%2Cimage%2Fjpg%2Cimage%2Fpng%2Cimage%2Fwebp){#fig:subclass_of_cell width="85%"}
-
 
 
 ## Wikidata and the Cell Ontology interplay
@@ -943,7 +955,7 @@ The integration already enables queries that harness the previously existing inf
 For example, one can query Wikidata items that have (1) a crossref to a CL ID (2) a picture in Wikimedia Commons (<https://w.wiki/4F6e>, Figure @fig:cl_images). 
 The different possibilities of mutual benefit between the Cell Ontology and Wikidata will continue to be explored in the following years of this PhD project. 
 
-![Entries on Wikidata with a depicting image and a Cell Ontology ID](https://user-images.githubusercontent.com/7917951/137942026-7645f368-d62a-4434-be05-083555cf0757.png) {#fig:cl_images width="85%"}
+![Entries on Wikidata with a depicting image and a Cell Ontology ID](https://user-images.githubusercontent.com/7917951/137942026-7645f368-d62a-4434-be05-083555cf0757.png){#fig:cl_images width="85%"}
 
 
 
@@ -960,10 +972,10 @@ By approaching the object of study from a new perspective, we hope to make sizea
 
 The next years of study will be devoted to improving the projects presented here into mature, useful objects. 
 We hope to improve the interplay of Wikidata and Cell Ontology, developing frameworks to combine community- and expert-based curation of knowledge on cell types. 
-Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting ontology-based R packages (as OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371])) to use Wikidata. 
+Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting ontology-based R packages (as OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371]) to use Wikidata. 
 Finally, we aim at moving the Wikidata Bib system to a well documented, user-friendly mature system, testing usability with other academics and distributing it as a durable open-source project. 
 
-# Additional Work
+# Additional Work {.page_break_before}
 
 ## Collaborations and manuscripts
 
@@ -975,18 +987,19 @@ During the initial course of this PhD work, we also completed the development an
 
 Alongside the editing of cell-type information on Wikidata, I have joined different efforts to improve biological information on Wikidata.
 I have collaborated with the ComplexPortal curators as part of the Virtual Elixir BioHackathon 2020 (https://github.com/virtual-biohackathons/covid-19-bh20/wiki) and for the following year, to build a Wikidata Bot to integrate information on protein complexes to Wikidata. An overview of the Wikidata integration is in Figure @fig:complexportal, presented in an article published in Nucleic Acid Research (re-use of the image and legend possible under the CC-BY license of the article). [@wikidata:Q109348309]
-![Complex Portal and Wikidata. (A) example of an entry assertion in Wikidata with provenance pointing to Complex Portal (Q104836061). (B) The number of protein complexes in Wikidata per taxon (https://w.wiki/3ggX). (C) Subset of Wikidata connected to the SARS-CoV-2 polymerase complex (https://w.wiki/3eta).](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/PAP/10.1093_nar_gkab991/2/gkab991fig3.jpeg?Expires=1641821957&Signature=RK-es18S~Qh6vGQE~61i6u4prMuij8kVTbrjN6WUJLfYHOAhUhx9qQorBxROohjLLxbHvZ2YK9e7EwlI9HjVeNoGZ2PJs0Pv78Y31MdZLY8FeLYI2E4azwrqRyv9q0AH8QL3RorWZV1AhOb9bl-44Mr97Q~9MWzeTDnQQbxpCnGLG~YoG49kocD5KE~dmTSQdkXBU7kZnuGM1NPqMHo5ZDUoCRFwmTbLvd4kXoH~6CTyqx4ruQRIO-ks4Q0FUjYnxGX18gCFvoO2LMPZUPrQjTgD35RrVAkLs91Ur6BQHUuZ-ZsE3Iag3mBDu27vT9Jr93bOj0i9wz~surTtEGATgw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){#fig:complexportal}
+
+![Complex Portal and Wikidata. (A) example of an entry assertion in Wikidata with provenance pointing to Complex Portal (Q104836061). (B) The number of protein complexes in Wikidata per taxon (https://w.wiki/3ggX). (C) Subset of Wikidata connected to the SARS-CoV-2 polymerase complex (https://w.wiki/3eta).](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/PAP/10.1093_nar_gkab991/2/gkab991fig3.jpeg?Expires=1641821957&Signature=RK-es18S~Qh6vGQE~61i6u4prMuij8kVTbrjN6WUJLfYHOAhUhx9qQorBxROohjLLxbHvZ2YK9e7EwlI9HjVeNoGZ2PJs0Pv78Y31MdZLY8FeLYI2E4azwrqRyv9q0AH8QL3RorWZV1AhOb9bl-44Mr97Q~9MWzeTDnQQbxpCnGLG~YoG49kocD5KE~dmTSQdkXBU7kZnuGM1NPqMHo5ZDUoCRFwmTbLvd4kXoH~6CTyqx4ruQRIO-ks4Q0FUjYnxGX18gCFvoO2LMPZUPrQjTgD35RrVAkLs91Ur6BQHUuZ-ZsE3Iag3mBDu27vT9Jr93bOj0i9wz~surTtEGATgw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){#fig:complexportal width="85%}
 
 I have also collaborated with the Cellosaurus database [@wikidata:Q54370168] to revive the CellosaurusBot [@url:https://www.wikidata.org/wiki/User:CellosaurusBot], responsible for updating the metadata on more than 100,000 cell lines on Wikidata. The bot code, written in Python, was refactored entirely and runs semi-automatically after the Cellosaurus database was released. A write-up of the integration is in progress and is planned for release/submission in the first semester of 2022. 
 
 ### Systematic Reviews and publishing of intermediary tables
 
-Finally, in collaboration with Olavo Amaral and Kleber Neves, from the Brazilian Reproducibility Initiative [@wikidata:Q61799268] I wrote a commentary on the value of publishing intermediate datasets as citable products. [@url:https://osf.io/preprints/metaarxiv/vbwa9/] 
+Finally, in collaboration with Olavo Amaral and Kleber Neves, from the Brazilian Reproducibility Initiative [@wikidata:Q61799268] I wrote a commentary on the value of publishing intermediate datasets as citable products. [@url:https://osf.io/preprints/metaarxiv/vbwa9] 
 The pieces discuss the value of small curations done both in systematic reviews and by experimentalists in the course of their research projects. Published curation tables can serve as a source for improving the ecosystem of open knowledge, not less by reconciliation to Wikidata (thereby bridging the commentary with this project)
 
 ### WiseCube - enterprise biomedical question and answering
 
-During a part of this project, I have worked part-time as a consultant for the Wisecube company, based in Seattle, United States. [@url:https://www.wisecube.ai/]
+During a part of this project, I have worked part-time as a consultant for the Wisecube company, based in Seattle, United States. [@url:https://www.wisecube.ai]
 The job was approved by FAPESP and consisted mainly in writing SPARQL queries that probe Wikidata for answers to the questions posed by the BioASQ competition. [@wikidata:Q28646342]
 It also entails on-demand curation of biomedical topics on Wikidata based on requests by pharmaceutical companies as well as the development of dashboards targeted at providing insights to customers. 
 
