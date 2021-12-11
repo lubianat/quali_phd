@@ -604,7 +604,6 @@ content/390.collaborations.md:27:curation
 content/390.collaborations.md:34:Bioinformática
 content/390.collaborations.md:34:modelling
 content/390.collaborations.md:34:Semana
-content/390.collaborations.md:34:VDvCxskIGEI
 content/390.collaborations.md:35:hackathon
 content/390.collaborations.md:35:HackWeek
 content/390.collaborations.md:36:Ontologies

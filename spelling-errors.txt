@@ -44,7 +44,7 @@ cholinergic
 citable
 Clatworthy
 colinergic
-ComplexPortal
+complexportal
 computable
 computerizable
 CoV
@@ -79,7 +79,7 @@ facto
 FAPESP
 Farias
 fcoex
-findable
+Findable
 formalizations
 Franzen
 fugacious
@@ -238,10 +238,9 @@ TiagoLubiana
 transcriptomics
 ttl
 Umberto
-UniProt
+Uniprot
 Université
 Unpaywall
-VDvCxskIGEI
 wadd
 wbib
 wdt
@@ -249,7 +248,7 @@ Werner
 WikidataIntegrator
 Wikidata’s
 Wikimedia
-Wikipathways
+WikiPathways
 Wikipedias
 Wisecube
 workLabel

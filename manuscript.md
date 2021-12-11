@@ -6,7 +6,7 @@ keywords:
 - ontology
 - Cell Ontology
 lang: en-US
-date-meta: '2021-12-10'
+date-meta: '2021-12-11'
 author-meta:
 - Tiago Lubiana
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-10" />
-  <meta name="citation_publication_date" content="2021-12-10" />
+  <meta name="dc.date" content="2021-12-11" />
+  <meta name="citation_publication_date" content="2021-12-11" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/bd9740705b22bf1d745d859aebf5f1b9fc80b3e1/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/bd9740705b22bf1d745d859aebf5f1b9fc80b3e1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/bd9740705b22bf1d745d859aebf5f1b9fc80b3e1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/52efe9a95b60519392be126b6111a6ac8f1ea5da/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/52efe9a95b60519392be126b6111a6ac8f1ea5da/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/52efe9a95b60519392be126b6111a6ac8f1ea5da/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/bd9740705b22bf1d745d859aebf5f1b9fc80b3e1/))
+([permalink](https://lubianat.github.io/quali_phd/v/52efe9a95b60519392be126b6111a6ac8f1ea5da/))
 was automatically generated
-from [lubianat/quali_phd@bd97407](https://github.com/lubianat/quali_phd/tree/bd9740705b22bf1d745d859aebf5f1b9fc80b3e1)
-on December 10, 2021.
+from [lubianat/quali_phd@52efe9a](https://github.com/lubianat/quali_phd/tree/52efe9a95b60519392be126b6111a6ac8f1ea5da)
+on December 11, 2021.
 </em></small>
 
 ## Authors
@@ -464,7 +464,7 @@ For each article about cell types read, cell types previously absent on Wikidata
 
 ### Annotation of Human Cell Atlas articles
 
-Human Cell Atlas publications (https://www.humancellatlas.org/publications) were selected and abstracts were annotated as richly as possible with Wikidata IDs using the hypothes.is annotation system (https://web.hypothes.is/). One article [@wikidata:Q46368626], describing the complete Human Cell Atlas project, was annotated in full. Annotations were retrieved via the hypothes.is API and processed with custom Python and R scripts (https://github.com/lubianat/ann/tree/main/hypothesis_parsing).
+Human Cell Atlas publications [@url:https://www.humancellatlas.org/publications] were selected and abstracts were annotated as richly as possible with Wikidata IDs using the hypothes.is annotation system (https://web.hypothes.is/). One article [@wikidata:Q46368626], describing the complete Human Cell Atlas project, was annotated in full. Annotations were retrieved via the hypothes.is API and processed with custom Python and R scripts (<https://github.com/lubianat/ann/tree/main/hypothesis_parsing>).
 
 ## Wikidata updates
 
@@ -878,7 +878,7 @@ It also allows users to feed an arbitrary list of articles and obtain a custom d
 Wikidata Bib obtains the HTML dashboards after feeding wbib the lists of articles read in total (`index.html`) or in pre-determined time spans (`last_day.html`, `past_week.html` and `past_month.html` )
 
 
-![Wikidata Bib queries for institutions of authors and most-read venues](images/wikidata_bib_display.svg){#fig:dashboard width="85%"}
+![Wikidata Bib queries for institutions of authors and most-read venues](images/wikidata_bib_display.png){#fig:dashboard width="85%"}
 
 The dashboard includes not only a basic list of read articles, but also statistics on most read authors and most-read venues. 
 It also displays an interactive map of the institutions of articles read, permitting a glance at geographic biases in activities. 
@@ -988,13 +988,13 @@ During the initial course of this PhD work, we also completed the development an
 Alongside the editing of cell-type information on Wikidata, I have joined different efforts to improve biological information on Wikidata.
 I have collaborated with the ComplexPortal curators as part of the Virtual Elixir BioHackathon 2020 (https://github.com/virtual-biohackathons/covid-19-bh20/wiki) and for the following year, to build a Wikidata Bot to integrate information on protein complexes to Wikidata. An overview of the Wikidata integration is in Figure @fig:complexportal, presented in an article published in Nucleic Acid Research (re-use of the image and legend possible under the CC-BY license of the article). [@wikidata:Q109348309]
 
-![Complex Portal and Wikidata. (A) example of an entry assertion in Wikidata with provenance pointing to Complex Portal (Q104836061). (B) The number of protein complexes in Wikidata per taxon (https://w.wiki/3ggX). (C) Subset of Wikidata connected to the SARS-CoV-2 polymerase complex (https://w.wiki/3eta).](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/PAP/10.1093_nar_gkab991/2/gkab991fig3.jpeg?Expires=1641821957&Signature=RK-es18S~Qh6vGQE~61i6u4prMuij8kVTbrjN6WUJLfYHOAhUhx9qQorBxROohjLLxbHvZ2YK9e7EwlI9HjVeNoGZ2PJs0Pv78Y31MdZLY8FeLYI2E4azwrqRyv9q0AH8QL3RorWZV1AhOb9bl-44Mr97Q~9MWzeTDnQQbxpCnGLG~YoG49kocD5KE~dmTSQdkXBU7kZnuGM1NPqMHo5ZDUoCRFwmTbLvd4kXoH~6CTyqx4ruQRIO-ks4Q0FUjYnxGX18gCFvoO2LMPZUPrQjTgD35RrVAkLs91Ur6BQHUuZ-ZsE3Iag3mBDu27vT9Jr93bOj0i9wz~surTtEGATgw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){#fig:complexportal width="85%}
+![Complex Portal and Wikidata. (A) example of an entry assertion in Wikidata with provenance pointing to Complex Portal (Q104836061). (B) The number of protein complexes in Wikidata per taxon (<https://w.wiki/3ggX>). (C) Subset of Wikidata connected to the SARS-CoV-2 polymerase complex (<https://w.wiki/3eta>).](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/nar/PAP/10.1093_nar_gkab991/2/gkab991fig3.jpeg?Expires=1641821957&Signature=RK-es18S~Qh6vGQE~61i6u4prMuij8kVTbrjN6WUJLfYHOAhUhx9qQorBxROohjLLxbHvZ2YK9e7EwlI9HjVeNoGZ2PJs0Pv78Y31MdZLY8FeLYI2E4azwrqRyv9q0AH8QL3RorWZV1AhOb9bl-44Mr97Q~9MWzeTDnQQbxpCnGLG~YoG49kocD5KE~dmTSQdkXBU7kZnuGM1NPqMHo5ZDUoCRFwmTbLvd4kXoH~6CTyqx4ruQRIO-ks4Q0FUjYnxGX18gCFvoO2LMPZUPrQjTgD35RrVAkLs91Ur6BQHUuZ-ZsE3Iag3mBDu27vT9Jr93bOj0i9wz~surTtEGATgw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){#fig:complexportal width="85%}
 
 I have also collaborated with the Cellosaurus database [@wikidata:Q54370168] to revive the CellosaurusBot [@url:https://www.wikidata.org/wiki/User:CellosaurusBot], responsible for updating the metadata on more than 100,000 cell lines on Wikidata. The bot code, written in Python, was refactored entirely and runs semi-automatically after the Cellosaurus database was released. A write-up of the integration is in progress and is planned for release/submission in the first semester of 2022. 
 
 ### Systematic Reviews and publishing of intermediary tables
 
-Finally, in collaboration with Olavo Amaral and Kleber Neves, from the Brazilian Reproducibility Initiative [@wikidata:Q61799268] I wrote a commentary on the value of publishing intermediate datasets as citable products. [@url:https://osf.io/preprints/metaarxiv/vbwa9] 
+Finally, in collaboration with Olavo Amaral and Kleber Neves, from the Brazilian Reproducibility Initiative [@wikidata:Q61799268] I wrote a commentary on the value of publishing intermediate datasets as citable products. [@doi:10.31222/osf.io/vbwa9] 
 The pieces discuss the value of small curations done both in systematic reviews and by experimentalists in the course of their research projects. Published curation tables can serve as a source for improving the ecosystem of open knowledge, not less by reconciliation to Wikidata (thereby bridging the commentary with this project)
 
 ### WiseCube - enterprise biomedical question and answering
@@ -1008,7 +1008,7 @@ It also entails on-demand curation of biomedical topics on Wikidata based on req
 
 During the initial course of this PhD project, I have participated in several events: 
 
-* (Feb-2021) Presented an open talk at the "Semana da Bioinformática" event  about modelling of biological systems (1020 views as of December 2021) [@url:https://www.youtube.com/watch?v=VDvCxskIGEI]
+* (Feb-2021) Presented an open talk at the "Semana da Bioinformática" event  about modelling of biological systems (1020 views as of December 2021) [@url:"https://www.youtube.com/watch?v=VDvCxskIGEI"]
 * (Jun-Aug 2021) Helped to organize the No-Budget-Science HackWeek virtual hackathon [@url:https://www.reprodutibilidade.bio.br/hack-week-2021]
 * (Jul - 2021) Presented the work "Wikidata for 5-star Linked Open Databases: A case study of PanglaoDB" at the Bio-Ontologies section of the Annual International Conference on Intelligent Systems for Molecular Biology. [@doi:10.5281/zenodo.5747849]. The presentation was awarded the best
 * (Jul - 2021) Awarded the 2nd place in the International Society for Computational Biology (ISCB) Wikipedia Competition for the contributions to the Wikipedia page on Biocuration (<https://en.wikipedia.org/wiki/Biocuration>) [@url:https://en.wikipedia.org/wiki/Biocuration]
@@ -1019,7 +1019,7 @@ During the initial course of this PhD project, I have participated in several ev
 During the first year of the PhD program, I took four different classes, acquiring 36 academic credits. 
 Figure @fig:courses_taken displays the disciplines taken, available only in Portuguese. 
  
-![Courses taken](images/janus_courses_taken.png){#fig:courses_taken}
+![Courses taken during this PhD project](images/janus_courses_taken.png){#fig:courses_taken}
 
 ## References {.page_break_before}
 
