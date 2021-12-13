@@ -6,7 +6,7 @@ keywords:
 - ontology
 - Cell Ontology
 lang: en-US
-date-meta: '2021-12-11'
+date-meta: '2021-12-13'
 author-meta:
 - Tiago Lubiana
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-11" />
-  <meta name="citation_publication_date" content="2021-12-11" />
+  <meta name="dc.date" content="2021-12-13" />
+  <meta name="citation_publication_date" content="2021-12-13" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/52efe9a95b60519392be126b6111a6ac8f1ea5da/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/52efe9a95b60519392be126b6111a6ac8f1ea5da/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/52efe9a95b60519392be126b6111a6ac8f1ea5da/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/6435344884a0d2486faebce8a5dd12411a164a42/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/6435344884a0d2486faebce8a5dd12411a164a42/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/6435344884a0d2486faebce8a5dd12411a164a42/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/52efe9a95b60519392be126b6111a6ac8f1ea5da/))
+([permalink](https://lubianat.github.io/quali_phd/v/6435344884a0d2486faebce8a5dd12411a164a42/))
 was automatically generated
-from [lubianat/quali_phd@52efe9a](https://github.com/lubianat/quali_phd/tree/52efe9a95b60519392be126b6111a6ac8f1ea5da)
-on December 11, 2021.
+from [lubianat/quali_phd@6435344](https://github.com/lubianat/quali_phd/tree/6435344884a0d2486faebce8a5dd12411a164a42)
+on December 13, 2021.
 </em></small>
 
 ## Authors
@@ -88,43 +88,39 @@ on December 11, 2021.
 
 
 # Abstract
-The Human Cell Atlas (HCA) is an international effort aiming at characterizing every cell type of the human body. 
-By techniques such as single-cell RNA sequencing, mass cytometry, and multiplexed in situ hybridization, HCA members are producing cell-level data from virtually all human tissues. 
-This wealth of data can significantly impact biomedical research, but only if its content is genuinely interoperable.
-While ontologies and semantic technologies have emerged as key players in the data interoperability ecosystem, there are still gaps to cover between the technical possibilities and the practical applications in biomedical research.
-In addition to ontologies, like the Cell Ontology and the Gene Ontology, large-scale knowledge graphs are growing as knowledge management tools. 
-Among those, Wikidata, a sister project of Wikipedia for structured data, is surfacing as a hub in the semantic web for multiple types of information. 
-The formatting and deployment of information from the Human Cell Atlas to Wikidata can increase information availability and impact, connecting the scientific products with the larger knowledge ecosystem.
-This PhD project aims at studying Wikidata as a platform for representing cell types, addressing theoretical and practical concerns.  
+The Human Cell Atlas (HCA) is an international effort to characterize every cell type of the human body. 
+HCA members are producing cell-level data from virtually all human tissue using techniques such as single-cell RNA sequencing, mass cytometry, and multiplexed in situ hybridizations. 
+The wealth knowledge stemming from the wealth of data needs management to maximize the societal benefit of HCA.
+While semantic technologies have emerged as key players in the data interoperability ecosystem, there are still gaps to bridge. 
+Wikidata, a sister project of Wikipedia for structured data, is surfacing as a hub in the semantic web for multiple types of information and bridging experts and the people. 
+The connection of the Human Cell Atlas to Wikidata can quickly insert its products into the larger knowledge ecosystem, extending HCA's reach. 
+This PhD project aims at studying Wikidata as a platform for representing cell types.  
 We review the literature on cell types, refining and formalizing concepts for cell type delimitation.
-At the same time, we are enriching Wikidata with new classes curated from the literature and with large scale integrations of biomedical databases (e.g. PanglaoDB) into the Wikidata infrastructure.
-To aid that effort, we are developing Wikidata Bib, a framework for literature management and organized note-taking system for reading the academic literature with high efficiency. 
-Finally, we plan to improve the interplay of Wikidata, the Cell Ontology and software used for single-cell RNA-seq data, inserting Wikidata _de facto_ as a tool for the Human Cell Atlas community. 
+At the same time, integrate biomedical databases (e.g. PanglaoDB) into the Wikidata infrastructure and we enrich Wikidata with  manually curated cell types.
+To optimize the curation, we develop Wikidata Bib, a framework for literature management and organized note-taking system for dealing with the academic literature. 
+Finally, we are improving the interplay of Wikidata, the Cell Ontology and software used for single-cell RNA-seq data, inserting Wikidata _de facto_ as a tool for the Human Cell Atlas community. 
 
 ## Preface {.page_break_before}
 
-Here we present an overview of the different chapters that compose this document, presented as the text for a qualifying exam.  
-This work is concerned with the conceptual modelling of knowledge about cell types. 
+In this preface we present an overview of the chapters in this document.  
+
 The introduction contains an overview of the Human Cell Atlas project and the current state of classifying cells into types. 
-Then, it proceeds to introduce ontologies and knowledge graphs as tools for connecting what we know about cells. 
+Then, it introduces ontologies and knowledge graphs as tools for connecting what we know about cells. 
 
 The methodology section is an overview of the core methods used throughout the work. 
-However, as the project contains elements from different scientific traditions, the results chapters might also display particular methods used in the specific branch of the project. 
+Of note, some chapters in the results section also display methods when they are intimately linked with the results. 
 
 It is worth noticing that the different results shown were not developed chronologically in the order shown. 
-They were actually developed in parallel, with overlapping periods of activity. 
-They have been organized into separate chapters, however, as they tackle different perspectives of the subject matter and are part of different publications. 
+The different branches were developed in parallel, with overlapping periods of activity. 
+They are organized into separate chapters and part of different publications. 
 
 The discussion on the concept of cell type is presented first, as it is instrumental for the later steps. 
-It is followed by an account of how PanglaoDB, a database of cell markers, was integrated into Wikidata, based on a notion of species-specific cell type clarified in the preceding chapter. 
+It is followed by an account of how PanglaoDB, a database of cell markers, was integrated into Wikidata.
+Then, we present Wikidata Bib, a framework for an organized reading and curation of cell types. 
+The framework, although used as a method throughout the PhD project, is also an intelectual product, thus presented in the results session.
+To end the results, we discuss how the work integrates with the Cell Ontology, the leading system for organizing cell types. 
 
-Then, we present Wikidata Bib, a framework for an organized reading of the literature. 
-The framework, although used as a method throughout the PhD project, is presented in the results session.
-We emphasize the technical and theoretical details of the system are part of the intellectual work put into the project. 
-The system evolved into a biocuration platform for the collection of cell types from the literature to Wikidata. 
-To end the results, we discuss how our efforts integrate with the Cell Ontology, the currently leading system for organizing cell types. 
-
-Finally, an account of other academic aspects of the project is presented as part of the qualification requirements. 
+After the results, an account of other academic aspects of the project is presented as part of the qualification requirements. 
 They present an overview of collaborations, participation in events and academic courses taken during the first part of the PhD project. 
 
 
@@ -136,14 +132,15 @@ They present an overview of collaborations, participation in events and academic
 
 <!-- 1.4.1. The Human Cell Atlas project and its scope -->
 <!-- 1.4.1.1. Participants -->
-The advent of single-cell technologies has ignited the desire for a deep knowledge of cells, the building blocks of life [@wikidata:Q99418649]. 
-The Human Cell Atlas (HCA) project has been a major player in the cell knowledge ecosystem, running since 2017 to characterize every cell type in the human body [@wikidata:Q46368626]. 
+
+The Human Cell Atlas (HCA) project is, arguably, the biggest multinational biomedical project of the present time, running since 2017 to characterize every cell type in the human body [@wikidata:Q46368626]. 
 The HCA consortium gathers people from all over the world to tackle different parts of the project to have a diverse and equitable account of the cell type diversity. [@wikidata:Q100491106]  
+It intends to "ultimately describe at least 10 billion cells, covering all tissues, organs, and systems" and, to achieve such bold goals, it commits to "to open membership, to the open and immediate data release with no restrictions, and to open-source code for all computational approaches". [@wikidata:Q46368626] 
 
 <!-- - 1.4.1.2. Overview of main analytical techniques  -->
-Building a complete atlas of human cells comes with multiple challenges. The project includes the detection, in single cells, of RNA species (scRNA-Seq), chromatin accessibility (scATAC-Seq), and protein markers (primarily by CYTOF), as well as spatial information on cells with multiplexed _in situ_ hybridization (such as MERFISH) and imaging mass cytometry [@wikidata:Q46368626 ;@wikidata:Q104450645]. Every lab inside the project will contribute with its expertise, providing samples representing human diversity.
-
-HCA is set to revolutionize the biomedical sciences by creating tools and standards for basic research, allowing better characterization of disease, and improving diagnostics and therapy. 
+Building a complete atlas of human cells comes with multiple challenges. 
+The project includes the detection, in single cells, of RNA species (scRNA-Seq), chromatin accessibility (scATAC-Seq), and protein markers (primarily by CYTOF), as well as spatial information on cells with multiplexed _in situ_ hybridization (such as MERFISH) and imaging mass cytometry [@wikidata:Q46368626 ;@wikidata:Q104450645]. 
+The HCA is set to revolutionize the biomedical sciences by creating tools and standards for basic research, allowing better characterization of disease, and improving diagnostics and therapy. 
 Its products (data, information, knowledge and wisdom) need to be FAIR: findable, accessible, interoperable and reusable.
 Data stewardship and management are growing as core demands of the scientific community, ranging from data management plans [@wikidata:Q56524391] to specialized data personnel [@wikidata:Q56524391].
 
@@ -152,47 +149,56 @@ Data stewardship and management are growing as core demands of the scientific co
 The Human Cell Atlas has a dedicated team for organizing data: the Data Coordination Platform (DCP) [@url:https://data.humancellatlas.org/about] [@wikidata:Q104450645].
 The DCP is responsible for tracing the plan for computational interoperability, from the data generators to the consumers.[@wikidata:Q104450645].
 The Human Cell Atlas has its portal for data [@url:https://data.humancellatlas.org]), which composes the data repository landscape with other resources, like the Broad Institute Single Cell Portal [https://singlecell.broadinstitute.org/single_cell>) and the Chan-Zuckerberg Biohub Tabula Sapiens (<https://tabula-sapiens-portal.ds.czbiohub.org/>). 
-In addition to its core team, the HCA is poised to grow by community interaction. It states in its opening paper that "As with the Human Genome Project, a robust plan will best emerge from wide-ranging scientific discussions and careful planning".[@wikidata:Q46368626]  
+In addition to its core team, the HCA is poised to grow by community interaction. 
+As stated in its opening publication "As with the Human Genome Project, a robust plan will best emerge from wide-ranging scientific discussions and careful planning".[@wikidata:Q46368626]  
 Thus, this project inserts itself among the wide-ranging scientific discussions to improve data - and knowledge - interoperability. 
 
 The highlight of "knowledge" in the last paragraph is meant to stress that raw data _per se_ is not enough to turn the Atlas objectives into reality. 
 There is a long way from raw datasets to commonly-agreed scientific knowledge. 
-And, ultimately, this long way is what allows humanity to take advantage of scientific endeavours.
-Currently, the gap between data and knowledge is mostly targeted by writing and sharing scientific manuscripts, the _de facto_ currency of exchange of claims about the natural world. 
-The Human Cell Atlas Publication Committee reviews and selects publications directly part of the HCA.
-A set of publications is, thus, one of the significant outputs of the whole endeavour.
+Currently, the gap between data and knowledge is attempted by writing and sharing scientific manuscripts, the _de facto_ currency of exchange of claims about the natural world. 
+A Human Cell Atlas Publication Committee reviews and selects publications, [@url:https://www.humancellatlas.org/publications] presenting the papers as one of the significant outputs of the whole endeavour.
+As of december 2021, the list includes 96 different publications, which, arguably, expose only a fraction of the knowledge extractable from the underlying data. 
 
-The challenge that arises, thus, is one of managing a wealth of information and casting it into useful science.
-Experimental articles that analyze thousands of cells pose an overload of information alone. 
+The challenge that arises is one of managing a wealth of information and casting it into useful knowledge.
 Ideally, we would like to understand, remember, and use every statement produced by the HCA.
 As this goal is humanely impossible, we need to develop tools to make the knowledge interoperable with the aid of computers. 
-At that point, the challenges of the HCA enter in resonance with the challenges of biocuration.
-Knowledge representation tools will be discussed in the chapter on ontologies and knowledge graphs of this introduction. 
+At that point, the challenges of the HCA enter in resonance with the challenges of biocuration, and with the goals of this project.
+
+One core step for knowledge management is the minting of identifiers for the concepts of interest. [@wikidata:Q33037209]
+The minting of identifiers, however, depend on clear, well defined entities. 
+The sheer notion of "cell type" is undefined [@wikidata:Q46368626], a challenge for organizing both data and knowledge. 
+Accordingly, this PhD project concerns itself also with the theoretical basis of defining a "cell type". 
+Thus, the next chapter will introduce the state-of-the-art of classifying cell into types, in a preparation for the chapter on knowledge modelling and the theoretical discussions of the results section.
+
 
 
 # Classification of cells into types
 
 Given that a core goal of the Human Cell Atlas is to advance knowledge about _all_ human cell types, [@wikidata:Q46368626] the definition of "cell type" becomes essential. 
 Although a number of views exist [@wikidata:Q87649649; @doi:10.1242/dev.169854; @doi:10.1242/dev.178996; @wikidata:Q47565008; @wikidata:Q99418657; @wikidata:Q98665291; @wikidata:Q93086971; @wikidata:Q26770736; @wikidata:Q35688096; @wikidata:Q98633613; @wikidata:Q99418649; @wikidata:Q40436539; @wikidata:Q108723646], there is no formal, commonly agreed upon defintion of cell type. 
-A 2017 article on the Human Cell Atlas mentions[@wikidata:Q47565008]: 
 
+A 2017 article on the Human Cell Atlas mentions[@wikidata:Q47565008]: 
 "Descriptors such as 'cell type' and 'cell state' can be difficult to define at the moment. An integrative, systematic effort by many teams of scientists working together and bringing different expertise to the problem could dramatically sharpen our terminology, and revolutionize the way we see our cells, tissues and organs. We invite you to join the effort." 
 
 The article further highlights both the current gap in knowledge and the need for a community effort to work in finding definitions. 
+The magnitude of the challenge justifies the position of the HCA to avoid attempting to propose a precies definition of 'cell type'. [@wikidata:Q46368626]
 
 One consequence of a lack of a definition is that there is no commonly agreed number of cell types, and not even on the order of magnitude. 
-As of November 2021, the leading answers in the Google Search Engine for the question "How many different cell types are found in the human body?" all point to around 200 different types [@url:https://askabiologist.asu.edu/questions/human-cell-types, https://www.researchgate.net/post/How-many-cell-types-in-a-human-body-How-about-the-number-of-cell-cycles-in-each-species] [@url:https://www.kenhub.com/en/library/anatomy/types-of-cells-in-the-human-body], an estimate that is agreed upon by Bionumbers, a database of useful biological numbers [@wikidata:Q24643881] [@url:https://bionumbers.hms.harvard.edu/bionumber.aspx?id=103626].
-A list of cell types in the adult human body on Wikipedia also amounts to around a couple hundred cell types [@url:https://en.wikipedia.org/w/index.php?title=List_of_distinct_cell_types_in_the_adult_human_body&oldid=1044853788].
-However, the Cell Ontology has catalogued more than 2,311 cell types of interest for the Human Cell Atlas [@wikidata:Q107373831], increasing the estimate by at least one order of magnitude. 
-Additionally, with an estimate of 37 trillion cells on average per human body [@wikidata:Q34037445] and an ever-increasing report of new cell types/clusters in single-cell transcriptomics [@wikidata:Q103034964], it is reasonable that the number of relevant cell types is much larger.
-The Human Cell Atlas project itself does not commit to any estimates of numbers of cell types due to the sheer difficulty of estimating a number given current knowledge. (Aviv Regev; reply to a question in the general HCA conference) 
+As of November 2021, the leading answers in the Google Search Engine for the question "How many different cell types are found in the human body?" all point to around 200 different types [@url:https://askabiologist.asu.edu/questions/human-cell-types; @url:https://www.researchgate.net/post/How-many-cell-types-in-a-human-body-How-about-the-number-of-cell-cycles-in-each-species; @url:https://www.kenhub.com/en/library/anatomy/types-of-cells-in-the-human-body], an estimate that is agreed upon by Bionumbers, a database of useful biological numbers [@wikidata:Q24643881] [@url:https://bionumbers.hms.harvard.edu/bionumber.aspx?id=103626].
+A list of cell types in the adult human body on Wikipedia also amounts to around a couple hundred cell types [@url:"https://en.wikipedia.org/w/index.php?title=List_of_distinct_cell_types_in_the_adult_human_body&oldid=1044853788"].
+
+If we look at other sources, however, the estimates increase considerably. 
+For example, the Cell Ontology has catalogued more than 2,311 cell types of interest for the Human Cell Atlas [@wikidata:Q107373831], increasing the estimate by at least one order of magnitude. 
+Across the literature, we can find mentions of thousands to tens of thousands of cell types only in the brain. [@wikidata:Q110088775; @wikidata:Q48373178]
+Additionally, with an estimate of 37 trillion cells on average per human body [@wikidata:Q34037445] and an ever-increasing report of new cell types/clusters in single-cell transcriptomics [@wikidata:Q103034964], it is reasonable to assume the number of relevant cell types might be much larger.
+The Human Cell Atlas project itself does not commit to any estimates of numbers of cell types due to the sheer difficulty of estimating a number given current knowledge. (Aviv Regev; reply to a question in the HCA General Meeting conference [@url:"https://youtu.be/orbqAqV9mQM?list=PLkef4SGmngdZanrQtu_g9kiuAcYczzDfn&t=1959"]) 
 
 <!-- Adapted from https://github.com/lubianat/technotype/blob/9f428cbcf8e8a8d2843faac684275fb0c37914ed/content/02.introduction.md BEGIN-->
 
-Even though there is no agreement, different views on cell types are maturing. 
+Even though there is no commonly agreed definition, different views on cell types are maturing, tailored to different research needs. 
 One core line of thought to define "cell type" is based on the cell type as an evolutionary unit. 
 That definition enables the drawing of parallels, from the evolution of other biological entities (such as genes, proteins, and species) to cell types' evolution. 
-Models of how multicellular life works greatly benefit from concepts as sister types (sharing a single ancestor), cell type homology ( sharing a common evolutionary origin), and cell type convergence (executing similar functions without direct evolutionary links) [@pmid:18927580; @doi:10.1038/nrg.2016.127]
+Models of how multicellular life works greatly benefit from concepts as sister types (sharing a single ancestor), cell type homology (sharing a common evolutionary origin), and cell type convergence (executing similar functions without direct evolutionary links) [@pmid:18927580; @doi:10.1038/nrg.2016.127]
 
 Another school of thought is based on attractors: regions of dynamical stability in a feature space. [@wikidata:Q37475461; @wikidata:Q91908361] 
 In this theory, "basins of attraction" direct cell phenotypes, providing points in, say, a gene expression space towards which different cells "move" their expression programs. 
@@ -200,42 +206,43 @@ This dynamic view sees each cell type corresponding to "a self-stabilizing regul
 It aligns itself with dynamic systems theory, and some authors go as far as to say that "Lacking the idea of attractors we have no clear idea of what a cell type is." [@wikidata:Q91316993]
 
 As much as different species concepts coexist [@doi:10.1080/10635150701701083], the quest to define cell types may take various forms.
-The challenge of representing cell types in evolution is conceptually different from representing cell types in biomedical experimentation. 
-In that second direction, the groundwork of the Cell Ontology [@wikidata:Q21184168; @doi:10.1186/1471-2105-12-6; @doi:10.1186/s13326-016-0088-7] and CELDA [@wikidata:Q21284308] and the contributions of the International Workshop on Cells in Experimental Life Sciences series [@doi:10.1186/s12859-017-1976-2; @doi:10.1186/s12859-019-2721-9] are notable. 
+The challenge of representing cell types in evolution is conceptually different from representing cell types for identifying different entities on biomedical data. 
+In that second direction, the groundwork of the Cell Ontology [@wikidata:Q21184168; @doi:10.1186/1471-2105-12-6; @doi:10.1186/s13326-016-0088-7] is notable, providing identifiers that are reused across a range of databases. [@wikidata:Q109755180]
+Theoretical discussions on cell types is also the topic of specialized conferences, namely the International Workshop on Cells in Experimental Life Sciences conference series [@doi:10.1186/s12859-017-1976-2; @doi:10.1186/s12859-019-2721-9]. 
 
 <!-- Text from https://github.com/lubianat/technotype/blob/9f428cbcf8e8a8d2843faac684275fb0c37914ed/content/02.introduction.md END-->
 
 ## Single-cell transcriptomics
 
-Even though many sources of knowledge contribute to our understanding of cell types [@wikidata:Q109717199], arguably single-cell transcriptomics is the workhorse for current efforts of the HUman cell Atlas, with an increasing amount of published studies. [@wikidata:Q109717199]
-Current scRNA-seq data analyses often rely on unsupervised clustering of cells followed by the assignment of cell-type labels to clusters.
-For the clustering, bioinformaticians tailor parameter sets to a target resolution, i.e., the level of detail used to detect cell identities. [@wikidata:Q64974172] [@wikidata:Q46368626]
+Even though many sources of knowledge contribute to our understanding of cell types [@wikidata:Q109717199], arguably single-cell transcriptomics is the workhorse for current efforts of the Human Cell Atlas. [@wikidata:Q109717199]
+Current scRNA-seq data analyses often rely on unsupervised clustering followed by labeling clusters.
+For the clustering, bioinformaticians select parameter sets to a target resolution, i.e., the level of detail used to detect cell identities. [@wikidata:Q64974172] [@wikidata:Q46368626]
  When the clustering is finished, the groups of cells are annotated with class labels, representing the underlying biology in a language we can understand. [@wikidata:Q107158224]
 
 
-Instead of assigning expression gates from pre-defined markers, as is the standard for flow-cytometry analysis, single-cell RNA-seq analysis pipelines usually start from _de novo_ clustering of cells followed by cluster annotation. [@wikidata:Q64974172]
+Instead of assigning expression gates, as done for flow-cytometry, single-cell RNA-seq analysis pipelines start from _de novo_ clustering of cells followed by cluster annotation. [@wikidata:Q64974172]
 While it is clear that clusters and cell types are different concepts [@wikidata:Q64974172], often cluster labels are treated as cell types. 
-There are several ways to cluster cells to find groups of similarity, but arguably the current default is derived from the methodology proposed by PhenoGraph. [@wikidata:Q30975629]
+There are several ways to cluster cells to find groups of similarity, and arguably the current default is derived from the methodology proposed by PhenoGraph. [@wikidata:Q30975629]
 The protocol is to calculate the distances between cells in a reduced PCA space (with the number of dimensions chosen by the experimenters), followed by constructing a k-nearest-neighbours network. 
 Each cell is a node connected by _k_ (another parameter) edges to other cells. 
 Once the network is built, network modules (i.e. cell clusters) are commonly found using the Louvain algorithm, published in 2008 by researchers of the Université Catholique de Louvain in Belgium. [@wikidata:Q29305711]
-The cell clusters found by the PhenoGraph (or any other) algorithm are then labelled by domain experts, often based on genes differentially expressed on each cluster, so-called "markers". [@wikidata:Q64974172]
+The cell clusters found by the PhenoGraph (or any other) algorithm are then labelled by domain experts, often based on genes called "cluster markers", differentially expressed on each cluster. [@wikidata:Q64974172]
 
-While it is possible to manually investigate the identities of which clusters, automatic methods have been developed to aid in the task. [@wikidata:Q107158224]
-One approach ("marker-based automatic annotation") bases itself on crossing clusters markers in the analyzed dataset with previous knowledge from databases like PanglaoDB [@wikidata:Q63664483] and CellMarker [@wikidata:Q56984510] [@wikidata:Q107158224].
-Another approach (reference-based automatic cell annotation) relies on base, expert-annotated datasets as references from which labels are transferred to the dataset of interest. [@wikidata:Q107158224] 
-Other methods bypass the clustering step and focus on labelling the individual cells, which avoids lumping different cells together but requires a high amount of reads per individual cells to be efficient. [@wikidata:Q107158224] 
-Clarke et al.'s recent review and tutorial [@wikidata:Q107158224] provides an extensive account of current techniques. 
+While it is possible to manually assign labels to clusters, automatic methods have been developed to aid in the task. [@wikidata:Q107158224]
+Mmarker-based automatic annotation bases itself on crossing clusters markers in the analyzed dataset with previous knowledge from databases like PanglaoDB [@wikidata:Q63664483] and CellMarker [@wikidata:Q56984510] [@wikidata:Q107158224].
+Reference-based automatic cell annotation, on the other hand, relies on expert-annotated reference datasets to transfer labels to the dataset under study. [@wikidata:Q107158224] 
+Other methods bypass the clustering step and focus on labelling individual cells, which avoids lumping different cells together. [@wikidata:Q107158224] 
+Clarke et al.'s recent review and tutorial [@wikidata:Q107158224] provides an extensive account of current techniques for clustering and annotating cells. 
 
 Of note, even though a range of methods is available, most techniques and publications do not use standard identifiers for cell types. 
-This is in contradiction with the acknowledgement by the community of the advantages of using identifiers the ad using standard identifiers, such as those provided by the Cell Ontology. [@wikidata:Q107158224] [@wikidata:Q33037209] [@wikidata:Q107373831] [@wikidata:Q36067763] [@wikidata:Q52625486]  [@wikidata:Q49192555].
-Nevertheless, projects that use Cell Ontology identifiers for single-cell RNA-seq data are appearing [@wikidata:Q109755180], including python and R packages (e.g. Besca [@wikidata:Q104450593], OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371]), data management projects and reference datasets, (e.g. Tabula Muris [@url:https://tabula-muris.ds.czbiohub.org] and Tabula Sapiens [@url:https://tabula-sapiens-portal.ds.czbiohub.org/celltypes] Azimuth map [@url:https://azimuth.hubmapconsortium.org] and HubMap's ASCT+B Tables [@wikidata:Q109755184]) and annotation platforms (e.g. the Cell Annotation Platform [@url:http://celltype.info] and CellTypist [@wikidata:Q107363182].
+That omission disregards the advantages of using standard identifiers, such as those provided by the Cell Ontology. [@wikidata:Q107158224] [@wikidata:Q33037209] [@wikidata:Q107373831] [@wikidata:Q36067763] [@wikidata:Q52625486]  [@wikidata:Q49192555].
+Reassuringly, projects that use stable identifiers for single-cell RNA-seq data are appearing [@wikidata:Q109755180], including python and R packages (e.g. Besca [@wikidata:Q104450593], OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371]), data management projects and reference datasets, (e.g. Tabula Muris [@url:https://tabula-muris.ds.czbiohub.org] and Tabula Sapiens [@url:https://tabula-sapiens-portal.ds.czbiohub.org/celltypes] Azimuth map [@url:https://azimuth.hubmapconsortium.org] and HubMap's ASCT+B Tables [@wikidata:Q109755184]) and annotation platforms (e.g. the Cell Annotation Platform [@url:http://celltype.info] and CellTypist [@wikidata:Q107363182]).
 
+The Cell Ontology is currently the biggest provider of such standard identifiers. 
 As elegantly put by Meehan et al. [@wikidata:Q34978215] the Cell Ontology is a "manually constructed computer-readable resource that links cell types by different relationships".
-it was first described in 2005 by Jonathan Bard, Seung Y Rhee† and Michael Ashburner [@wikidata:Q21184168] and was oriented at creating an "organism-independent classification of cells".
-It followed criteria that included function, histology, lineage and ploidy and providing "Cell-type unique identifiers (ID) that can be incorporated into any database holding cell-type-associated knowledge." 
-It also had a didactic goal in itself, as the authors mention [@wikidata:Q21184168]: 
-"It is designed to be useful in the sense that a researcher should be able to find, in a rapid and intuitive way, any cell type in any of the major model organisms and, having found it, learn a considerable amount about that cell type and its relationships to other biological objects."
+It was first described in 2005 [@wikidata:Q21184168] and was oriented both at creating a species-neutral classification of cells and
+for researchers to "learn a considerable amount about that cell type and its relationships to other biological objects" [@wikidata:Q21184168]: 
+
 The collaborative project gradually evolved and changed its design and scope to fit new needs. 
 By 2011, a need for computable definitions led to an advance in the number and quality of immune cell types represented in CL. [@wikidata:Q33786317] 
 It also included the addition of species-specific cell types to handle better marker-based definitions, usually presented at the species level. [@wikidata:Q33786317] 
@@ -243,11 +250,12 @@ Further developments over the years included both technical improvements and the
 By the time of the last official CL publication, in 2016, it contained approximately 2,200 classes.   [@wikidata:Q36067763]  
 Currently, the Cell Ontology is growing as a resource for the Human Cell Atlas and in providing identifiers for cell types [@wikidata:Q109755180] and presents over 2500 classes of cells (Figure @fig:cl_counts)
 
-![Cell Ontology counts per release. Some releases around 2014 are not available anymore, thus yielding 0 counts.](https://github.com/lubianat/cell_ontology_count/blob/master/results/classes_per_release.png?raw=true){#fig:cl_counts width="85 %"}
+![Cell Ontology unique cell classes mentioned per release. Some releases around 2014 are not available anymore, thus yielding 0 counts.](https://github.com/lubianat/cell_ontology_count/blob/master/results/classes_per_release.png?raw=true){#fig:cl_counts width="85 %"}
 
-While purely theoretical developments have their value, refining the cell type theory in the context of knowledge management arguably will directly influence how the products of the Human Cell Atlas will impact modern science. 
-One reason is that formal systems enable automation of knowledge integration and can feed intelligent systems that aid current research practices. 
-In the following chapter, it will be discussed how computer-based knowledge processing can influence life-sciences research and discuss techniques and platforms to advance the frontier. 
+
+The solution to the challenges of cell type classification, thus, pass via  ontologies and other best practices of knowledge management. [@wikidata:Q109755180]
+Consequently, on the following chapter, we present tools for computer-based knowledge processing.
+We introduce the technical aspects of ontologies and knowledge graphs, present Wikidata, and discuss how such tools can can influence life-sciences research.
 
 ## Ontologies {.page_break_before}
 <!-- - 1.2. Formal representation of knowledge and - 1.3. Knowledge Representation in biology --> 
@@ -395,7 +403,7 @@ In that direction, Wikidata is being developed as a platform for scholarly linke
 |WikiPathways  |<https://www.wikipathways.org/>     |[@doi:10.1093/NAR/GKAA1024]             |
 |Reactome      |<https://reactome.org/>             |[@doi:10.1093/NAR/GKY1001]              |
 |CIViC         |<http://www.civicdb.org>            |[@doi:10.7554/eLife.52614]              |
-|PubChem       |<https://pubchem.ncbi.nlm.nih.gov/ >|[@doi:10.7554/eLife.52614]              |
+|PubChem       |<https://pubchem.ncbi.nlm.nih.gov>|[@doi:10.7554/eLife.52614]              |
 |Human Disease Ontology|<https://www.ebi.ac.uk/ols/ontologies/doid>|[@doi:10.7554/eLife.52614]              |
 
 Table: Samples of databases reconciled partially or totally to Wikidata
@@ -415,7 +423,7 @@ More generally, the connections of Wikidata and Wikipedia make it unique in the 
 In the words of Matthias Samwald [@wikidata:Q21503276] and colleagues, "Wikidata could emerge as a community-backed and highly visible structured knowledge base of medical and biological information, bringing concepts and methodologies such as controlled taxonomies, Semantic Web / semantic technologies and ontologies into mainstream use."
 
 
-In conclusion, Wikidata's unique position, robustness and guarantee of long term stability prompts the need for works exploring new ways of integrating it into current knowledge management systems. 
+In conclusion, Wikidata's unique position, robustness and guarantee of long term stability prompts the need for works exploring new ways of integrating it into current knowledge management systems.
 In light of the speed and breadth of the Human Cell Atlas and the challenges of knowledge representation on cells, this PhD works on addressing how Wikidata can play a role in organizing the discoveries about all human cell types. 
 
 
@@ -936,6 +944,13 @@ From the 1668 entities created, approximately 63 species-neutral cell types, 188
 The remaining 1229 entries were created either via Wikidata's web interface or via the curation workflow described in this chapter. 
 These statistics are a simple demonstration of how the curation system efficiently contributes to the status of cell type information on Wikidata. 
 
+As mentioned by Aviv Regev in the Human Cell Atlas General Meeting 2021, after a shoutou to ontologies: "It's everyone's collective
+responsibility to participate in the annotation efforts, because that relies on domain expertise. To really tease apart things and give
+them names. Until we have names, people will have really a hard time working with things in biology. "[@url:"https://youtu.be/orbqAqV9mQM?list=PLkef4SGmngdZanrQtu_g9kiuAcYczzDfn&t=1959"]"
+We hope that by developing simplified curation tools we will engage more domain experts into the curation efforts. 
+
+
+
 
 ## Wikidata and the Cell Ontology interplay
 
@@ -972,7 +987,7 @@ By approaching the object of study from a new perspective, we hope to make sizea
 
 The next years of study will be devoted to improving the projects presented here into mature, useful objects. 
 We hope to improve the interplay of Wikidata and Cell Ontology, developing frameworks to combine community- and expert-based curation of knowledge on cell types. 
-Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting ontology-based R packages (as OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371]) to use Wikidata. 
+Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting R packages to use Wikidata (e.g. the ontology-based packages OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371]) . 
 Finally, we aim at moving the Wikidata Bib system to a well documented, user-friendly mature system, testing usability with other academics and distributing it as a durable open-source project. 
 
 # Additional Work {.page_break_before}
