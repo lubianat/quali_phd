@@ -42,7 +42,7 @@ cholinergic
 citable
 Clatworthy
 colinergic
-ComplexPortal
+complexportal
 computable
 computerizable
 CoV
@@ -78,6 +78,7 @@ facto
 FAPESP
 Farias
 fcoex
+fibroblast
 findable
 formalizations
 Franzen
@@ -90,7 +91,7 @@ hackathon
 HackWeek
 haematopoiesis
 Haniffa
-hca
+HCA
 HCA’s
 Helder
 Henle
@@ -98,15 +99,15 @@ hotspot
 HuBMAP
 HubMap’s
 hybridizations
-hypothes
 infoboxes
 infratype
 infratypes
 instantiation
 intelectual
-interoperable
+Interoperable
 intrahepatic
-iscb
+investigatet
+ISCB
 JSON
 Kleber
 Kritschmar
@@ -162,7 +163,7 @@ oligodendrocyte
 OMP
 OnClass
 ontlogies
-ontologies
+Ontologies
 ontologists
 ontoProc
 osteoclast
@@ -188,7 +189,7 @@ programmatically
 Protégé
 PubChem
 publically
-Purkinje
+purkinje
 PyPi
 Pywikibot
 QID
@@ -211,6 +212,7 @@ scATAC
 Scholia
 Schönitzer
 scRNA
+scRNAseq
 Semana
 sensu
 seqData
@@ -224,8 +226,8 @@ stricto
 subclasses
 sublanguage
 subtype
-subtypes
 superclass
+superclasses
 syntaxes
 Tabula
 Tarcisio
@@ -252,6 +254,6 @@ Wikidata’s
 Wikimedia
 WikiPathways
 Wikipedias
-Wisecube
+WiseCube
 workLabel
 Zuckerberg
