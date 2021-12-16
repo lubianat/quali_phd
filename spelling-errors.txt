@@ -13,7 +13,7 @@ Bgee
 BioASQ
 biocurated
 biocuration
-Biohackathon
+BioHackathon
 Biohub
 Bioinformática
 bioinformaticians
@@ -42,7 +42,7 @@ cholinergic
 citable
 Clatworthy
 colinergic
-complexportal
+ComplexPortal
 computable
 computerizable
 CoV
@@ -104,10 +104,10 @@ infratype
 infratypes
 instantiation
 intelectual
-Interoperable
+interoperable
 intrahepatic
 investigatet
-ISCB
+iscb
 JSON
 Kleber
 Kritschmar
@@ -252,8 +252,8 @@ Werner
 WikidataIntegrator
 Wikidata’s
 Wikimedia
-WikiPathways
+Wikipathways
 Wikipedias
-WiseCube
+Wisecube
 workLabel
 Zuckerberg

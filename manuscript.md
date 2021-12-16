@@ -6,7 +6,7 @@ keywords:
 - ontology
 - Cell Ontology
 lang: en-US
-date-meta: '2021-12-15'
+date-meta: '2021-12-16'
 author-meta:
 - Tiago Lubiana
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-15" />
-  <meta name="citation_publication_date" content="2021-12-15" />
+  <meta name="dc.date" content="2021-12-16" />
+  <meta name="citation_publication_date" content="2021-12-16" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/851295e93a8879e9354aca9a13f1b9884a7be405/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/851295e93a8879e9354aca9a13f1b9884a7be405/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/851295e93a8879e9354aca9a13f1b9884a7be405/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/eb1b60a057886c60a568ad9586443de700dd0c32/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/eb1b60a057886c60a568ad9586443de700dd0c32/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/eb1b60a057886c60a568ad9586443de700dd0c32/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/851295e93a8879e9354aca9a13f1b9884a7be405/))
+([permalink](https://lubianat.github.io/quali_phd/v/eb1b60a057886c60a568ad9586443de700dd0c32/))
 was automatically generated
-from [lubianat/quali_phd@851295e](https://github.com/lubianat/quali_phd/tree/851295e93a8879e9354aca9a13f1b9884a7be405)
-on December 15, 2021.
+from [lubianat/quali_phd@eb1b60a](https://github.com/lubianat/quali_phd/tree/eb1b60a057886c60a568ad9586443de700dd0c32)
+on December 16, 2021.
 </em></small>
 
 ## Authors
@@ -605,7 +605,8 @@ Later, on the chapter about Wikidata Bib, we describe how we performed a large-s
 
 ### Introduction
 
-Making the Human Cell Atlas more useful via Wikidata also includes the connection of related databases. 
+Biomedical databases gather structured information for end users. 
+They are present in different states of maintenance, and reconciling cell-oriented databases to Wikidata has the potential to increase interoperability, and multiply the value of previous biocuration efforts.
 PanglaoDB [@https://panglaodb.se/index.html] [@doi:10.1093/database/baz046] is a publically-available database that contains data and metadata on hundreds of single-cell RNA sequencing experiments. 
 It provides extensive information on cell types, genes, tissues, and cell type markers, obtained via automatic and manual methods.
 It also displays a rich web user interface for easy data acquisition, including database dumps for bulk downloads.
@@ -613,16 +614,16 @@ It also displays a rich web user interface for easy data acquisition, including 
 
 As of 8 December June 2021, the article describing PanglaoDB had been cited 230 times. 
 Despite its use by the community, the database is on a 3-star category for Linked Open Data [@url:https://www.w3.org/DesignIssues/LinkedData.html] as it does not use the open semantic standards from W3C (RDF and SPARQL) needed for a 4-star rank, neither the links to external data via standard identifiers that make datasets 5-star. 
-Improving the data format toward W3C's gold standards is a valuable step in making biological knowledge FAIR (Findable, Accessible, Interoperable, and Reusable). 
-Thus, we aimed to provide a case study of making the core information of PandlaoDB available in a 5-star Linked Open Data Format while improving the modelling of the necessary concepts on Wikidata.
+Improving the data format is a valuable step in making biological knowledge FAIR (Findable, Accessible, Interoperable, and Reusable). 
+Thus, we provide a case study of making PandlaoDB available in a 5-star Linked Open Data Format on Wikidata.
 
-As of August 2020, Wikidata had 264 items categorized as a "cell type", considerably less than in specialized cell catalogues, which count over two thousand cell types [@wikidata:Q28660708; @wikidata:Q36067763].
+As of August 2020, Wikidata had 264 items categorized as a "cell type", considerably less than the Cell Ontology, which counts over two thousand cell types [@wikidata:Q28660708; @wikidata:Q36067763].
 Strikingly, there were also 23 items categorized as instances of "cell (Q7868)". 
 This classification is imprecise, as an instance of cell would be an individual named cell from a single named individual, an example of conceptual disarray that often occurs on Wikidata. [@wikidata:Q109990743]
 
 Wikidata editors often mix 1st-order classes such as "cells" and "organs" with metaclasses like "cell types" and "organ types".
-As mentioned in the chapter on the concept of cell type, individuals, like the "Dolly sheep zygote" (a real-world "cell") and the "brain of Albert Einstein" (a real-world "organ") are instances of classes.
-Classes, like "zygote" (a conceptual "cell type") and "brain" (a conceptual "organ type") are instances of _metaclasses_. 
+As mentioned in the chapter on the concept of cell type and Multi Level Theory, individuals, like the "Dolly sheep zygote" and the "brain of Albert Einstein" are instances of classes like "zygote" and "brain", respectively. 
+Classes, like "zygote" and "brain" are instances of _metaclasses_, like "cell type" or "organ type". 
 
 We diligently fixed and improved the conceptual consistency of cell type entries on Wikidata. 
 As of 8 December 2021, the Wikidata database contains 2834 instances of "cell type" (see current status at <https://w.wiki/b2t>) and 0 instances of "cell" (<https://w.wiki/4XAg>) highlighting the improvements in both quantity and quality. 
@@ -637,7 +638,7 @@ An overview of the process is shown in @fig:iscb_intro.
 
 ### Class creation on Wikidata
 
-Classes corresponding to species-neutral classes were retrieved from Wikidata manually using Wikidata's Graphic User Interface. 
+Classes corresponding to species-neutral classes were curated from Wikidata using Wikidata's Graphic User Interface. 
 A manually-curated dictionary matching terms in PanglaoDB to Wikidata identifiers was assembled and used for integration. 
 Cell types that were not represented on Wikidata were added to the database via the graphical user interface (<https://www.wikidata.org/wiki/Special:NewItem>) and logged in the reference table.
 
@@ -654,7 +655,7 @@ The reconciled dataset was uploaded to Wikidata via the WikidataIntegrator Pytho
 Besides the Wikidata Dumps, Wikidata provides a SPARQL endpoint with a Graphical User Interface (<https://query.wikidata.org/>). 
 Updated data was immediately accessible via this endpoint, enabling integrative queries integrated with other database statements.
 
-### Results
+### Overview of integrated information on Wikidata
 
 #### Cell Marker information on Wikidata
 
@@ -682,7 +683,8 @@ As expected, the query below retrieved a series of neuron types, such as "[human
 These seemingly unrelated cell types markedly express genes involved in neurogenesis, but that does not mean that they are involved with this process. 
 The unexpected results reinforce that one needs to be careful when using curated pathways to analyze gene sets, as false positives abound.
 
-The molecular process that gene products take part depends on the cell type. SPARQL allows us to seamlessly compare Gene Ontology processes with cell marker data, providing a sandbox to generate hypotheses and explore the biomedical knowledge landscape.
+The molecular process that gene products take part depends on the cell type.
+SPARQL allows us to seamlessly compare Gene Ontology processes with cell marker data, providing a sandbox to generate hypotheses and explore the biomedical knowledge landscape.
 
 | geneLabel | cellTypeLabel                   |
 | :-------- | :------------------------------ |
@@ -703,9 +705,12 @@ Table: Sample of 10 cell types related to neurogenesis via markers (07/02/2020, 
 
 ### "Which cell types express markers associated with Parkinson's disease?"
 
-Besides integration with Gene Ontology, Wikidata reconciliation makes it possible to complement the marker gene info on PanglaoDB with information about diseases. This integration is of biomedical interest, as there is a quest to detail mechanisms that link genetic associations and the diseases themselves.
+Besides integration with Gene Ontology, Wikidata reconciliation  connects the marker gene info on PanglaoDB with disease markers. 
 
-"Disease genes" are often compiled from Genomic Wide Association Studies, which look for sequence variation in the DNA. These studies are commonly blind to the cell types related to the pathophysiology of the disease. In the query below, we can see cell types marked by genes genetically associated with Parkinson's disease. Even considering the false positives, the overview can aid domain experts in coming up with novel hypotheses.
+Disease genes are often compiled from Genomic Wide Association Studies, which look for sequence variation in the DNA. 
+These studies are commonly blind to the cell types related to the pathophysiology of the disease.
+In the query below, we can see cell types marked by genes genetically associated with Parkinson's disease.
+Even considering the false positives, the overview can aid domain experts in coming up with novel hypotheses.
 
 | geneLabel | diseaseLabel        | cellTypeLabel    |
 | :-------- | :------------------ | :--------------- |
@@ -976,7 +981,7 @@ By approaching the object of study from a new perspective, we hope to make sizea
 
 The next years of study will be devoted to improving the projects presented here into mature, useful objects. 
 We hope to improve the interplay of Wikidata and Cell Ontology, developing frameworks to combine community- and expert-based curation of knowledge on cell types. 
-Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting R packages to use Wikidata (e.g. the ontology-based packages OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371]) . 
+Furthermore, we plan to integrate Wikidata to current single-cell RNA-sequencing pipelines by adapting R packages to use Wikidata (e.g. the ontology-based packages OnClass [@wikidata:Q108929315] and ontoProc[@wikidata:Q101074371]). 
 Finally, we aim at moving the Wikidata Bib system to a well documented, user-friendly mature system, testing usability with other academics and distributing it as a durable open-source project. 
 
 # Additional Work {.page_break_before}
