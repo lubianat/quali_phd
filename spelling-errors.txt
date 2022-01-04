@@ -42,7 +42,7 @@ cholinergic
 citable
 Clatworthy
 colinergic
-ComplexPortal
+complexportal
 computable
 computerizable
 CoV
@@ -154,7 +154,7 @@ neutrophils
 Neves
 NK
 nominalistic
-notetaking
+Notetaking
 novo
 OBO
 Olavo
@@ -163,7 +163,7 @@ oligodendrocyte
 OMP
 OnClass
 ontlogies
-Ontologies
+ontologies
 ontologists
 ontoProc
 osteoclast
@@ -252,8 +252,8 @@ Werner
 WikidataIntegrator
 Wikidata’s
 Wikimedia
-Wikipathways
+WikiPathways
 Wikipedias
-Wisecube
+WiseCube
 workLabel
 Zuckerberg

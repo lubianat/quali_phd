@@ -6,7 +6,7 @@ keywords:
 - ontology
 - Cell Ontology
 lang: en-US
-date-meta: '2021-12-16'
+date-meta: '2022-01-04'
 author-meta:
 - Tiago Lubiana
 header-includes: |-
@@ -19,8 +19,8 @@ header-includes: |-
   <meta name="citation_title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="og:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
   <meta property="twitter:title" content="Building a biological knowledge graph via Wikidata with a focus on the Human Cell Atlas" />
-  <meta name="dc.date" content="2021-12-16" />
-  <meta name="citation_publication_date" content="2021-12-16" />
+  <meta name="dc.date" content="2022-01-04" />
+  <meta name="citation_publication_date" content="2022-01-04" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -38,9 +38,9 @@ header-includes: |-
   <meta name="citation_fulltext_html_url" content="https://lubianat.github.io/quali_phd/" />
   <meta name="citation_pdf_url" content="https://lubianat.github.io/quali_phd/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://lubianat.github.io/quali_phd/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/eb1b60a057886c60a568ad9586443de700dd0c32/" />
-  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/eb1b60a057886c60a568ad9586443de700dd0c32/" />
-  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/eb1b60a057886c60a568ad9586443de700dd0c32/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://lubianat.github.io/quali_phd/v/f962072fcd0685f369693089c4c2d0b96e523fd1/" />
+  <meta name="manubot_html_url_versioned" content="https://lubianat.github.io/quali_phd/v/f962072fcd0685f369693089c4c2d0b96e523fd1/" />
+  <meta name="manubot_pdf_url_versioned" content="https://lubianat.github.io/quali_phd/v/f962072fcd0685f369693089c4c2d0b96e523fd1/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -62,10 +62,10 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://lubianat.github.io/quali_phd/v/eb1b60a057886c60a568ad9586443de700dd0c32/))
+([permalink](https://lubianat.github.io/quali_phd/v/f962072fcd0685f369693089c4c2d0b96e523fd1/))
 was automatically generated
-from [lubianat/quali_phd@eb1b60a](https://github.com/lubianat/quali_phd/tree/eb1b60a057886c60a568ad9586443de700dd0c32)
-on December 16, 2021.
+from [lubianat/quali_phd@f962072](https://github.com/lubianat/quali_phd/tree/f962072fcd0685f369693089c4c2d0b96e523fd1)
+on January 4, 2022.
 </em></small>
 
 ## Authors
@@ -362,7 +362,7 @@ To facilitate primary usage, the namespace "wdt:" connects items to values direc
 ![Wikidata's data model, scheme released under the CC-BY 4.0 license by Michael F. Schönitzer. It outlines the primary representation of statements, qualifiers and values in the Wikidata database](https://upload.wikimedia.org/wikipedia/commons/6/6c/Rdf_mapping-vector.svg){#fig:datamodel}
 
 Information on Wikidata is released under a CC0 license, which enables full reuse of the data. [@url:https://www.wikidata.org/wiki/Wikidata:Licensing]
-One of the major points of access and reuse of the information is the Wikidata Query Service [@url:https://query.wikidata.org], a core resource of the community which enables live querying in the SPARQL language. [@url:Q56010228] 
+One of the major points of access and reuse of the information is the Wikidata Query Service [@url:https://query.wikidata.org], a core resource of the community which enables live querying in the SPARQL language. [@wikidata:Q56010228] 
 A number of services make use of embedded queries from the Wikidata Query Service [@url:https://query.wikidata.org] to create interactive, live dashboards like Scholia [@url:https://scholia.toolforge.org] and the SARS-CoV-2 Query Book [@url:https://egonw.github.io/SARS-CoV-2-Queries] 
 
 
@@ -773,7 +773,7 @@ Finally, we demonstrate how Wikidata Bib fits an active curation environment, co
 
 ## Wikidata Bib as a reading system 
 
-The reading framework of Wikidata bib is built upon a git repository integrated with GitHub, Python3 scripts and SPARQL queries. 
+The reading framework of Wikidata bib is built upon a git repository integrated with GitHub, Python 3 scripts and SPARQL queries. 
 It has a standard file structure, summarized as the following:
 
 * `docs/`
